@@ -271,44 +271,21 @@ $image_name = "all.jpg";
 						</div>
 						<div class="row">
 							<div class="col-sm-4">
-								<label>Price Range(₹):</label>
-								<!-- <input id="price" name="price" type="text"/><br/>
-								<span class="pull-left">₹20Lacs</span>
-                                <span class="pull-right">₹10Crore</span> -->
+								<label>Price Range(₹):</label> 
                                 <input type="text" id="price" name="price" value="" />
 								<div class="clearfix"></div><br>
 							</div>
 							<div class="col-sm-4">
-								<label>BHK(No Of Bedrooms)</label>
-								<!-- <input id="property" name="bhk" type="text"/><br/>
-								<span class="pull-left">1</span>
-                                <span class="pull-right">5</span> -->
+								<label>BHK(No Of Bedrooms)</label> 
                                 <input type="text" id="property" name="bhk" value="" />
 								<div class="clearfix"></div><br>
 							</div>
 							<div class="col-sm-4">
-								<label>Size (In Sqft)</label>
-								<!-- <input id="baths" name="baths" type="text"/><br/>
-								<span class="pull-left">300</span>
-                                <span class="pull-right">10,000</span>-->
+								<label>Size (In Sqft)</label> 
                                 <input type="text" id="baths" name="baths" value="" />
 								<div class="clearfix"></div><br> 
 							</div>
-						</div>
-						<!-- <div class="row">
-							<?php foreach ($amenities as $k => $amenity) { ?>
-							<div class="col-sm-3 amenity-group  <?= $k > 9 ? 'hide' : '' ?>">
-								<div class="mb10">
-									<input type="checkbox" name="amenities[]" value="<?= $amenity->id ?>" class="price_range"> <?= $amenity->name ?>
-								</div>
-							</div>
-							<?php } ?>
-						</div>
-                        <div class="row text-center <?= count($amenities) < 11 ? 'hide' : '' ?>">
-                            <button type="button" onclick="$('.amenity-group').removeClass('hide');$(this).remove()"
-                                    class="btn btn-primary"><i class="fa fa-chevron-down"></i> Show All Amenities
-                            </button>
-                        </div> -->
+						</div> 
 						<div class="row">
 							<div class="col-sm-12 text-center">
 								<button class="btn btn-submit" type="submit"><img src="<?= base_url('assets/img/home.png') ?>"></button>
@@ -485,23 +462,3 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
-<!--End of Tawk.to Script-->
-
-<!-- WhatsHelp.io widget --
-<script type="text/javascript">
-    (function () {
-        var options = {
-            whatsapp: "+918342063684 ", // WhatsApp number
-            call: "+918342063684 ", // Call phone number
-            call_to_action: "Message us", // Call to action
-            button_color: "#129BF4", // Color of button
-            position: "left", // Position may be 'right' or 'left'
-            order: "whatsapp,call", // Order of buttons
-        };
-        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();
-</script>
-<!-- /WhatsHelp.io widget -->

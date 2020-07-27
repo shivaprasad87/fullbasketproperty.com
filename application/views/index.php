@@ -431,20 +431,6 @@ $(document).ready(function(){
                                         <div class="clearfix"></div><br>
                                     </div>
                                 </div> 
-                                <!-- <div class="row">
-                                    <?php foreach ($amenities as  $k => $amenity) { ?>
-                                    <div class="col-sm-3 amenity-group  <?= $k > 9 ? 'hide' : '' ?>">
-                                        <div class="mb10">
-                                            <input type="checkbox" name="amenities[]" value="<?= $amenity->id ?>" class="price_range"> <?= $amenity->name ?>
-                                        </div>
-                                    </div>
-                                    <?php } ?>
-                                </div> -->
-                                <!-- <div class="row text-center <?= count($amenities) < 11 ? 'hide' : '' ?>">
-                                    <button type="button" onclick="$('.amenity-group').removeClass('hide');$(this).remove()"
-                                            class="btn btn-primary"><i class="fa fa-chevron-down"></i> Show All Amenities
-                                    </button>
-                                </div> -->
                                 <div class="row">
                                     <div class="col-sm-12 text-center">
                                         <button class="btn btn-submit" type="submit"><img src="<?= base_url('assets/img/home.png') ?>"></button>
@@ -477,7 +463,6 @@ $(document).ready(function(){
  <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Hyderabad');">Enquiry now</button></li>
  <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Mumbai');"> Enquiry now</button></li>
  <li> <button class="btn btn-primary" data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Noida');">Enquiry now</button></li>
- <!-- <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li> -->
   </div>
   </div>
 
@@ -485,38 +470,10 @@ $(document).ready(function(){
   <script>
     function appendcity(city)
     {
-//alert(city);
-//document.getElementsById('city').value=city;
 $('#city').val(city);
     }
   </script>
 
- <!--  <div class="tab-content text-center">
-    <div id="home" class="tab-pane fade in active">
-      <h3>HOME</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div id="menu1" class="tab-pane fade">
-      <h3>Menu 1</h3>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div id="menu2" class="tab-pane fade">
-      <h3>Menu 2</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-    </div>
-    <div id="menu3" class="tab-pane fade">
-      <h3>Menu 3</h3>
-      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-    </div>
-    <div id="menu4" class="tab-pane fade">
-      <h3>Menu 4</h3>
-      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-    </div>
-    <div id="menu5" class="tab-pane fade">
-      <h3>Menu 5</h3>
-      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-    </div>
-  </div> -->
   </div>
 
 <!-- Tabs end -->
@@ -528,7 +485,6 @@ $('#city').val(city);
             <h2 class="h2">New Launches In Your City</h2>
             <p>Best Hand Picked Property for You across
             <br>
-             <!-- Bengaluru| Pune | Hyderabad -->
              </p>
 
            
@@ -538,10 +494,6 @@ $('#city').val(city);
         <br>
         <div class="row">
             <?php
-//print_r($properties);die;
-                   //$flat_type = $this->home_model->getflattypes($property->id);
-
-                   //print_r($flat_type);
 $i=0;
              foreach ($properties
 
@@ -593,104 +545,6 @@ $i=0;
 </div>
 </div>
 <div class="clearfix"></div><br><br><br>
-<!--<div class="container-fluid">
-    <div class="row section3">
-        <div class="container">
-            <div class="row">
-                <div class="row">
-                    <div class="col-sm-4" >
-                        <div class="propertyImg"
-                             style="background-image: url('<?= base_url('uploads/display_images/' . $display_images->builders) ?>');">
-                            <div id="bg1"></div><div id="bg"><p ><a href="<?= base_url('builders/');?>" class="bld-link"><b>Builders</b></a></p>
-                            <span><?= $builder_count ?> Builders</span>
-                            </div>
-                        </div>
-                        <a href="<?= site_url('listing') ?>">
-                            <div class="propertyImg"
-                                 style="background-image: url('<?= base_url('uploads/display_images/' . $display_images->projects) ?>');">
-                                 <div id="bg1"></div><div id="bg"><p><b>Projects</b></p>
-                                <span><?= $project_count ?> Projects</span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a href="<?=site_url('blog')?>">
-                            <div class="propertyImg-center"
-                                 style="background-image: url('<?= base_url('uploads/display_images/' . $display_images->blogs) ?>');">
-                               <div id="bg3"></div><div id="bg2"> <p><b>Blogs</b></p>
-                                <span><?= $blog_count ?> Blogs</span></div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="propertyImg"
-                             style="background-image: url('<?= base_url('uploads/display_images/' . $display_images->cities) ?>');">
-                           <div id="bg1"></div><div id="bg"> <p><b>Cities</b></p>
-                            <span><?= $city_count ?> Cities</span>
-                            </div>
-                        </div>
-                        <div class="propertyImg"
-                             style="background-image: url('<?= base_url('uploads/display_images/' . $display_images->locations) ?>');">
-                            <div id="bg1"></div><div id="bg"><p><b>Locations</b></p>
-                            <span><?= $location_count ?> Locations</span></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="row">
-                    <div class="col-sm-6">  
-                        <img src="<?= base_url('assets/img/bg.jpg') ?>" class="img-responsive bg-img">
-                    </div>
-                    <div class="col-sm-1">
-                        <div class="logo">
-                            <img src="<?= base_url('assets/img/logo.png') ?>" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-sm-5 fac-section">
-                        <div class="col-sm-6">
-                            <a href="#">
-                                <div class="any_prop">
-                                    <i class="icon ion-ios-home-outline"></i>
-                                    <div class="clearfix"></div><br>
-                                    <p>ANY PROPERTY</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <a href="#">
-                                <div class="more_clients">
-                                    <i class="icon ion-person-stalker"></i>
-                                    <div class="clearfix"></div><br>
-                                    <p>MORE CLIENTS</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="clearfix"></div><br>
-                        <div class="col-sm-6">
-                            <a href="#">
-                                <div class="easy_to_use">
-                                    <i class="icon ion-ios-bookmarks-outline"></i>
-                                    <div class="clearfix"></div><br>
-                                    <p>EASY TO USE</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <a href="#">
-                                <div class="any_help">
-                                    <i class="icon ion-person-stalker"></i>
-                                    <div class="clearfix"></div><br>
-                                    <p>ANY HELP</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="dot hidden-xs"></div>
-                    </div>
-                </div> -->
-           <!-- </div>
-        </div>
-    </div>
-</div>-->
 <div class="clearfix"></div><br>
 <div class="container">
     <div class="row">
@@ -734,10 +588,6 @@ $i=0;
         </div>
     </div>
 </div>
-<!-- <div class="black" style="background:green">
-  
-    <button class="float"><a href="https://www.fullbasketproperty.com/landmark/" >Register For<br>Lamdmark Offer</a></button>
- </div> -->
 <script>
     $(document).ready(function() {
         var showChar = 150;
@@ -773,62 +623,8 @@ $i=0;
         });
     });
 
-//     $(document).ready(function(){
-//    setTimeout(function(){
-//        $('#myModal').modal('show');
-//    }, 2000);
-// });
     </script>
 <div class="clearfix"></div><br>
-<!--<div class="container">
-    <div class="row">
-        <div class="col-sm-12 text-center">
-            <h2 class="h2">YOU CAN TRUST US</h2>
-        </div>
-        <div class="clearfix"></div>
-        <br><br><br>
-        <div class="row">
-            <div class="col-md-3 col-sm-6 text-center trust-section">
-                <div class="icons">
-                    <img src="<?= base_url('assets/img/trust1.png') ?>">
-                </div>
-                <div class="clearfix"></div>
-                <br><br>
-                <h4 class="count"><b>1008</b></h4>
-                <p class="trust"><span class="border-left"></span>HAPPY CUSTOMER<span class="border-right"></span></p>
-            </div>
-            <div class="col-md-3 col-sm-6 text-center trust-section">
-                <div class="icons">
-                    <img src="<?= base_url('assets/img/trust2.png') ?>">
-                </div>
-                <div class="clearfix"></div>
-                <br><br>
-                <h4 class="count"><b>1300</b></h4>
-                <p class="trust"><span class="border-left"></span>PROPERTIES IN STOCK<span class="border-right"></span>
-                </p>
-            </div>
-            <div class="col-md-3 col-sm-6 text-center trust-section">
-                <div class="icons">
-                    <img src="<?= base_url('assets/img/trust3.png') ?>">
-                </div>
-                <div class="clearfix"></div>
-                <br><br>
-                <h4 class="count"><b>7</b></h4>
-                <p class="trust"><span class="border-left"></span>CITY REGISTERED<span class="border-right"></span></p>
-            </div>
-            <div class="col-md-3 col-sm-6 text-center trust-section">
-                <div class="icons">
-                    <img src="<?= base_url('assets/img/trust4.png') ?>">
-                </div>
-                <div class="clearfix"></div>
-                <br><br>
-                <h4 class="count"><b>1023</b></h4>
-                <p class="trust"><span class="border-left"></span>COMPANIES WE SERVED<span class="border-right"></span>
-                </p>
-            </div>
-        </div>
-    </div>
-</div>-->
 <div class="clearfix"></div><br><br><br>
 <div class="container-fluid">
     <div class="row faq-section">
@@ -862,39 +658,7 @@ $i=0;
                 </ul>
             </div>
         </div>
-        <!-- <div class="col-sm-12 col-md-6">
-            <div class="faq col-sm-11">
-                <div class="col-sm-2">
-                    <i class="fa fa-search"></i>
-                </div>
-                <div class="col-sm-10">
-                    <h4>ARE YOU LOOKING FOR A PROPERTY?</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt</p>
-                </div>
-            </div>
-            <div class="col-sm-1 faq_next text-center">
-                <a href="#"><i class="icon ion-ios-arrow-right"></i></a>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6">
-            <div class="faq col-sm-11">
-                <div class="col-sm-2">
-                    <i class="fa fa-dollar"></i>
-                </div>
-                <div class="col-sm-10">
-                    <h4>DO YOU WANT TO SELL A PROPERTY?</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt</p>
-                </div>
-            </div>
-            <div class="col-sm-1 faq_next text-center">
-                <a href="#"><i class="icon ion-ios-arrow-right"></i></a>
-            </div>
-        </div>
-        <div class="col-sm-12 text-center qn-section">
-            <p>QUESTIONS? CALL US : +3-123-424-5700</p>
-        </div> -->
+
     </div>
 </div>
 
@@ -960,23 +724,6 @@ $i=0;
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-
-<!-- <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content" style=" background: #fff0;  box-shadow: none;border: 0px;">
- 
-        <div class="modal-body" style="    padding: 0px;">
-          <a href="https://www.fullbasketproperty.com/landmark/" target="_blank">
-            <img class="hidden-xs-block hidden-xs img-responsive" src="https://www.fullbasketproperty.com/assets/images/desktop.jpg">
-            <img class="hidden-lg-block hidden-lg img-responsive" src="https://www.fullbasketproperty.com/assets/images/mobile.jpg">
-        </a>
-
-            <center><button class="btn btn-loc1"><a href="https://www.fullbasketproperty.com/landmark/" target="_blank" style="color:white"> Register Now</a></button></center>
-        </div>
-    </div>
-  </div>
-</div> -->
-
 <div id="enquiry-Modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
   <div class="modal-content">
@@ -1087,29 +834,3 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 
- 
-<!--End of Tawk.to Script-->
-
-<!-- WhatsHelp.io widget --
-<!-- <script type="text/javascript">
-
-    (function () {
-        var options = {
-            whatsapp: "+918342063684 ", // WhatsApp number
-            call: "+918342063684 ", // Call phone number
-            call_to_action: "Message us", // Call to action
-            button_color: "#129BF4", // Color of button
-            position: "left", // Position may be 'right' or 'left'
-            order: "whatsapp,call", // Order of buttons
-        };
-        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();
-
-
-    
-</script> -->
-
-<!-- /WhatsHelp.io widget -->

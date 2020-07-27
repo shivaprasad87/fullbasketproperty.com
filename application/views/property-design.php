@@ -22,22 +22,14 @@
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@Fullbasketproperty" />
         <meta name="twitter:title" content="<?= $property->title ? $property->title : '' ?>" />
-        <meta name="twitter:description" content="<?= substr(strip_tags($property->description), 0, 1000) ?>" />
-        <!-- <meta name="twitter:image" content="<?= base_url("uploads/$property->slug/$property->image") ?>"/>
-        <script type='text/javascript' src='<?= base_url() ?>assets/property/unitegallery/js/jquery-11.0.min.js'></script> -->
+        <meta name="twitter:description" content="<?= substr(strip_tags($property->description), 0, 1000) ?>" /> 
         <link rel="shortcut icon" type="image/x-icon" href="<?= site_url('') ?>assets/img/sp-logo.png" />
 
         <link rel="canonical" href="<?= current_url() ?>">
         <link rel="icon" href="https://www.fullbasketproperty.com/assets/img/favicon.ico" type="image/gif" sizes="16x16">
 
-        <link rel="manifest" href="https://orchards.realatte.com/manifest.json">
-        <!-- <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/bootstrap-select.min.js"></script> -->
-        <!-- <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/copy_bootstrap_min.js"></script> -->
-        <link href="<?= base_url() ?>assets/property/media/com_solidres/assets/css/jquery/themes/base/jquery-ui.minc619.css?v=1.0" rel="stylesheet" type="text/css" />
-
-        <!-- <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/bootstrap.minc619.js?v=1.0" rel="stylesheet" type="text/css" /> -->
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-      
+        <link rel="manifest" href="https://orchards.realatte.com/manifest.json"> 
+        <link href="<?= base_url() ?>assets/property/media/com_solidres/assets/css/jquery/themes/base/jquery-ui.minc619.css?v=1.0" rel="stylesheet" type="text/css" />      
         <link href="<?= base_url() ?>assets/property/components/com_sppagebuilder/assets/css/font-awesome.minc619.css?v=1.0" rel="stylesheet" type="text/css" />
         <link href="<?= base_url() ?>assets/property/components/com_sppagebuilder/assets/css/animate.minc619.css?v=1.0" rel="stylesheet" type="text/css" />
         <link href="<?= base_url() ?>assets/property/components/com_sppagebuilder/assets/css/sppagebuilderc619.css?v=1.0" rel="stylesheet" type="text/css" />
@@ -64,8 +56,7 @@
         <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/property/font/flaticonc619.css?v=1.0">
         <link href="<?= base_url() ?>assets/property/lightbox/light-boxc619.css?v=1.0" rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/property/intl-tel-input/css/intlTelInputc619.css?v=1.0">
-        <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/animatec619.css?v=1.0" rel="stylesheet" type="text/css">
-        <!--<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"<?= base_url() ?>assets/property/>-->
+        <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/animatec619.css?v=1.0" rel="stylesheet" type="text/css"> 
         <link rel='stylesheet' href='<?= base_url() ?>assets/property/unitegallery/css/unite-gallery.css' type='text/css' />
 
         <style>
@@ -953,25 +944,7 @@
                                 <!-- <br> -->
 
                                 <div class="col-md-12">
-                                    <!-- <div class="col-sm-3 col-md-3 col-lg-3" style="padding: 7px;">
-                                            <div class="fb-like" data-href="https://www.facebook.com/fullbasketpropertypage/" data-width="10px" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
-                                        </div>
-                                        <div class="col-sm-3 col-md-3 col-lg-3">
-                                        <a href="https://twitter.com/intent/tweet?screen_name=fbptweets&ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Tweet to @fbptweets</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-                                        </div>
-                                        <div class="col-sm-3 col-md-3 col-lg-3">
-                                        <script src="https://apis.google.com/js/platform.js"></script>
-
-                                        <div class="g-ytsubscribe" data-channelid="UCGr-on8k7dRMKBFW-X2G05A" data-layout="default" data-count="default"></div>
-                                        </div> -->
-                                                                        <!--  <div class="col-sm-3 col-md-3 col-lg-3">
-                                            <h2>
-                                            <div style="/*float: right*/" class="sharethis-inline-share-buttons"></div>
-                                                <a target="_blank" href="<?= site_url(url_title($property->city_name)."/".( url_title($property->area) )."/$property->slug")?>" class="btn btn-primary btn-block" style="border-radius: 0;background-color: white;border-color: white;height: 33px;"></a>
-                                            </h2>
-                                        </div>
-                                        -->
+                                
                                 </div>
 
                                 <div class="container-fluid text-center ">
@@ -1320,53 +1293,7 @@
                                         </div>
                                     </div>
                                 </section>
-                                <!--
- <?php
-                        if (($specifications = $this->properties_model->getPropertySpecification($property->id)) != null) {
-                            ?>
-    <section id="section-id-1507611930" class="sppb-section   rooms-suits">
-                                    <div class="sppb-row-container">
-                                        <div class="sppb-section-title sppb-text-center">
-                                            <h2 class="sppb-title-heading myt1">Specifications</h2>
-                                            <div class="underline">&nbsp;</div>
-                                        </div>
-                                        <div class="sppb-row spe-head">
-                                            <div class="sppb-col-sm-12">
-                                                <center>
-                                                <div id="column-id-1507611931" class="sppb-column">
-                                                    <div class="sppb-column-addons">
-                                        <?php
-                                        foreach ($specifications as $k => $specification) {
-                                            if (($items = $this->properties_model->getPropertySpecification($property->id,
-                                                    $specification->id)) != null) {
-                                                ?>
-                                                        <h4><?= $specification->name ?></h4>
-                                                       <?php
-                                                echo "<ul>";
-                                                $s=1;
-                                                foreach (explode(',', $items) as $item) {
-                                                    ?>
-                                                    <li><?= $s.". ".$item ?></li>
-                                                    <?php
-                                                    $s++;
-                                                }
-                                                echo "</ul>";
-                                                echo "<br/>";
-                                            }
 
-                                        }
-                                        ?>
-                                                    </div>
-                                                </div>
-                                            </center>
-                                            </div>
-                                        </div> 
-
-                                    </div>
-                                </section>
-                            <?php
-                        }
-                        ?>-->
                         <?php
                         $items = $this->properties_model->getPropertySpecification($property->id,
                                                     $specifications->id) != null;
@@ -1423,10 +1350,7 @@
                                                                         }
                                                                         ?>
                                                                     </p>
-
-                                                                    <!--<ul class="specification">
-                                                                    <li></li>
-                                                                  </ul>-->
+ 
                                                                 </div>
                                                             </div>
                                                             <?php
@@ -1479,9 +1403,6 @@
                                                             ?>
                                                                     </p>
 
-                                                                    <!--<ul class="specification">
-                                                                <li></li>
-                                                            </ul>-->
                                                                 </div>
                                                             </div>
                                                             <?php
@@ -1639,14 +1560,7 @@
                                                                                 </div>
 
                                                                                 <!---------------- --------------------->
-                                                                                <!-- <div role="tabpanel" class="tab-pane fade in" id="layout">
-
-                                                                                    <div id="gallery" style="display:none;">
-                                                                                        <img alt="Floor Plan" src="images/gallery/ml1.png" data-image="images/gallery/ml1.png" data-description="" style="display:none">
-                                                                                    </div>
-
-                                                                                </div> -->
-
+                                                                               
                                                                                 <div role="tabpanel" class="tab-pane fade in" id="masterplan">
 
                                                                                     <?php
@@ -2039,9 +1953,7 @@ if($property->usp!='')
                             <li class="item-561"><a href="#section-id-1507611922" class="m-link">About</a>
                             </li>
                             <li class="item-550"><a href="#section-id-1507611938" class="m-link">Configuration</a>
-                            </li>
-                            <!--<li class="item-550"><a href="#section-id-1507611930" class="m-link">Specifications</a>
-                            </li>-->
+                            </li> 
                             <li class="item-548"><a href="#section-id-1507611991" class="m-link">Amenities</a>
                             </li>
                             <li class="item-548"><a href="#section-id-1507611941" class="m-link">Gallery</a>

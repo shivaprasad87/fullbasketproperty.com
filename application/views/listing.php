@@ -141,8 +141,7 @@ background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
                         </div>
                         <div class="form-group col-sm-12 ">
                             <!-- <div class="form-group"> -->
-                                <div class="input-group ">
-                                    <!--<span style="border-radius: 0" class="input-group-addon"><i class="fa fa-phone" aria-hidden="true"></i></span>-->
+                                <div class="input-group "> 
                                     
                                      <input type="tel" placeholder=" " style="display: block;"   name="phone" class="validate form-control"
                                           id="contctform-phone2_phone" required>
@@ -371,45 +370,21 @@ background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        <label>Price Range(₹):</label>
-                                        <!-- <input id="price" name="price" type="text"/><br/> -->
-                                        <!-- <span class="pull-left">₹20 L*</span>
-                                        <span class="pull-right">₹10 Cr*</span> -->
+                                        <label>Price Range(₹):</label> 
                                         <input type="text" id="price" name="price" value="" />
                                         <div class="clearfix"></div><br>
                                     </div>
                                     <div class="col-sm-4">
-                                        <label>BHK(No of Bedrooms)</label>
-                                        <!-- <input id="property" name="bhk" type="text"/><br/>
-                                        <span class="pull-left">1</span>
-                                        <span class="pull-right">5</span> -->
+                                        <label>BHK(No of Bedrooms)</label> 
                                         <input type="text" id="property" name="bhk" value="" />
                                         <div class="clearfix"></div><br>
                                     </div>
                                     <div class="col-sm-4">
-                                        <label>Size(In Sqft)</label>
-                                        <!-- <input id="baths" name="baths" type="text"/><br/>
-                                        <span class="pull-left">300</span>
-                                        <span class="pull-right">10,000</span> -->
+                                        <label>Size(In Sqft)</label> 
                                         <input type="text" id="baths" name="baths" value="" />
                                         <div class="clearfix"></div><br>
                                     </div>
-                                </div>
-                                <!-- <div class="row">
-                                    <?php foreach ($amenities as  $k => $amenity) { ?>
-                                    <div class="col-sm-3 amenity-group  <?= $k > 9 ? 'hide' : '' ?>">
-                                        <div class="mb10">
-                                            <input type="checkbox" name="amenities[]" value="<?= $amenity->id ?>" class="price_range"> <?= $amenity->name ?>
-                                        </div>
-                                    </div>
-                                    <?php } ?>
-                                </div> -->
-                                <!-- <div class="row text-center <?= count($amenities) < 11 ? 'hide' : '' ?>">
-                                    <button type="button" onclick="$('.amenity-group').removeClass('hide');$(this).remove()"
-                                            class="btn btn-primary"><i class="fa fa-chevron-down"></i> Show All Amenities
-                                    </button>
-                                </div> -->
-                                <div class="row">
+                                </div>                                 <div class="row">
                                     <div class="col-sm-12 text-center">
                                         <button class="btn btn-submit" type="submit"><img src="<?= base_url('assets/img/home.png') ?>"></button>
                                     </div>
@@ -461,8 +436,7 @@ background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
                                                     {
                                                         $date1 = date("Y-m-d");
                                                         $date2 = date("Y-m-d", strtotime($property->possession_date));
-                                                       // $diff=date_diff(date("Y-m-d", strtotime($property->possession_date) ) ,date("Y-m-d", strtotime($DATE1) ));
-                                                       // $diff= $diff->format("%R%a");
+                                                       
                                                         if($date1 > $date2)
                                                             echo "Ready";
                                                         else
@@ -598,32 +572,3 @@ var lightSlider = true;
   });
 
 </script>
-<!-- WhatsHelp.io widget --
-<script type="text/javascript">
-    (function () {
-        var options = {
-            whatsapp: "+918342063684 ", // WhatsApp number
-            call: "+918342063684 ", // Call phone number
-            call_to_action: "Message us", // Call to action
-            button_color: "#129BF4", // Color of button
-            position: "left", // Position may be 'right' or 'left'
-            order: "whatsapp,call", // Order of buttons
-        };
-        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    });
-    </script>
-    <script>
-    $(document).ready(function () {
-    load(function() {
-        $('.city-section .search-area').slideToggle();
-        
-       // return false;
-    })
-    });
-    </script>
-    
-
-<!-- /WhatsHelp.io widget 
