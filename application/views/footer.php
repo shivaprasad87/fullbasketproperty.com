@@ -253,39 +253,11 @@
                     <li><a target="_blank" href="<?=site_url('privacy-policy')?>">TERMS</a></li>
                     <li><a target="_blank" href="<?=site_url('disclaimer')?>">DISCLAIMER</a></li>
                      <li><a target="_blank" href="<?=site_url('contact')?>">CONTACT US</a></li>
-                    
-                    <!--<li><a target="_blank" href="<?= site_url('user/register') ?>">SIGNUP</a></li>-->
+                     
                     
                 </ul>
-               <!-- <div class="foot_link">
-                    <ul>
-                        <li><a href="#">Safe link</a></li>
-                        <li><a href="#">Safe link</a></li>
-                        <li><a href="#">Safe link</a></li>
-                    </ul>
-                </div> -->
             </div>
             </div>
-            <!-- <div class="col-md-4 col-sm-6 last_news">
-                <h3>LAST NEWS</h3>
-                
-                <br><br>
-                <?php foreach ($blogs as $blog) { ?>
-                <div class="latest_news">
-                    <div class="news">
-                        <div style="background-image: url(<?= base_url('uploads/blog_images/'.$blog->image) ?>);">
-                            <span><?= date('Y-m-d', strtotime($blog->date_added)) ?></span>
-                        </div>
-                    </div>
-                    <div class="news-content">
-                        <a href="#">
-                            <h5><?= strlen(strip_tags($blog->title)) < 10 ? strip_tags($blog->title) : substr((strip_tags($blog->title)), 0, 10).'...' ?></h5>
-                            <p><?= strlen(strip_tags($blog->content)) < 30 ? strip_tags($blog->content) : substr(strip_tags($blog->content), 0, 30).'...' ?></p>
-                        </a>
-                    </div>
-                </div>
-                <?php } ?>
-            </div> -->
             <div class="col-md-4 col-sm-4 social">
                 <h3>CONNECT WITH US</h3>
                 
@@ -384,18 +356,7 @@
                     }
              
                              }
-                /*
-                for($i=0;$i<=2;$i++) {
-                if(!$property_type[$i]['city'])
-                                    {
-                echo " <li>
-                 <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                                    }
-                    else
-                    {
-                        echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                    }
-                } */
+
                 ?>
               
                     
@@ -420,16 +381,7 @@
                     }
              
                              }
-                // for($i=3;$i<=5;$i++) {
-                //     if(!$property_type[$i]['city'])
-                //     {
-                //      echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                //     }
-                //     else
-                //     {
-                //         echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                //     }
-                // } 
+                
                 ?>
              </ul>
             </div>
@@ -452,16 +404,7 @@
                     }
              
                              }
-                // for($i=6;$i<=8;$i++) {
-                //     if(!$property_type[$i]['city'])
-                //                         {
-                //     echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                //     }
-                //     else
-                //     {
-                //         echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                //     }
-                // } 
+
                 ?>
                 </ul>
             </div>
@@ -484,16 +427,7 @@
                     }
              
                              }
-                // for($i=9;$i<=11;$i++) {
-                // if(!$property_type[$i]['city'])
-                //                     {
-                // echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                //     }
-                //     else
-                //     {
-                //         echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                //     }
-                // } 
+
                 ?>
                 </ul>
             </div>
@@ -516,16 +450,7 @@
                     }
              
                              }
-                // for($i=12;$i<=19;$i++) {
-                // if(!$property_type[$i]['city'])
-                //                     {
-                // echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                //     }
-                //     else
-                //     {
-                //         echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                //     }
-                // } 
+ 
                 ?>
                 </ul>
             </div>
@@ -533,16 +458,7 @@
                  <ul><!-- 
                  <h4>Properties In India</h4> -->
                    <?php
-                // for($i=20;$i<=24;$i++) {
-                // if(!$property_type[$i]['city'])
-                //                     {
-                // echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                //     }
-                //     else
-                //     {
-                //         echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                //     }
-                // } 
+
                 ?>
                 </ul>
             </div>
@@ -556,13 +472,7 @@
                     <div class="col-sm-12 text-center">
                         <p>&copy; <span style="color: #fff;">Full Basket Property Services Pvt. Ltd.</span>, All Rights Reserved <?php echo date('Y'); ?></p>
                     </div>
-                    <!-- <div class="col-sm-6 hidden-xs">
-                        <ul>
-                            <li><a href="<?= site_url() ?>">Home</a></li>
-                            <li><a href="<?= base_url() ;?>/listing">Property</a></li>
-                            <li><a href="<?= base_url() ;?>/contact">Contact</a></li>
-                        </ul>
-                    </div> -->
+      
                 </div>
             </div>
         </div>
