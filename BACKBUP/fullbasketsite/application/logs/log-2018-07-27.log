@@ -1,0 +1,39 @@
+ERROR - 2018-07-27 01:44:04 --> 404 Page Not Found: 
+ERROR - 2018-07-27 02:36:47 --> 404 Page Not Found: 
+ERROR - 2018-07-27 04:47:28 --> 404 Page Not Found: 
+ERROR - 2018-07-27 07:21:25 --> 404 Page Not Found: 
+ERROR - 2018-07-27 07:26:21 --> 404 Page Not Found: 
+ERROR - 2018-07-27 07:26:23 --> 404 Page Not Found: 
+ERROR - 2018-07-27 07:41:41 --> 404 Page Not Found: 
+ERROR - 2018-07-27 08:07:08 --> 404 Page Not Found: 
+ERROR - 2018-07-27 08:41:29 --> 404 Page Not Found: 
+ERROR - 2018-07-27 09:05:31 --> 404 Page Not Found: 
+ERROR - 2018-07-27 09:52:58 --> 404 Page Not Found: 
+ERROR - 2018-07-27 10:26:15 --> 404 Page Not Found: 
+ERROR - 2018-07-27 10:30:18 --> 404 Page Not Found: 
+ERROR - 2018-07-27 11:09:12 --> 404 Page Not Found: 
+ERROR - 2018-07-27 11:16:40 --> Query error: Duplicate entry '9cpgrfkemglfi0vj8dikavui86ebm45c' for key 'PRIMARY' - Invalid query: INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES ('9cpgrfkemglfi0vj8dikavui86ebm45c', '106.51.67.54', 1532670400, '__ci_last_regenerate|i:1532670394;languages|a:7:{s:7:\"spanish\";s:7:\"Spanish\";s:7:\"turkish\";s:7:\"Turkish\";s:7:\"russian\";s:7:\"Russian\";s:10:\"indonesian\";s:10:\"Indonesian\";s:5:\"dutch\";s:5:\"Dutch\";s:18:\"simplified-chinese\";s:18:\"Simplified Chinese\";s:7:\"english\";s:7:\"English\";}language|s:7:\"english\";logged_in|a:10:{s:2:\"id\";s:1:\"7\";s:8:\"username\";s:6:\"nitish\";s:10:\"first_name\";s:6:\"Nitish\";s:9:\"last_name\";s:5:\"Kedia\";s:5:\"email\";s:29:\"nitish@fullbasketproperty.com\";s:8:\"language\";s:7:\"english\";s:8:\"is_admin\";s:1:\"1\";s:6:\"status\";s:1:\"1\";s:7:\"created\";s:19:\"2018-01-10 05:08:50\";s:7:\"updated\";s:19:\"2018-01-10 05:10:37\";}')
+ERROR - 2018-07-27 11:16:40 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/nkmtein/public_html/fullbasketproperty.com/system/core/Output.php:538) /home/nkmtein/public_html/fullbasketproperty.com/system/core/Common.php 564
+ERROR - 2018-07-27 11:44:24 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-07-27 11:44:24 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-07-27 11:44:24 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-07-27 11:44:24 --> Could not find the language line "achievements title addAchievement"
+ERROR - 2018-07-27 12:10:24 --> 404 Page Not Found: 
+ERROR - 2018-07-27 12:37:29 --> Severity: Warning --> unlink(./uploads/valmark-orchard-square/os-banner1.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 778
+ERROR - 2018-07-27 13:26:21 --> 404 Page Not Found: 
+ERROR - 2018-07-27 14:17:45 --> 404 Page Not Found: 
+ERROR - 2018-07-27 15:27:20 --> 404 Page Not Found: 
+ERROR - 2018-07-27 15:59:46 --> Severity: Warning --> unlink(./uploads/kolte-patil-centria/banner11.png): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 778
+ERROR - 2018-07-27 16:03:44 --> 404 Page Not Found: 
+ERROR - 2018-07-27 17:10:53 --> 404 Page Not Found: 
+ERROR - 2018-07-27 18:01:11 --> 404 Page Not Found: 
+ERROR - 2018-07-27 18:11:21 --> 404 Page Not Found: 
+ERROR - 2018-07-27 18:13:55 --> 404 Page Not Found: 
+ERROR - 2018-07-27 18:17:51 --> 404 Page Not Found: 
+ERROR - 2018-07-27 19:27:30 --> 404 Page Not Found: 
+ERROR - 2018-07-27 19:32:28 --> 404 Page Not Found: 
+ERROR - 2018-07-27 19:48:15 --> 404 Page Not Found: 
+ERROR - 2018-07-27 19:57:03 --> 404 Page Not Found: 
+ERROR - 2018-07-27 20:49:00 --> 404 Page Not Found: 
+ERROR - 2018-07-27 21:35:00 --> 404 Page Not Found: 
+ERROR - 2018-07-27 23:43:30 --> 404 Page Not Found: 

@@ -1,0 +1,95 @@
+ERROR - 2018-09-02 00:25:08 --> 404 Page Not Found: 
+ERROR - 2018-09-02 00:30:21 --> 404 Page Not Found: 
+ERROR - 2018-09-02 01:17:26 --> 404 Page Not Found: 
+ERROR - 2018-09-02 01:17:26 --> 404 Page Not Found: 
+ERROR - 2018-09-02 01:17:26 --> 404 Page Not Found: 
+ERROR - 2018-09-02 01:17:27 --> 404 Page Not Found: 
+ERROR - 2018-09-02 01:17:27 --> 404 Page Not Found: 
+ERROR - 2018-09-02 03:23:09 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-09-02 03:23:13 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-09-02 03:23:22 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-09-02 03:42:39 --> 404 Page Not Found: 
+ERROR - 2018-09-02 04:26:53 --> 404 Page Not Found: 
+ERROR - 2018-09-02 04:43:53 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-09-02 04:43:56 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-09-02 04:44:06 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-09-02 10:07:38 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-09-02 10:16:04 --> 404 Page Not Found: 
+ERROR - 2018-09-02 10:53:09 --> 404 Page Not Found: 
+ERROR - 2018-09-02 10:57:59 --> 404 Page Not Found: 
+ERROR - 2018-09-02 11:31:32 --> 404 Page Not Found: 
+ERROR - 2018-09-02 12:22:16 --> 404 Page Not Found: 
+ERROR - 2018-09-02 12:22:53 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-09-02 12:22:57 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-09-02 12:26:53 --> 404 Page Not Found: 
+ERROR - 2018-09-02 12:46:42 --> 404 Page Not Found: 
+ERROR - 2018-09-02 14:32:39 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-09-02 16:34:17 --> 404 Page Not Found: 
+ERROR - 2018-09-02 16:34:17 --> 404 Page Not Found: 
+ERROR - 2018-09-02 16:34:17 --> 404 Page Not Found: 
+ERROR - 2018-09-02 16:34:18 --> 404 Page Not Found: 
+ERROR - 2018-09-02 16:34:18 --> 404 Page Not Found: 
+ERROR - 2018-09-02 16:57:55 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-09-02 17:18:11 --> 404 Page Not Found: 
+ERROR - 2018-09-02 17:23:00 --> 404 Page Not Found: 
+ERROR - 2018-09-02 21:03:03 --> 404 Page Not Found: 

@@ -1,0 +1,14 @@
+ERROR - 2018-02-15 15:01:22 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-02-15 15:01:29 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-02-15 15:01:32 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-02-15 15:01:36 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-02-15 15:01:42 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-02-15 15:02:20 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-02-15 15:02:50 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-02-15 15:02:57 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-02-15 15:04:23 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-02-15 17:09:29 --> 404 Page Not Found: 
+ERROR - 2018-02-15 19:54:38 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-02-15 15:52:16 --> Severity: error --> Exception: Oophs. Error! /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Endpoint.php 212
+ERROR - 2018-02-15 15:52:17 --> Severity: error --> Exception: Oophs. Error! /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Endpoint.php 212
+ERROR - 2018-02-15 22:50:13 --> 404 Page Not Found: 

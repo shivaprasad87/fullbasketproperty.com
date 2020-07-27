@@ -1,0 +1,8 @@
+ERROR - 2018-01-28 01:34:55 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-28 03:37:46 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-28 04:41:55 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-28 07:43:47 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-28 08:56:46 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-28 09:27:55 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-28 09:49:43 --> Severity: error --> Exception: Oophs. Error! /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Endpoint.php 212
+ERROR - 2018-01-28 17:53:38 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055

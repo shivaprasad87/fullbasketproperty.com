@@ -1,0 +1,65 @@
+ERROR - 2017-11-30 06:35:09 --> Severity: Error --> Call to undefined function start() C:\xampp\htdocs\fullbasket\application\controllers\Home.php 24
+ERROR - 2017-11-30 06:35:37 --> Severity: Error --> Call to undefined function mid() C:\xampp\htdocs\fullbasket\application\controllers\Home.php 24
+ERROR - 2017-11-30 08:43:13 --> Severity: Parsing Error --> syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\fullbasket\application\controllers\Home.php 23
+ERROR - 2017-11-30 08:43:42 --> Severity: Parsing Error --> syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\fullbasket\application\controllers\Home.php 11
+ERROR - 2017-11-30 08:44:10 --> Severity: Notice --> Indirect modification of overloaded property Home::$benchmark has no effect C:\xampp\htdocs\fullbasket\system\core\Controller.php 75
+ERROR - 2017-11-30 08:44:10 --> Severity: Error --> Cannot assign by reference to overloaded object C:\xampp\htdocs\fullbasket\system\core\Controller.php 75
+ERROR - 2017-11-30 12:41:42 --> Severity: Warning --> explode() expects parameter 2 to be string, object given C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 127
+ERROR - 2017-11-30 12:41:42 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 127
+ERROR - 2017-11-30 12:41:42 --> Severity: Warning --> end() expects parameter 1 to be array, null given C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 127
+ERROR - 2017-11-30 12:45:02 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 127
+ERROR - 2017-11-30 12:45:40 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-11-30 12:45:40 --> Severity: Warning --> rename() expects parameter 1 to be a valid path, object given C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-11-30 12:45:40 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-11-30 12:45:40 --> Severity: Warning --> rename() expects parameter 1 to be a valid path, object given C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-11-30 12:45:40 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-11-30 12:45:40 --> Severity: Warning --> rename() expects parameter 1 to be a valid path, object given C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-11-30 12:46:21 --> Severity: Warning --> unlink(uploads/property_cover/ca7f18f2375ec0025d7594f1bb8d5306.jpg): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 242
+ERROR - 2017-11-30 12:46:24 --> Severity: Warning --> unlink(uploads/property_cover/3445c5985ec45a2702b443019f90c2f3.jpg): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 242
+ERROR - 2017-11-30 12:46:24 --> Severity: Warning --> unlink(uploads/properties/manglore_8_1.jpg): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 247
+ERROR - 2017-11-30 12:46:24 --> Severity: Warning --> unlink(uploads/properties/maxresdefaul1t.jpg): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 247
+ERROR - 2017-11-30 12:46:24 --> Severity: Warning --> unlink(uploads/properties/niyamasabha.jpg): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 247
+ERROR - 2017-11-30 12:46:27 --> Severity: Warning --> unlink(uploads/property_cover/c0045352fcd9b0ca19a77579b2d9673d.jpg): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 242
+ERROR - 2017-11-30 12:46:27 --> Severity: Warning --> unlink(uploads/properties/manglore_8_1.jpg): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 247
+ERROR - 2017-11-30 12:46:27 --> Severity: Warning --> unlink(uploads/properties/maxresdefaul1t.jpg): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 247
+ERROR - 2017-11-30 12:46:27 --> Severity: Warning --> unlink(uploads/properties/niyamasabha.jpg): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 247
+ERROR - 2017-11-30 12:47:06 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-11-30 12:47:06 --> Severity: Warning --> rename() expects parameter 1 to be a valid path, object given C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-11-30 12:47:06 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-11-30 12:47:06 --> Severity: Warning --> rename() expects parameter 1 to be a valid path, object given C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-11-30 12:47:06 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-11-30 12:47:06 --> Severity: Warning --> rename() expects parameter 1 to be a valid path, object given C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-11-30 12:48:16 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-11-30 12:48:16 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-11-30 12:48:16 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-11-30 12:50:15 --> Severity: Notice --> Undefined variable: img C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:15 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:15 --> Severity: Notice --> Undefined variable: img C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:15 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:15 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:15 --> Severity: Warning --> rename(,uploads/heavy-prop/): Invalid argument C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:15 --> Severity: Notice --> Undefined variable: img C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:15 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:15 --> Severity: Notice --> Undefined variable: img C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:15 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:15 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:15 --> Severity: Warning --> rename(,uploads/heavy-prop/): Invalid argument C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:15 --> Severity: Notice --> Undefined variable: img C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:15 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:15 --> Severity: Notice --> Undefined variable: img C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:15 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:15 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:15 --> Severity: Warning --> rename(,uploads/heavy-prop/): Invalid argument C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:15 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\fullbasket\system\core\Exceptions.php:271) C:\xampp\htdocs\fullbasket\system\helpers\url_helper.php 564
+ERROR - 2017-11-30 12:50:31 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:31 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:50:31 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:51:30 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:51:30 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 12:51:30 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 13:01:47 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-11-30 13:01:47 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 13:01:47 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-11-30 13:01:47 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-11-30 13:01:47 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-11-30 13:01:48 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123

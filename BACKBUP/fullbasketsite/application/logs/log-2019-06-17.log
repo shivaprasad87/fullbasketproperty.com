@@ -1,0 +1,159 @@
+ERROR - 2019-06-17 00:06:19 --> 404 Page Not Found: 
+ERROR - 2019-06-17 00:10:40 --> 404 Page Not Found: 
+ERROR - 2019-06-17 00:21:19 --> 404 Page Not Found: 
+ERROR - 2019-06-17 00:32:37 --> 404 Page Not Found: 
+ERROR - 2019-06-17 00:33:29 --> 404 Page Not Found: 
+ERROR - 2019-06-17 01:23:52 --> 404 Page Not Found: 
+ERROR - 2019-06-17 02:24:07 --> 404 Page Not Found: 
+ERROR - 2019-06-17 02:47:51 --> 404 Page Not Found: 
+ERROR - 2019-06-17 03:17:29 --> 404 Page Not Found: 
+ERROR - 2019-06-17 03:46:36 --> 404 Page Not Found: 
+ERROR - 2019-06-17 03:46:42 --> 404 Page Not Found: 
+ERROR - 2019-06-17 04:21:19 --> 404 Page Not Found: 
+ERROR - 2019-06-17 04:21:40 --> 404 Page Not Found: 
+ERROR - 2019-06-17 04:51:58 --> 404 Page Not Found: 
+ERROR - 2019-06-17 04:55:45 --> 404 Page Not Found: 
+ERROR - 2019-06-17 04:55:47 --> 404 Page Not Found: 
+ERROR - 2019-06-17 05:33:31 --> 404 Page Not Found: 
+ERROR - 2019-06-17 05:33:33 --> 404 Page Not Found: 
+ERROR - 2019-06-17 05:33:33 --> 404 Page Not Found: 
+ERROR - 2019-06-17 07:17:43 --> 404 Page Not Found: 
+ERROR - 2019-06-17 07:42:50 --> 404 Page Not Found: 
+ERROR - 2019-06-17 08:03:22 --> 404 Page Not Found: 
+ERROR - 2019-06-17 08:11:03 --> 404 Page Not Found: 
+ERROR - 2019-06-17 08:34:59 --> 404 Page Not Found: 
+ERROR - 2019-06-17 08:48:20 --> 404 Page Not Found: 
+ERROR - 2019-06-17 08:48:21 --> 404 Page Not Found: 
+ERROR - 2019-06-17 08:48:24 --> 404 Page Not Found: 
+ERROR - 2019-06-17 08:48:25 --> 404 Page Not Found: 
+ERROR - 2019-06-17 08:48:25 --> 404 Page Not Found: 
+ERROR - 2019-06-17 09:35:15 --> 404 Page Not Found: 
+ERROR - 2019-06-17 09:37:05 --> 404 Page Not Found: 
+ERROR - 2019-06-17 09:48:19 --> 404 Page Not Found: 
+ERROR - 2019-06-17 09:50:19 --> 404 Page Not Found: 
+ERROR - 2019-06-17 10:01:46 --> 404 Page Not Found: 
+ERROR - 2019-06-17 10:01:49 --> 404 Page Not Found: 
+ERROR - 2019-06-17 10:10:09 --> 404 Page Not Found: 
+ERROR - 2019-06-17 10:12:01 --> 404 Page Not Found: 
+ERROR - 2019-06-17 10:58:57 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:13:49 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:19:33 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:21:19 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:34:02 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:34:14 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:34:36 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:38:27 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:39:33 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:41:00 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:41:27 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:41:47 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:44:46 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:44:46 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:44:46 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:44:46 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:44:46 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:44:47 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:44:47 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:44:47 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:44:51 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:45:41 --> Severity: Warning --> unlink(uploads/blog_images/d6ba691f05100199c8cb8ccc1251b49f.jpg): No such file or directory /home/fullbasketproper/public_html/application/controllers/admin/Blogs.php 197
+ERROR - 2019-06-17 11:45:43 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:45:43 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:45:43 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:45:43 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:45:43 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:45:43 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:45:44 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:46:30 --> Severity: Warning --> unlink(uploads/blog_images/4e91350e6bff68fdfa77502a132383cc.jpg): No such file or directory /home/fullbasketproper/public_html/application/controllers/admin/Blogs.php 197
+ERROR - 2019-06-17 11:46:32 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:46:32 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:46:32 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:46:32 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:46:32 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:46:32 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:46:54 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:47:16 --> Severity: Warning --> unlink(uploads/blog_images/963f21f7e567df39b0a1dec41712cdbe.jpg): No such file or directory /home/fullbasketproper/public_html/application/controllers/admin/Blogs.php 197
+ERROR - 2019-06-17 11:47:18 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:47:19 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:47:20 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:47:20 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:47:20 --> 404 Page Not Found: 
+ERROR - 2019-06-17 11:54:15 --> 404 Page Not Found: 
+ERROR - 2019-06-17 12:07:07 --> 404 Page Not Found: 
+ERROR - 2019-06-17 12:19:42 --> 404 Page Not Found: 
+ERROR - 2019-06-17 12:32:17 --> 404 Page Not Found: 
+ERROR - 2019-06-17 12:32:20 --> 404 Page Not Found: 
+ERROR - 2019-06-17 12:32:35 --> 404 Page Not Found: 
+ERROR - 2019-06-17 12:32:47 --> 404 Page Not Found: 
+ERROR - 2019-06-17 12:32:56 --> 404 Page Not Found: 
+ERROR - 2019-06-17 12:36:01 --> 404 Page Not Found: 
+ERROR - 2019-06-17 12:49:59 --> 404 Page Not Found: 
+ERROR - 2019-06-17 12:50:01 --> 404 Page Not Found: 
+ERROR - 2019-06-17 12:51:20 --> 404 Page Not Found: 
+ERROR - 2019-06-17 13:12:23 --> 404 Page Not Found: 
+ERROR - 2019-06-17 13:12:26 --> 404 Page Not Found: 
+ERROR - 2019-06-17 13:13:49 --> 404 Page Not Found: 
+ERROR - 2019-06-17 13:21:16 --> 404 Page Not Found: 
+ERROR - 2019-06-17 13:21:20 --> 404 Page Not Found: 
+ERROR - 2019-06-17 13:34:00 --> 404 Page Not Found: 
+ERROR - 2019-06-17 13:43:49 --> 404 Page Not Found: 
+ERROR - 2019-06-17 14:21:14 --> 404 Page Not Found: 
+ERROR - 2019-06-17 14:30:47 --> 404 Page Not Found: 
+ERROR - 2019-06-17 14:30:52 --> 404 Page Not Found: 
+ERROR - 2019-06-17 14:31:20 --> Severity: Parsing Error --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) /home/fullbasketproper/public_html/application/models/Users_model.php 359
+ERROR - 2019-06-17 14:31:32 --> Severity: Parsing Error --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) /home/fullbasketproper/public_html/application/models/Users_model.php 359
+ERROR - 2019-06-17 14:39:55 --> Severity: Parsing Error --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) /home/fullbasketproper/public_html/application/models/Users_model.php 361
+ERROR - 2019-06-17 14:41:58 --> 404 Page Not Found: 
+ERROR - 2019-06-17 14:42:02 --> Severity: Parsing Error --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) /home/fullbasketproper/public_html/application/models/Users_model.php 358
+ERROR - 2019-06-17 14:42:45 --> Severity: Parsing Error --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) /home/fullbasketproper/public_html/application/models/Users_model.php 361
+ERROR - 2019-06-17 14:44:12 --> Severity: Parsing Error --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) /home/fullbasketproper/public_html/application/models/Users_model.php 366
+ERROR - 2019-06-17 14:46:26 --> 404 Page Not Found: 
+ERROR - 2019-06-17 14:48:10 --> 404 Page Not Found: 
+ERROR - 2019-06-17 14:48:12 --> 404 Page Not Found: 
+ERROR - 2019-06-17 14:49:52 --> 404 Page Not Found: 
+ERROR - 2019-06-17 14:55:57 --> 404 Page Not Found: 
+ERROR - 2019-06-17 15:00:08 --> 404 Page Not Found: 
+ERROR - 2019-06-17 15:00:10 --> 404 Page Not Found: 
+ERROR - 2019-06-17 15:00:18 --> 404 Page Not Found: 
+ERROR - 2019-06-17 15:00:21 --> 404 Page Not Found: 
+ERROR - 2019-06-17 15:02:38 --> 404 Page Not Found: 
+ERROR - 2019-06-17 15:03:07 --> 404 Page Not Found: 
+ERROR - 2019-06-17 15:06:46 --> Severity: Parsing Error --> syntax error, unexpected '{', expecting '(' /home/fullbasketproper/public_html/application/models/Users_model.php 567
+ERROR - 2019-06-17 15:07:20 --> Severity: Parsing Error --> syntax error, unexpected '{', expecting '(' /home/fullbasketproper/public_html/application/models/Users_model.php 567
+ERROR - 2019-06-17 15:07:40 --> Severity: Parsing Error --> syntax error, unexpected '{', expecting '(' /home/fullbasketproper/public_html/application/models/Users_model.php 567
+ERROR - 2019-06-17 15:08:08 --> Severity: Error --> Call to undefined method CI_Session::user_data() /home/fullbasketproper/public_html/application/controllers/User.php 98
+ERROR - 2019-06-17 15:12:53 --> Severity: Error --> Call to undefined method CI_Session::set_userdata_log() /home/fullbasketproper/public_html/application/models/Users_model.php 356
+ERROR - 2019-06-17 15:13:58 --> Severity: Parsing Error --> syntax error, unexpected '=>' (T_DOUBLE_ARROW) /home/fullbasketproper/public_html/application/models/Users_model.php 357
+ERROR - 2019-06-17 15:14:37 --> Severity: Parsing Error --> syntax error, unexpected '=>' (T_DOUBLE_ARROW) /home/fullbasketproper/public_html/application/models/Users_model.php 357
+ERROR - 2019-06-17 15:16:37 --> 404 Page Not Found: 
+ERROR - 2019-06-17 15:17:27 --> Severity: Error --> Call to undefined function userdata() /home/fullbasketproper/public_html/application/models/Users_model.php 357
+ERROR - 2019-06-17 15:20:03 --> Severity: Parsing Error --> syntax error, unexpected ';' /home/fullbasketproper/public_html/application/views/admin/dashboard.php 2
+ERROR - 2019-06-17 15:20:47 --> Severity: Parsing Error --> syntax error, unexpected '->' (T_OBJECT_OPERATOR) /home/fullbasketproper/public_html/application/views/admin/dashboard.php 2
+ERROR - 2019-06-17 15:39:24 --> 404 Page Not Found: 
+ERROR - 2019-06-17 15:54:45 --> Severity: Error --> Call to a member function insert_logs() on null /home/fullbasketproper/public_html/application/controllers/User.php 101
+ERROR - 2019-06-17 15:55:10 --> Severity: Error --> Call to a member function insert_logs() on null /home/fullbasketproper/public_html/application/controllers/User.php 101
+ERROR - 2019-06-17 15:55:39 --> Severity: Error --> Call to a member function insert_logs() on null /home/fullbasketproper/public_html/application/controllers/User.php 101
+ERROR - 2019-06-17 15:56:21 --> Severity: Error --> Call to a member function insert_logs() on null /home/fullbasketproper/public_html/application/controllers/User.php 101
+ERROR - 2019-06-17 15:56:37 --> 404 Page Not Found: 
+ERROR - 2019-06-17 16:25:41 --> 404 Page Not Found: 
+ERROR - 2019-06-17 16:27:42 --> 404 Page Not Found: 
+ERROR - 2019-06-17 16:27:43 --> 404 Page Not Found: 
+ERROR - 2019-06-17 16:33:58 --> 404 Page Not Found: 
+ERROR - 2019-06-17 16:48:02 --> 404 Page Not Found: 
+ERROR - 2019-06-17 17:00:56 --> 404 Page Not Found: 
+ERROR - 2019-06-17 17:03:54 --> 404 Page Not Found: 
+ERROR - 2019-06-17 17:43:35 --> 404 Page Not Found: 
+ERROR - 2019-06-17 18:08:58 --> 404 Page Not Found: 
+ERROR - 2019-06-17 18:26:24 --> 404 Page Not Found: 
+ERROR - 2019-06-17 18:38:58 --> 404 Page Not Found: 
+ERROR - 2019-06-17 18:50:44 --> 404 Page Not Found: 
+ERROR - 2019-06-17 18:55:15 --> 404 Page Not Found: 
+ERROR - 2019-06-17 19:58:03 --> 404 Page Not Found: 
+ERROR - 2019-06-17 20:05:10 --> 404 Page Not Found: 
+ERROR - 2019-06-17 20:24:22 --> 404 Page Not Found: 
+ERROR - 2019-06-17 20:25:17 --> 404 Page Not Found: 
+ERROR - 2019-06-17 21:13:08 --> 404 Page Not Found: 
+ERROR - 2019-06-17 21:13:27 --> 404 Page Not Found: 
+ERROR - 2019-06-17 21:30:44 --> 404 Page Not Found: 
+ERROR - 2019-06-17 23:41:05 --> 404 Page Not Found: 
+ERROR - 2019-06-17 23:55:42 --> 404 Page Not Found: 

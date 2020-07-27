@@ -1,0 +1,245 @@
+ERROR - 2019-09-24 00:17:14 --> 404 Page Not Found: 
+ERROR - 2019-09-24 00:39:31 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 00:41:14 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 01:22:29 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 01:28:46 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 01:35:15 --> 404 Page Not Found: 
+ERROR - 2019-09-24 01:49:37 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 01:50:42 --> 404 Page Not Found: 
+ERROR - 2019-09-24 02:02:27 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 03:20:23 --> 404 Page Not Found: 
+ERROR - 2019-09-24 03:52:28 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 03:55:01 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 04:27:01 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 05:25:51 --> 404 Page Not Found: 
+ERROR - 2019-09-24 05:28:34 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 06:58:09 --> 404 Page Not Found: 
+ERROR - 2019-09-24 06:58:16 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 07:03:24 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-09-24 07:18:36 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 07:28:32 --> 404 Page Not Found: 
+ERROR - 2019-09-24 07:50:39 --> 404 Page Not Found: 
+ERROR - 2019-09-24 07:50:42 --> 404 Page Not Found: 
+ERROR - 2019-09-24 08:10:00 --> 404 Page Not Found: 
+ERROR - 2019-09-24 08:31:57 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 08:38:41 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 08:39:34 --> 404 Page Not Found: 
+ERROR - 2019-09-24 08:39:43 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 08:39:46 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 08:39:50 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 08:39:54 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 08:39:54 --> 404 Page Not Found: 
+ERROR - 2019-09-24 08:44:03 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 08:55:41 --> 404 Page Not Found: 
+ERROR - 2019-09-24 09:03:24 --> 404 Page Not Found: 
+ERROR - 2019-09-24 09:08:00 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:08:25 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:08:40 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:08:47 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:09:04 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:09:30 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:09:49 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:10:03 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:10:19 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:10:26 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:10:37 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:10:54 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:11:04 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:11:13 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:11:31 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:11:37 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:11:43 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:11:50 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:11:58 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:12:04 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:12:12 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:12:18 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:12:25 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:12:34 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:12:50 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:13:11 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:13:17 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:13:22 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:13:28 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:13:33 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:13:43 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:14:08 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:14:15 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:14:39 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:14:53 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:14:59 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:15:07 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:15:20 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:15:35 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:15:41 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:15:56 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:16:02 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:16:40 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:16:46 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:17:03 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:17:06 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:17:53 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 09:19:48 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-09-24 09:22:46 --> 404 Page Not Found: 
+ERROR - 2019-09-24 09:58:06 --> 404 Page Not Found: 
+ERROR - 2019-09-24 10:10:18 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 10:13:29 --> 404 Page Not Found: 
+ERROR - 2019-09-24 10:18:39 --> 404 Page Not Found: 
+ERROR - 2019-09-24 10:19:50 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 10:22:46 --> 404 Page Not Found: 
+ERROR - 2019-09-24 10:24:12 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 10:29:35 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 10:29:55 --> 404 Page Not Found: 
+ERROR - 2019-09-24 10:36:07 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 10:48:31 --> 404 Page Not Found: 
+ERROR - 2019-09-24 11:09:52 --> 404 Page Not Found: 
+ERROR - 2019-09-24 11:21:07 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 11:23:21 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 11:30:48 --> Query error: Column 'uid' cannot be null - Invalid query: INSERT INTO `properties` (`builder_id`, `location_id`, `title`, `meta_title`, `meta_keywords`, `meta_desc`, `area`, `budget`, `property_type_id`, `city_id`, `alt`, `image`, `alt_title`, `image_desc`, `gallery_alt`, `gallery_desc`, `brochure_alt`, `brochure_desc`, `floor_alt`, `floor_desc`, `location_alt`, `location_desc`, `master_alt`, `master_desc`, `construction_alt`, `construction_desc`, `elevations_alt`, `elevations_desc`, `slug`, `date_added`, `uid`, `rera_number`, `issue_date`, `property_for`, `price_per_unit`, `build`, `face`, `builtup_area`, `builtup_area_unit`, `carpet_area`, `carpet_area_unit`, `plot_area`, `plot_area_unit`, `lat`, `lng`, `bathrooms`, `bedrooms`, `units`, `floors`, `towers`, `facades`, `property_status_id`, `description`, `usp`, `facebook`, `twitter`, `google`, `possession_date`, `walkthrough`) VALUES ('164', '14', 'THE BOTANIKA', 'THe Botanika ', '', '', 'Gachibowli', '6999', '16', '7', '', 'b5dbfd7a707975bb47bd1cf4ca7e24ed.jpg', NULL, NULL, '', '', '', '', '', '', '', '', '', '', '', '', '', NULL, 'the-botanika', '2019-09-24', NULL, '', 'New Launch', 'Sell', '6999', 'Newly Built', 'North', '', 'Sq. Feet', '', 'Sq. Feet', '', 'Sq. Feet', '', '', '1', '1', '1', '1', '1', '1', '1', '', '', '', '', '', '2023-09-24', '')
+ERROR - 2019-09-24 11:31:20 --> Query error: Column 'uid' cannot be null - Invalid query: INSERT INTO `properties` (`builder_id`, `location_id`, `title`, `meta_title`, `meta_keywords`, `meta_desc`, `area`, `budget`, `property_type_id`, `city_id`, `alt`, `image`, `alt_title`, `image_desc`, `gallery_alt`, `gallery_desc`, `brochure_alt`, `brochure_desc`, `floor_alt`, `floor_desc`, `location_alt`, `location_desc`, `master_alt`, `master_desc`, `construction_alt`, `construction_desc`, `elevations_alt`, `elevations_desc`, `slug`, `date_added`, `uid`, `rera_number`, `issue_date`, `property_for`, `price_per_unit`, `build`, `face`, `builtup_area`, `builtup_area_unit`, `carpet_area`, `carpet_area_unit`, `plot_area`, `plot_area_unit`, `lat`, `lng`, `bathrooms`, `bedrooms`, `units`, `floors`, `towers`, `facades`, `property_status_id`, `description`, `usp`, `facebook`, `twitter`, `google`, `possession_date`, `walkthrough`) VALUES ('164', '14', 'THE BOTANIKA', 'THe Botanika ', '', '', 'Gachibowli', '6999', '16', '7', '', '51d2c46755a0605cfbb64516b683c838.jpg', NULL, NULL, '', '', '', '', '', '', '', '', '', '', '', '', '', NULL, 'the-botanika', '2019-09-24', NULL, '', 'New Launch', 'Sell', '6999', 'Newly Built', 'North', '', 'Sq. Feet', '', 'Sq. Feet', '', 'Sq. Feet', '', '', '1', '1', '1', '1', '1', '1', '1', '', '', '', '', '', '2023-09-24', '')
+ERROR - 2019-09-24 11:34:13 --> 404 Page Not Found: 
+ERROR - 2019-09-24 11:34:48 --> 404 Page Not Found: 
+ERROR - 2019-09-24 11:35:21 --> 404 Page Not Found: 
+ERROR - 2019-09-24 11:35:37 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 11:35:42 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 11:47:58 --> 404 Page Not Found: 
+ERROR - 2019-09-24 11:47:58 --> 404 Page Not Found: 
+ERROR - 2019-09-24 11:52:49 --> 404 Page Not Found: 
+ERROR - 2019-09-24 11:53:02 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 11:53:36 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 11:53:50 --> 404 Page Not Found: 
+ERROR - 2019-09-24 11:54:59 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 11:55:09 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 12:00:42 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 12:00:47 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 12:00:51 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 12:03:25 --> 404 Page Not Found: 
+ERROR - 2019-09-24 12:05:36 --> 404 Page Not Found: 
+ERROR - 2019-09-24 12:09:51 --> 404 Page Not Found: 
+ERROR - 2019-09-24 12:09:53 --> 404 Page Not Found: 
+ERROR - 2019-09-24 12:10:02 --> 404 Page Not Found: 
+ERROR - 2019-09-24 12:10:08 --> 404 Page Not Found: 
+ERROR - 2019-09-24 12:21:34 --> 404 Page Not Found: 
+ERROR - 2019-09-24 12:21:43 --> 404 Page Not Found: 
+ERROR - 2019-09-24 12:25:53 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 12:35:53 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 12:54:05 --> 404 Page Not Found: 
+ERROR - 2019-09-24 12:58:00 --> 404 Page Not Found: 
+ERROR - 2019-09-24 13:01:34 --> Severity: Error --> Call to undefined method CI_Session::set_usedata() /home/fullbasketproper/public_html/application/controllers/admin/Properties.php 181
+ERROR - 2019-09-24 13:01:56 --> Severity: Error --> Call to undefined method CI_Session::set_usedata() /home/fullbasketproper/public_html/application/controllers/admin/Properties.php 181
+ERROR - 2019-09-24 13:02:37 --> 404 Page Not Found: 
+ERROR - 2019-09-24 13:02:44 --> 404 Page Not Found: 
+ERROR - 2019-09-24 13:03:24 --> 404 Page Not Found: 
+ERROR - 2019-09-24 13:03:30 --> 404 Page Not Found: 
+ERROR - 2019-09-24 13:06:55 --> 404 Page Not Found: 
+ERROR - 2019-09-24 13:07:09 --> 404 Page Not Found: 
+ERROR - 2019-09-24 13:08:21 --> 404 Page Not Found: 
+ERROR - 2019-09-24 13:08:44 --> 404 Page Not Found: 
+ERROR - 2019-09-24 13:09:31 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 13:20:14 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 13:20:19 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 13:31:52 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 13:54:14 --> 404 Page Not Found: 
+ERROR - 2019-09-24 13:58:29 --> 404 Page Not Found: 
+ERROR - 2019-09-24 14:05:33 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 14:14:15 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 14:14:23 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 14:15:42 --> Severity: Parsing Error --> syntax error, unexpected 'uid' (T_STRING) /home/fullbasketproper/public_html/application/views/admin/properties/add.php 21
+ERROR - 2019-09-24 14:15:44 --> Severity: Parsing Error --> syntax error, unexpected 'uid' (T_STRING) /home/fullbasketproper/public_html/application/views/admin/properties/add.php 21
+ERROR - 2019-09-24 14:15:48 --> Severity: Parsing Error --> syntax error, unexpected 'uid' (T_STRING) /home/fullbasketproper/public_html/application/views/admin/properties/add.php 21
+ERROR - 2019-09-24 14:15:56 --> Severity: Parsing Error --> syntax error, unexpected 'uid' (T_STRING) /home/fullbasketproper/public_html/application/views/admin/properties/add.php 21
+ERROR - 2019-09-24 14:23:33 --> Severity: Parsing Error --> syntax error, unexpected '?>' /home/fullbasketproper/public_html/application/views/admin/properties/add.php 67
+ERROR - 2019-09-24 14:29:10 --> 404 Page Not Found: 
+ERROR - 2019-09-24 14:31:43 --> Severity: Parsing Error --> syntax error, unexpected 'is' (T_STRING), expecting ',' or ';' /home/fullbasketproper/public_html/application/views/admin/properties/add.php 77
+ERROR - 2019-09-24 14:31:46 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 14:32:02 --> Severity: Parsing Error --> syntax error, unexpected 'is' (T_STRING), expecting ',' or ';' /home/fullbasketproper/public_html/application/views/admin/properties/add.php 77
+ERROR - 2019-09-24 14:36:40 --> Severity: Parsing Error --> syntax error, unexpected '?>' /home/fullbasketproper/public_html/application/views/admin/properties/add.php 153
+ERROR - 2019-09-24 14:56:32 --> Severity: Parsing Error --> syntax error, unexpected ')' /home/fullbasketproper/public_html/application/views/admin/properties/add.php 305
+ERROR - 2019-09-24 14:57:27 --> Severity: Parsing Error --> syntax error, unexpected ')' /home/fullbasketproper/public_html/application/views/admin/properties/add.php 305
+ERROR - 2019-09-24 14:58:30 --> Severity: Parsing Error --> syntax error, unexpected ')' /home/fullbasketproper/public_html/application/views/admin/properties/add.php 305
+ERROR - 2019-09-24 15:01:38 --> Severity: Parsing Error --> syntax error, unexpected ')' /home/fullbasketproper/public_html/application/views/admin/properties/add.php 305
+ERROR - 2019-09-24 15:02:04 --> Severity: Parsing Error --> syntax error, unexpected ')' /home/fullbasketproper/public_html/application/views/admin/properties/add.php 305
+ERROR - 2019-09-24 15:03:12 --> Severity: Parsing Error --> syntax error, unexpected ')' /home/fullbasketproper/public_html/application/views/admin/properties/add.php 305
+ERROR - 2019-09-24 15:03:22 --> Severity: Parsing Error --> syntax error, unexpected ')' /home/fullbasketproper/public_html/application/views/admin/properties/add.php 305
+ERROR - 2019-09-24 15:25:19 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 15:25:30 --> 404 Page Not Found: 
+ERROR - 2019-09-24 15:26:07 --> 404 Page Not Found: 
+ERROR - 2019-09-24 15:26:21 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 15:26:54 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 15:27:08 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 15:27:08 --> 404 Page Not Found: 
+ERROR - 2019-09-24 15:34:15 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 15:37:25 --> 404 Page Not Found: 
+ERROR - 2019-09-24 15:52:59 --> 404 Page Not Found: 
+ERROR - 2019-09-24 15:53:05 --> Query error: Unknown column 'amenities' in 'field list' - Invalid query: INSERT INTO `properties` (`builder_id`, `location_id`, `title`, `meta_title`, `meta_keywords`, `meta_desc`, `area`, `budget`, `property_type_id`, `city_id`, `alt`, `image`, `alt_title`, `image_desc`, `gallery_alt`, `gallery_desc`, `brochure_alt`, `brochure_desc`, `floor_alt`, `floor_desc`, `location_alt`, `location_desc`, `master_alt`, `master_desc`, `construction_alt`, `construction_desc`, `elevations_alt`, `elevations_desc`, `rera_number`, `amenities`, `slug`, `date_added`, `uid`, `issue_date`, `property_for`, `price_per_unit`, `build`, `face`, `builtup_area`, `builtup_area_unit`, `carpet_area`, `carpet_area_unit`, `plot_area`, `plot_area_unit`, `lat`, `lng`, `bathrooms`, `bedrooms`, `units`, `floors`, `towers`, `facades`, `property_status_id`, `description`, `usp`, `facebook`, `twitter`, `google`, `possession_date`, `walkthrough`) VALUES ('90', '556', 'asdfasdfa', 'zcxvzxc', 'zxcvzxcv', 'vzxcvzxcv', 'sdfasdfasdf', 'asdfasdf', '10', '13', '', NULL, NULL, NULL, '', '', '', '', '', '', '', '', '', '', '', '', '', NULL, 'asdfasdfa', Array, NULL, '2019-09-24', NULL, 'Upcoming Projects', 'Sell', '', 'Newly Built', 'South', '', 'Sq. Feet', '', 'Select', '', 'Sq. Feet', '', '', '3', '2', '2', '3', '4', '2', '4', '', '', '', '', '', '', '')
+ERROR - 2019-09-24 15:54:12 --> 404 Page Not Found: 
+ERROR - 2019-09-24 15:54:13 --> Query error: Unknown column 'amenities' in 'field list' - Invalid query: INSERT INTO `properties` (`builder_id`, `location_id`, `title`, `meta_title`, `meta_keywords`, `meta_desc`, `area`, `budget`, `property_type_id`, `city_id`, `alt`, `image`, `alt_title`, `image_desc`, `gallery_alt`, `gallery_desc`, `brochure_alt`, `brochure_desc`, `floor_alt`, `floor_desc`, `location_alt`, `location_desc`, `master_alt`, `master_desc`, `construction_alt`, `construction_desc`, `elevations_alt`, `elevations_desc`, `rera_number`, `amenities`, `slug`, `date_added`, `uid`, `issue_date`, `property_for`, `price_per_unit`, `build`, `face`, `builtup_area`, `builtup_area_unit`, `carpet_area`, `carpet_area_unit`, `plot_area`, `plot_area_unit`, `lat`, `lng`, `bathrooms`, `bedrooms`, `units`, `floors`, `towers`, `facades`, `property_status_id`, `description`, `usp`, `facebook`, `twitter`, `google`, `possession_date`, `walkthrough`) VALUES ('90', '556', 'asdfasdfa', '', '', '', 'sdfasdfasdf', 'asdfasdf', '10', '13', '', NULL, NULL, NULL, 'asdfasdf', 'asdfasdf', '', '', '', '', '', '', '', '', '', '', '', NULL, 'asdfasdfa', Array, NULL, '2019-09-24', NULL, 'Upcoming Projects', 'Sell', '9191', 'Newly Built', 'South', '', 'Sq. Feet', '', 'Select', '', 'Sq. Feet', '', '', '3', '2', '2', '3', '4', '2', '4', '', '', '', '', '', '', '')
+ERROR - 2019-09-24 15:55:21 --> 404 Page Not Found: 
+ERROR - 2019-09-24 15:55:27 --> 404 Page Not Found: 
+ERROR - 2019-09-24 16:00:26 --> Query error: Unknown column 'amenities' in 'field list' - Invalid query: INSERT INTO `properties` (`builder_id`, `location_id`, `title`, `meta_title`, `meta_keywords`, `meta_desc`, `area`, `budget`, `property_type_id`, `city_id`, `alt`, `image`, `alt_title`, `image_desc`, `gallery_alt`, `gallery_desc`, `brochure_alt`, `brochure_desc`, `floor_alt`, `floor_desc`, `location_alt`, `location_desc`, `master_alt`, `master_desc`, `construction_alt`, `construction_desc`, `elevations_alt`, `elevations_desc`, `rera_number`, `amenities`, `slug`, `date_added`, `uid`, `issue_date`, `property_for`, `price_per_unit`, `build`, `face`, `builtup_area`, `builtup_area_unit`, `carpet_area`, `carpet_area_unit`, `plot_area`, `plot_area_unit`, `lat`, `lng`, `bathrooms`, `bedrooms`, `units`, `floors`, `towers`, `facades`, `property_status_id`, `description`, `usp`, `facebook`, `twitter`, `google`, `possession_date`, `walkthrough`) VALUES ('90', '556', 'vbxcvbxcvb', 'xcvbxcvb', 'xcvbxcvbxcv', 'xcvbxcvb', 'bxcvbxcvbx', 'xvbxcvb', '10', '13', 'xcvbxcvb', NULL, NULL, NULL, 'xcvbxcv', '', '', '', '', '', '', '', '', '', '', '', '', NULL, 'scbsbsdfbdfbbc', Array, NULL, '2019-09-24', NULL, 'Upcoming Projects', 'Sell', 'xcvxcvnxc', 'Newly Built', 'South', 'xcvnxcv', 'Hectares', 'nxcvn', 'Sq. Feet', '', 'Sq. Feet', '', '', '3', '2', '2', '3', '4', '2', '4', '', '', '', '', '', '2019-09-24', '')
+ERROR - 2019-09-24 16:16:07 --> 404 Page Not Found: 
+ERROR - 2019-09-24 16:17:43 --> 404 Page Not Found: 
+ERROR - 2019-09-24 16:23:27 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 16:25:22 --> Query error: Unknown column 'amenities' in 'field list' - Invalid query: INSERT INTO `properties` (`builder_id`, `location_id`, `title`, `meta_title`, `meta_keywords`, `meta_desc`, `area`, `budget`, `property_type_id`, `city_id`, `alt`, `image`, `alt_title`, `image_desc`, `gallery_alt`, `gallery_desc`, `brochure_alt`, `brochure_desc`, `floor_alt`, `floor_desc`, `location_alt`, `location_desc`, `master_alt`, `master_desc`, `construction_alt`, `construction_desc`, `elevations_alt`, `elevations_desc`, `rera_number`, `amenities`, `slug`, `date_added`, `uid`, `issue_date`, `property_for`, `price_per_unit`, `build`, `face`, `builtup_area`, `builtup_area_unit`, `carpet_area`, `carpet_area_unit`, `plot_area`, `plot_area_unit`, `lat`, `lng`, `bathrooms`, `bedrooms`, `units`, `floors`, `towers`, `facades`, `property_status_id`, `description`, `usp`, `facebook`, `twitter`, `google`, `possession_date`, `walkthrough`) VALUES ('90', '556', 'vbxcvbxcvb', 'xcvbxcvb', 'xcvbxcvbxcv', 'xcvbxcvb', 'bxcvbxcvbx', 'xvbxcvb', '10', '13', 'xcvbxcvb', NULL, NULL, NULL, 'xcvbxcv', '', '', '', '', '', '', '', '', '', '', '', '', NULL, 'scbsbsdfbdfbbc', Array, NULL, '2019-09-24', NULL, 'Upcoming Projects', 'Sell', 'xcvxcvnxc', 'Newly Built', 'South', 'xcvnxcv', 'Hectares', 'nxcvn', 'Sq. Feet', '', 'Sq. Feet', '', '', '3', '2', '2', '3', '4', '2', '4', '', '', '', '', '', '2019-09-24', '')
+ERROR - 2019-09-24 16:27:03 --> Query error: Unknown column 'amenities' in 'field list' - Invalid query: INSERT INTO `properties` (`builder_id`, `location_id`, `title`, `meta_title`, `meta_keywords`, `meta_desc`, `area`, `budget`, `property_type_id`, `city_id`, `alt`, `image`, `alt_title`, `image_desc`, `gallery_alt`, `gallery_desc`, `brochure_alt`, `brochure_desc`, `floor_alt`, `floor_desc`, `location_alt`, `location_desc`, `master_alt`, `master_desc`, `construction_alt`, `construction_desc`, `elevations_alt`, `elevations_desc`, `rera_number`, `amenities`, `slug`, `date_added`, `uid`, `issue_date`, `property_for`, `price_per_unit`, `build`, `face`, `builtup_area`, `builtup_area_unit`, `carpet_area`, `carpet_area_unit`, `plot_area`, `plot_area_unit`, `lat`, `lng`, `bathrooms`, `bedrooms`, `units`, `floors`, `towers`, `facades`, `property_status_id`, `description`, `usp`, `facebook`, `twitter`, `google`, `possession_date`, `walkthrough`) VALUES ('90', '556', 'vbxcvbxcvb', 'xcvbxcvb', 'xcvbxcvbxcv', 'xcvbxcvb', 'bxcvbxcvbx', 'xvbxcvb', '10', '13', 'xcvbxcvb', NULL, NULL, NULL, 'xcvbxcv', '', '', '', '', '', '', '', '', '', '', '', '', NULL, 'scbsbsdfbdfbbc', Array, NULL, '2019-09-24', NULL, 'Upcoming Projects', 'Sell', 'xcvxcvnxc', 'Newly Built', 'South', 'xcvnxcv', 'Hectares', 'nxcvn', 'Sq. Feet', '', 'Sq. Feet', '', '', '3', '2', '2', '3', '4', '2', '4', '', '', '', '', '', '2019-09-24', '')
+ERROR - 2019-09-24 16:28:50 --> 404 Page Not Found: 
+ERROR - 2019-09-24 16:29:14 --> 404 Page Not Found: 
+ERROR - 2019-09-24 16:29:21 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 16:32:07 --> 404 Page Not Found: 
+ERROR - 2019-09-24 16:32:16 --> 404 Page Not Found: 
+ERROR - 2019-09-24 16:32:36 --> Query error: Unknown column 'Array' in 'field list' - Invalid query: INSERT INTO `properties` (`builder_id`, `location_id`, `title`, `meta_title`, `meta_keywords`, `meta_desc`, `area`, `budget`, `property_type_id`, `city_id`, `alt`, `image`, `alt_title`, `image_desc`, `gallery_alt`, `gallery_desc`, `brochure_alt`, `brochure_desc`, `floor_alt`, `floor_desc`, `location_alt`, `location_desc`, `master_alt`, `master_desc`, `construction_alt`, `construction_desc`, `elevations_alt`, `elevations_desc`, `rera_number`, `amenities`, `slug`, `date_added`, `uid`, `issue_date`, `property_for`, `price_per_unit`, `build`, `face`, `builtup_area`, `builtup_area_unit`, `carpet_area`, `carpet_area_unit`, `plot_area`, `plot_area_unit`, `lat`, `lng`, `bathrooms`, `bedrooms`, `units`, `floors`, `towers`, `facades`, `property_status_id`, `description`, `usp`, `facebook`, `twitter`, `google`, `possession_date`, `walkthrough`) VALUES ('90', '556', 'vbxcvbxcvb', 'xcvbxcvb', 'xcvbxcvbxcv', 'xcvbxcvb', 'bxcvbxcvbx', 'xvbxcvb', '10', '13', 'xcvbxcvb', NULL, NULL, NULL, 'xcvbxcv', '', '', '', '', '', '', '', '', '', '', '', '', NULL, 'scbsbsdfbdfbbc', Array, NULL, '2019-09-24', NULL, 'Upcoming Projects', 'Sell', 'xcvxcvnxc', 'Newly Built', 'South', 'xcvnxcv', 'Hectares', 'nxcvn', 'Sq. Feet', '', 'Sq. Feet', '', '', '3', '2', '2', '3', '4', '2', '4', '', '', '', '', '', '2019-09-24', '')
+ERROR - 2019-09-24 16:38:08 --> Query error: Column 'image' cannot be null - Invalid query: INSERT INTO `properties` (`builder_id`, `location_id`, `title`, `meta_title`, `meta_keywords`, `meta_desc`, `area`, `budget`, `property_type_id`, `city_id`, `alt`, `image`, `alt_title`, `image_desc`, `gallery_alt`, `gallery_desc`, `brochure_alt`, `brochure_desc`, `floor_alt`, `floor_desc`, `location_alt`, `location_desc`, `master_alt`, `master_desc`, `construction_alt`, `construction_desc`, `elevations_alt`, `elevations_desc`, `rera_number`, `slug`, `date_added`, `uid`, `issue_date`, `property_for`, `price_per_unit`, `build`, `face`, `builtup_area`, `builtup_area_unit`, `carpet_area`, `carpet_area_unit`, `plot_area`, `plot_area_unit`, `lat`, `lng`, `bathrooms`, `bedrooms`, `units`, `floors`, `towers`, `facades`, `property_status_id`, `description`, `usp`, `facebook`, `twitter`, `google`, `possession_date`, `walkthrough`) VALUES ('90', '556', 'vbxcvbxcvb', 'xcvbxcvb', 'xcvbxcvbxcv', 'xcvbxcvb', 'bxcvbxcvbx', 'xvbxcvb', '10', '13', 'xcvbxcvb', NULL, NULL, NULL, 'xcvbxcv', '', '', '', '', '', '', '', '', '', '', '', '', NULL, 'scbsbsdfbdfbbc', NULL, '2019-09-24', NULL, 'Upcoming Projects', 'Sell', 'xcvxcvnxc', 'Newly Built', 'South', 'xcvnxcv', 'Hectares', 'nxcvn', 'Sq. Feet', '', 'Sq. Feet', '', '', '3', '2', '2', '3', '4', '2', '4', '', '', '', '', '', '2019-09-24', '')
+ERROR - 2019-09-24 16:40:18 --> 404 Page Not Found: 
+ERROR - 2019-09-24 16:41:05 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 16:41:36 --> Query error: Column 'uid' cannot be null - Invalid query: INSERT INTO `properties` (`builder_id`, `location_id`, `title`, `meta_title`, `meta_keywords`, `meta_desc`, `area`, `budget`, `property_type_id`, `city_id`, `alt`, `image`, `alt_title`, `image_desc`, `gallery_alt`, `gallery_desc`, `brochure_alt`, `brochure_desc`, `floor_alt`, `floor_desc`, `location_alt`, `location_desc`, `master_alt`, `master_desc`, `construction_alt`, `construction_desc`, `elevations_alt`, `elevations_desc`, `rera_number`, `slug`, `date_added`, `uid`, `issue_date`, `property_for`, `price_per_unit`, `build`, `face`, `builtup_area`, `builtup_area_unit`, `carpet_area`, `carpet_area_unit`, `plot_area`, `plot_area_unit`, `lat`, `lng`, `bathrooms`, `bedrooms`, `units`, `floors`, `towers`, `facades`, `property_status_id`, `description`, `usp`, `facebook`, `twitter`, `google`, `possession_date`, `walkthrough`) VALUES ('90', '556', 'vbxcvbxcvb', 'xcvbxcvb', 'xcvbxcvbxcv', 'xcvbxcvb', 'bxcvbxcvbx', 'xvbxcvb', '10', '13', 'xcvbxcvb', 'd82b3fc25ca0cb36e46eda0bf3dcb1d7.png', NULL, NULL, 'xcvbxcv', '', '', '', '', '', '', '', '', '', '', '', '', NULL, 'scbsbsdfbdfbbc', 'vbxcvbxcvb', '2019-09-24', NULL, 'Upcoming Projects', 'Sell', 'xcvxcvnxc', 'Newly Built', 'South', 'xcvnxcv', 'Hectares', 'nxcvn', 'Sq. Feet', '', 'Sq. Feet', '', '', '3', '2', '2', '3', '4', '2', '4', '', '', '', '', '', '2019-09-24', '')
+ERROR - 2019-09-24 16:48:47 --> 404 Page Not Found: 
+ERROR - 2019-09-24 16:55:27 --> 404 Page Not Found: 
+ERROR - 2019-09-24 16:55:46 --> 404 Page Not Found: 
+ERROR - 2019-09-24 17:10:07 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 17:11:10 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 17:13:15 --> 404 Page Not Found: 
+ERROR - 2019-09-24 17:56:45 --> 404 Page Not Found: 
+ERROR - 2019-09-24 17:57:05 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 17:57:24 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 17:57:33 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 17:57:42 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 17:57:56 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 18:01:34 --> 404 Page Not Found: 
+ERROR - 2019-09-24 18:01:49 --> 404 Page Not Found: 
+ERROR - 2019-09-24 18:02:25 --> 404 Page Not Found: 
+ERROR - 2019-09-24 18:02:26 --> 404 Page Not Found: 
+ERROR - 2019-09-24 18:02:27 --> 404 Page Not Found: 
+ERROR - 2019-09-24 18:02:27 --> 404 Page Not Found: 
+ERROR - 2019-09-24 18:02:27 --> 404 Page Not Found: 
+ERROR - 2019-09-24 18:02:33 --> 404 Page Not Found: 
+ERROR - 2019-09-24 18:02:33 --> 404 Page Not Found: 
+ERROR - 2019-09-24 18:04:47 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 18:27:30 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 18:32:52 --> 404 Page Not Found: 
+ERROR - 2019-09-24 18:35:38 --> 404 Page Not Found: 
+ERROR - 2019-09-24 18:44:41 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 18:49:11 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 19:17:46 --> 404 Page Not Found: 
+ERROR - 2019-09-24 19:17:56 --> 404 Page Not Found: 
+ERROR - 2019-09-24 19:27:17 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 19:36:02 --> 404 Page Not Found: 
+ERROR - 2019-09-24 20:30:08 --> 404 Page Not Found: 
+ERROR - 2019-09-24 20:39:13 --> 404 Page Not Found: 
+ERROR - 2019-09-24 20:47:05 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 21:16:04 --> 404 Page Not Found: 
+ERROR - 2019-09-24 21:18:10 --> 404 Page Not Found: 
+ERROR - 2019-09-24 22:23:13 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 22:28:43 --> 404 Page Not Found: 
+ERROR - 2019-09-24 22:58:42 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186
+ERROR - 2019-09-24 22:59:33 --> 404 Page Not Found: 
+ERROR - 2019-09-24 22:59:34 --> 404 Page Not Found: 
+ERROR - 2019-09-24 22:59:35 --> 404 Page Not Found: 
+ERROR - 2019-09-24 22:59:35 --> 404 Page Not Found: 
+ERROR - 2019-09-24 22:59:35 --> 404 Page Not Found: 
+ERROR - 2019-09-24 22:59:48 --> 404 Page Not Found: 
+ERROR - 2019-09-24 22:59:50 --> 404 Page Not Found: 
+ERROR - 2019-09-24 23:01:16 --> 404 Page Not Found: 
+ERROR - 2019-09-24 23:25:35 --> 404 Page Not Found: 
+ERROR - 2019-09-24 23:31:31 --> 404 Page Not Found: 
+ERROR - 2019-09-24 23:33:00 --> 404 Page Not Found: 
+ERROR - 2019-09-24 23:44:32 --> Severity: Warning --> Illegal string offset 'keyword' /home/fullbasketproper/public_html/application/views/listing.php 186

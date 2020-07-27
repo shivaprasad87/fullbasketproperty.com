@@ -1,0 +1,25 @@
+ERROR - 2018-02-03 05:23:25 --> 404 Page Not Found: 
+ERROR - 2018-02-03 05:49:13 --> 404 Page Not Found: 
+ERROR - 2018-02-03 07:51:56 --> 404 Page Not Found: 
+ERROR - 2018-02-03 08:09:41 --> 404 Page Not Found: 
+ERROR - 2018-02-03 09:08:05 --> 404 Page Not Found: 
+ERROR - 2018-02-03 11:39:00 --> 404 Page Not Found: 
+ERROR - 2018-02-03 06:42:04 --> Severity: error --> Exception: Oophs. Error! /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Endpoint.php 212
+ERROR - 2018-02-03 06:51:07 --> Severity: error --> Exception: Oophs. Error! /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Endpoint.php 212
+ERROR - 2018-02-03 12:39:29 --> 404 Page Not Found: 
+ERROR - 2018-02-03 13:05:57 --> Query error: Table 'nkmtein_fullbasket_new.subscribers' doesn't exist - Invalid query: SELECT *
+FROM `subscribers`
+WHERE `email` = 'pintu.mandal@outlook.com'
+ERROR - 2018-02-03 16:22:59 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-02-03 16:36:21 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-02-03 17:34:00 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-02-03 18:14:03 --> 404 Page Not Found: 
+ERROR - 2018-02-03 18:19:33 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-02-03 19:07:31 --> 404 Page Not Found: 
+ERROR - 2018-02-03 21:26:16 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-02-03 21:48:45 --> 404 Page Not Found: 
+ERROR - 2018-02-03 21:54:10 --> 404 Page Not Found: 
+ERROR - 2018-02-03 22:24:36 --> 404 Page Not Found: 
+ERROR - 2018-02-03 23:43:34 --> 404 Page Not Found: 
+ERROR - 2018-02-03 23:44:08 --> 404 Page Not Found: 
+ERROR - 2018-02-03 21:51:05 --> Severity: error --> Exception: Oophs. Error! /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Endpoint.php 212

@@ -1,0 +1,2 @@
+CREATE TABLE `fullbasket`.`terms` ( `id` INT NOT NULL AUTO_INCREMENT , `content` TEXT NOT NULL , `status` TINYINT NOT NULL DEFAULT '1' , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+CREATE TABLE `fullbasket`.`faq` ( `id` INT NOT NULL AUTO_INCREMENT , `content` TEXT NOT NULL , `status` TINYINT NOT NULL DEFAULT '1' , PRIMARY KEY (`id`)) ENGINE = InnoDB;

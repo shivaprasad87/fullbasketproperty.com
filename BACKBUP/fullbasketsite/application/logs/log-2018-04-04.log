@@ -1,0 +1,57 @@
+ERROR - 2018-04-04 00:16:14 --> 404 Page Not Found: 
+ERROR - 2018-04-04 00:16:14 --> 404 Page Not Found: 
+ERROR - 2018-04-04 02:11:06 --> 404 Page Not Found: 
+ERROR - 2018-04-04 02:13:47 --> 404 Page Not Found: 
+ERROR - 2018-04-04 03:03:10 --> 404 Page Not Found: 
+ERROR - 2018-04-04 07:16:28 --> 404 Page Not Found: 
+ERROR - 2018-04-04 07:44:28 --> 404 Page Not Found: 
+ERROR - 2018-04-04 08:07:34 --> 404 Page Not Found: 
+ERROR - 2018-04-04 08:29:26 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-04-04 08:40:00 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-04-04 09:05:23 --> 404 Page Not Found: 
+ERROR - 2018-04-04 09:06:55 --> 404 Page Not Found: 
+ERROR - 2018-04-04 09:13:34 --> 404 Page Not Found: 
+ERROR - 2018-04-04 09:14:05 --> 404 Page Not Found: 
+ERROR - 2018-04-04 09:28:59 --> 404 Page Not Found: 
+ERROR - 2018-04-04 09:29:29 --> 404 Page Not Found: 
+ERROR - 2018-04-04 09:39:42 --> 404 Page Not Found: 
+ERROR - 2018-04-04 11:54:43 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-04 13:27:44 --> 404 Page Not Found: 
+ERROR - 2018-04-04 13:28:49 --> 404 Page Not Found: 
+ERROR - 2018-04-04 13:30:57 --> 404 Page Not Found: 
+ERROR - 2018-04-04 13:32:33 --> 404 Page Not Found: 
+ERROR - 2018-04-04 13:32:37 --> 404 Page Not Found: 
+ERROR - 2018-04-04 13:36:45 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-04 13:37:52 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-04 13:38:13 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-04 13:38:31 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-04 13:47:40 --> 404 Page Not Found: 
+ERROR - 2018-04-04 13:51:44 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-04 14:42:50 --> 404 Page Not Found: 
+ERROR - 2018-04-04 15:30:45 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-04 15:30:52 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-04 15:50:59 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-04 16:06:24 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-04 21:41:16 --> 404 Page Not Found: 
+ERROR - 2018-04-04 21:41:34 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-04 23:52:27 --> 404 Page Not Found: 

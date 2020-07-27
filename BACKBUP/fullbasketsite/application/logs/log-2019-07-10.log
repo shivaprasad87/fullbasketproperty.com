@@ -1,0 +1,83 @@
+ERROR - 2019-07-10 00:06:13 --> 404 Page Not Found: 
+ERROR - 2019-07-10 00:14:30 --> 404 Page Not Found: 
+ERROR - 2019-07-10 01:08:13 --> 404 Page Not Found: 
+ERROR - 2019-07-10 02:18:41 --> 404 Page Not Found: 
+ERROR - 2019-07-10 02:19:40 --> 404 Page Not Found: 
+ERROR - 2019-07-10 02:57:02 --> 404 Page Not Found: 
+ERROR - 2019-07-10 03:02:07 --> 404 Page Not Found: 
+ERROR - 2019-07-10 03:02:10 --> 404 Page Not Found: 
+ERROR - 2019-07-10 04:28:09 --> 404 Page Not Found: 
+ERROR - 2019-07-10 05:15:08 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2019-07-10 05:22:03 --> 404 Page Not Found: 
+ERROR - 2019-07-10 05:23:31 --> 404 Page Not Found: 
+ERROR - 2019-07-10 05:30:50 --> 404 Page Not Found: 
+ERROR - 2019-07-10 05:30:52 --> 404 Page Not Found: 
+ERROR - 2019-07-10 05:30:52 --> 404 Page Not Found: 
+ERROR - 2019-07-10 05:30:53 --> 404 Page Not Found: 
+ERROR - 2019-07-10 05:30:53 --> 404 Page Not Found: 
+ERROR - 2019-07-10 05:30:54 --> 404 Page Not Found: 
+ERROR - 2019-07-10 05:30:54 --> 404 Page Not Found: 
+ERROR - 2019-07-10 05:30:54 --> 404 Page Not Found: 
+ERROR - 2019-07-10 05:30:55 --> 404 Page Not Found: 
+ERROR - 2019-07-10 05:30:55 --> 404 Page Not Found: 
+ERROR - 2019-07-10 07:08:01 --> 404 Page Not Found: 
+ERROR - 2019-07-10 08:05:28 --> 404 Page Not Found: 
+ERROR - 2019-07-10 08:30:49 --> 404 Page Not Found: 
+ERROR - 2019-07-10 08:55:33 --> 404 Page Not Found: 
+ERROR - 2019-07-10 09:54:36 --> 404 Page Not Found: 
+ERROR - 2019-07-10 10:05:51 --> 404 Page Not Found: 
+ERROR - 2019-07-10 10:20:09 --> 404 Page Not Found: 
+ERROR - 2019-07-10 10:24:54 --> 404 Page Not Found: 
+ERROR - 2019-07-10 10:29:53 --> 404 Page Not Found: 
+ERROR - 2019-07-10 10:39:28 --> 404 Page Not Found: 
+ERROR - 2019-07-10 11:55:39 --> 404 Page Not Found: 
+ERROR - 2019-07-10 12:30:00 --> 404 Page Not Found: 
+ERROR - 2019-07-10 12:32:34 --> 404 Page Not Found: 
+ERROR - 2019-07-10 12:43:41 --> 404 Page Not Found: 
+ERROR - 2019-07-10 13:50:35 --> 404 Page Not Found: 
+ERROR - 2019-07-10 13:52:02 --> 404 Page Not Found: 
+ERROR - 2019-07-10 14:05:12 --> 404 Page Not Found: 
+ERROR - 2019-07-10 14:05:17 --> 404 Page Not Found: 
+ERROR - 2019-07-10 14:09:14 --> 404 Page Not Found: 
+ERROR - 2019-07-10 14:23:00 --> 404 Page Not Found: 
+ERROR - 2019-07-10 14:24:57 --> 404 Page Not Found: 
+ERROR - 2019-07-10 14:25:05 --> 404 Page Not Found: 
+ERROR - 2019-07-10 14:45:30 --> 404 Page Not Found: 
+ERROR - 2019-07-10 15:04:06 --> 404 Page Not Found: 
+ERROR - 2019-07-10 15:04:53 --> 404 Page Not Found: 
+ERROR - 2019-07-10 15:31:39 --> 404 Page Not Found: 
+ERROR - 2019-07-10 16:34:50 --> 404 Page Not Found: 
+ERROR - 2019-07-10 16:39:43 --> 404 Page Not Found: 
+ERROR - 2019-07-10 16:42:19 --> 404 Page Not Found: 
+ERROR - 2019-07-10 17:05:54 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-07-10 17:06:57 --> 404 Page Not Found: 
+ERROR - 2019-07-10 17:13:14 --> 404 Page Not Found: 
+ERROR - 2019-07-10 17:13:15 --> 404 Page Not Found: 
+ERROR - 2019-07-10 17:22:35 --> 404 Page Not Found: 
+ERROR - 2019-07-10 17:39:57 --> 404 Page Not Found: 
+ERROR - 2019-07-10 17:57:12 --> 404 Page Not Found: 
+ERROR - 2019-07-10 18:16:07 --> 404 Page Not Found: 
+ERROR - 2019-07-10 18:16:08 --> 404 Page Not Found: 
+ERROR - 2019-07-10 18:27:09 --> 404 Page Not Found: 
+ERROR - 2019-07-10 19:12:24 --> 404 Page Not Found: 
+ERROR - 2019-07-10 19:14:14 --> 404 Page Not Found: 
+ERROR - 2019-07-10 19:20:27 --> 404 Page Not Found: 
+ERROR - 2019-07-10 19:23:57 --> 404 Page Not Found: 
+ERROR - 2019-07-10 20:10:44 --> 404 Page Not Found: 
+ERROR - 2019-07-10 22:07:16 --> 404 Page Not Found: 
+ERROR - 2019-07-10 22:24:07 --> 404 Page Not Found: 
+ERROR - 2019-07-10 22:51:44 --> 404 Page Not Found: 
+ERROR - 2019-07-10 22:54:31 --> 404 Page Not Found: 
+ERROR - 2019-07-10 23:23:04 --> 404 Page Not Found: 
+ERROR - 2019-07-10 23:23:43 --> 404 Page Not Found: 
+ERROR - 2019-07-10 23:27:43 --> 404 Page Not Found: 

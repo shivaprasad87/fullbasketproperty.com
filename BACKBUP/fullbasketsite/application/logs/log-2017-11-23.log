@@ -1,0 +1,35 @@
+ERROR - 2017-11-23 07:00:04 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:00:04 --> Severity: Warning --> in_array() expects parameter 2 to be array, null given C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:00:04 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:00:04 --> Severity: Warning --> in_array() expects parameter 2 to be array, null given C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:00:04 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:00:04 --> Severity: Warning --> in_array() expects parameter 2 to be array, null given C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:01:07 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:02:05 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:02:08 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:05:04 --> Severity: Notice --> Undefined property: stdClass::$amenity_id C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:05:04 --> Severity: Warning --> in_array() expects parameter 2 to be array, null given C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:05:04 --> Severity: Notice --> Undefined property: stdClass::$amenity_id C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:05:04 --> Severity: Warning --> in_array() expects parameter 2 to be array, null given C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:05:04 --> Severity: Notice --> Undefined property: stdClass::$amenity_id C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:05:04 --> Severity: Warning --> in_array() expects parameter 2 to be array, null given C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:05:19 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:05:51 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 56
+ERROR - 2017-11-23 07:06:17 --> Severity: Parsing Error --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 59
+ERROR - 2017-11-23 07:06:25 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 59
+ERROR - 2017-11-23 07:06:25 --> Severity: Warning --> in_array() expects parameter 2 to be array, null given C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 59
+ERROR - 2017-11-23 07:06:25 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 59
+ERROR - 2017-11-23 07:06:25 --> Severity: Warning --> in_array() expects parameter 2 to be array, null given C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 59
+ERROR - 2017-11-23 07:06:25 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 59
+ERROR - 2017-11-23 07:06:25 --> Severity: Warning --> in_array() expects parameter 2 to be array, null given C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 59
+ERROR - 2017-11-23 07:08:55 --> Severity: Notice --> Undefined index: amenity_id C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:08:55 --> Severity: Warning --> in_array() expects parameter 2 to be array, null given C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:08:55 --> Severity: Notice --> Undefined index: amenity_id C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:08:55 --> Severity: Warning --> in_array() expects parameter 2 to be array, null given C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:08:55 --> Severity: Notice --> Undefined index: amenity_id C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 07:08:55 --> Severity: Warning --> in_array() expects parameter 2 to be array, null given C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 58
+ERROR - 2017-11-23 08:29:43 --> Severity: Error --> Call to undefined method Properties_model::checkIfSlugExists() C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 178
+ERROR - 2017-11-23 08:34:50 --> Severity: Notice --> Undefined variable: property_id C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 191
+ERROR - 2017-11-23 08:34:50 --> Query error: Column 'property_id' cannot be null - Invalid query: INSERT INTO `property_amenities` (`property_id`, `amenity_id`) VALUES (NULL, '2')
+ERROR - 2017-11-23 08:36:16 --> Severity: Warning --> unlink(uploads/blog_images/0689dec3a61e234ceaa3f101048e92fa.jpg): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 170
+ERROR - 2017-11-23 08:37:56 --> Severity: Warning --> unlink(uploads/property_cover/4d975b198172f94024eebf7d32b56ff5.jpg): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 170

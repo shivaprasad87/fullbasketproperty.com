@@ -1,0 +1,15 @@
+ERROR - 2017-11-24 05:12:07 --> Query error: Table 'fullbasket.blogs' doesn't exist - Invalid query: SELECT *
+FROM `blogs`
+WHERE `status` = 1
+ERROR - 2017-11-24 05:23:27 --> Severity: Error --> Call to undefined method Home_model::limit() C:\xampp\htdocs\fullbasket\application\core\Public_Controller.php 16
+ERROR - 2017-11-24 09:14:34 --> Query error: Table 'fullbasket.sliders' doesn't exist - Invalid query: SELECT *
+FROM `sliders`
+WHERE `status` = 1
+ORDER BY `id` DESC
+ERROR - 2017-11-24 09:18:59 --> Severity: Notice --> Undefined property: Sliders::$data C:\xampp\htdocs\fullbasket\application\controllers\admin\Sliders.php 111
+ERROR - 2017-11-24 09:18:59 --> Severity: Notice --> Undefined variable: blog_categories C:\xampp\htdocs\fullbasket\application\views\admin\blogs\add_blog.php 19
+ERROR - 2017-11-24 09:18:59 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\fullbasket\application\views\admin\blogs\add_blog.php 19
+ERROR - 2017-11-24 09:19:51 --> Severity: Notice --> Undefined variable: blog_categories C:\xampp\htdocs\fullbasket\application\views\admin\blogs\add_blog.php 19
+ERROR - 2017-11-24 09:19:51 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\fullbasket\application\views\admin\blogs\add_blog.php 19
+ERROR - 2017-11-24 09:19:55 --> Severity: Notice --> Undefined variable: blog_categories C:\xampp\htdocs\fullbasket\application\views\admin\blogs\add_blog.php 19
+ERROR - 2017-11-24 09:19:55 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\fullbasket\application\views\admin\blogs\add_blog.php 19

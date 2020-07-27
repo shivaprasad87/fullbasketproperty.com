@@ -1,0 +1,138 @@
+ERROR - 2017-12-06 04:54:50 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\application\core\MY_Controller.php 64
+ERROR - 2017-12-06 05:00:27 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\application\core\MY_Controller.php 64
+ERROR - 2017-12-06 05:00:51 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\application\core\MY_Controller.php 64
+ERROR - 2017-12-06 05:01:22 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\application\core\MY_Controller.php 64
+ERROR - 2017-12-06 05:02:12 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\application\core\MY_Controller.php 64
+ERROR - 2017-12-06 06:02:51 --> Severity: Notice --> Undefined property: User::$session C:\xampp\htdocs\fullbasket\application\core\MY_Controller.php 26
+ERROR - 2017-12-06 06:02:51 --> Severity: Error --> Call to a member function unset_userdata() on null C:\xampp\htdocs\fullbasket\application\core\MY_Controller.php 26
+ERROR - 2017-12-06 06:02:55 --> Severity: Notice --> Undefined property: Home::$session C:\xampp\htdocs\fullbasket\application\core\MY_Controller.php 26
+ERROR - 2017-12-06 06:02:55 --> Severity: Error --> Call to a member function unset_userdata() on null C:\xampp\htdocs\fullbasket\application\core\MY_Controller.php 26
+ERROR - 2017-12-06 05:03:14 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\application\core\MY_Controller.php 65
+ERROR - 2017-12-06 05:03:45 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\core\MY_Controller.php 64
+ERROR - 2017-12-06 05:05:08 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 59
+ERROR - 2017-12-06 05:05:08 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 59
+ERROR - 2017-12-06 05:05:09 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 59
+ERROR - 2017-12-06 05:05:09 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 59
+ERROR - 2017-12-06 05:27:00 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\header.php 81
+ERROR - 2017-12-06 05:27:00 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\header.php 81
+ERROR - 2017-12-06 05:27:00 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\header.php 93
+ERROR - 2017-12-06 05:27:00 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\header.php 93
+ERROR - 2017-12-06 05:59:42 --> Could not find the language line "home title cityListing"
+ERROR - 2017-12-06 06:50:02 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 152
+ERROR - 2017-12-06 06:50:02 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 157
+ERROR - 2017-12-06 06:50:02 --> Query error: Column 'user_id' cannot be null - Invalid query: INSERT INTO `favourites` (`user_id`, `property_id`) VALUES (NULL, '22')
+ERROR - 2017-12-06 06:50:17 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 152
+ERROR - 2017-12-06 06:50:17 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 157
+ERROR - 2017-12-06 06:50:17 --> Query error: Column 'user_id' cannot be null - Invalid query: INSERT INTO `favourites` (`user_id`, `property_id`) VALUES (NULL, '22')
+ERROR - 2017-12-06 06:50:27 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 152
+ERROR - 2017-12-06 06:50:27 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 157
+ERROR - 2017-12-06 06:50:27 --> Query error: Column 'user_id' cannot be null - Invalid query: INSERT INTO `favourites` (`user_id`, `property_id`) VALUES (NULL, '22')
+ERROR - 2017-12-06 08:49:15 --> Severity: Notice --> Undefined variable: city C:\xampp\htdocs\fullbasket\application\controllers\Home.php 15
+ERROR - 2017-12-06 09:42:54 --> Severity: Notice --> Undefined property: stdClass::$class_heart C:\xampp\htdocs\fullbasket\application\views\city_listing.php 128
+ERROR - 2017-12-06 09:42:55 --> Severity: Notice --> Undefined property: stdClass::$class_heart C:\xampp\htdocs\fullbasket\application\views\city_listing.php 128
+ERROR - 2017-12-06 09:42:55 --> Severity: Notice --> Undefined property: stdClass::$class_heart C:\xampp\htdocs\fullbasket\application\views\city_listing.php 128
+ERROR - 2017-12-06 09:42:55 --> Severity: Notice --> Undefined property: stdClass::$class_heart C:\xampp\htdocs\fullbasket\application\views\city_listing.php 128
+ERROR - 2017-12-06 09:54:53 --> Severity: Notice --> Undefined property: stdClass::$class_heart C:\xampp\htdocs\fullbasket\application\views\listing.php 128
+ERROR - 2017-12-06 09:54:53 --> Severity: Notice --> Undefined property: stdClass::$class_heart C:\xampp\htdocs\fullbasket\application\views\listing.php 128
+ERROR - 2017-12-06 09:54:53 --> Severity: Notice --> Undefined property: stdClass::$class_heart C:\xampp\htdocs\fullbasket\application\views\listing.php 128
+ERROR - 2017-12-06 09:54:53 --> Severity: Notice --> Undefined property: stdClass::$class_heart C:\xampp\htdocs\fullbasket\application\views\listing.php 128
+ERROR - 2017-12-06 09:54:53 --> Severity: Notice --> Undefined property: stdClass::$class_heart C:\xampp\htdocs\fullbasket\application\views\listing.php 128
+ERROR - 2017-12-06 09:54:53 --> Severity: Notice --> Undefined property: stdClass::$class_heart C:\xampp\htdocs\fullbasket\application\views\listing.php 128
+ERROR - 2017-12-06 09:54:53 --> Severity: Notice --> Undefined property: stdClass::$class_heart C:\xampp\htdocs\fullbasket\application\views\listing.php 128
+ERROR - 2017-12-06 09:54:53 --> Severity: Notice --> Undefined property: stdClass::$class_heart C:\xampp\htdocs\fullbasket\application\views\listing.php 128
+ERROR - 2017-12-06 09:54:53 --> Severity: Notice --> Undefined property: stdClass::$class_heart C:\xampp\htdocs\fullbasket\application\views\listing.php 128
+ERROR - 2017-12-06 09:54:53 --> Severity: Notice --> Undefined property: stdClass::$class_heart C:\xampp\htdocs\fullbasket\application\views\listing.php 128
+ERROR - 2017-12-06 10:27:41 --> Severity: Notice --> Undefined variable: password_required C:\xampp\htdocs\fullbasket\application\views\user\profile_edit.php 52
+ERROR - 2017-12-06 10:27:41 --> Severity: Notice --> Undefined variable: password_required C:\xampp\htdocs\fullbasket\application\views\user\profile_edit.php 59
+ERROR - 2017-12-06 10:27:41 --> Severity: Notice --> Undefined variable: password_required C:\xampp\htdocs\fullbasket\application\views\user\profile_edit.php 62
+ERROR - 2017-12-06 10:27:41 --> Severity: Notice --> Undefined variable: cancel_url C:\xampp\htdocs\fullbasket\application\views\user\profile_edit.php 69
+ERROR - 2017-12-06 10:27:41 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 13
+ERROR - 2017-12-06 10:27:41 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 102
+ERROR - 2017-12-06 10:28:19 --> Severity: Notice --> Undefined variable: password_required C:\xampp\htdocs\fullbasket\application\views\user\profile_edit.php 52
+ERROR - 2017-12-06 10:28:19 --> Severity: Notice --> Undefined variable: password_required C:\xampp\htdocs\fullbasket\application\views\user\profile_edit.php 59
+ERROR - 2017-12-06 10:28:19 --> Severity: Notice --> Undefined variable: password_required C:\xampp\htdocs\fullbasket\application\views\user\profile_edit.php 62
+ERROR - 2017-12-06 10:28:19 --> Severity: Notice --> Undefined variable: cancel_url C:\xampp\htdocs\fullbasket\application\views\user\profile_edit.php 69
+ERROR - 2017-12-06 10:30:12 --> Severity: Notice --> Undefined variable: cancel_url C:\xampp\htdocs\fullbasket\application\views\user\profile_edit.php 50
+ERROR - 2017-12-06 10:45:30 --> Severity: Notice --> Undefined property: User::$_redirect_url C:\xampp\htdocs\fullbasket\application\controllers\User.php 439
+ERROR - 2017-12-06 10:45:30 --> Could not find the language line "admin input active"
+ERROR - 2017-12-06 10:45:30 --> Could not find the language line "admin input inactive"
+ERROR - 2017-12-06 11:05:45 --> Severity: Notice --> Undefined index: language C:\xampp\htdocs\fullbasket\application\models\Users_model.php 276
+ERROR - 2017-12-06 12:34:52 --> Severity: Parsing Error --> syntax error, unexpected '->' (T_OBJECT_OPERATOR) C:\xampp\htdocs\fullbasket\application\models\Home_model.php 42
+ERROR - 2017-12-06 12:35:08 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\fullbasket\application\models\Home_model.php 68
+ERROR - 2017-12-06 12:35:08 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\fullbasket\application\models\Home_model.php 74
+ERROR - 2017-12-06 12:35:08 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`NULL`
+AND `p`.`area` > ','
+AND `p`.`area` < `IS` `NULL`
+AND `p`.`status` = 1
+OR' at line 22 - Invalid query: SELECT `p`.*, `c`.`name` as `city_name`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE   (
+`c`.`name` LIKE '%qwerty%' ESCAPE '!'
+OR  `pt`.`name` LIKE '%qwerty%' ESCAPE '!'
+OR  `b`.`name` LIKE '%qwerty%' ESCAPE '!'
+OR  `l`.`name` LIKE '%qwerty%' ESCAPE '!'
+OR  `p`.`title` LIKE '%qwerty%' ESCAPE '!'
+OR  `p`.`meta_title` LIKE '%qwerty%' ESCAPE '!'
+OR  `p`.`meta_keywords` LIKE '%qwerty%' ESCAPE '!'
+OR  `p`.`meta_desc` LIKE '%qwerty%' ESCAPE '!'
+ )
+AND `p`.`city_id` = '2'
+AND `pa`.`amenity_id` = '3'
+AND `pa`.`amenity_id` = '4'
+AND `p`.`budget` > ','
+AND `p`.`budget` < `IS` `NULL`
+AND `p`.`area` > ','
+AND `p`.`area` < `IS` `NULL`
+AND `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ERROR - 2017-12-06 12:37:04 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\fullbasket\application\models\Home_model.php 68
+ERROR - 2017-12-06 12:37:04 --> Severity: Notice --> Undefined offset: 1 C:\xampp\htdocs\fullbasket\application\models\Home_model.php 74
+ERROR - 2017-12-06 12:37:04 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`NULL`
+AND `p`.`area` > ','
+AND `p`.`area` < `IS` `NULL`
+AND `p`.`status` = 1
+OR' at line 22 - Invalid query: SELECT `p`.*, `c`.`name` as `city_name`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE   (
+`c`.`name` LIKE '%qwerty%' ESCAPE '!'
+OR  `pt`.`name` LIKE '%qwerty%' ESCAPE '!'
+OR  `b`.`name` LIKE '%qwerty%' ESCAPE '!'
+OR  `l`.`name` LIKE '%qwerty%' ESCAPE '!'
+OR  `p`.`title` LIKE '%qwerty%' ESCAPE '!'
+OR  `p`.`meta_title` LIKE '%qwerty%' ESCAPE '!'
+OR  `p`.`meta_keywords` LIKE '%qwerty%' ESCAPE '!'
+OR  `p`.`meta_desc` LIKE '%qwerty%' ESCAPE '!'
+ )
+AND `p`.`city_id` = '2'
+AND `pa`.`amenity_id` = '3'
+AND `pa`.`amenity_id` = '4'
+AND `p`.`budget` > ','
+AND `p`.`budget` < `IS` `NULL`
+AND `p`.`area` > ','
+AND `p`.`area` < `IS` `NULL`
+AND `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ERROR - 2017-12-06 12:42:10 --> Severity: Notice --> Undefined index: city C:\xampp\htdocs\fullbasket\application\models\Home_model.php 56
+ERROR - 2017-12-06 12:42:11 --> Severity: Notice --> Undefined index: amenities C:\xampp\htdocs\fullbasket\application\models\Home_model.php 59
+ERROR - 2017-12-06 12:42:11 --> Severity: Notice --> Undefined index: city C:\xampp\htdocs\fullbasket\application\models\Home_model.php 56
+ERROR - 2017-12-06 12:42:11 --> Severity: Notice --> Undefined index: amenities C:\xampp\htdocs\fullbasket\application\models\Home_model.php 59
+ERROR - 2017-12-06 12:42:52 --> Severity: Notice --> Undefined index: city C:\xampp\htdocs\fullbasket\application\models\Home_model.php 57
+ERROR - 2017-12-06 12:42:52 --> Severity: Notice --> Undefined index: amenities C:\xampp\htdocs\fullbasket\application\models\Home_model.php 60
+ERROR - 2017-12-06 12:42:52 --> Severity: Notice --> Undefined index: city C:\xampp\htdocs\fullbasket\application\models\Home_model.php 57
+ERROR - 2017-12-06 12:42:52 --> Severity: Notice --> Undefined index: amenities C:\xampp\htdocs\fullbasket\application\models\Home_model.php 60
+ERROR - 2017-12-06 12:43:15 --> Severity: Notice --> Undefined index: city C:\xampp\htdocs\fullbasket\application\models\Home_model.php 57
+ERROR - 2017-12-06 12:43:15 --> Severity: Notice --> Undefined index: amenities C:\xampp\htdocs\fullbasket\application\models\Home_model.php 60
+ERROR - 2017-12-06 12:43:15 --> Severity: Notice --> Undefined index: city C:\xampp\htdocs\fullbasket\application\models\Home_model.php 57
+ERROR - 2017-12-06 12:43:15 --> Severity: Notice --> Undefined index: amenities C:\xampp\htdocs\fullbasket\application\models\Home_model.php 60
+ERROR - 2017-12-06 12:46:09 --> Severity: Notice --> Undefined index: amenities C:\xampp\htdocs\fullbasket\application\models\Home_model.php 60
+ERROR - 2017-12-06 12:46:09 --> Severity: Notice --> Undefined index: amenities C:\xampp\htdocs\fullbasket\application\models\Home_model.php 60

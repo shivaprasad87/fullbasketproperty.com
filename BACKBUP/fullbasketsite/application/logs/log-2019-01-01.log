@@ -1,0 +1,62 @@
+ERROR - 2019-01-01 00:46:00 --> 404 Page Not Found: 
+ERROR - 2019-01-01 01:06:39 --> 404 Page Not Found: 
+ERROR - 2019-01-01 01:23:45 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct (ci_sessions) Unknown 0
+ERROR - 2019-01-01 02:00:14 --> 404 Page Not Found: 
+ERROR - 2019-01-01 03:00:11 --> 404 Page Not Found: 
+ERROR - 2019-01-01 03:24:42 --> 404 Page Not Found: 
+ERROR - 2019-01-01 04:18:09 --> 404 Page Not Found: 
+ERROR - 2019-01-01 04:46:51 --> 404 Page Not Found: 
+ERROR - 2019-01-01 05:21:35 --> 404 Page Not Found: 
+ERROR - 2019-01-01 05:29:38 --> 404 Page Not Found: 
+ERROR - 2019-01-01 05:32:41 --> 404 Page Not Found: 
+ERROR - 2019-01-01 05:47:40 --> 404 Page Not Found: 
+ERROR - 2019-01-01 06:17:04 --> 404 Page Not Found: 
+ERROR - 2019-01-01 06:32:43 --> 404 Page Not Found: 
+ERROR - 2019-01-01 06:33:11 --> 404 Page Not Found: 
+ERROR - 2019-01-01 06:50:34 --> 404 Page Not Found: 
+ERROR - 2019-01-01 06:51:23 --> 404 Page Not Found: 
+ERROR - 2019-01-01 07:50:07 --> 404 Page Not Found: 
+ERROR - 2019-01-01 07:52:33 --> 404 Page Not Found: 
+ERROR - 2019-01-01 07:58:27 --> 404 Page Not Found: 
+ERROR - 2019-01-01 08:27:27 --> 404 Page Not Found: 
+ERROR - 2019-01-01 08:44:56 --> 404 Page Not Found: 
+ERROR - 2019-01-01 09:16:30 --> 404 Page Not Found: 
+ERROR - 2019-01-01 09:28:06 --> 404 Page Not Found: 
+ERROR - 2019-01-01 09:33:10 --> 404 Page Not Found: 
+ERROR - 2019-01-01 10:13:59 --> 404 Page Not Found: 
+ERROR - 2019-01-01 11:43:56 --> 404 Page Not Found: 
+ERROR - 2019-01-01 11:44:39 --> 404 Page Not Found: 
+ERROR - 2019-01-01 12:09:12 --> 404 Page Not Found: 
+ERROR - 2019-01-01 12:09:37 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2019-01-01 12:10:08 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2019-01-01 12:16:38 --> 404 Page Not Found: 
+ERROR - 2019-01-01 12:48:32 --> 404 Page Not Found: 
+ERROR - 2019-01-01 13:07:07 --> 404 Page Not Found: 
+ERROR - 2019-01-01 13:39:08 --> 404 Page Not Found: 
+ERROR - 2019-01-01 14:15:02 --> 404 Page Not Found: 
+ERROR - 2019-01-01 14:37:03 --> 404 Page Not Found: 
+ERROR - 2019-01-01 14:57:05 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2019-01-01 14:57:42 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2019-01-01 14:58:36 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2019-01-01 14:59:33 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2019-01-01 15:02:56 --> 404 Page Not Found: 
+ERROR - 2019-01-01 16:19:47 --> 404 Page Not Found: 
+ERROR - 2019-01-01 16:37:01 --> 404 Page Not Found: 
+ERROR - 2019-01-01 16:44:16 --> 404 Page Not Found: 
+ERROR - 2019-01-01 16:48:55 --> 404 Page Not Found: 
+ERROR - 2019-01-01 18:30:50 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2019-01-01 19:00:01 --> 404 Page Not Found: 
+ERROR - 2019-01-01 19:55:00 --> 404 Page Not Found: 
+ERROR - 2019-01-01 20:32:14 --> 404 Page Not Found: 
+ERROR - 2019-01-01 20:55:04 --> 404 Page Not Found: 
+ERROR - 2019-01-01 20:57:29 --> 404 Page Not Found: 
+ERROR - 2019-01-01 21:09:00 --> 404 Page Not Found: 
+ERROR - 2019-01-01 21:16:16 --> 404 Page Not Found: 
+ERROR - 2019-01-01 23:27:37 --> 404 Page Not Found: 
+ERROR - 2019-01-01 23:29:19 --> 404 Page Not Found: 
+ERROR - 2019-01-01 23:29:21 --> 404 Page Not Found: 
+ERROR - 2019-01-01 23:48:01 --> 404 Page Not Found: 
+ERROR - 2019-01-01 23:48:50 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2019-01-01 23:49:29 --> 404 Page Not Found: 
+ERROR - 2019-01-01 23:54:21 --> 404 Page Not Found: 
+ERROR - 2019-01-01 23:54:23 --> 404 Page Not Found: 

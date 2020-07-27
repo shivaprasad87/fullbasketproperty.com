@@ -1,0 +1,98 @@
+ERROR - 2018-03-16 00:01:28 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-03-16 01:01:52 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-03-16 01:51:07 --> 404 Page Not Found: 
+ERROR - 2018-03-16 02:13:26 --> 404 Page Not Found: 
+ERROR - 2018-03-16 03:50:45 --> 404 Page Not Found: 
+ERROR - 2018-03-16 03:52:40 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-03-16 03:55:46 --> 404 Page Not Found: 
+ERROR - 2018-03-16 03:56:41 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-03-16 04:22:09 --> 404 Page Not Found: 
+ERROR - 2018-03-16 04:51:27 --> 404 Page Not Found: 
+ERROR - 2018-03-16 05:25:55 --> 404 Page Not Found: 
+ERROR - 2018-03-16 06:31:35 --> 404 Page Not Found: 
+ERROR - 2018-03-16 06:47:16 --> 404 Page Not Found: 
+ERROR - 2018-03-16 09:56:53 --> 404 Page Not Found: 
+ERROR - 2018-03-16 10:35:08 --> 404 Page Not Found: 
+ERROR - 2018-03-16 13:08:57 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-b11.jpg,uploads/prestige-park-sqaure/floorplan-b11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:08:57 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-a11.jpg,uploads/prestige-park-sqaure/floorplan-a11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:08:57 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-c11.jpg,uploads/prestige-park-sqaure/floorplan-c11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:08:57 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-d11.jpg,uploads/prestige-park-sqaure/floorplan-d11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:08:58 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-e11.jpg,uploads/prestige-park-sqaure/floorplan-e11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:08:58 --> Severity: Warning --> rename(uploads/property_master_plans/arena-mp-big.jpg,uploads/prestige-park-sqaure/arena-mp-big.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 503
+ERROR - 2018-03-16 13:09:00 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-b11.jpg,uploads/prestige-park-sqaure/floorplan-b11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:00 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-a11.jpg,uploads/prestige-park-sqaure/floorplan-a11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:00 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-c11.jpg,uploads/prestige-park-sqaure/floorplan-c11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:00 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-d11.jpg,uploads/prestige-park-sqaure/floorplan-d11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:00 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-e11.jpg,uploads/prestige-park-sqaure/floorplan-e11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:00 --> Severity: Warning --> rename(uploads/property_master_plans/arena-mp-big.jpg,uploads/prestige-park-sqaure/arena-mp-big.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 503
+ERROR - 2018-03-16 13:09:02 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-b11.jpg,uploads/prestige-park-sqaure/floorplan-b11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:02 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-a11.jpg,uploads/prestige-park-sqaure/floorplan-a11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:02 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-c11.jpg,uploads/prestige-park-sqaure/floorplan-c11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:02 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-d11.jpg,uploads/prestige-park-sqaure/floorplan-d11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:02 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-e11.jpg,uploads/prestige-park-sqaure/floorplan-e11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:02 --> Severity: Warning --> rename(uploads/property_master_plans/arena-mp-big.jpg,uploads/prestige-park-sqaure/arena-mp-big.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 503
+ERROR - 2018-03-16 13:09:03 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-b11.jpg,uploads/prestige-park-sqaure/floorplan-b11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:03 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-a11.jpg,uploads/prestige-park-sqaure/floorplan-a11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:03 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-c11.jpg,uploads/prestige-park-sqaure/floorplan-c11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:03 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-d11.jpg,uploads/prestige-park-sqaure/floorplan-d11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:03 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-e11.jpg,uploads/prestige-park-sqaure/floorplan-e11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:03 --> Severity: Warning --> rename(uploads/property_master_plans/arena-mp-big.jpg,uploads/prestige-park-sqaure/arena-mp-big.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 503
+ERROR - 2018-03-16 13:09:04 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-b11.jpg,uploads/prestige-park-sqaure/floorplan-b11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:04 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-a11.jpg,uploads/prestige-park-sqaure/floorplan-a11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:05 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-c11.jpg,uploads/prestige-park-sqaure/floorplan-c11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:05 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-d11.jpg,uploads/prestige-park-sqaure/floorplan-d11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:05 --> Severity: Warning --> rename(uploads/property_floor_plans/floorplan-e11.jpg,uploads/prestige-park-sqaure/floorplan-e11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 490
+ERROR - 2018-03-16 13:09:05 --> Severity: Warning --> rename(uploads/property_master_plans/arena-mp-big.jpg,uploads/prestige-park-sqaure/arena-mp-big.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 503
+ERROR - 2018-03-16 13:17:50 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-b11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:50 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-a11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:50 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-c11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:51 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-d11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:51 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-e11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:51 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-b11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:51 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-a11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:52 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-c11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:52 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-d11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:52 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-e11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:52 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-b11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:52 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-a11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:52 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-c11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:53 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-d11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:53 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-e11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:53 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-b11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:53 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-a11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:53 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-c11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:53 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-d11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:54 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-e11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:54 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-b11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:54 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-a11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:54 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-c11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:54 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-d11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:17:55 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/floorplan-e11.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:18:08 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/arena-mp-big.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:18:08 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/arena-mp-big.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:18:08 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/arena-mp-big.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:18:08 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/arena-mp-big.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 13:18:08 --> Severity: Warning --> unlink(./uploads/prestige-park-sqaure/arena-mp-big.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 696
+ERROR - 2018-03-16 16:17:47 --> 404 Page Not Found: 
+ERROR - 2018-03-16 20:31:41 --> 404 Page Not Found: 
+ERROR - 2018-03-16 22:12:08 --> 404 Page Not Found: 

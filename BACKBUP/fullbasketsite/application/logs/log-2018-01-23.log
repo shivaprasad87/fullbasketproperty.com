@@ -1,0 +1,87 @@
+ERROR - 2018-01-23 16:28:05 --> Query error: Table 'nkmtein_fullbasket_new.faq' doesn't exist - Invalid query: SELECT *
+FROM `faq`
+ERROR - 2018-01-23 16:28:55 --> Query error: Table 'nkmtein_fullbasket_new.terms' doesn't exist - Invalid query: SELECT *
+FROM `terms`
+ERROR - 2018-01-23 16:29:01 --> Query error: Table 'nkmtein_fullbasket_new.faq' doesn't exist - Invalid query: SELECT *
+FROM `faq`
+ERROR - 2018-01-23 16:29:06 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-23 16:29:26 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-23 16:34:22 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-23 16:35:17 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-23 16:35:41 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-23 16:39:16 --> Could not find the language line "aboutUs title allCities"
+ERROR - 2018-01-23 17:33:49 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-23 17:42:02 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:42:02 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:42:02 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:42:02 --> Could not find the language line "achievements title achievements"
+ERROR - 2018-01-23 17:42:05 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:42:05 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:42:05 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:42:05 --> Could not find the language line "achievements title editAchievement"
+ERROR - 2018-01-23 17:43:34 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:43:34 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:43:34 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:43:34 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:43:34 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:43:34 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:43:34 --> Could not find the language line "achievements title achievements"
+ERROR - 2018-01-23 17:44:46 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:44:46 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:44:46 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:44:46 --> Could not find the language line "achievements title addAchievement"
+ERROR - 2018-01-23 17:45:28 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:45:28 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:45:28 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:45:29 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:45:29 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:45:29 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:45:29 --> Could not find the language line "achievements title achievements"
+ERROR - 2018-01-23 17:45:33 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:45:33 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:45:33 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:45:33 --> Could not find the language line "achievements title addAchievement"
+ERROR - 2018-01-23 17:46:03 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:46:03 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:46:03 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:46:03 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:46:03 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:46:03 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:46:03 --> Could not find the language line "achievements title achievements"
+ERROR - 2018-01-23 17:46:06 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:46:06 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:46:06 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:46:06 --> Could not find the language line "achievements title addAchievement"
+ERROR - 2018-01-23 17:46:58 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:46:58 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:46:58 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:46:59 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:46:59 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:46:59 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:46:59 --> Could not find the language line "achievements title achievements"
+ERROR - 2018-01-23 17:47:01 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:47:01 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:47:01 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:47:01 --> Could not find the language line "achievements title addAchievement"
+ERROR - 2018-01-23 17:47:35 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:47:35 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:47:35 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:47:35 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:47:35 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:47:35 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:47:35 --> Could not find the language line "achievements title achievements"
+ERROR - 2018-01-23 17:48:49 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:48:49 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:48:49 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:48:49 --> Could not find the language line "achievements title editAchievement"
+ERROR - 2018-01-23 17:48:52 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:48:52 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:48:52 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:48:52 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:48:52 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-23 17:48:52 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-23 17:48:52 --> Could not find the language line "achievements title achievements"
+ERROR - 2018-01-23 18:09:10 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-23 19:37:54 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-23 22:28:58 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-23 23:45:16 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055

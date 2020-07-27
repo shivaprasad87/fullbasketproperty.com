@@ -1,0 +1,123 @@
+ERROR - 2018-10-02 01:13:16 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-10-02 01:13:26 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-10-02 01:13:57 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-10-02 01:37:17 --> 404 Page Not Found: 
+ERROR - 2018-10-02 01:37:18 --> 404 Page Not Found: 
+ERROR - 2018-10-02 01:37:18 --> 404 Page Not Found: 
+ERROR - 2018-10-02 01:37:19 --> 404 Page Not Found: 
+ERROR - 2018-10-02 02:48:17 --> 404 Page Not Found: 
+ERROR - 2018-10-02 02:48:19 --> 404 Page Not Found: 
+ERROR - 2018-10-02 02:48:19 --> 404 Page Not Found: 
+ERROR - 2018-10-02 02:48:20 --> 404 Page Not Found: 
+ERROR - 2018-10-02 03:11:33 --> 404 Page Not Found: 
+ERROR - 2018-10-02 03:11:47 --> 404 Page Not Found: 
+ERROR - 2018-10-02 06:00:12 --> 404 Page Not Found: 
+ERROR - 2018-10-02 06:55:47 --> 404 Page Not Found: 
+ERROR - 2018-10-02 06:55:48 --> 404 Page Not Found: 
+ERROR - 2018-10-02 06:55:49 --> 404 Page Not Found: 
+ERROR - 2018-10-02 07:33:06 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-10-02 07:33:15 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-10-02 07:33:47 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-10-02 07:46:43 --> 404 Page Not Found: 
+ERROR - 2018-10-02 08:12:58 --> 404 Page Not Found: 
+ERROR - 2018-10-02 08:58:37 --> 404 Page Not Found: 
+ERROR - 2018-10-02 09:17:58 --> 404 Page Not Found: 
+ERROR - 2018-10-02 09:52:46 --> 404 Page Not Found: 
+ERROR - 2018-10-02 10:02:22 --> 404 Page Not Found: 
+ERROR - 2018-10-02 11:40:16 --> 404 Page Not Found: 
+ERROR - 2018-10-02 13:31:48 --> 404 Page Not Found: 
+ERROR - 2018-10-02 13:35:48 --> 404 Page Not Found: 
+ERROR - 2018-10-02 15:07:02 --> 404 Page Not Found: 
+ERROR - 2018-10-02 15:07:03 --> 404 Page Not Found: 
+ERROR - 2018-10-02 16:02:34 --> 404 Page Not Found: 
+ERROR - 2018-10-02 17:27:47 --> 404 Page Not Found: 
+ERROR - 2018-10-02 18:41:51 --> 404 Page Not Found: 
+ERROR - 2018-10-02 18:56:37 --> 404 Page Not Found: 
+ERROR - 2018-10-02 19:00:11 --> 404 Page Not Found: 
+ERROR - 2018-10-02 19:55:29 --> 404 Page Not Found: 
+ERROR - 2018-10-02 21:21:36 --> 404 Page Not Found: 
+ERROR - 2018-10-02 21:45:13 --> 404 Page Not Found: 
+ERROR - 2018-10-02 21:59:41 --> 404 Page Not Found: 
+ERROR - 2018-10-02 22:24:16 --> 404 Page Not Found: 
+ERROR - 2018-10-02 22:27:59 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:08:00 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:02 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:05 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:06 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:07 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:08 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:09 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:10 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:11 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:12 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:13 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:14 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:15 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:15 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:17 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:19 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:20 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:21 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:22 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:23 --> 404 Page Not Found: 
+ERROR - 2018-10-02 23:54:30 --> 404 Page Not Found: 

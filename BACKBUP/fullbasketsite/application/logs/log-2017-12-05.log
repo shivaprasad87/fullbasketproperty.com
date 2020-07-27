@@ -1,0 +1,164 @@
+ERROR - 2017-12-05 04:10:14 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\xampp\htdocs\fullbasket\system\libraries\Email.php 1882
+ERROR - 2017-12-05 04:16:59 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\xampp\htdocs\fullbasket\system\libraries\Email.php 1882
+ERROR - 2017-12-05 04:17:47 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\xampp\htdocs\fullbasket\system\libraries\Email.php 1882
+ERROR - 2017-12-05 04:18:15 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\xampp\htdocs\fullbasket\system\libraries\Email.php 1882
+ERROR - 2017-12-05 04:37:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\index.php 47
+ERROR - 2017-12-05 04:37:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\index.php 48
+ERROR - 2017-12-05 04:38:07 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\index.php 47
+ERROR - 2017-12-05 04:38:07 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\index.php 48
+ERROR - 2017-12-05 04:39:00 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\index.php 47
+ERROR - 2017-12-05 04:39:00 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\index.php 48
+ERROR - 2017-12-05 04:56:55 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\xampp\htdocs\fullbasket\system\libraries\Email.php 1882
+ERROR - 2017-12-05 04:58:45 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\xampp\htdocs\fullbasket\system\libraries\Email.php 1882
+ERROR - 2017-12-05 04:59:33 --> Severity: Warning --> fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed C:\xampp\htdocs\fullbasket\system\libraries\Email.php 2055
+ERROR - 2017-12-05 04:59:33 --> Severity: Warning --> fsockopen(): Failed to enable crypto C:\xampp\htdocs\fullbasket\system\libraries\Email.php 2055
+ERROR - 2017-12-05 04:59:33 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) C:\xampp\htdocs\fullbasket\system\libraries\Email.php 2055
+ERROR - 2017-12-05 04:59:51 --> Severity: Warning --> fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed C:\xampp\htdocs\fullbasket\system\libraries\Email.php 2055
+ERROR - 2017-12-05 04:59:51 --> Severity: Warning --> fsockopen(): Failed to enable crypto C:\xampp\htdocs\fullbasket\system\libraries\Email.php 2055
+ERROR - 2017-12-05 04:59:51 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.googlemail.com:465 (Unknown error) C:\xampp\htdocs\fullbasket\system\libraries\Email.php 2055
+ERROR - 2017-12-05 05:01:05 --> Severity: Warning --> fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed C:\xampp\htdocs\fullbasket\system\libraries\Email.php 2055
+ERROR - 2017-12-05 05:01:05 --> Severity: Warning --> fsockopen(): Failed to enable crypto C:\xampp\htdocs\fullbasket\system\libraries\Email.php 2055
+ERROR - 2017-12-05 05:01:05 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.googlemail.com:465 (Unknown error) C:\xampp\htdocs\fullbasket\system\libraries\Email.php 2055
+ERROR - 2017-12-05 05:05:02 --> Severity: Warning --> fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed C:\xampp\htdocs\fullbasket\system\libraries\Email.php 2055
+ERROR - 2017-12-05 05:05:02 --> Severity: Warning --> fsockopen(): Failed to enable crypto C:\xampp\htdocs\fullbasket\system\libraries\Email.php 2055
+ERROR - 2017-12-05 05:05:02 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) C:\xampp\htdocs\fullbasket\system\libraries\Email.php 2055
+ERROR - 2017-12-05 05:06:25 --> Severity: Warning --> fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed C:\xampp\htdocs\fullbasket\system\libraries\Email.php 2055
+ERROR - 2017-12-05 05:06:25 --> Severity: Warning --> fsockopen(): Failed to enable crypto C:\xampp\htdocs\fullbasket\system\libraries\Email.php 2055
+ERROR - 2017-12-05 05:06:25 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) C:\xampp\htdocs\fullbasket\system\libraries\Email.php 2055
+ERROR - 2017-12-05 06:23:28 --> Query error: Column 'city_id' in where clause is ambiguous - Invalid query: SELECT `p`.*, `c`.`name` as `city_name`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+WHERE `city_id` = '2'
+AND `p`.`status` = 1
+AND `p`.`highlight` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT 7
+ERROR - 2017-12-05 06:50:11 --> Severity: Notice --> Undefined property: stdClass::$property_type C:\xampp\htdocs\fullbasket\application\views\city_listing.php 100
+ERROR - 2017-12-05 06:50:11 --> Severity: Notice --> Undefined property: stdClass::$property_type C:\xampp\htdocs\fullbasket\application\views\city_listing.php 100
+ERROR - 2017-12-05 06:50:11 --> Severity: Notice --> Undefined property: stdClass::$property_type C:\xampp\htdocs\fullbasket\application\views\city_listing.php 100
+ERROR - 2017-12-05 06:55:03 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-5, 5' at line 9 - Invalid query: SELECT `p`.*, `c`.`name` as `city_name`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -5, 5
+ERROR - 2017-12-05 07:08:12 --> Severity: Notice --> Undefined variable: content C:\xampp\htdocs\fullbasket\application\controllers\Home.php 110
+ERROR - 2017-12-05 07:25:23 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 112
+ERROR - 2017-12-05 07:26:50 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 112
+ERROR - 2017-12-05 07:26:50 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 115
+ERROR - 2017-12-05 07:28:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 110
+ERROR - 2017-12-05 07:28:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 113
+ERROR - 2017-12-05 07:29:19 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-3, 3' at line 10 - Invalid query: SELECT `p`.*, `c`.`name` as `city_name`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+WHERE `p`.`city_id` = '2'
+AND `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -3, 3
+ERROR - 2017-12-05 07:30:15 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-3, 3' at line 10 - Invalid query: SELECT `p`.*, `c`.`name` as `city_name`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+WHERE `p`.`city_id` = '2'
+AND `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -3, 3
+ERROR - 2017-12-05 07:31:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 110
+ERROR - 2017-12-05 07:31:36 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 113
+ERROR - 2017-12-05 07:31:36 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10, 10' at line 10 - Invalid query: SELECT `p`.*, `c`.`name` as `city_name`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+WHERE `p`.`city_id` IS NULL
+AND `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2017-12-05 07:36:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 110
+ERROR - 2017-12-05 07:36:40 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 113
+ERROR - 2017-12-05 07:36:40 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10, 10' at line 10 - Invalid query: SELECT `p`.*, `c`.`name` as `city_name`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+WHERE `p`.`city_id` IS NULL
+AND `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2017-12-05 07:37:17 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 110
+ERROR - 2017-12-05 07:37:17 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 113
+ERROR - 2017-12-05 07:37:17 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10, 10' at line 10 - Invalid query: SELECT `p`.*, `c`.`name` as `city_name`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+WHERE `p`.`city_id` IS NULL
+AND `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2017-12-05 07:38:14 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 110
+ERROR - 2017-12-05 07:38:14 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 113
+ERROR - 2017-12-05 07:38:14 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10, 10' at line 10 - Invalid query: SELECT `p`.*, `c`.`name` as `city_name`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+WHERE `p`.`city_id` IS NULL
+AND `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2017-12-05 07:39:54 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 110
+ERROR - 2017-12-05 07:39:54 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 113
+ERROR - 2017-12-05 07:39:54 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10, 10' at line 10 - Invalid query: SELECT `p`.*, `c`.`name` as `city_name`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+WHERE `p`.`city_id` IS NULL
+AND `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2017-12-05 07:48:53 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 115
+ERROR - 2017-12-05 07:48:53 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Home.php 118
+ERROR - 2017-12-05 08:08:06 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-3, 3' at line 10 - Invalid query: SELECT `p`.*, `c`.`name` as `city_name`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+WHERE `p`.`city_id` = '2'
+AND `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -3, 3
+ERROR - 2017-12-05 08:34:49 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10, 10' at line 9 - Invalid query: SELECT `p`.*, `c`.`name` as `city_name`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2017-12-05 13:16:03 --> Severity: Warning --> require_once(C:\xampp\htdocs\fullbasket\application\third_party/hybridauth/vendor/autoload.php): failed to open stream: No such file or directory C:\xampp\htdocs\fullbasket\application\libraries\Hybridauth.php 4
+ERROR - 2017-12-05 13:16:03 --> Severity: Compile Error --> require_once(): Failed opening required 'C:\xampp\htdocs\fullbasket\application\third_party/hybridauth/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') C:\xampp\htdocs\fullbasket\application\libraries\Hybridauth.php 4

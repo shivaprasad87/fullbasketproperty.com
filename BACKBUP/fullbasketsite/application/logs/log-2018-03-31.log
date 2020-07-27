@@ -1,0 +1,125 @@
+ERROR - 2018-03-31 00:00:10 --> 404 Page Not Found: 
+ERROR - 2018-03-31 00:04:52 --> 404 Page Not Found: 
+ERROR - 2018-03-31 00:15:49 --> 404 Page Not Found: 
+ERROR - 2018-03-31 00:23:00 --> 404 Page Not Found: 
+ERROR - 2018-03-31 00:37:46 --> 404 Page Not Found: 
+ERROR - 2018-03-31 01:09:21 --> 404 Page Not Found: 
+ERROR - 2018-03-31 01:55:19 --> 404 Page Not Found: 
+ERROR - 2018-03-31 01:58:07 --> 404 Page Not Found: 
+ERROR - 2018-03-31 02:05:21 --> 404 Page Not Found: 
+ERROR - 2018-03-31 02:14:31 --> 404 Page Not Found: 
+ERROR - 2018-03-31 02:22:11 --> 404 Page Not Found: 
+ERROR - 2018-03-31 02:28:59 --> 404 Page Not Found: 
+ERROR - 2018-03-31 02:34:27 --> 404 Page Not Found: 
+ERROR - 2018-03-31 02:36:17 --> 404 Page Not Found: 
+ERROR - 2018-03-31 02:37:29 --> 404 Page Not Found: 
+ERROR - 2018-03-31 02:43:59 --> 404 Page Not Found: 
+ERROR - 2018-03-31 02:49:32 --> 404 Page Not Found: 
+ERROR - 2018-03-31 02:53:12 --> 404 Page Not Found: 
+ERROR - 2018-03-31 02:54:47 --> 404 Page Not Found: 
+ERROR - 2018-03-31 03:18:22 --> 404 Page Not Found: 
+ERROR - 2018-03-31 03:21:32 --> 404 Page Not Found: 
+ERROR - 2018-03-31 03:35:03 --> 404 Page Not Found: 
+ERROR - 2018-03-31 03:53:12 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:06:03 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:07:16 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:08:17 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:11:22 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:13:23 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:14:23 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:15:23 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:15:54 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:16:54 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:17:54 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:19:00 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:20:00 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:21:11 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:21:27 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:22:28 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:23:12 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:23:28 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:25:48 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:26:48 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:29:14 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:29:46 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:30:46 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:31:47 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:33:47 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:34:48 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:35:48 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:38:51 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:39:19 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:46:51 --> 404 Page Not Found: 
+ERROR - 2018-03-31 04:54:30 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-03-31 04:59:47 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-03-31 05:01:03 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-03-31 05:29:08 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-03-31 05:54:11 --> 404 Page Not Found: 
+ERROR - 2018-03-31 06:27:04 --> 404 Page Not Found: 
+ERROR - 2018-03-31 06:33:48 --> 404 Page Not Found: 
+ERROR - 2018-03-31 11:56:46 --> 404 Page Not Found: 
+ERROR - 2018-03-31 12:25:16 --> 404 Page Not Found: 
+ERROR - 2018-03-31 12:28:06 --> 404 Page Not Found: 
+ERROR - 2018-03-31 13:05:59 --> Severity: Warning --> rename(uploads/elevations/Blue_Ridge_Township.jpg,uploads/paranjape-blue-ridge/Blue_Ridge_Township.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 317
+ERROR - 2018-03-31 13:47:40 --> 404 Page Not Found: 
+ERROR - 2018-03-31 14:05:38 --> 404 Page Not Found: 
+ERROR - 2018-03-31 14:29:32 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-03-31 14:29:35 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-03-31 14:46:04 --> 404 Page Not Found: 
+ERROR - 2018-03-31 14:59:43 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-03-31 15:10:28 --> 404 Page Not Found: 
+ERROR - 2018-03-31 16:58:58 --> 404 Page Not Found: 
+ERROR - 2018-03-31 18:17:05 --> 404 Page Not Found: 
+ERROR - 2018-03-31 18:23:46 --> 404 Page Not Found: 
+ERROR - 2018-03-31 18:29:26 --> 404 Page Not Found: 
+ERROR - 2018-03-31 19:04:47 --> 404 Page Not Found: 
+ERROR - 2018-03-31 19:14:10 --> 404 Page Not Found: 
+ERROR - 2018-03-31 20:10:52 --> 404 Page Not Found: 
+ERROR - 2018-03-31 21:56:03 --> 404 Page Not Found: 
+ERROR - 2018-03-31 22:46:24 --> 404 Page Not Found: 
+ERROR - 2018-03-31 23:46:05 --> 404 Page Not Found: 
+ERROR - 2018-03-31 23:46:06 --> 404 Page Not Found: 
+ERROR - 2018-03-31 23:46:06 --> 404 Page Not Found: 
+ERROR - 2018-03-31 23:46:06 --> 404 Page Not Found: 
+ERROR - 2018-03-31 23:46:06 --> 404 Page Not Found: 
+ERROR - 2018-03-31 23:56:57 --> 404 Page Not Found: 

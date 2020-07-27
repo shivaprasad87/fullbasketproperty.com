@@ -1,0 +1,26 @@
+ERROR - 2018-01-27 07:06:12 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 10 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-01-27 07:06:12 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 10 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-01-27 07:26:39 --> Severity: error --> Exception: Oophs. Error! /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Endpoint.php 212
+ERROR - 2018-01-27 17:51:20 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-27 18:22:59 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-27 19:58:29 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-27 22:36:01 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-27 23:50:50 --> Severity: error --> Exception: Oophs. Error! /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Endpoint.php 212

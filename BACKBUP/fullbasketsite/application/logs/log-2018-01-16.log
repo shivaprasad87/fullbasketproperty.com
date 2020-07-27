@@ -1,0 +1,42 @@
+ERROR - 2018-01-16 00:10:06 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-16 00:53:17 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-16 07:51:49 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-16 13:27:45 --> Query error: Table 'nkmtein_fullbasket_new.terms' doesn't exist - Invalid query: SELECT *
+FROM `terms`
+ERROR - 2018-01-16 13:28:25 --> Query error: Table 'nkmtein_fullbasket_new.faq' doesn't exist - Invalid query: SELECT *
+FROM `faq`
+ERROR - 2018-01-16 13:28:45 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-16 13:28:45 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-16 13:28:45 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-16 13:28:45 --> Could not find the language line "achievements title addAchievement"
+ERROR - 2018-01-16 13:31:03 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-16 13:31:03 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-16 13:31:03 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-16 13:31:03 --> Could not find the language line "achievements title addAchievement"
+ERROR - 2018-01-16 13:34:25 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-16 13:34:25 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-16 13:34:25 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-16 13:34:25 --> Could not find the language line "achievements title addAchievement"
+ERROR - 2018-01-16 13:34:33 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-16 13:34:33 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-16 13:34:33 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-16 13:34:33 --> Could not find the language line "achievements title addAchievement"
+ERROR - 2018-01-16 13:34:39 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-16 13:34:39 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-16 13:34:39 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-16 13:34:39 --> Could not find the language line "achievements title addAchievement"
+ERROR - 2018-01-16 13:34:43 --> Query error: Table 'nkmtein_fullbasket_new.faq' doesn't exist - Invalid query: SELECT *
+FROM `faq`
+ERROR - 2018-01-16 13:34:48 --> Query error: Table 'nkmtein_fullbasket_new.terms' doesn't exist - Invalid query: SELECT *
+FROM `terms`
+ERROR - 2018-01-16 13:35:40 --> Query error: Table 'nkmtein_fullbasket_new.terms' doesn't exist - Invalid query: SELECT *
+FROM `terms`
+ERROR - 2018-01-16 13:35:44 --> Query error: Table 'nkmtein_fullbasket_new.faq' doesn't exist - Invalid query: SELECT *
+FROM `faq`
+ERROR - 2018-01-16 13:35:52 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-16 13:35:59 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-16 13:36:03 --> Query error: Table 'nkmtein_fullbasket_new.terms' doesn't exist - Invalid query: SELECT *
+FROM `terms`
+ERROR - 2018-01-16 13:36:06 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-16 13:38:52 --> Query error: Table 'nkmtein_fullbasket_new.terms' doesn't exist - Invalid query: SELECT *
+FROM `terms`

@@ -1,0 +1,134 @@
+ERROR - 2017-12-08 06:08:19 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\application\core\Admin_Controller.php 29
+ERROR - 2017-12-08 06:11:37 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\application\core\Admin_Controller.php 29
+ERROR - 2017-12-08 06:11:56 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\application\core\Admin_Controller.php 29
+ERROR - 2017-12-08 07:17:22 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Hauth.php 51
+ERROR - 2017-12-08 06:17:23 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:17:23 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:17:23 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:17:23 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:17:25 --> Severity: Notice --> Undefined index: is_admin C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 59
+ERROR - 2017-12-08 07:18:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Hauth.php 51
+ERROR - 2017-12-08 06:18:37 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:18:37 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:18:37 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:18:37 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:18:38 --> Severity: Notice --> Undefined index: is_admin C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 59
+ERROR - 2017-12-08 06:19:20 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:19:20 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:19:20 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:19:20 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:19:20 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:19:20 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:19:20 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:19:20 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:19:20 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:19:20 --> Severity: Notice --> Undefined index: is_admin C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 59
+ERROR - 2017-12-08 06:21:12 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 175
+ERROR - 2017-12-08 06:21:12 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 180
+ERROR - 2017-12-08 06:21:12 --> Query error: Column 'user_id' cannot be null - Invalid query: INSERT INTO `favourites` (`user_id`, `property_id`) VALUES (NULL, '5')
+ERROR - 2017-12-08 06:21:21 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 175
+ERROR - 2017-12-08 06:21:21 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 180
+ERROR - 2017-12-08 06:21:21 --> Query error: Column 'user_id' cannot be null - Invalid query: INSERT INTO `favourites` (`user_id`, `property_id`) VALUES (NULL, '5')
+ERROR - 2017-12-08 06:21:26 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 175
+ERROR - 2017-12-08 06:21:26 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 180
+ERROR - 2017-12-08 06:21:26 --> Query error: Column 'user_id' cannot be null - Invalid query: INSERT INTO `favourites` (`user_id`, `property_id`) VALUES (NULL, '5')
+ERROR - 2017-12-08 06:22:21 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:22:21 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:22:21 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:22:21 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:22:21 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:22:21 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:22:21 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:22:21 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:22:21 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:22:21 --> Severity: Notice --> Undefined index: is_admin C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 59
+ERROR - 2017-12-08 06:25:09 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:25:09 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:25:09 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:25:09 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:25:09 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:25:30 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:25:30 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:25:30 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:25:30 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:25:30 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:25:30 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:25:30 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:25:30 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:25:30 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:25:31 --> Severity: Notice --> Undefined index: is_admin C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 59
+ERROR - 2017-12-08 06:25:56 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:25:56 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:25:56 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:25:56 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:25:56 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:26:36 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:26:36 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:26:36 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:26:36 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:26:36 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\fullbasket\application\controllers\Home.php 64
+ERROR - 2017-12-08 06:26:36 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:26:36 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:26:36 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:26:36 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:26:38 --> Severity: Notice --> Undefined index: is_admin C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 59
+ERROR - 2017-12-08 07:33:58 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\application\controllers\Hauth.php 49
+ERROR - 2017-12-08 07:34:14 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\fullbasket\application\controllers\Hauth.php 50
+ERROR - 2017-12-08 07:34:48 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Hauth.php 51
+ERROR - 2017-12-08 06:34:48 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:34:48 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:34:48 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:34:48 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:34:49 --> Severity: Notice --> Undefined index: is_admin C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 59
+ERROR - 2017-12-08 06:43:24 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:43:24 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:43:24 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:43:24 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:43:25 --> Severity: Notice --> Undefined index: is_admin C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 59
+ERROR - 2017-12-08 06:43:28 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:43:28 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:43:28 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:43:28 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:43:28 --> Severity: Notice --> Undefined index: is_admin C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 59
+ERROR - 2017-12-08 06:43:44 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:43:44 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 80
+ERROR - 2017-12-08 06:43:44 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:43:44 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\fullbasket\application\views\header.php 107
+ERROR - 2017-12-08 06:43:44 --> Severity: Notice --> Undefined index: is_admin C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 59
+ERROR - 2017-12-08 07:44:02 --> Severity: Notice --> Undefined property: HAuth::$_db C:\xampp\htdocs\fullbasket\system\core\Model.php 77
+ERROR - 2017-12-08 07:44:02 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE (username = 'kunhu707@gmail.com'
+                        OR email = 'kunh' at line 15 - Invalid query: 
+                SELECT
+                    id,
+                    username,
+                    password,
+                    salt,
+                    first_name,
+                    last_name,
+                    email,
+                    language,
+                    is_admin,
+                    status,
+                    created,
+                    updated
+                FROM 
+                WHERE (username = 'kunhu707@gmail.com'
+                        OR email = 'kunhu707@gmail.com')
+                    AND status = '1'
+                    AND deleted = '0'
+                LIMIT 1
+            
+ERROR - 2017-12-08 07:45:33 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(`email`, `username`, `first_name`, `last_name`, `language`) VALUES ('kunhu707@g' at line 1 - Invalid query: INSERT INTO  (`email`, `username`, `first_name`, `last_name`, `language`) VALUES ('kunhu707@gmail.com', 'kunhu707@gmail.com', '', '', 'english')
+ERROR - 2017-12-08 07:49:15 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(`email`, `username`, `first_name`, `last_name`, `language`) VALUES ('kunhu707@g' at line 1 - Invalid query: INSERT INTO  (`email`, `username`, `first_name`, `last_name`, `language`) VALUES ('kunhu707@gmail.com', 'kunhu707@gmail.com', '', '', 'english')
+ERROR - 2017-12-08 07:50:10 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Hauth.php 51
+ERROR - 2017-12-08 07:50:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Hauth.php 51
+ERROR - 2017-12-08 07:50:58 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Hauth.php 51
+ERROR - 2017-12-08 07:52:19 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Hauth.php 51
+ERROR - 2017-12-08 07:52:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Hauth.php 51
+ERROR - 2017-12-08 07:52:52 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Hauth.php 51
+ERROR - 2017-12-08 07:53:37 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Hauth.php 51
+ERROR - 2017-12-08 07:53:54 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Hauth.php 51
+ERROR - 2017-12-08 07:55:55 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Hauth.php 51
+ERROR - 2017-12-08 07:55:55 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Hauth.php 52
+ERROR - 2017-12-08 07:57:53 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\Hauth.php 50
+ERROR - 2017-12-08 08:01:55 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(`email`, `username`, `first_name`, `last_name`, `language`) VALUES ('mohammedku' at line 1 - Invalid query: INSERT INTO  (`email`, `username`, `first_name`, `last_name`, `language`) VALUES ('mohammedkunhiam@gmail.com', 'mohammedkunhiam@gmail.com', 'Mohammed', 'Kunhi', 'english')

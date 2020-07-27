@@ -1,0 +1,16 @@
+ERROR - 2018-01-10 05:08:51 --> Severity: Warning --> fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-10 05:08:51 --> Severity: Warning --> fsockopen(): Failed to enable crypto /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-10 05:08:51 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-10 05:12:34 --> Severity: Warning --> fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-10 05:12:34 --> Severity: Warning --> fsockopen(): Failed to enable crypto /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-10 05:12:34 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-10 05:27:54 --> Could not find the language line "testimonials title editTestimonial"
+ERROR - 2018-01-10 05:28:11 --> Could not find the language line "testimonials title editTestimonial"
+ERROR - 2018-01-10 08:19:12 --> controllers.HAuth.login: This provider is not enabled (google)
+ERROR - 2018-01-10 08:19:12 --> 404 Page Not Found: /hauth/login/google
+ERROR - 2018-01-10 13:08:56 --> Query error: Unknown column 'url_name' in 'where clause' - Invalid query: SELECT *
+FROM `cities`
+WHERE `url_name` = 'Pune'
+AND `status` = 1

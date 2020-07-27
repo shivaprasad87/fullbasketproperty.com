@@ -1,0 +1,105 @@
+ERROR - 2019-07-02 00:02:10 --> 404 Page Not Found: 
+ERROR - 2019-07-02 02:15:27 --> 404 Page Not Found: 
+ERROR - 2019-07-02 02:32:41 --> Query error: Column 'email' cannot be null - Invalid query: INSERT INTO `subscribers` (`email`, `created_at`) VALUES (NULL, '2019-07-02 02:32:41')
+ERROR - 2019-07-02 02:49:35 --> 404 Page Not Found: 
+ERROR - 2019-07-02 03:07:59 --> 404 Page Not Found: 
+ERROR - 2019-07-02 03:15:47 --> 404 Page Not Found: 
+ERROR - 2019-07-02 03:19:01 --> 404 Page Not Found: 
+ERROR - 2019-07-02 03:19:07 --> 404 Page Not Found: 
+ERROR - 2019-07-02 03:46:08 --> 404 Page Not Found: 
+ERROR - 2019-07-02 04:02:37 --> 404 Page Not Found: 
+ERROR - 2019-07-02 04:02:37 --> 404 Page Not Found: 
+ERROR - 2019-07-02 04:02:37 --> 404 Page Not Found: 
+ERROR - 2019-07-02 04:02:37 --> 404 Page Not Found: 
+ERROR - 2019-07-02 04:02:37 --> 404 Page Not Found: 
+ERROR - 2019-07-02 04:34:04 --> 404 Page Not Found: 
+ERROR - 2019-07-02 04:51:11 --> 404 Page Not Found: 
+ERROR - 2019-07-02 05:14:38 --> 404 Page Not Found: 
+ERROR - 2019-07-02 05:58:18 --> 404 Page Not Found: 
+ERROR - 2019-07-02 06:05:43 --> 404 Page Not Found: 
+ERROR - 2019-07-02 06:08:48 --> 404 Page Not Found: 
+ERROR - 2019-07-02 06:10:51 --> 404 Page Not Found: 
+ERROR - 2019-07-02 06:30:52 --> 404 Page Not Found: 
+ERROR - 2019-07-02 06:58:22 --> 404 Page Not Found: 
+ERROR - 2019-07-02 07:51:36 --> 404 Page Not Found: 
+ERROR - 2019-07-02 07:51:38 --> 404 Page Not Found: 
+ERROR - 2019-07-02 07:51:38 --> 404 Page Not Found: 
+ERROR - 2019-07-02 07:51:39 --> 404 Page Not Found: 
+ERROR - 2019-07-02 09:49:43 --> 404 Page Not Found: 
+ERROR - 2019-07-02 09:57:13 --> 404 Page Not Found: 
+ERROR - 2019-07-02 10:27:17 --> 404 Page Not Found: 
+ERROR - 2019-07-02 10:32:01 --> 404 Page Not Found: 
+ERROR - 2019-07-02 10:45:27 --> 404 Page Not Found: 
+ERROR - 2019-07-02 10:49:40 --> 404 Page Not Found: 
+ERROR - 2019-07-02 11:02:06 --> 404 Page Not Found: 
+ERROR - 2019-07-02 11:20:18 --> 404 Page Not Found: 
+ERROR - 2019-07-02 11:20:19 --> 404 Page Not Found: 
+ERROR - 2019-07-02 11:24:01 --> 404 Page Not Found: 
+ERROR - 2019-07-02 11:24:17 --> 404 Page Not Found: 
+ERROR - 2019-07-02 11:26:06 --> 404 Page Not Found: 
+ERROR - 2019-07-02 11:28:49 --> 404 Page Not Found: 
+ERROR - 2019-07-02 11:56:23 --> 404 Page Not Found: 
+ERROR - 2019-07-02 11:56:34 --> 404 Page Not Found: 
+ERROR - 2019-07-02 12:09:04 --> 404 Page Not Found: 
+ERROR - 2019-07-02 12:24:37 --> 404 Page Not Found: 
+ERROR - 2019-07-02 12:28:05 --> 404 Page Not Found: 
+ERROR - 2019-07-02 12:28:42 --> 404 Page Not Found: 
+ERROR - 2019-07-02 12:29:02 --> 404 Page Not Found: 
+ERROR - 2019-07-02 12:29:15 --> 404 Page Not Found: 
+ERROR - 2019-07-02 12:30:35 --> 404 Page Not Found: 
+ERROR - 2019-07-02 12:39:19 --> 404 Page Not Found: 
+ERROR - 2019-07-02 12:56:29 --> 404 Page Not Found: 
+ERROR - 2019-07-02 12:59:00 --> 404 Page Not Found: 
+ERROR - 2019-07-02 13:06:21 --> 404 Page Not Found: 
+ERROR - 2019-07-02 13:06:38 --> 404 Page Not Found: 
+ERROR - 2019-07-02 13:13:32 --> 404 Page Not Found: 
+ERROR - 2019-07-02 14:07:03 --> 404 Page Not Found: 
+ERROR - 2019-07-02 14:13:19 --> 404 Page Not Found: 
+ERROR - 2019-07-02 14:13:21 --> 404 Page Not Found: 
+ERROR - 2019-07-02 14:19:53 --> 404 Page Not Found: 
+ERROR - 2019-07-02 14:19:54 --> 404 Page Not Found: 
+ERROR - 2019-07-02 14:22:47 --> 404 Page Not Found: 
+ERROR - 2019-07-02 14:30:16 --> 404 Page Not Found: 
+ERROR - 2019-07-02 14:43:14 --> 404 Page Not Found: 
+ERROR - 2019-07-02 14:43:15 --> 404 Page Not Found: 
+ERROR - 2019-07-02 14:43:16 --> 404 Page Not Found: 
+ERROR - 2019-07-02 14:43:16 --> 404 Page Not Found: 
+ERROR - 2019-07-02 14:43:18 --> 404 Page Not Found: 
+ERROR - 2019-07-02 14:50:59 --> 404 Page Not Found: 
+ERROR - 2019-07-02 14:50:59 --> 404 Page Not Found: 
+ERROR - 2019-07-02 14:54:14 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-07-02 14:58:40 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2019-07-02 15:59:48 --> 404 Page Not Found: 
+ERROR - 2019-07-02 15:59:50 --> 404 Page Not Found: 
+ERROR - 2019-07-02 15:59:51 --> 404 Page Not Found: 
+ERROR - 2019-07-02 15:59:52 --> 404 Page Not Found: 
+ERROR - 2019-07-02 16:28:37 --> Query error: Column 'email' cannot be null - Invalid query: INSERT INTO `subscribers` (`email`, `created_at`) VALUES (NULL, '2019-07-02 16:28:37')
+ERROR - 2019-07-02 16:35:56 --> 404 Page Not Found: 
+ERROR - 2019-07-02 16:38:43 --> 404 Page Not Found: 
+ERROR - 2019-07-02 16:38:44 --> 404 Page Not Found: 
+ERROR - 2019-07-02 16:42:27 --> 404 Page Not Found: 
+ERROR - 2019-07-02 16:43:24 --> 404 Page Not Found: 
+ERROR - 2019-07-02 16:50:27 --> 404 Page Not Found: 
+ERROR - 2019-07-02 17:50:22 --> 404 Page Not Found: 
+ERROR - 2019-07-02 17:55:39 --> 404 Page Not Found: 
+ERROR - 2019-07-02 17:58:35 --> 404 Page Not Found: 
+ERROR - 2019-07-02 18:06:35 --> 404 Page Not Found: 
+ERROR - 2019-07-02 18:55:15 --> 404 Page Not Found: 
+ERROR - 2019-07-02 18:58:22 --> 404 Page Not Found: 
+ERROR - 2019-07-02 21:43:40 --> 404 Page Not Found: 
+ERROR - 2019-07-02 21:59:10 --> 404 Page Not Found: 
+ERROR - 2019-07-02 22:08:08 --> 404 Page Not Found: 
+ERROR - 2019-07-02 22:20:13 --> 404 Page Not Found: 
+ERROR - 2019-07-02 22:32:50 --> 404 Page Not Found: 
+ERROR - 2019-07-02 22:33:14 --> 404 Page Not Found: 
+ERROR - 2019-07-02 22:51:52 --> 404 Page Not Found: 

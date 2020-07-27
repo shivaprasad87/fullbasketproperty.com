@@ -1,0 +1,66 @@
+ERROR - 2018-01-17 05:48:12 --> Query error: Table 'nkmtein_fullbasket_new.terms' doesn't exist - Invalid query: SELECT *
+FROM `terms`
+ERROR - 2018-01-17 05:48:21 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-17 05:48:39 --> Query error: Table 'nkmtein_fullbasket_new.faq' doesn't exist - Invalid query: SELECT *
+FROM `faq`
+ERROR - 2018-01-17 05:53:59 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-17 05:55:08 --> Query error: Table 'nkmtein_fullbasket_new.terms' doesn't exist - Invalid query: SELECT *
+FROM `terms`
+ERROR - 2018-01-17 05:56:29 --> Query error: Table 'nkmtein_fullbasket_new.terms' doesn't exist - Invalid query: SELECT *
+FROM `terms`
+ERROR - 2018-01-17 05:57:54 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-17 05:57:54 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-17 05:57:54 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-17 05:57:54 --> Could not find the language line "achievements title achievements"
+ERROR - 2018-01-17 06:04:23 --> Query error: Table 'nkmtein_fullbasket_new.faq' doesn't exist - Invalid query: SELECT *
+FROM `faq`
+ERROR - 2018-01-17 06:04:24 --> Query error: Table 'nkmtein_fullbasket_new.terms' doesn't exist - Invalid query: SELECT *
+FROM `terms`
+ERROR - 2018-01-17 06:04:27 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-17 06:04:29 --> Query error: Table 'nkmtein_fullbasket_new.faq' doesn't exist - Invalid query: SELECT *
+FROM `faq`
+ERROR - 2018-01-17 06:04:33 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-17 06:05:46 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-17 06:05:46 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-17 06:05:46 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-17 06:05:46 --> Could not find the language line "achievements title addAchievement"
+ERROR - 2018-01-17 06:45:37 --> Query error: Table 'nkmtein_fullbasket_new.terms' doesn't exist - Invalid query: SELECT *
+FROM `terms`
+ERROR - 2018-01-17 06:45:50 --> Query error: Table 'nkmtein_fullbasket_new.faq' doesn't exist - Invalid query: SELECT *
+FROM `faq`
+ERROR - 2018-01-17 06:45:57 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-17 06:46:10 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-17 06:46:10 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-17 06:46:10 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-17 06:46:10 --> Could not find the language line "achievements title addAchievement"
+ERROR - 2018-01-17 06:46:36 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-17 07:51:31 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-17 08:00:57 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-17 08:01:00 --> Query error: Table 'nkmtein_fullbasket_new.faq' doesn't exist - Invalid query: SELECT *
+FROM `faq`
+ERROR - 2018-01-17 08:01:03 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-17 08:01:05 --> Query error: Table 'nkmtein_fullbasket_new.faq' doesn't exist - Invalid query: SELECT *
+FROM `faq`
+ERROR - 2018-01-17 08:01:06 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-17 08:01:46 --> Query error: Table 'nkmtein_fullbasket_new.terms' doesn't exist - Invalid query: SELECT *
+FROM `terms`
+ERROR - 2018-01-17 08:28:25 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-17 10:46:26 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-17 10:46:26 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-17 10:46:26 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-17 10:46:26 --> Could not find the language line "achievements title achievements"
+ERROR - 2018-01-17 12:49:02 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-17 13:43:17 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-17 14:52:33 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-17 15:55:17 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-17 16:11:46 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-17 16:41:41 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-17 18:20:01 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-17 18:36:04 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-17 19:04:34 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-17 19:50:17 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-17 20:24:44 --> Severity: error --> Exception: Oophs. Error! /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Endpoint.php 212
+ERROR - 2018-01-17 20:27:19 --> Severity: error --> Exception: Oophs. Error! /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Endpoint.php 212
+ERROR - 2018-01-17 20:41:02 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-17 22:44:11 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-17 23:28:08 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055

@@ -1,0 +1,27 @@
+ERROR - 2018-01-05 07:09:45 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'user'@'localhost' (using password: YES) /home/nkmtein/public_html/fullbasketproperty.com/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2018-01-05 07:09:45 --> Unable to connect to the database
+ERROR - 2018-01-05 07:12:09 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'user'@'localhost' (using password: YES) /home/nkmtein/public_html/fullbasketproperty.com/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2018-01-05 07:12:09 --> Unable to connect to the database
+ERROR - 2018-01-05 07:12:57 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'user'@'localhost' (using password: YES) /home/nkmtein/public_html/fullbasketproperty.com/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2018-01-05 07:12:57 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'user'@'localhost' (using password: YES) /home/nkmtein/public_html/fullbasketproperty.com/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2018-01-05 07:12:57 --> Unable to connect to the database
+ERROR - 2018-01-05 07:12:57 --> Unable to connect to the database
+ERROR - 2018-01-05 07:12:57 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'user'@'localhost' (using password: YES) /home/nkmtein/public_html/fullbasketproperty.com/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2018-01-05 07:12:57 --> Unable to connect to the database
+ERROR - 2018-01-05 07:13:32 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'user'@'localhost' (using password: YES) /home/nkmtein/public_html/fullbasketproperty.com/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2018-01-05 07:13:32 --> Unable to connect to the database
+ERROR - 2018-01-05 07:14:42 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'user'@'localhost' (using password: YES) /home/nkmtein/public_html/fullbasketproperty.com/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2018-01-05 07:14:42 --> Unable to connect to the database
+ERROR - 2018-01-05 07:15:34 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'user'@'localhost' (using password: YES) /home/nkmtein/public_html/fullbasketproperty.com/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2018-01-05 07:15:34 --> Unable to connect to the database
+ERROR - 2018-01-05 07:15:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'user'@'localhost' (using password: YES) /home/nkmtein/public_html/fullbasketproperty.com/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2018-01-05 07:15:37 --> Unable to connect to the database
+ERROR - 2018-01-05 12:19:33 --> Query error: Table 'nkmtein_fullbasket_new.terms' doesn't exist - Invalid query: SELECT *
+FROM `terms`
+ERROR - 2018-01-05 12:40:05 --> Query error: Table 'nkmtein_fullbasket_new.terms' doesn't exist - Invalid query: SELECT *
+FROM `terms`
+ERROR - 2018-01-05 12:40:11 --> Query error: Table 'nkmtein_fullbasket_new.terms' doesn't exist - Invalid query: SELECT *
+FROM `terms`
+ERROR - 2018-01-05 12:40:17 --> Query error: Table 'nkmtein_fullbasket_new.faq' doesn't exist - Invalid query: SELECT *
+FROM `faq`
+ERROR - 2018-01-05 21:16:40 --> Severity: error --> Exception: Oophs. Error! /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Endpoint.php 212

@@ -1,0 +1,46 @@
+ERROR - 2017-11-22 05:40:59 --> Severity: Error --> Call to undefined method Properties_model::loadPropertyTypes() C:\xampp\htdocs\fullbasket\application\controllers\admin\Property_types.php 53
+ERROR - 2017-11-22 05:51:29 --> Could not find the language line "testimonials title editTestimonial"
+ERROR - 2017-11-22 05:53:55 --> Could not find the language line "testimonials title editTestimonial"
+ERROR - 2017-11-22 05:54:03 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 'status', 1 = 0
+WHERE `id` = '2'' at line 1 - Invalid query: UPDATE `property_types` SET 0 = 'status', 1 = 0
+WHERE `id` = '2'
+ERROR - 2017-11-22 06:04:56 --> Query error: Table 'fullbasket.cities' doesn't exist - Invalid query: SELECT *
+FROM `cities`
+WHERE `status` = 1
+ORDER BY `id` DESC
+ERROR - 2017-11-22 06:31:38 --> Severity: Notice --> Undefined variable: city C:\xampp\htdocs\fullbasket\application\views\admin\amenities\edit.php 12
+ERROR - 2017-11-22 06:31:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\amenities\edit.php 12
+ERROR - 2017-11-22 06:31:38 --> Severity: Notice --> Undefined variable: city C:\xampp\htdocs\fullbasket\application\views\admin\amenities\edit.php 18
+ERROR - 2017-11-22 06:31:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\amenities\edit.php 18
+ERROR - 2017-11-22 10:12:46 --> Query error: Table 'fullbasket.property_images' doesn't exist - Invalid query: SELECT *
+FROM `property_images`
+ERROR - 2017-11-22 10:13:24 --> Query error: Table 'fullbasket.property_images' doesn't exist - Invalid query: SELECT *
+FROM `property_images`
+ERROR - 2017-11-22 10:15:57 --> Query error: Table 'fullbasket.property_images' doesn't exist - Invalid query: SELECT *
+FROM `property_images`
+ERROR - 2017-11-22 10:59:58 --> Query error: Unknown column 'amenity_id' in 'field list' - Invalid query: INSERT INTO `property_images` (`property_id`, `amenity_id`) VALUES (1, '3')
+ERROR - 2017-11-22 11:00:49 --> Severity: Error --> Call to undefined method Properties_model::loadBlogs() C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 53
+ERROR - 2017-11-22 11:07:37 --> Query error: Table 'fullbasket.property_typesy' doesn't exist - Invalid query: SELECT `p`.*, `c`.`name` as `city_name`, `pt`.`name` as `prop_type`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `property_typesy` `pt` ON `p`.`property_type_id` = `pt`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ERROR - 2017-11-22 11:12:03 --> Severity: Warning --> filesize(): stat failed for ./3 C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 249
+ERROR - 2017-11-22 11:12:03 --> Severity: Warning --> filesize(): stat failed for ./3 C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 249
+ERROR - 2017-11-22 11:18:08 --> Severity: Warning --> unlink(uploads/properties/4): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 241
+ERROR - 2017-11-22 11:19:11 --> Severity: Warning --> filesize(): stat failed for ./3 C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 255
+ERROR - 2017-11-22 11:19:11 --> Severity: Warning --> filesize(): stat failed for ./3 C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 255
+ERROR - 2017-11-22 11:19:11 --> Severity: Warning --> filesize(): stat failed for ./4 C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 255
+ERROR - 2017-11-22 11:19:11 --> Severity: Warning --> filesize(): stat failed for ./4 C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 255
+ERROR - 2017-11-22 11:19:11 --> Severity: Warning --> filesize(): stat failed for ./4 C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 255
+ERROR - 2017-11-22 11:19:47 --> Severity: Warning --> unlink(uploads/properties/4): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 241
+ERROR - 2017-11-22 11:19:47 --> Severity: Warning --> unlink(uploads/properties/4): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 241
+ERROR - 2017-11-22 11:19:47 --> Severity: Warning --> unlink(uploads/properties/4): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 241
+ERROR - 2017-11-22 11:19:47 --> Severity: Warning --> unlink(uploads/properties/4): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 241
+ERROR - 2017-11-22 11:19:47 --> Severity: Warning --> unlink(uploads/properties/4): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 241
+ERROR - 2017-11-22 11:24:24 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 113
+ERROR - 2017-11-22 11:24:24 --> Query error: Column 'image' cannot be null - Invalid query: INSERT INTO `property_images` (`property_id`, `image`) VALUES (2, NULL)
+ERROR - 2017-11-22 11:25:24 --> Severity: Warning --> unlink(uploads/properties/uploads/properties/2.jpg): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 241
+ERROR - 2017-11-22 11:25:24 --> Severity: Warning --> unlink(uploads/properties/uploads/properties/_bfeb5e1a-f3a0-11e6-800c-c780129a337a.jpg): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 241
+ERROR - 2017-11-22 11:25:24 --> Severity: Warning --> unlink(uploads/properties/uploads/properties/5-Foods-To-Increase-Your-Good-Cholesterol.jpg): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 241

@@ -1,0 +1,80 @@
+ERROR - 2017-12-07 04:57:34 --> Severity: Notice --> Use of undefined constant condition - assumed 'condition' C:\xampp\htdocs\fullbasket\application\views\user\profile_form.php 12
+ERROR - 2017-12-07 05:36:45 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 219
+ERROR - 2017-12-07 05:36:45 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 220
+ERROR - 2017-12-07 05:36:45 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 219
+ERROR - 2017-12-07 05:36:46 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 220
+ERROR - 2017-12-07 05:36:46 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 219
+ERROR - 2017-12-07 05:36:46 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 220
+ERROR - 2017-12-07 05:38:17 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-12-07 05:38:17 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 127
+ERROR - 2017-12-07 05:38:17 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-12-07 05:38:17 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 127
+ERROR - 2017-12-07 05:39:44 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-12-07 05:39:44 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 127
+ERROR - 2017-12-07 05:39:44 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-12-07 05:39:44 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 127
+ERROR - 2017-12-07 05:43:06 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-12-07 05:43:07 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 127
+ERROR - 2017-12-07 05:43:07 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-12-07 05:43:07 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 127
+ERROR - 2017-12-07 05:43:07 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-12-07 05:43:07 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 127
+ERROR - 2017-12-07 05:44:09 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-12-07 05:44:09 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 127
+ERROR - 2017-12-07 05:44:09 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-12-07 05:44:09 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 127
+ERROR - 2017-12-07 05:44:09 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-12-07 05:44:09 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 127
+ERROR - 2017-12-07 05:52:15 --> Severity: Notice --> Undefined property: CI_DB_mysqli_driver::$last_query C:\xampp\htdocs\fullbasket\application\controllers\Home.php 58
+ERROR - 2017-12-07 06:20:11 --> Severity: Notice --> Undefined variable: property_types C:\xampp\htdocs\fullbasket\application\views\admin\properties\favourites.php 36
+ERROR - 2017-12-07 06:23:54 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10, 10' at line 6 - Invalid query: SELECT `u`.*
+FROM `users` `u`
+LEFT JOIN `favourites` `f` ON `u`.`id` = `f`.`user_id`
+WHERE `f`.`property_id` = '5'
+ORDER BY `f`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2017-12-07 06:26:56 --> Severity: Notice --> Undefined variable: total C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 351
+ERROR - 2017-12-07 10:38:17 --> Query error: Table 'fullbasket.blogs' doesn't exist - Invalid query: SELECT COUNT(*) AS `numrows`
+FROM `blogs`
+WHERE `status` = 1
+ERROR - 2017-12-07 11:35:52 --> Severity: Warning --> include(C:\xampp\htdocs\fullbasket\system\language/english/display_images_lang.php): failed to open stream: No such file or directory C:\xampp\htdocs\fullbasket\application\core\MY_Lang.php 112
+ERROR - 2017-12-07 11:35:52 --> Severity: Warning --> include(): Failed opening 'C:\xampp\htdocs\fullbasket\system\language/english/display_images_lang.php' for inclusion (include_path='C:\xampp\php\PEAR') C:\xampp\htdocs\fullbasket\application\core\MY_Lang.php 112
+ERROR - 2017-12-07 11:35:52 --> Language file contains no data: language/english/display_images_lang.php
+ERROR - 2017-12-07 11:35:52 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 16
+ERROR - 2017-12-07 11:35:52 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 189
+ERROR - 2017-12-07 11:36:55 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 16
+ERROR - 2017-12-07 11:36:55 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 189
+ERROR - 2017-12-07 11:40:03 --> Severity: Notice --> Undefined property: Display_images::$upload C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 57
+ERROR - 2017-12-07 11:40:04 --> Severity: Error --> Call to a member function initialize() on null C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 57
+ERROR - 2017-12-07 11:43:42 --> Severity: Warning --> unlink(uploads/display_images/chjvkj): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 64
+ERROR - 2017-12-07 11:43:42 --> Severity: Warning --> unlink(uploads/display_images/gcujhvb kj,): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 85
+ERROR - 2017-12-07 11:43:42 --> Severity: Warning --> unlink(uploads/display_images/hvuyiobl): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 106
+ERROR - 2017-12-07 11:43:42 --> Severity: Warning --> unlink(uploads/display_images/gcuyjvkb ): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 127
+ERROR - 2017-12-07 11:43:42 --> Severity: Warning --> unlink(uploads/display_images/cutyvbkj,): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 148
+ERROR - 2017-12-07 11:43:42 --> Severity: Notice --> Undefined variable: blogs C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 159
+ERROR - 2017-12-07 11:43:42 --> Severity: Notice --> Undefined variable: cities C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 160
+ERROR - 2017-12-07 11:43:42 --> Severity: Notice --> Undefined variable: locations C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 161
+ERROR - 2017-12-07 11:43:42 --> Query error: Unknown column 'builders' in 'field list' - Invalid query: UPDATE `blog` SET `builders` = '18db4bfdda71383c71342e35371fd892.jpg', `projects` = 'cde14962195617ed85b184b270098399.jpg', `blogs` = NULL, `cities` = NULL, `locations` = NULL
+WHERE `id` = 1
+ERROR - 2017-12-07 11:43:42 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\fullbasket\system\core\Exceptions.php:271) C:\xampp\htdocs\fullbasket\system\core\Common.php 570
+ERROR - 2017-12-07 11:44:52 --> Severity: Notice --> Undefined variable: blogs C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 159
+ERROR - 2017-12-07 11:44:52 --> Severity: Notice --> Undefined variable: cities C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 160
+ERROR - 2017-12-07 11:44:52 --> Severity: Notice --> Undefined variable: locations C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 161
+ERROR - 2017-12-07 11:44:52 --> Query error: Unknown column 'builders' in 'field list' - Invalid query: UPDATE `blog` SET `builders` = '53655030846256908dde4e4d3439f209.jpg', `projects` = '08aea533e37d5bdccfac5ca364f79af7.jpg', `blogs` = NULL, `cities` = NULL, `locations` = NULL
+WHERE `id` = 1
+ERROR - 2017-12-07 11:48:16 --> Severity: Notice --> Undefined variable: blogs C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 155
+ERROR - 2017-12-07 11:48:36 --> Severity: Notice --> Undefined variable: cities C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 155
+ERROR - 2017-12-07 11:48:50 --> Severity: Notice --> Undefined variable: locations C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 155
+ERROR - 2017-12-07 11:51:58 --> Severity: Notice --> Undefined variable: blogs C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 158
+ERROR - 2017-12-07 11:51:58 --> Severity: Notice --> Undefined variable: cities C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 159
+ERROR - 2017-12-07 11:51:58 --> Severity: Notice --> Undefined variable: locations C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 160
+ERROR - 2017-12-07 11:51:58 --> Query error: Unknown column 'builders' in 'field list' - Invalid query: UPDATE `blog` SET `builders` = '00c4c792f2f5d7976791724aa63b5549.jpg', `projects` = '0280d2042e710cff3c4bfbe9fe1e616c.jpg', `blogs` = NULL, `cities` = NULL, `locations` = NULL
+WHERE `id` = 1
+ERROR - 2017-12-07 11:54:34 --> Severity: Notice --> Undefined variable: blogs C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 158
+ERROR - 2017-12-07 11:54:34 --> Severity: Notice --> Undefined variable: cities C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 159
+ERROR - 2017-12-07 11:54:34 --> Severity: Notice --> Undefined variable: locations C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 160
+ERROR - 2017-12-07 11:54:34 --> Query error: Unknown column 'builders' in 'field list' - Invalid query: UPDATE `blog` SET `builders` = 'd30ba33216f2f3303bb56026d485de48.jpg', `projects` = '445de22cfef7dd7c7f57690666705dc6.jpg', `blogs` = NULL, `cities` = NULL, `locations` = NULL
+WHERE `id` = 1
+ERROR - 2017-12-07 11:55:39 --> Severity: Notice --> Undefined variable: blogs C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 158
+ERROR - 2017-12-07 11:55:39 --> Severity: Notice --> Undefined variable: cities C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 159
+ERROR - 2017-12-07 11:55:39 --> Severity: Notice --> Undefined variable: locations C:\xampp\htdocs\fullbasket\application\controllers\admin\Display_images.php 160

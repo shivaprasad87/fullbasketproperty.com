@@ -1,0 +1,2 @@
+ERROR - 2018-02-26 19:29:55 --> Severity: Warning --> Missing argument 1 for Blogs::edit_blog() /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Blogs.php 170
+ERROR - 2018-02-26 19:29:55 --> Severity: Warning --> Missing argument 1 for Blogs::edit_blog() /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Blogs.php 170

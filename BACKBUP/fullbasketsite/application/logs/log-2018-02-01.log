@@ -1,0 +1,26 @@
+ERROR - 2018-02-01 00:14:47 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-02-01 00:22:11 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-02-01 00:43:19 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-02-01 00:40:58 --> Severity: error --> Exception: OpenID adapter require the identity provider identifier 'openid_identifier' as an extra parameter. /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Auth.php 153
+ERROR - 2018-02-01 00:43:04 --> controllers.HAuth.login: Missing provider application credentials.
+ERROR - 2018-02-01 00:46:38 --> controllers.HAuth.login: Missing provider application credentials.
+ERROR - 2018-02-01 00:47:20 --> controllers.HAuth.login: Missing provider application credentials.
+ERROR - 2018-02-01 00:48:15 --> controllers.HAuth.login: Missing provider application credentials.
+ERROR - 2018-02-01 00:48:57 --> controllers.HAuth.login: Missing provider application credentials.
+ERROR - 2018-02-01 00:49:37 --> controllers.HAuth.login: Missing provider application credentials.
+ERROR - 2018-02-01 08:00:02 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-02-01 12:23:53 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-02-01 12:24:28 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-02-01 12:51:37 --> 404 Page Not Found: 
+ERROR - 2018-02-01 15:49:57 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-02-01 15:50:37 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-02-01 19:49:34 --> 404 Page Not Found: 
+ERROR - 2018-02-01 21:29:13 --> 404 Page Not Found: 
+ERROR - 2018-02-01 22:15:53 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-02-01 22:20:35 --> Severity: Parsing Error --> syntax error, unexpected '-', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' /home/nkmtein/public_html/fullbasketproperty.com/application/views/index.php 59
+ERROR - 2018-02-01 22:20:40 --> Severity: Parsing Error --> syntax error, unexpected '-', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' /home/nkmtein/public_html/fullbasketproperty.com/application/views/index.php 59
+ERROR - 2018-02-01 22:20:44 --> Severity: Parsing Error --> syntax error, unexpected '-', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' /home/nkmtein/public_html/fullbasketproperty.com/application/views/index.php 59
+ERROR - 2018-02-01 23:12:10 --> 404 Page Not Found: 
+ERROR - 2018-02-01 23:15:57 --> 404 Page Not Found: 
+ERROR - 2018-02-01 23:19:44 --> 404 Page Not Found: 
+ERROR - 2018-02-01 23:23:31 --> 404 Page Not Found: 

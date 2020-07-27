@@ -1,0 +1,175 @@
+ERROR - 2019-03-11 00:46:29 --> 404 Page Not Found: 
+ERROR - 2019-03-11 01:19:35 --> 404 Page Not Found: 
+ERROR - 2019-03-11 01:30:01 --> 404 Page Not Found: 
+ERROR - 2019-03-11 03:06:18 --> 404 Page Not Found: 
+ERROR - 2019-03-11 03:07:50 --> 404 Page Not Found: 
+ERROR - 2019-03-11 03:16:02 --> 404 Page Not Found: 
+ERROR - 2019-03-11 03:36:49 --> 404 Page Not Found: 
+ERROR - 2019-03-11 03:42:38 --> 404 Page Not Found: 
+ERROR - 2019-03-11 04:21:43 --> 404 Page Not Found: 
+ERROR - 2019-03-11 04:59:50 --> 404 Page Not Found: 
+ERROR - 2019-03-11 05:55:29 --> 404 Page Not Found: 
+ERROR - 2019-03-11 06:02:50 --> 404 Page Not Found: 
+ERROR - 2019-03-11 08:11:20 --> 404 Page Not Found: 
+ERROR - 2019-03-11 08:38:35 --> 404 Page Not Found: 
+ERROR - 2019-03-11 10:22:19 --> 404 Page Not Found: 
+ERROR - 2019-03-11 10:39:02 --> 404 Page Not Found: 
+ERROR - 2019-03-11 11:16:31 --> 404 Page Not Found: 
+ERROR - 2019-03-11 11:44:28 --> 404 Page Not Found: 
+ERROR - 2019-03-11 12:13:39 --> 404 Page Not Found: 
+ERROR - 2019-03-11 12:26:13 --> 404 Page Not Found: 
+ERROR - 2019-03-11 12:29:04 --> 404 Page Not Found: 
+ERROR - 2019-03-11 13:06:13 --> 404 Page Not Found: 
+ERROR - 2019-03-11 14:02:57 --> 404 Page Not Found: 
+ERROR - 2019-03-11 14:44:29 --> 404 Page Not Found: 
+ERROR - 2019-03-11 15:45:45 --> Severity: Warning --> include(/home/fullbasketproper/public_html/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/fullbasketproper/public_html/application/core/MY_Lang.php 112
+ERROR - 2019-03-11 15:45:45 --> Severity: Warning --> include(): Failed opening '/home/fullbasketproper/public_html/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/fullbasketproper/public_html/application/core/MY_Lang.php 112
+ERROR - 2019-03-11 15:45:45 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2019-03-11 15:45:45 --> Could not find the language line "achievements title achievements"
+ERROR - 2019-03-11 15:45:51 --> Severity: Warning --> include(/home/fullbasketproper/public_html/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/fullbasketproper/public_html/application/core/MY_Lang.php 112
+ERROR - 2019-03-11 15:45:51 --> Severity: Warning --> include(): Failed opening '/home/fullbasketproper/public_html/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/fullbasketproper/public_html/application/core/MY_Lang.php 112
+ERROR - 2019-03-11 15:45:51 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2019-03-11 15:45:51 --> Could not find the language line "achievements title achievements"
+ERROR - 2019-03-11 15:46:01 --> Severity: Warning --> include(/home/fullbasketproper/public_html/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/fullbasketproper/public_html/application/core/MY_Lang.php 112
+ERROR - 2019-03-11 15:46:01 --> Severity: Warning --> include(): Failed opening '/home/fullbasketproper/public_html/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/fullbasketproper/public_html/application/core/MY_Lang.php 112
+ERROR - 2019-03-11 15:46:01 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2019-03-11 15:46:01 --> Could not find the language line "achievements title achievements"
+ERROR - 2019-03-11 15:48:09 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:22:55 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:39:12 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-03-11 16:39:17 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-03-11 16:39:32 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:39:32 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:39:52 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:39:52 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:40:12 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:40:12 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:40:14 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:40:15 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:42:37 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2019-03-11 16:42:38 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2019-03-11 16:42:44 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:42:44 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:43:13 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:43:13 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:43:35 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:43:35 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:43:38 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:43:38 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:46:28 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:46:28 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:45 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:45 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:45 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:45 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:46 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:46 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:46 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:46 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:46 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:46 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:47 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2019-03-11 16:48:47 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:47 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:47 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:47 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:47 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:48 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2019-03-11 16:48:48 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:48 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:48 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:49 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:49 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:49 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:49 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:49 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:49 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:49 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:49 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:49 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:50 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:50 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:50 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:50 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:51 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2019-03-11 16:48:51 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:51 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:51 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:51 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:51 --> 404 Page Not Found: 
+ERROR - 2019-03-11 16:48:51 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2019-03-11 17:03:24 --> 404 Page Not Found: 
+ERROR - 2019-03-11 17:16:16 --> 404 Page Not Found: 
+ERROR - 2019-03-11 17:29:10 --> 404 Page Not Found: 
+ERROR - 2019-03-11 17:48:30 --> 404 Page Not Found: 
+ERROR - 2019-03-11 18:00:52 --> 404 Page Not Found: 
+ERROR - 2019-03-11 18:15:57 --> 404 Page Not Found: 
+ERROR - 2019-03-11 18:16:40 --> 404 Page Not Found: 
+ERROR - 2019-03-11 18:24:34 --> 404 Page Not Found: 
+ERROR - 2019-03-11 20:07:09 --> 404 Page Not Found: 
+ERROR - 2019-03-11 21:04:42 --> 404 Page Not Found: 
+ERROR - 2019-03-11 21:53:01 --> 404 Page Not Found: 
+ERROR - 2019-03-11 22:34:57 --> 404 Page Not Found: 
+ERROR - 2019-03-11 22:46:03 --> 404 Page Not Found: 
+ERROR - 2019-03-11 23:05:38 --> 404 Page Not Found: 
+ERROR - 2019-03-11 23:40:24 --> 404 Page Not Found: 

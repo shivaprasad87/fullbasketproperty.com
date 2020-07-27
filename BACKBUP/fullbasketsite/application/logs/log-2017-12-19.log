@@ -1,0 +1,4 @@
+ERROR - 2017-12-19 10:37:09 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-12-19 10:37:10 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 127
+ERROR - 2017-12-19 10:37:10 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 126
+ERROR - 2017-12-19 10:37:10 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 127

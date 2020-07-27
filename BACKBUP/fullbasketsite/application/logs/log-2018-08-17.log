@@ -1,0 +1,35 @@
+ERROR - 2018-08-17 00:05:54 --> 404 Page Not Found: 
+ERROR - 2018-08-17 00:36:27 --> 404 Page Not Found: 
+ERROR - 2018-08-17 00:42:04 --> 404 Page Not Found: 
+ERROR - 2018-08-17 01:16:08 --> 404 Page Not Found: 
+ERROR - 2018-08-17 03:32:02 --> 404 Page Not Found: 
+ERROR - 2018-08-17 04:24:53 --> 404 Page Not Found: 
+ERROR - 2018-08-17 04:59:19 --> 404 Page Not Found: 
+ERROR - 2018-08-17 04:59:20 --> 404 Page Not Found: 
+ERROR - 2018-08-17 04:59:21 --> 404 Page Not Found: 
+ERROR - 2018-08-17 05:47:05 --> 404 Page Not Found: 
+ERROR - 2018-08-17 13:32:52 --> 404 Page Not Found: 
+ERROR - 2018-08-17 13:34:04 --> 404 Page Not Found: 
+ERROR - 2018-08-17 15:03:58 --> 404 Page Not Found: 
+ERROR - 2018-08-17 15:24:37 --> 404 Page Not Found: 
+ERROR - 2018-08-17 15:26:23 --> 404 Page Not Found: 
+ERROR - 2018-08-17 15:27:01 --> 404 Page Not Found: 
+ERROR - 2018-08-17 15:28:13 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-08-17 16:50:34 --> 404 Page Not Found: 
+ERROR - 2018-08-17 17:21:47 --> 404 Page Not Found: 
+ERROR - 2018-08-17 17:55:22 --> 404 Page Not Found: 
+ERROR - 2018-08-17 19:27:48 --> 404 Page Not Found: 
+ERROR - 2018-08-17 20:40:37 --> 404 Page Not Found: 
+ERROR - 2018-08-17 21:05:28 --> 404 Page Not Found: 
+ERROR - 2018-08-17 22:18:46 --> 404 Page Not Found: 
+ERROR - 2018-08-17 22:48:50 --> 404 Page Not Found: 

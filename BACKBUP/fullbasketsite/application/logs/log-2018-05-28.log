@@ -1,0 +1,35 @@
+ERROR - 2018-05-28 02:55:29 --> 404 Page Not Found: 
+ERROR - 2018-05-28 04:53:26 --> 404 Page Not Found: 
+ERROR - 2018-05-28 08:12:54 --> 404 Page Not Found: 
+ERROR - 2018-05-28 13:07:54 --> 404 Page Not Found: 
+ERROR - 2018-05-28 13:59:05 --> 404 Page Not Found: 
+ERROR - 2018-05-28 15:29:03 --> 404 Page Not Found: 
+ERROR - 2018-05-28 16:22:45 --> 404 Page Not Found: 
+ERROR - 2018-05-28 17:58:09 --> 404 Page Not Found: 
+ERROR - 2018-05-28 18:25:25 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-05-28 18:25:29 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-05-28 18:41:45 --> 404 Page Not Found: 
+ERROR - 2018-05-28 19:17:33 --> 404 Page Not Found: 
+ERROR - 2018-05-28 20:14:10 --> 404 Page Not Found: 
+ERROR - 2018-05-28 20:56:49 --> 404 Page Not Found: 
+ERROR - 2018-05-28 22:31:01 --> 404 Page Not Found: 

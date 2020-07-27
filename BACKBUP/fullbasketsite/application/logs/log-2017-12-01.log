@@ -1,0 +1,64 @@
+ERROR - 2017-12-01 05:52:24 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 05:52:24 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 05:52:24 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 05:52:24 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:13:02 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 212
+ERROR - 2017-12-01 06:13:02 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 213
+ERROR - 2017-12-01 06:25:47 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:25:47 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:25:47 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:25:47 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:26:00 --> Severity: Warning --> rmdir(uploads/asdf-asdfg-asdfghj): Directory not empty C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 251
+ERROR - 2017-12-01 06:28:19 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:28:19 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:28:19 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:28:20 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:28:20 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:28:20 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:28:31 --> Severity: Warning --> rmdir(uploads/chgvjhk-hbkjn/): Directory not empty C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 251
+ERROR - 2017-12-01 06:31:23 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:31:23 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:31:23 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:31:23 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:31:23 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:31:23 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 07:32:41 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 255
+ERROR - 2017-12-01 06:32:53 --> Severity: Warning --> rmdir(uploads/hgvujh/): Directory not empty C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 251
+ERROR - 2017-12-01 06:33:50 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:33:50 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:33:50 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:33:50 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:33:50 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:33:50 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:33:50 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:33:50 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:33:50 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\fullbasket\system\core\Exceptions.php:271) C:\xampp\htdocs\fullbasket\system\helpers\url_helper.php 564
+ERROR - 2017-12-01 06:34:23 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:34:24 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:34:24 --> Severity: Warning --> rename(uploads/properties/azerbaijan.png,uploads/poiuyt55a20f7efbb1ec/azerbaijan.png): The system cannot find the file specified. (code: 2) C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:34:24 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:34:24 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:34:24 --> Severity: Warning --> rename(uploads/properties/azerbaijan.jpg,uploads/poiuyt55a20f7efbb1ec/azerbaijan.jpg): The system cannot find the file specified. (code: 2) C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:34:24 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:34:24 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:34:24 --> Severity: Warning --> rename(uploads/properties/bosnia.png,uploads/poiuyt55a20f7efbb1ec/bosnia.png): The system cannot find the file specified. (code: 2) C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:34:24 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:34:24 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:34:24 --> Severity: Warning --> rename(uploads/properties/georgia.png,uploads/poiuyt55a20f7efbb1ec/georgia.png): The system cannot find the file specified. (code: 2) C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:34:24 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\fullbasket\system\core\Exceptions.php:271) C:\xampp\htdocs\fullbasket\system\helpers\url_helper.php 564
+ERROR - 2017-12-01 06:34:46 --> Severity: Warning --> unlink(uploads/poiuyt55a20f7efbb1ec/azerbaijan.png): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 249
+ERROR - 2017-12-01 06:34:46 --> Severity: Warning --> unlink(uploads/poiuyt55a20f7efbb1ec/azerbaijan.jpg): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 249
+ERROR - 2017-12-01 06:34:46 --> Severity: Warning --> unlink(uploads/poiuyt55a20f7efbb1ec/bosnia.png): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 249
+ERROR - 2017-12-01 06:34:46 --> Severity: Warning --> unlink(uploads/poiuyt55a20f7efbb1ec/georgia.png): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 249
+ERROR - 2017-12-01 06:35:31 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:35:31 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:35:31 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:35:31 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:35:31 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:35:31 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:37:00 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:37:00 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:37:00 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:37:00 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123
+ERROR - 2017-12-01 06:37:00 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 122
+ERROR - 2017-12-01 06:37:00 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 123

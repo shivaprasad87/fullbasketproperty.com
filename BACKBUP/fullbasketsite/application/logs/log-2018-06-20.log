@@ -1,0 +1,55 @@
+ERROR - 2018-06-20 00:24:05 --> 404 Page Not Found: 
+ERROR - 2018-06-20 01:55:16 --> 404 Page Not Found: 
+ERROR - 2018-06-20 02:51:13 --> 404 Page Not Found: 
+ERROR - 2018-06-20 04:16:33 --> 404 Page Not Found: 
+ERROR - 2018-06-20 04:16:41 --> 404 Page Not Found: 
+ERROR - 2018-06-20 04:59:10 --> 404 Page Not Found: 
+ERROR - 2018-06-20 05:04:49 --> 404 Page Not Found: 
+ERROR - 2018-06-20 05:20:40 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-06-20 05:22:12 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-06-20 05:28:24 --> 404 Page Not Found: 
+ERROR - 2018-06-20 05:29:56 --> 404 Page Not Found: 
+ERROR - 2018-06-20 05:36:35 --> 404 Page Not Found: 
+ERROR - 2018-06-20 05:38:07 --> 404 Page Not Found: 
+ERROR - 2018-06-20 05:45:48 --> 404 Page Not Found: 
+ERROR - 2018-06-20 05:47:20 --> 404 Page Not Found: 
+ERROR - 2018-06-20 07:10:46 --> 404 Page Not Found: 
+ERROR - 2018-06-20 07:23:57 --> 404 Page Not Found: 
+ERROR - 2018-06-20 08:03:08 --> 404 Page Not Found: 
+ERROR - 2018-06-20 08:03:08 --> 404 Page Not Found: 
+ERROR - 2018-06-20 08:25:46 --> 404 Page Not Found: 
+ERROR - 2018-06-20 10:49:30 --> 404 Page Not Found: 
+ERROR - 2018-06-20 10:50:01 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-06-20 13:21:05 --> 404 Page Not Found: 
+ERROR - 2018-06-20 13:42:13 --> 404 Page Not Found: 
+ERROR - 2018-06-20 14:02:26 --> 404 Page Not Found: 
+ERROR - 2018-06-20 17:20:27 --> 404 Page Not Found: 
+ERROR - 2018-06-20 17:20:27 --> 404 Page Not Found: 
+ERROR - 2018-06-20 17:21:32 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-06-20 17:21:45 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-06-20 17:22:59 --> 404 Page Not Found: 
+ERROR - 2018-06-20 17:23:48 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-06-20 17:38:52 --> 404 Page Not Found: 
+ERROR - 2018-06-20 17:57:54 --> 404 Page Not Found: 
+ERROR - 2018-06-20 19:23:26 --> 404 Page Not Found: 
+ERROR - 2018-06-20 23:39:54 --> 404 Page Not Found: 

@@ -1,0 +1,28 @@
+ERROR - 2018-04-25 00:21:41 --> Severity: Core Warning --> PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php56/root/usr/lib64/php/modules/curl.so' - /opt/cpanel/ea-openssl/lib64/libcrypto.so.1.0.0: version `libcrypto.so.10' not found (required by /usr/lib64/libssh2.so.1) Unknown 0
+ERROR - 2018-04-25 01:01:20 --> 404 Page Not Found: 
+ERROR - 2018-04-25 02:14:37 --> 404 Page Not Found: 
+ERROR - 2018-04-25 04:30:31 --> 404 Page Not Found: 
+ERROR - 2018-04-25 04:51:44 --> 404 Page Not Found: 
+ERROR - 2018-04-25 05:24:38 --> 404 Page Not Found: 
+ERROR - 2018-04-25 05:26:39 --> 404 Page Not Found: 
+ERROR - 2018-04-25 05:46:17 --> 404 Page Not Found: 
+ERROR - 2018-04-25 06:04:14 --> 404 Page Not Found: 
+ERROR - 2018-04-25 07:36:28 --> 404 Page Not Found: 
+ERROR - 2018-04-25 07:37:00 --> 404 Page Not Found: 
+ERROR - 2018-04-25 07:37:05 --> 404 Page Not Found: 
+ERROR - 2018-04-25 07:37:41 --> 404 Page Not Found: 
+ERROR - 2018-04-25 08:18:56 --> 404 Page Not Found: 
+ERROR - 2018-04-25 09:40:28 --> 404 Page Not Found: 
+ERROR - 2018-04-25 12:34:26 --> 404 Page Not Found: 
+ERROR - 2018-04-25 13:33:58 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-25 13:34:38 --> 404 Page Not Found: 
+ERROR - 2018-04-25 13:34:56 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-25 14:26:45 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-25 16:02:19 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-25 16:15:09 --> 404 Page Not Found: 
+ERROR - 2018-04-25 17:19:31 --> 404 Page Not Found: 
+ERROR - 2018-04-25 17:49:12 --> 404 Page Not Found: 
+ERROR - 2018-04-25 18:35:01 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-25 18:35:08 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-25 22:55:22 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct (ci_sessions) Unknown 0
+ERROR - 2018-04-25 23:54:59 --> 404 Page Not Found: 

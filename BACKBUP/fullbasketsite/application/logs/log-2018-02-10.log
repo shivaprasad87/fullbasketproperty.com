@@ -1,0 +1,5 @@
+ERROR - 2018-02-10 08:55:30 --> 404 Page Not Found: 
+ERROR - 2018-02-10 16:21:51 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-02-10 11:40:00 --> Severity: error --> Exception: Oophs. Error! /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Endpoint.php 212
+ERROR - 2018-02-10 17:59:14 --> 404 Page Not Found: 
+ERROR - 2018-02-10 18:25:58 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47

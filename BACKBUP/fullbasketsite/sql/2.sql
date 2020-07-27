@@ -1,0 +1,1 @@
+CREATE TABLE `fullbasket`.`subscribers` ( `id` INT NOT NULL AUTO_INCREMENT , `email` VARCHAR(150) NOT NULL , `status` TINYINT NOT NULL DEFAULT '1' , PRIMARY KEY (`id`)) ENGINE = InnoDB;

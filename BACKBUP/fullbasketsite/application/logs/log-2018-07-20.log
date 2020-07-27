@@ -1,0 +1,56 @@
+ERROR - 2018-07-20 00:20:20 --> 404 Page Not Found: 
+ERROR - 2018-07-20 00:22:11 --> 404 Page Not Found: 
+ERROR - 2018-07-20 01:34:04 --> 404 Page Not Found: 
+ERROR - 2018-07-20 03:10:59 --> 404 Page Not Found: 
+ERROR - 2018-07-20 05:21:49 --> 404 Page Not Found: 
+ERROR - 2018-07-20 05:24:00 --> 404 Page Not Found: 
+ERROR - 2018-07-20 05:26:10 --> 404 Page Not Found: 
+ERROR - 2018-07-20 06:20:02 --> 404 Page Not Found: 
+ERROR - 2018-07-20 07:35:42 --> 404 Page Not Found: 
+ERROR - 2018-07-20 07:35:42 --> 404 Page Not Found: 
+ERROR - 2018-07-20 07:35:43 --> 404 Page Not Found: 
+ERROR - 2018-07-20 07:35:43 --> 404 Page Not Found: 
+ERROR - 2018-07-20 07:35:43 --> 404 Page Not Found: 
+ERROR - 2018-07-20 07:37:40 --> 404 Page Not Found: 
+ERROR - 2018-07-20 07:37:40 --> 404 Page Not Found: 
+ERROR - 2018-07-20 10:04:51 --> 404 Page Not Found: 
+ERROR - 2018-07-20 10:15:29 --> 404 Page Not Found: 
+ERROR - 2018-07-20 10:38:26 --> 404 Page Not Found: 
+ERROR - 2018-07-20 11:05:00 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 12:27:10 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 12:27:49 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 12:43:37 --> 404 Page Not Found: 
+ERROR - 2018-07-20 12:49:49 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 12:54:21 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 13:19:33 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct (ci_sessions) Unknown 0
+ERROR - 2018-07-20 13:20:07 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct (ci_sessions) Unknown 0
+ERROR - 2018-07-20 13:20:13 --> Query error: Duplicate entry 'o5bmdlii95j22v099dp0kt48skrqvebn' for key 'PRIMARY' - Invalid query: INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES ('o5bmdlii95j22v099dp0kt48skrqvebn', '122.171.189.206', 1532073013, '__ci_last_regenerate|i:1532073009;languages|a:7:{s:7:\"spanish\";s:7:\"Spanish\";s:7:\"turkish\";s:7:\"Turkish\";s:7:\"russian\";s:7:\"Russian\";s:10:\"indonesian\";s:10:\"Indonesian\";s:5:\"dutch\";s:5:\"Dutch\";s:18:\"simplified-chinese\";s:18:\"Simplified Chinese\";s:7:\"english\";s:7:\"English\";}language|s:7:\"english\";logged_in|a:10:{s:2:\"id\";s:1:\"7\";s:8:\"username\";s:6:\"nitish\";s:10:\"first_name\";s:6:\"Nitish\";s:9:\"last_name\";s:5:\"Kedia\";s:5:\"email\";s:29:\"nitish@fullbasketproperty.com\";s:8:\"language\";s:7:\"english\";s:8:\"is_admin\";s:1:\"1\";s:6:\"status\";s:1:\"1\";s:7:\"created\";s:19:\"2018-01-10 05:08:50\";s:7:\"updated\";s:19:\"2018-01-10 05:10:37\";}')
+ERROR - 2018-07-20 13:20:13 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/nkmtein/public_html/fullbasketproperty.com/system/core/Output.php:538) /home/nkmtein/public_html/fullbasketproperty.com/system/core/Common.php 564
+ERROR - 2018-07-20 13:31:39 --> 404 Page Not Found: 
+ERROR - 2018-07-20 13:38:14 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct (ci_sessions) Unknown 0
+ERROR - 2018-07-20 14:02:58 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 14:42:43 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 15:33:36 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 15:33:43 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 15:34:08 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 15:34:21 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 15:34:29 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 15:34:40 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 16:05:34 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 16:24:11 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 17:02:08 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 17:37:16 --> 404 Page Not Found: 
+ERROR - 2018-07-20 17:45:56 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 17:46:57 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 17:48:13 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 18:11:41 --> Severity: Warning --> rename(uploads/elevations/Godrej_Reflection_91.jpg,uploads/godrej-reflections/Godrej_Reflection_91.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 585
+ERROR - 2018-07-20 18:12:25 --> 404 Page Not Found: 
+ERROR - 2018-07-20 18:14:27 --> 404 Page Not Found: 
+ERROR - 2018-07-20 18:21:29 --> 404 Page Not Found: 
+ERROR - 2018-07-20 18:22:59 --> 404 Page Not Found: 
+ERROR - 2018-07-20 18:23:15 --> 404 Page Not Found: 
+ERROR - 2018-07-20 18:27:08 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-20 18:49:07 --> 404 Page Not Found: 
+ERROR - 2018-07-20 19:10:25 --> 404 Page Not Found: 
+ERROR - 2018-07-20 20:18:00 --> 404 Page Not Found: 
+ERROR - 2018-07-20 20:54:40 --> 404 Page Not Found: 

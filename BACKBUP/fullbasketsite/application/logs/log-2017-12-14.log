@@ -1,0 +1,71 @@
+ERROR - 2017-12-14 05:45:40 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `email` = 'mohammedkunhiam@gmail.com'' at line 2 - Invalid query: SELECT *
+WHERE `email` = 'mohammedkunhiam@gmail.com'
+ERROR - 2017-12-14 05:46:19 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `email` = 'mohammedkunhiam@gmail.com'' at line 2 - Invalid query: SELECT *
+WHERE `email` = 'mohammedkunhiam@gmail.com'
+ERROR - 2017-12-14 05:50:52 --> Severity: Parsing Error --> syntax error, unexpected end of file C:\xampp\htdocs\fullbasket\application\views\header.php 149
+ERROR - 2017-12-14 06:24:38 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 23
+ERROR - 2017-12-14 06:24:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 23
+ERROR - 2017-12-14 06:24:38 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 30
+ERROR - 2017-12-14 06:24:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 30
+ERROR - 2017-12-14 06:24:38 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 39
+ERROR - 2017-12-14 06:24:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 39
+ERROR - 2017-12-14 06:24:38 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 48
+ERROR - 2017-12-14 06:24:38 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 48
+ERROR - 2017-12-14 06:24:38 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 13
+ERROR - 2017-12-14 06:24:38 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 102
+ERROR - 2017-12-14 06:25:21 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 23
+ERROR - 2017-12-14 06:25:21 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 23
+ERROR - 2017-12-14 06:25:21 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 30
+ERROR - 2017-12-14 06:25:21 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 30
+ERROR - 2017-12-14 06:25:21 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 39
+ERROR - 2017-12-14 06:25:21 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 39
+ERROR - 2017-12-14 06:25:21 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 48
+ERROR - 2017-12-14 06:25:21 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 48
+ERROR - 2017-12-14 06:25:21 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 13
+ERROR - 2017-12-14 06:25:21 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 102
+ERROR - 2017-12-14 06:26:06 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 23
+ERROR - 2017-12-14 06:26:06 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 23
+ERROR - 2017-12-14 06:26:06 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 30
+ERROR - 2017-12-14 06:26:06 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 30
+ERROR - 2017-12-14 06:26:06 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 39
+ERROR - 2017-12-14 06:26:06 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 39
+ERROR - 2017-12-14 06:26:06 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 48
+ERROR - 2017-12-14 06:26:06 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 48
+ERROR - 2017-12-14 06:26:16 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 23
+ERROR - 2017-12-14 06:26:16 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 23
+ERROR - 2017-12-14 06:26:16 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 30
+ERROR - 2017-12-14 06:26:16 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 30
+ERROR - 2017-12-14 06:26:16 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 39
+ERROR - 2017-12-14 06:26:16 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 39
+ERROR - 2017-12-14 06:26:16 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 48
+ERROR - 2017-12-14 06:26:16 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 48
+ERROR - 2017-12-14 06:26:29 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 23
+ERROR - 2017-12-14 06:26:29 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 23
+ERROR - 2017-12-14 06:26:29 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 30
+ERROR - 2017-12-14 06:26:29 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 30
+ERROR - 2017-12-14 06:26:29 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 39
+ERROR - 2017-12-14 06:26:29 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 39
+ERROR - 2017-12-14 06:26:29 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 48
+ERROR - 2017-12-14 06:26:29 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 48
+ERROR - 2017-12-14 06:27:08 --> Severity: Notice --> Undefined variable: content_data C:\xampp\htdocs\fullbasket\application\controllers\Home.php 37
+ERROR - 2017-12-14 06:27:08 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 23
+ERROR - 2017-12-14 06:27:08 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 23
+ERROR - 2017-12-14 06:27:08 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 30
+ERROR - 2017-12-14 06:27:08 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 30
+ERROR - 2017-12-14 06:27:08 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 39
+ERROR - 2017-12-14 06:27:08 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 39
+ERROR - 2017-12-14 06:27:08 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 48
+ERROR - 2017-12-14 06:27:08 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 48
+ERROR - 2017-12-14 06:27:08 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 13
+ERROR - 2017-12-14 06:27:08 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 102
+ERROR - 2017-12-14 06:27:33 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 23
+ERROR - 2017-12-14 06:27:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 23
+ERROR - 2017-12-14 06:27:33 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 30
+ERROR - 2017-12-14 06:27:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 30
+ERROR - 2017-12-14 06:27:33 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 39
+ERROR - 2017-12-14 06:27:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 39
+ERROR - 2017-12-14 06:27:33 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 48
+ERROR - 2017-12-14 06:27:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\aboutUs.php 48
+ERROR - 2017-12-14 06:27:33 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 13
+ERROR - 2017-12-14 06:27:33 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\default\template.php 102
+ERROR - 2017-12-14 06:33:08 --> Severity: Notice --> Undefined variable: title C:\xampp\htdocs\fullbasket\application\views\head.php 6

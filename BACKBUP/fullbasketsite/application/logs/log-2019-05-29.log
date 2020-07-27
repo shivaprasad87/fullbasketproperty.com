@@ -1,0 +1,217 @@
+ERROR - 2019-05-29 00:00:27 --> 404 Page Not Found: 
+ERROR - 2019-05-29 00:18:16 --> 404 Page Not Found: 
+ERROR - 2019-05-29 00:43:19 --> 404 Page Not Found: 
+ERROR - 2019-05-29 01:00:53 --> 404 Page Not Found: 
+ERROR - 2019-05-29 01:02:13 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-05-29 01:02:30 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-05-29 01:02:46 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-05-29 01:03:04 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-05-29 01:03:30 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-05-29 01:03:43 --> 404 Page Not Found: 
+ERROR - 2019-05-29 01:04:18 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-05-29 01:06:36 --> 404 Page Not Found: 
+ERROR - 2019-05-29 01:09:00 --> 404 Page Not Found: 
+ERROR - 2019-05-29 01:36:21 --> 404 Page Not Found: 
+ERROR - 2019-05-29 01:40:01 --> 404 Page Not Found: 
+ERROR - 2019-05-29 01:51:41 --> 404 Page Not Found: 
+ERROR - 2019-05-29 01:52:53 --> 404 Page Not Found: 
+ERROR - 2019-05-29 02:00:43 --> 404 Page Not Found: 
+ERROR - 2019-05-29 02:17:16 --> 404 Page Not Found: 
+ERROR - 2019-05-29 02:22:13 --> 404 Page Not Found: 
+ERROR - 2019-05-29 02:38:52 --> 404 Page Not Found: 
+ERROR - 2019-05-29 02:46:45 --> 404 Page Not Found: 
+ERROR - 2019-05-29 03:33:20 --> 404 Page Not Found: 
+ERROR - 2019-05-29 04:04:26 --> 404 Page Not Found: 
+ERROR - 2019-05-29 04:16:12 --> 404 Page Not Found: 
+ERROR - 2019-05-29 04:34:44 --> 404 Page Not Found: 
+ERROR - 2019-05-29 04:51:09 --> 404 Page Not Found: 
+ERROR - 2019-05-29 05:02:23 --> 404 Page Not Found: 
+ERROR - 2019-05-29 05:56:06 --> 404 Page Not Found: 
+ERROR - 2019-05-29 06:10:29 --> 404 Page Not Found: 
+ERROR - 2019-05-29 06:15:48 --> 404 Page Not Found: 
+ERROR - 2019-05-29 06:52:47 --> 404 Page Not Found: 
+ERROR - 2019-05-29 07:16:13 --> 404 Page Not Found: 
+ERROR - 2019-05-29 07:26:16 --> 404 Page Not Found: 
+ERROR - 2019-05-29 07:54:52 --> 404 Page Not Found: 
+ERROR - 2019-05-29 07:57:57 --> 404 Page Not Found: 
+ERROR - 2019-05-29 08:14:35 --> 404 Page Not Found: 
+ERROR - 2019-05-29 09:00:49 --> 404 Page Not Found: 
+ERROR - 2019-05-29 09:12:57 --> 404 Page Not Found: 
+ERROR - 2019-05-29 09:37:43 --> 404 Page Not Found: 
+ERROR - 2019-05-29 09:55:43 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:04:48 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:07:50 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:07:55 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:16:02 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:23:16 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:23:29 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:33:03 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:33:15 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:40:35 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:41:59 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:42:14 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:42:34 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:43:45 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:44:18 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:45:02 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:45:03 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:45:41 --> Query error: Duplicate entry 'test@g.co' for key 'email' - Invalid query: INSERT INTO `subscribers` (`email`, `created_at`) VALUES ('test@g.co', '2019-05-29 10:45:41')
+ERROR - 2019-05-29 10:45:59 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:46:08 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:46:54 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:47:50 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:54:32 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:55:46 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:56:05 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:56:12 --> Query error: Duplicate entry 'test@g.co' for key 'email' - Invalid query: INSERT INTO `subscribers` (`email`, `created_at`) VALUES ('test@g.co', '2019-05-29 10:56:12')
+ERROR - 2019-05-29 10:56:17 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:57:12 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:57:22 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:58:31 --> 404 Page Not Found: 
+ERROR - 2019-05-29 10:58:53 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:01:17 --> Severity: 4096 --> Object of class stdClass could not be converted to string /home/fullbasketproper/public_html/application/controllers/Home.php 388
+ERROR - 2019-05-29 11:01:50 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:01:55 --> Severity: 4096 --> Object of class stdClass could not be converted to string /home/fullbasketproper/public_html/application/controllers/Home.php 388
+ERROR - 2019-05-29 11:01:55 --> Query error: Duplicate entry 'test2@g.co' for key 'email' - Invalid query: INSERT INTO `subscribers` (`email`, `created_at`) VALUES ('test2@g.co', '2019-05-29 11:01:55')
+ERROR - 2019-05-29 11:03:17 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:03:25 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:03:26 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:04:51 --> Severity: 4096 --> Object of class stdClass could not be converted to string /home/fullbasketproper/public_html/application/controllers/Home.php 388
+ERROR - 2019-05-29 11:04:51 --> Query error: Duplicate entry 'test2@g.co' for key 'email' - Invalid query: INSERT INTO `subscribers` (`email`, `created_at`) VALUES ('test2@g.co', '2019-05-29 11:04:51')
+ERROR - 2019-05-29 11:05:19 --> Severity: 4096 --> Object of class stdClass could not be converted to string /home/fullbasketproper/public_html/application/controllers/Home.php 388
+ERROR - 2019-05-29 11:05:45 --> Severity: 4096 --> Object of class stdClass could not be converted to string /home/fullbasketproper/public_html/application/controllers/Home.php 388
+ERROR - 2019-05-29 11:06:38 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:07:41 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:08:08 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:09:21 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:09:35 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:12:27 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:12:37 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:14:43 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:14:47 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:16:15 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:16:24 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:20:53 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:21:00 --> Severity: 4096 --> Object of class CI_Email could not be converted to string /home/fullbasketproper/public_html/application/controllers/Home.php 407
+ERROR - 2019-05-29 11:21:01 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:21:18 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:21:26 --> Severity: 4096 --> Object of class CI_Email could not be converted to string /home/fullbasketproper/public_html/application/controllers/Home.php 407
+ERROR - 2019-05-29 11:21:27 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:21:54 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:22:05 --> Severity: 4096 --> Object of class CI_Email could not be converted to string /home/fullbasketproper/public_html/application/controllers/Home.php 407
+ERROR - 2019-05-29 11:23:38 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:28:42 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:34:49 --> Severity: 4096 --> Object of class CI_Email could not be converted to string /home/fullbasketproper/public_html/application/controllers/Home.php 407
+ERROR - 2019-05-29 11:36:00 --> Severity: 4096 --> Object of class CI_Email could not be converted to string /home/fullbasketproper/public_html/application/controllers/Home.php 408
+ERROR - 2019-05-29 11:42:33 --> Severity: 4096 --> Object of class CI_Email could not be converted to string /home/fullbasketproper/public_html/application/controllers/Home.php 408
+ERROR - 2019-05-29 11:42:37 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:42:43 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:45:35 --> Severity: 4096 --> Object of class CI_Email could not be converted to string /home/fullbasketproper/public_html/application/controllers/Home.php 407
+ERROR - 2019-05-29 11:45:39 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:45:49 --> Severity: 4096 --> Object of class CI_Email could not be converted to string /home/fullbasketproper/public_html/application/controllers/Home.php 407
+ERROR - 2019-05-29 11:46:08 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:48:23 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:48:36 --> Severity: 4096 --> Object of class CI_Email could not be converted to string /home/fullbasketproper/public_html/application/controllers/Home.php 407
+ERROR - 2019-05-29 11:48:37 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:50:12 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:50:15 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:50:25 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:51:19 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:51:26 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:57:36 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:57:48 --> Severity: 4096 --> Object of class CI_Email could not be converted to string /home/fullbasketproper/public_html/application/controllers/Home.php 407
+ERROR - 2019-05-29 11:58:22 --> 404 Page Not Found: 
+ERROR - 2019-05-29 11:58:55 --> 404 Page Not Found: 
+ERROR - 2019-05-29 12:07:15 --> 404 Page Not Found: 
+ERROR - 2019-05-29 12:24:46 --> 404 Page Not Found: 
+ERROR - 2019-05-29 12:24:47 --> 404 Page Not Found: 
+ERROR - 2019-05-29 12:31:41 --> 404 Page Not Found: 
+ERROR - 2019-05-29 12:37:22 --> 404 Page Not Found: 
+ERROR - 2019-05-29 12:38:05 --> 404 Page Not Found: 
+ERROR - 2019-05-29 12:42:11 --> 404 Page Not Found: 
+ERROR - 2019-05-29 12:46:02 --> 404 Page Not Found: 
+ERROR - 2019-05-29 12:46:05 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:00:46 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:01:52 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:02:17 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:03:31 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:08:00 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:08:03 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:08:26 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:09:30 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-05-29 13:09:47 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-05-29 13:10:29 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:10:56 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-05-29 13:20:09 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:34:39 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:49:44 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:52:41 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:52:50 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:53:03 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:56:26 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:56:27 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:56:35 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:58:20 --> 404 Page Not Found: 
+ERROR - 2019-05-29 13:58:30 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-05-29 13:58:52 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-05-29 13:58:58 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-05-29 14:03:16 --> 404 Page Not Found: 
+ERROR - 2019-05-29 14:03:16 --> 404 Page Not Found: 
+ERROR - 2019-05-29 14:09:09 --> 404 Page Not Found: 
+ERROR - 2019-05-29 14:17:27 --> 404 Page Not Found: 
+ERROR - 2019-05-29 14:18:58 --> 404 Page Not Found: 
+ERROR - 2019-05-29 14:31:57 --> 404 Page Not Found: 
+ERROR - 2019-05-29 14:39:38 --> 404 Page Not Found: 
+ERROR - 2019-05-29 14:45:36 --> 404 Page Not Found: 
+ERROR - 2019-05-29 14:51:20 --> 404 Page Not Found: 
+ERROR - 2019-05-29 14:53:54 --> Query error: Column 'email' cannot be null - Invalid query: INSERT INTO `subscribers` (`email`, `created_at`) VALUES (NULL, '2019-05-29 14:53:54')
+ERROR - 2019-05-29 14:57:54 --> 404 Page Not Found: 
+ERROR - 2019-05-29 15:01:20 --> 404 Page Not Found: 
+ERROR - 2019-05-29 15:18:34 --> 404 Page Not Found: 
+ERROR - 2019-05-29 15:21:22 --> 404 Page Not Found: 
+ERROR - 2019-05-29 15:28:47 --> 404 Page Not Found: 
+ERROR - 2019-05-29 15:41:36 --> 404 Page Not Found: 
+ERROR - 2019-05-29 15:58:15 --> 404 Page Not Found: 
+ERROR - 2019-05-29 16:00:50 --> 404 Page Not Found: 
+ERROR - 2019-05-29 16:12:51 --> 404 Page Not Found: 
+ERROR - 2019-05-29 16:14:03 --> 404 Page Not Found: 
+ERROR - 2019-05-29 16:14:39 --> 404 Page Not Found: 
+ERROR - 2019-05-29 16:30:32 --> 404 Page Not Found: 
+ERROR - 2019-05-29 16:31:53 --> 404 Page Not Found: 
+ERROR - 2019-05-29 16:40:11 --> 404 Page Not Found: 
+ERROR - 2019-05-29 16:48:36 --> 404 Page Not Found: 
+ERROR - 2019-05-29 16:51:00 --> 404 Page Not Found: 
+ERROR - 2019-05-29 16:52:27 --> 404 Page Not Found: 
+ERROR - 2019-05-29 17:32:57 --> 404 Page Not Found: 
+ERROR - 2019-05-29 17:35:35 --> 404 Page Not Found: 
+ERROR - 2019-05-29 17:50:52 --> 404 Page Not Found: 
+ERROR - 2019-05-29 17:52:10 --> 404 Page Not Found: 
+ERROR - 2019-05-29 17:55:03 --> 404 Page Not Found: 
+ERROR - 2019-05-29 17:58:03 --> 404 Page Not Found: 
+ERROR - 2019-05-29 18:28:47 --> 404 Page Not Found: 
+ERROR - 2019-05-29 18:39:17 --> 404 Page Not Found: 
+ERROR - 2019-05-29 18:59:01 --> 404 Page Not Found: 
+ERROR - 2019-05-29 18:59:20 --> 404 Page Not Found: 
+ERROR - 2019-05-29 19:00:54 --> 404 Page Not Found: 
+ERROR - 2019-05-29 19:12:20 --> 404 Page Not Found: 
+ERROR - 2019-05-29 19:14:01 --> 404 Page Not Found: 
+ERROR - 2019-05-29 19:17:22 --> 404 Page Not Found: 
+ERROR - 2019-05-29 19:31:21 --> 404 Page Not Found: 
+ERROR - 2019-05-29 19:39:55 --> 404 Page Not Found: 
+ERROR - 2019-05-29 20:13:19 --> 404 Page Not Found: 
+ERROR - 2019-05-29 20:23:48 --> 404 Page Not Found: 
+ERROR - 2019-05-29 20:31:49 --> 404 Page Not Found: 
+ERROR - 2019-05-29 20:37:14 --> 404 Page Not Found: 
+ERROR - 2019-05-29 21:20:50 --> 404 Page Not Found: 
+ERROR - 2019-05-29 22:01:17 --> 404 Page Not Found: 
+ERROR - 2019-05-29 22:01:23 --> 404 Page Not Found: 
+ERROR - 2019-05-29 22:24:08 --> 404 Page Not Found: 
+ERROR - 2019-05-29 22:35:27 --> 404 Page Not Found: 
+ERROR - 2019-05-29 22:54:15 --> 404 Page Not Found: 
+ERROR - 2019-05-29 23:02:04 --> 404 Page Not Found: 
+ERROR - 2019-05-29 23:02:07 --> 404 Page Not Found: 
+ERROR - 2019-05-29 23:02:09 --> 404 Page Not Found: 
+ERROR - 2019-05-29 23:02:10 --> 404 Page Not Found: 
+ERROR - 2019-05-29 23:02:11 --> 404 Page Not Found: 
+ERROR - 2019-05-29 23:20:40 --> 404 Page Not Found: 
+ERROR - 2019-05-29 23:36:30 --> Query error: Column 'email' cannot be null - Invalid query: INSERT INTO `subscribers` (`email`, `created_at`) VALUES (NULL, '2019-05-29 23:36:30')

@@ -1,0 +1,100 @@
+ERROR - 2018-02-21 00:55:50 --> 404 Page Not Found: 
+ERROR - 2018-02-21 02:01:53 --> 404 Page Not Found: 
+ERROR - 2018-02-21 02:35:23 --> 404 Page Not Found: 
+ERROR - 2018-02-21 03:03:12 --> 404 Page Not Found: 
+ERROR - 2018-02-21 03:09:57 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 10 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-02-21 03:10:00 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 10 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-02-21 03:36:51 --> 404 Page Not Found: 
+ERROR - 2018-02-21 05:55:00 --> 404 Page Not Found: 
+ERROR - 2018-02-21 11:08:23 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-02-21 11:08:23 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-02-21 11:08:23 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-02-21 11:08:23 --> Could not find the language line "achievements title achievements"
+ERROR - 2018-02-21 11:08:42 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-02-21 11:08:42 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-02-21 11:08:42 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-02-21 11:08:42 --> Could not find the language line "achievements title editAchievement"
+ERROR - 2018-02-21 11:13:57 --> 404 Page Not Found: 
+ERROR - 2018-02-21 13:16:29 --> 404 Page Not Found: 
+ERROR - 2018-02-21 13:27:39 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-02-21 13:38:19 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-02-21 13:38:35 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-02-21 15:34:36 --> 404 Page Not Found: 
+ERROR - 2018-02-21 17:05:24 --> 404 Page Not Found: 
+ERROR - 2018-02-21 18:17:01 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:17:01 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:17:59 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:17:59 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:18:30 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:18:30 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:18:57 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:18:57 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:19:40 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:19:40 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:20:01 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:20:01 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:20:16 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:20:16 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:20:31 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:20:31 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:20:53 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:20:53 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:21:14 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:21:14 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:21:39 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:21:39 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:21:54 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:21:54 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:22:34 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:22:34 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:22:57 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:22:57 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:29:23 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:29:23 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:29:37 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:29:37 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:36:24 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 18:36:24 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:33:05 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:33:05 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:40:57 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:40:57 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:41:35 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:41:35 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:44:06 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:44:06 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:45:26 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:45:26 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:45:41 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:45:41 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:45:53 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:45:53 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:46:08 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:46:08 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:46:21 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:46:21 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:46:49 --> Severity: Warning --> file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:46:49 --> Severity: Warning --> file_get_contents(https://www.google.com/recaptcha/api/siteverify): failed to open stream: no suitable wrapper could be found /home/nkmtein/public_html/fullbasketproperty.com/application/helpers/core_helper.php 298
+ERROR - 2018-02-21 19:52:10 --> 404 Page Not Found: 
+ERROR - 2018-02-21 20:00:27 --> 404 Page Not Found: 
+ERROR - 2018-02-21 21:10:29 --> 404 Page Not Found: 
+ERROR - 2018-02-21 22:05:24 --> 404 Page Not Found: 
+ERROR - 2018-02-21 22:53:47 --> 404 Page Not Found: 

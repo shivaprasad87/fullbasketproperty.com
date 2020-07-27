@@ -1,0 +1,15 @@
+ERROR - 2018-08-04 01:17:42 --> 404 Page Not Found: 
+ERROR - 2018-08-04 01:19:09 --> 404 Page Not Found: 
+ERROR - 2018-08-04 06:02:41 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-08-04 06:16:35 --> 404 Page Not Found: 
+ERROR - 2018-08-04 06:48:01 --> 404 Page Not Found: 
+ERROR - 2018-08-04 09:58:25 --> 404 Page Not Found: 
+ERROR - 2018-08-04 10:03:30 --> 404 Page Not Found: 
+ERROR - 2018-08-04 13:13:18 --> Query error: Duplicate entry '6suecjp1lok3mi1v2d2qhvs5hjkcjki3' for key 'PRIMARY' - Invalid query: INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES ('6suecjp1lok3mi1v2d2qhvs5hjkcjki3', '117.198.96.118', 1533368598, '__ci_last_regenerate|i:1533368594;languages|a:7:{s:7:\"spanish\";s:7:\"Spanish\";s:7:\"turkish\";s:7:\"Turkish\";s:7:\"russian\";s:7:\"Russian\";s:10:\"indonesian\";s:10:\"Indonesian\";s:5:\"dutch\";s:5:\"Dutch\";s:18:\"simplified-chinese\";s:18:\"Simplified Chinese\";s:7:\"english\";s:7:\"English\";}language|s:7:\"english\";')
+ERROR - 2018-08-04 13:13:18 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/nkmtein/public_html/fullbasketproperty.com/system/core/Output.php:538) /home/nkmtein/public_html/fullbasketproperty.com/system/core/Common.php 564
+ERROR - 2018-08-04 17:47:15 --> 404 Page Not Found: 
+ERROR - 2018-08-04 17:48:19 --> 404 Page Not Found: 
+ERROR - 2018-08-04 17:49:21 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-08-04 17:57:58 --> 404 Page Not Found: 
+ERROR - 2018-08-04 18:51:23 --> 404 Page Not Found: 
+ERROR - 2018-08-04 23:44:42 --> 404 Page Not Found: 

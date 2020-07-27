@@ -1,0 +1,93 @@
+ERROR - 2017-12-04 07:04:05 --> Severity: Warning --> include(C:\xampp\htdocs\fullbasket\system\language/english/builders_lang.php): failed to open stream: No such file or directory C:\xampp\htdocs\fullbasket\application\core\MY_Lang.php 112
+ERROR - 2017-12-04 07:04:05 --> Severity: Warning --> include(): Failed opening 'C:\xampp\htdocs\fullbasket\system\language/english/builders_lang.php' for inclusion (include_path='C:\xampp\php\PEAR') C:\xampp\htdocs\fullbasket\application\core\MY_Lang.php 112
+ERROR - 2017-12-04 07:04:05 --> Language file contains no data: language/english/builders_lang.php
+ERROR - 2017-12-04 07:04:05 --> Could not find the language line "builders title add_builder"
+ERROR - 2017-12-04 07:04:46 --> Severity: Error --> Call to undefined method Builders_model::loadAmenities() C:\xampp\htdocs\fullbasket\application\controllers\admin\Builders.php 52
+ERROR - 2017-12-04 07:05:22 --> Severity: Notice --> Undefined variable: amenity C:\xampp\htdocs\fullbasket\application\views\admin\builders\edit.php 12
+ERROR - 2017-12-04 07:05:22 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\builders\edit.php 12
+ERROR - 2017-12-04 07:05:22 --> Severity: Notice --> Undefined variable: amenity C:\xampp\htdocs\fullbasket\application\views\admin\builders\edit.php 18
+ERROR - 2017-12-04 07:05:22 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\builders\edit.php 18
+ERROR - 2017-12-04 07:05:22 --> Severity: Notice --> Undefined variable: amenity C:\xampp\htdocs\fullbasket\application\views\admin\builders\edit.php 26
+ERROR - 2017-12-04 07:05:22 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\builders\edit.php 26
+ERROR - 2017-12-04 07:19:08 --> Severity: Notice --> Undefined variable: location C:\xampp\htdocs\fullbasket\application\views\admin\locations\index.php 37
+ERROR - 2017-12-04 07:38:36 --> Query error: Table 'fullbasket.city' doesn't exist - Invalid query: SELECT `loc`.*, `city`.`name` as `city`
+FROM `locations` `loc`
+LEFT JOIN `city` ON `loc`.`city_id` = `city`.`id`
+WHERE `status` = 1
+ORDER BY `id` DESC
+ERROR - 2017-12-04 07:39:04 --> Query error: Table 'fullbasket.city' doesn't exist - Invalid query: SELECT `loc`.*, `city`.`name` as `city`
+FROM `locations` `loc`
+LEFT JOIN `city` ON `loc`.`city_id` = `city`.`id`
+WHERE `status` = 1
+ORDER BY `id` DESC
+ERROR - 2017-12-04 07:40:14 --> Query error: Table 'fullbasket.city' doesn't exist - Invalid query: SELECT `loc`.*, `city`.`name` as `city`
+FROM `locations` `loc`
+LEFT JOIN `city` ON `loc`.`city_id` = `city`.`id`
+WHERE `status` = 1
+ORDER BY `id` DESC
+ERROR - 2017-12-04 07:41:07 --> Query error: Column 'status' in where clause is ambiguous - Invalid query: SELECT `loc`.*, `cities`.`name` as `city`
+FROM `locations` `loc`
+LEFT JOIN `cities` ON `loc`.`city_id` = `cities`.`id`
+WHERE `status` = 1
+ORDER BY `id` DESC
+ERROR - 2017-12-04 07:41:34 --> Severity: Notice --> Undefined property: Locations::$properties_model C:\xampp\htdocs\fullbasket\application\controllers\admin\Locations.php 122
+ERROR - 2017-12-04 07:41:34 --> Severity: Error --> Call to a member function getWhere() on null C:\xampp\htdocs\fullbasket\application\controllers\admin\Locations.php 122
+ERROR - 2017-12-04 07:42:06 --> Severity: Notice --> Undefined property: stdClass::$city C:\xampp\htdocs\fullbasket\application\views\admin\locations\edit.php 21
+ERROR - 2017-12-04 07:42:06 --> Severity: Notice --> Undefined property: stdClass::$city C:\xampp\htdocs\fullbasket\application\views\admin\locations\edit.php 21
+ERROR - 2017-12-04 07:42:06 --> Severity: Notice --> Undefined property: stdClass::$city C:\xampp\htdocs\fullbasket\application\views\admin\locations\edit.php 21
+ERROR - 2017-12-04 07:42:06 --> Severity: Notice --> Undefined property: stdClass::$city C:\xampp\htdocs\fullbasket\application\views\admin\locations\edit.php 21
+ERROR - 2017-12-04 09:52:43 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 124
+ERROR - 2017-12-04 09:52:43 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 125
+ERROR - 2017-12-04 09:52:43 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 124
+ERROR - 2017-12-04 09:52:43 --> Severity: Runtime Notice --> Only variables should be passed by reference C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 125
+ERROR - 2017-12-04 09:53:00 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 269
+ERROR - 2017-12-04 09:53:00 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.jpg C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 269
+ERROR - 2017-12-04 09:53:00 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/bosnia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 269
+ERROR - 2017-12-04 09:53:00 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/georgia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 269
+ERROR - 2017-12-04 09:57:20 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 09:57:20 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.jpg C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 09:57:20 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/bosnia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 09:57:20 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/georgia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 09:57:30 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 09:57:30 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.jpg C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 09:57:30 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/bosnia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 09:57:30 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/georgia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:00:31 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:00:31 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.jpg C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:00:31 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/bosnia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:00:31 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/georgia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:01:15 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:01:15 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.jpg C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:01:15 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/bosnia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:01:16 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/georgia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:01:27 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:01:27 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.jpg C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:01:27 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/bosnia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:01:27 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/georgia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:01:46 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:01:46 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.jpg C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:01:46 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/bosnia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:01:46 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/georgia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:03:07 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:03:07 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.jpg C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:03:07 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/bosnia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:03:07 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/georgia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:04:46 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:04:46 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.jpg C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:04:46 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/bosnia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:04:46 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/georgia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:05:15 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:05:15 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.jpg C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:05:15 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/bosnia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:05:15 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/georgia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 272
+ERROR - 2017-12-04 10:08:45 --> Severity: Notice --> Undefined property: stdClass::$value C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 49
+ERROR - 2017-12-04 10:08:45 --> Severity: Notice --> Undefined property: stdClass::$value C:\xampp\htdocs\fullbasket\application\views\admin\properties\edit.php 49
+ERROR - 2017-12-04 10:08:46 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 273
+ERROR - 2017-12-04 10:08:46 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.jpg C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 273
+ERROR - 2017-12-04 10:08:46 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/bosnia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 273
+ERROR - 2017-12-04 10:08:46 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/georgia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 273
+ERROR - 2017-12-04 10:08:56 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 273
+ERROR - 2017-12-04 10:08:56 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/azerbaijan.jpg C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 273
+ERROR - 2017-12-04 10:08:56 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/bosnia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 273
+ERROR - 2017-12-04 10:08:56 --> Severity: Warning --> filesize(): stat failed for ./uploads/poiuyt55a20f7efbb1ec/georgia.png C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 273
+ERROR - 2017-12-04 11:35:53 --> Severity: Parsing Error --> syntax error, unexpected ''properties'' (T_CONSTANT_ENCAPSED_STRING) C:\xampp\htdocs\fullbasket\application\controllers\admin\Properties.php 332

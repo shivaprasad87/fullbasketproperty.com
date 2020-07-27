@@ -1,0 +1,37 @@
+ERROR - 2018-10-15 00:31:10 --> 404 Page Not Found: 
+ERROR - 2018-10-15 02:26:39 --> 404 Page Not Found: 
+ERROR - 2018-10-15 02:36:15 --> 404 Page Not Found: 
+ERROR - 2018-10-15 03:09:02 --> 404 Page Not Found: 
+ERROR - 2018-10-15 07:27:11 --> 404 Page Not Found: 
+ERROR - 2018-10-15 07:29:39 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-10-15 07:58:25 --> 404 Page Not Found: 
+ERROR - 2018-10-15 08:45:41 --> 404 Page Not Found: 
+ERROR - 2018-10-15 10:14:22 --> 404 Page Not Found: 
+ERROR - 2018-10-15 11:28:03 --> 404 Page Not Found: 
+ERROR - 2018-10-15 12:07:15 --> 404 Page Not Found: 
+ERROR - 2018-10-15 12:17:21 --> 404 Page Not Found: 
+ERROR - 2018-10-15 12:17:21 --> 404 Page Not Found: 
+ERROR - 2018-10-15 12:51:56 --> Severity: Warning --> rename(uploads/floor_plans/Prestige-Spencer-Heights-Master-Plan.jpg,uploads/prestige-spencer-heights/Prestige-Spencer-Heights-Master-Plan.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 264
+ERROR - 2018-10-15 14:56:41 --> 404 Page Not Found: 
+ERROR - 2018-10-15 15:06:41 --> 404 Page Not Found: 
+ERROR - 2018-10-15 15:07:16 --> 404 Page Not Found: 
+ERROR - 2018-10-15 15:08:05 --> 404 Page Not Found: 
+ERROR - 2018-10-15 15:09:50 --> Severity: Warning --> rename(uploads/floor_plans/type-b1-4-bed-unit-penthouse-1-2.jpg,uploads/prestige-deja-vu/type-b1-4-bed-unit-penthouse-1-2.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 264
+ERROR - 2018-10-15 15:09:50 --> Severity: Warning --> rename(uploads/floor_plans/type-b1-4-bed-unit-penthouse-2-2.jpg,uploads/prestige-deja-vu/type-b1-4-bed-unit-penthouse-2-2.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 264
+ERROR - 2018-10-15 15:11:29 --> 404 Page Not Found: 
+ERROR - 2018-10-15 15:11:30 --> 404 Page Not Found: 
+ERROR - 2018-10-15 15:13:58 --> 404 Page Not Found: 
+ERROR - 2018-10-15 15:13:58 --> 404 Page Not Found: 
+ERROR - 2018-10-15 15:52:19 --> 404 Page Not Found: 
+ERROR - 2018-10-15 16:07:50 --> Severity: Warning --> rename(uploads/elevations/prestige-royal-gardens-lobby-viw.jpg,uploads/prestige-royale-gardens-phase-1/prestige-royal-gardens-lobby-viw.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 317
+ERROR - 2018-10-15 16:57:57 --> 404 Page Not Found: 
+ERROR - 2018-10-15 17:15:47 --> 404 Page Not Found: 
+ERROR - 2018-10-15 17:15:48 --> 404 Page Not Found: 
+ERROR - 2018-10-15 17:41:37 --> 404 Page Not Found: 
+ERROR - 2018-10-15 21:26:45 --> 404 Page Not Found: 
+ERROR - 2018-10-15 22:33:49 --> 404 Page Not Found: 
+ERROR - 2018-10-15 22:51:42 --> 404 Page Not Found: 
+ERROR - 2018-10-15 22:52:40 --> 404 Page Not Found: 
+ERROR - 2018-10-15 22:53:36 --> 404 Page Not Found: 
+ERROR - 2018-10-15 23:47:45 --> 404 Page Not Found: 
+ERROR - 2018-10-15 23:50:35 --> 404 Page Not Found: 

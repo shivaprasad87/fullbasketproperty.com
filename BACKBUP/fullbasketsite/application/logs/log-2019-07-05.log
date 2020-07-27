@@ -1,0 +1,137 @@
+ERROR - 2019-07-05 00:00:16 --> 404 Page Not Found: 
+ERROR - 2019-07-05 00:03:51 --> 404 Page Not Found: 
+ERROR - 2019-07-05 00:21:40 --> 404 Page Not Found: 
+ERROR - 2019-07-05 00:22:00 --> 404 Page Not Found: 
+ERROR - 2019-07-05 00:25:08 --> 404 Page Not Found: 
+ERROR - 2019-07-05 01:13:09 --> 404 Page Not Found: 
+ERROR - 2019-07-05 01:16:09 --> 404 Page Not Found: 
+ERROR - 2019-07-05 01:16:43 --> 404 Page Not Found: 
+ERROR - 2019-07-05 01:59:43 --> 404 Page Not Found: 
+ERROR - 2019-07-05 03:18:58 --> 404 Page Not Found: 
+ERROR - 2019-07-05 03:42:57 --> 404 Page Not Found: 
+ERROR - 2019-07-05 04:01:41 --> 404 Page Not Found: 
+ERROR - 2019-07-05 04:30:30 --> 404 Page Not Found: 
+ERROR - 2019-07-05 06:41:17 --> 404 Page Not Found: 
+ERROR - 2019-07-05 06:41:17 --> 404 Page Not Found: 
+ERROR - 2019-07-05 06:41:20 --> 404 Page Not Found: 
+ERROR - 2019-07-05 06:55:25 --> 404 Page Not Found: 
+ERROR - 2019-07-05 06:55:33 --> 404 Page Not Found: 
+ERROR - 2019-07-05 06:55:48 --> 404 Page Not Found: 
+ERROR - 2019-07-05 06:55:57 --> 404 Page Not Found: 
+ERROR - 2019-07-05 07:05:05 --> 404 Page Not Found: 
+ERROR - 2019-07-05 08:01:48 --> 404 Page Not Found: 
+ERROR - 2019-07-05 08:30:53 --> 404 Page Not Found: 
+ERROR - 2019-07-05 08:39:31 --> Severity: 4096 --> Object of class CI_Email could not be converted to string /home/fullbasketproper/public_html/application/controllers/Home.php 407
+ERROR - 2019-07-05 08:39:51 --> 404 Page Not Found: 
+ERROR - 2019-07-05 08:40:12 --> 404 Page Not Found: 
+ERROR - 2019-07-05 08:43:48 --> Severity: 4096 --> Object of class CI_Email could not be converted to string /home/fullbasketproper/public_html/application/controllers/Home.php 407
+ERROR - 2019-07-05 08:53:08 --> 404 Page Not Found: 
+ERROR - 2019-07-05 08:53:17 --> 404 Page Not Found: 
+ERROR - 2019-07-05 08:53:32 --> 404 Page Not Found: 
+ERROR - 2019-07-05 08:53:55 --> 404 Page Not Found: 
+ERROR - 2019-07-05 10:19:40 --> 404 Page Not Found: 
+ERROR - 2019-07-05 10:20:35 --> 404 Page Not Found: 
+ERROR - 2019-07-05 10:34:40 --> 404 Page Not Found: 
+ERROR - 2019-07-05 10:42:15 --> 404 Page Not Found: 
+ERROR - 2019-07-05 10:43:50 --> 404 Page Not Found: 
+ERROR - 2019-07-05 10:44:25 --> 404 Page Not Found: 
+ERROR - 2019-07-05 10:44:39 --> 404 Page Not Found: 
+ERROR - 2019-07-05 11:18:10 --> 404 Page Not Found: 
+ERROR - 2019-07-05 11:18:22 --> 404 Page Not Found: 
+ERROR - 2019-07-05 11:51:18 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2019-07-05 11:53:51 --> 404 Page Not Found: 
+ERROR - 2019-07-05 12:02:03 --> 404 Page Not Found: 
+ERROR - 2019-07-05 12:02:04 --> 404 Page Not Found: 
+ERROR - 2019-07-05 12:02:41 --> 404 Page Not Found: 
+ERROR - 2019-07-05 12:10:10 --> 404 Page Not Found: 
+ERROR - 2019-07-05 12:29:36 --> 404 Page Not Found: 
+ERROR - 2019-07-05 12:56:53 --> 404 Page Not Found: 
+ERROR - 2019-07-05 13:10:39 --> 404 Page Not Found: 
+ERROR - 2019-07-05 13:13:18 --> 404 Page Not Found: 
+ERROR - 2019-07-05 13:13:32 --> 404 Page Not Found: 
+ERROR - 2019-07-05 13:25:59 --> 404 Page Not Found: 
+ERROR - 2019-07-05 13:53:03 --> 404 Page Not Found: 
+ERROR - 2019-07-05 14:17:17 --> 404 Page Not Found: 
+ERROR - 2019-07-05 14:18:31 --> 404 Page Not Found: 
+ERROR - 2019-07-05 14:32:39 --> 404 Page Not Found: 
+ERROR - 2019-07-05 14:35:25 --> 404 Page Not Found: 
+ERROR - 2019-07-05 14:35:38 --> 404 Page Not Found: 
+ERROR - 2019-07-05 14:37:11 --> 404 Page Not Found: 
+ERROR - 2019-07-05 14:38:57 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-07-05 14:39:08 --> 404 Page Not Found: 
+ERROR - 2019-07-05 14:39:42 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-07-05 14:40:28 --> 404 Page Not Found: 
+ERROR - 2019-07-05 14:50:35 --> 404 Page Not Found: 
+ERROR - 2019-07-05 15:00:12 --> 404 Page Not Found: 
+ERROR - 2019-07-05 15:00:14 --> 404 Page Not Found: 
+ERROR - 2019-07-05 15:00:21 --> 404 Page Not Found: 
+ERROR - 2019-07-05 15:04:56 --> 404 Page Not Found: 
+ERROR - 2019-07-05 15:20:16 --> 404 Page Not Found: 
+ERROR - 2019-07-05 15:20:18 --> 404 Page Not Found: 
+ERROR - 2019-07-05 15:22:34 --> 404 Page Not Found: 
+ERROR - 2019-07-05 15:25:12 --> 404 Page Not Found: 
+ERROR - 2019-07-05 15:29:19 --> 404 Page Not Found: 
+ERROR - 2019-07-05 15:30:02 --> 404 Page Not Found: 
+ERROR - 2019-07-05 15:30:35 --> 404 Page Not Found: 
+ERROR - 2019-07-05 15:30:59 --> 404 Page Not Found: 
+ERROR - 2019-07-05 15:38:15 --> 404 Page Not Found: 
+ERROR - 2019-07-05 15:47:53 --> 404 Page Not Found: 
+ERROR - 2019-07-05 15:55:15 --> 404 Page Not Found: 
+ERROR - 2019-07-05 15:58:07 --> 404 Page Not Found: 
+ERROR - 2019-07-05 16:07:26 --> 404 Page Not Found: 
+ERROR - 2019-07-05 16:12:06 --> 404 Page Not Found: 
+ERROR - 2019-07-05 16:13:23 --> 404 Page Not Found: 
+ERROR - 2019-07-05 16:16:19 --> 404 Page Not Found: 
+ERROR - 2019-07-05 16:22:04 --> 404 Page Not Found: 
+ERROR - 2019-07-05 16:30:05 --> 404 Page Not Found: 
+ERROR - 2019-07-05 16:31:08 --> 404 Page Not Found: 
+ERROR - 2019-07-05 16:41:15 --> 404 Page Not Found: 
+ERROR - 2019-07-05 16:41:43 --> 404 Page Not Found: 
+ERROR - 2019-07-05 16:43:14 --> 404 Page Not Found: 
+ERROR - 2019-07-05 16:44:04 --> 404 Page Not Found: 
+ERROR - 2019-07-05 16:44:30 --> 404 Page Not Found: 
+ERROR - 2019-07-05 16:46:00 --> 404 Page Not Found: 
+ERROR - 2019-07-05 16:46:35 --> 404 Page Not Found: 
+ERROR - 2019-07-05 16:52:09 --> 404 Page Not Found: 
+ERROR - 2019-07-05 16:57:58 --> 404 Page Not Found: 
+ERROR - 2019-07-05 17:07:11 --> 404 Page Not Found: 
+ERROR - 2019-07-05 17:15:02 --> 404 Page Not Found: 
+ERROR - 2019-07-05 17:20:25 --> 404 Page Not Found: 
+ERROR - 2019-07-05 17:53:41 --> 404 Page Not Found: 
+ERROR - 2019-07-05 18:09:34 --> 404 Page Not Found: 
+ERROR - 2019-07-05 18:12:12 --> 404 Page Not Found: 
+ERROR - 2019-07-05 18:12:13 --> 404 Page Not Found: 
+ERROR - 2019-07-05 18:28:20 --> 404 Page Not Found: 
+ERROR - 2019-07-05 18:38:42 --> 404 Page Not Found: 
+ERROR - 2019-07-05 18:45:19 --> 404 Page Not Found: 
+ERROR - 2019-07-05 18:47:26 --> 404 Page Not Found: 
+ERROR - 2019-07-05 18:55:11 --> 404 Page Not Found: 
+ERROR - 2019-07-05 19:08:13 --> 404 Page Not Found: 
+ERROR - 2019-07-05 19:24:45 --> 404 Page Not Found: 
+ERROR - 2019-07-05 19:25:57 --> 404 Page Not Found: 
+ERROR - 2019-07-05 19:57:23 --> 404 Page Not Found: 
+ERROR - 2019-07-05 20:01:05 --> 404 Page Not Found: 
+ERROR - 2019-07-05 20:01:06 --> 404 Page Not Found: 
+ERROR - 2019-07-05 20:04:20 --> 404 Page Not Found: 
+ERROR - 2019-07-05 20:43:04 --> 404 Page Not Found: 
+ERROR - 2019-07-05 20:51:30 --> 404 Page Not Found: 
+ERROR - 2019-07-05 21:39:40 --> 404 Page Not Found: 
+ERROR - 2019-07-05 21:44:45 --> 404 Page Not Found: 
+ERROR - 2019-07-05 21:46:09 --> Severity: Warning --> Division by zero /home/fullbasketproper/public_html/application/core/Public_Controller.php 47
+ERROR - 2019-07-05 21:50:47 --> 404 Page Not Found: 
+ERROR - 2019-07-05 22:28:57 --> 404 Page Not Found: 
+ERROR - 2019-07-05 23:20:46 --> 404 Page Not Found: 
+ERROR - 2019-07-05 23:27:02 --> 404 Page Not Found: 
+ERROR - 2019-07-05 23:33:20 --> 404 Page Not Found: 
+ERROR - 2019-07-05 23:41:05 --> 404 Page Not Found: 
+ERROR - 2019-07-05 23:52:34 --> 404 Page Not Found: 

@@ -1,0 +1,67 @@
+ERROR - 2017-11-20 05:04:44 --> Severity: Warning --> include(C:\xampp\htdocs\fullbasket\system\language/english/aboutUs_lang.php): failed to open stream: No such file or directory C:\xampp\htdocs\fullbasket\application\core\MY_Lang.php 112
+ERROR - 2017-11-20 05:04:44 --> Severity: Warning --> include(): Failed opening 'C:\xampp\htdocs\fullbasket\system\language/english/aboutUs_lang.php' for inclusion (include_path='C:\xampp\php\PEAR') C:\xampp\htdocs\fullbasket\application\core\MY_Lang.php 112
+ERROR - 2017-11-20 05:04:44 --> Language file contains no data: language/english/aboutUs_lang.php
+ERROR - 2017-11-20 05:04:44 --> Severity: Notice --> Undefined property: AboutUs::$user_model C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 67
+ERROR - 2017-11-20 05:04:44 --> Severity: Error --> Call to a member function getAll() on null C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 67
+ERROR - 2017-11-20 05:05:04 --> Language file contains no data: language/english/aboutUs_lang.php
+ERROR - 2017-11-20 05:05:04 --> Severity: Notice --> Undefined property: AboutUs::$user_model C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 67
+ERROR - 2017-11-20 05:05:04 --> Severity: Error --> Call to a member function getAll() on null C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 67
+ERROR - 2017-11-20 05:05:36 --> Language file contains no data: language/english/aboutUs_lang.php
+ERROR - 2017-11-20 05:05:36 --> Severity: Error --> Call to undefined method AboutUs::loadViews() C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 72
+ERROR - 2017-11-20 05:06:17 --> Language file contains no data: language/english/aboutUs_lang.php
+ERROR - 2017-11-20 05:06:17 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 14
+ERROR - 2017-11-20 05:06:17 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 108
+ERROR - 2017-11-20 05:10:44 --> Language file contains no data: language/english/aboutUs_lang.php
+ERROR - 2017-11-20 05:10:44 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 14
+ERROR - 2017-11-20 05:10:44 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 108
+ERROR - 2017-11-20 05:16:59 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 14
+ERROR - 2017-11-20 05:16:59 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 108
+ERROR - 2017-11-20 05:17:03 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 14
+ERROR - 2017-11-20 05:17:03 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 108
+ERROR - 2017-11-20 05:21:53 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 14
+ERROR - 2017-11-20 05:21:53 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 108
+ERROR - 2017-11-20 05:28:03 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 14
+ERROR - 2017-11-20 05:28:03 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 108
+ERROR - 2017-11-20 05:28:10 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 14
+ERROR - 2017-11-20 05:28:10 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 108
+ERROR - 2017-11-20 05:28:38 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 14
+ERROR - 2017-11-20 05:28:38 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 108
+ERROR - 2017-11-20 05:29:58 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 14
+ERROR - 2017-11-20 05:29:58 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 108
+ERROR - 2017-11-20 05:30:58 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 17
+ERROR - 2017-11-20 05:30:58 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 111
+ERROR - 2017-11-20 05:31:02 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 17
+ERROR - 2017-11-20 05:31:02 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 111
+ERROR - 2017-11-20 05:31:07 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 17
+ERROR - 2017-11-20 05:31:07 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 111
+ERROR - 2017-11-20 05:31:36 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 17
+ERROR - 2017-11-20 05:31:36 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 111
+ERROR - 2017-11-20 05:36:54 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 17
+ERROR - 2017-11-20 05:36:54 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 111
+ERROR - 2017-11-20 05:36:57 --> Severity: Notice --> Undefined variable: page_title C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 17
+ERROR - 2017-11-20 05:36:57 --> Severity: Notice --> Undefined variable: page_header C:\xampp\htdocs\fullbasket\assets\themes\admin\template.php 111
+ERROR - 2017-11-20 05:37:33 --> Severity: Error --> Call to undefined function debug() C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 80
+ERROR - 2017-11-20 05:37:46 --> Severity: Error --> Call to undefined function var_dumb() C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 80
+ERROR - 2017-11-20 06:21:37 --> Severity: Notice --> Undefined property: AboutUs::$user_model C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 87
+ERROR - 2017-11-20 06:21:37 --> Severity: Error --> Call to a member function getAll() on null C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 87
+ERROR - 2017-11-20 07:51:33 --> Query error: Duplicate entry '0' for key 'PRIMARY' - Invalid query: INSERT INTO `about_us_images` (`image`) VALUES ('uploads/about_us/18f8bfd6df0239b757d35e9bb8234f54(1).jpg')
+ERROR - 2017-11-20 08:25:51 --> Severity: Notice --> Undefined property: AboutUs::$user_model C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 136
+ERROR - 2017-11-20 08:25:51 --> Severity: Error --> Call to a member function deleteWhere() on null C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 136
+ERROR - 2017-11-20 08:26:12 --> Severity: Notice --> Undefined property: AboutUs::$user_model C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 136
+ERROR - 2017-11-20 08:26:12 --> Severity: Error --> Call to a member function deleteWhere() on null C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 136
+ERROR - 2017-11-20 08:26:36 --> Severity: Warning --> unlink(./http://localhost/fullbasket/uploads/about_us/2.jpg): Invalid argument C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 137
+ERROR - 2017-11-20 08:26:51 --> Severity: Warning --> unlink(./http://localhost/fullbasket/uploads/about_us/1.jpg): Invalid argument C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 137
+ERROR - 2017-11-20 08:27:27 --> Severity: Warning --> unlink(): http does not allow unlinking C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 137
+ERROR - 2017-11-20 08:33:07 --> Severity: Warning --> unlink(./http://localhost/fullbasket/uploads/about_us/1.jpg): Invalid argument C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 137
+ERROR - 2017-11-20 08:35:41 --> Severity: Warning --> unlink(./http://localhost/fullbasket/uploads/about_us/1.jpg): Invalid argument C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 137
+ERROR - 2017-11-20 08:39:13 --> Severity: Warning --> unlink(./http://localhost/fullbasket/uploads/about_us/1.jpg): Invalid argument C:\xampp\htdocs\fullbasket\application\controllers\admin\AboutUs.php 137
+ERROR - 2017-11-20 09:38:49 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\sliders.php 30
+ERROR - 2017-11-20 09:38:49 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\sliders.php 30
+ERROR - 2017-11-20 09:38:49 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\sliders.php 37
+ERROR - 2017-11-20 09:38:49 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\sliders.php 37
+ERROR - 2017-11-20 09:38:49 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\sliders.php 46
+ERROR - 2017-11-20 09:38:49 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\sliders.php 46
+ERROR - 2017-11-20 09:38:49 --> Severity: Notice --> Undefined variable: aboutUs C:\xampp\htdocs\fullbasket\application\views\admin\sliders.php 55
+ERROR - 2017-11-20 09:38:49 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\fullbasket\application\views\admin\sliders.php 55
+ERROR - 2017-11-20 09:42:01 --> Severity: Notice --> Undefined property: Sliders::$user_model C:\xampp\htdocs\fullbasket\application\controllers\admin\Sliders.php 49
+ERROR - 2017-11-20 09:42:01 --> Severity: Error --> Call to a member function insertRow() on null C:\xampp\htdocs\fullbasket\application\controllers\admin\Sliders.php 49

@@ -1,0 +1,32 @@
+ERROR - 2018-07-21 00:35:40 --> 404 Page Not Found: 
+ERROR - 2018-07-21 01:01:04 --> 404 Page Not Found: 
+ERROR - 2018-07-21 02:20:40 --> 404 Page Not Found: 
+ERROR - 2018-07-21 02:43:10 --> 404 Page Not Found: 
+ERROR - 2018-07-21 02:58:43 --> 404 Page Not Found: 
+ERROR - 2018-07-21 04:27:14 --> 404 Page Not Found: 
+ERROR - 2018-07-21 04:28:39 --> 404 Page Not Found: 
+ERROR - 2018-07-21 06:26:53 --> 404 Page Not Found: 
+ERROR - 2018-07-21 07:20:39 --> 404 Page Not Found: 
+ERROR - 2018-07-21 08:42:08 --> 404 Page Not Found: 
+ERROR - 2018-07-21 08:42:28 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-21 08:43:22 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-21 09:50:31 --> 404 Page Not Found: 
+ERROR - 2018-07-21 11:16:09 --> 404 Page Not Found: 
+ERROR - 2018-07-21 11:24:38 --> 404 Page Not Found: 
+ERROR - 2018-07-21 13:47:25 --> 404 Page Not Found: 
+ERROR - 2018-07-21 16:35:05 --> Severity: Warning --> rename(uploads/floor_plans/Prestige_Dolce_Vista_type-d-floor-plan-1.jpg,uploads/prestige-dolce-vita/Prestige_Dolce_Vista_type-d-floor-plan-1.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 264
+ERROR - 2018-07-21 16:35:05 --> Severity: Warning --> rename(uploads/floor_plans/Prestige_Dolce_Vista_type-c-floor-plan-1.jpg,uploads/prestige-dolce-vita/Prestige_Dolce_Vista_type-c-floor-plan-1.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 264
+ERROR - 2018-07-21 16:35:05 --> Severity: Warning --> rename(uploads/floor_plans/Prestige_Dolce_Vista_type-d-floor-plan-1.jpg,uploads/prestige-dolce-vita/Prestige_Dolce_Vista_type-d-floor-plan-1.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 264
+ERROR - 2018-07-21 16:35:05 --> Severity: Warning --> rename(uploads/floor_plans/Prestige_Dolce_Vista_type-e-floor-plan.jpg,uploads/prestige-dolce-vita/Prestige_Dolce_Vista_type-e-floor-plan.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 264
+ERROR - 2018-07-21 16:35:05 --> Severity: Warning --> rename(uploads/floor_plans/Prestige_Dolce_Vista_type-f-floor-plan.jpg,uploads/prestige-dolce-vita/Prestige_Dolce_Vista_type-f-floor-plan.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 264
+ERROR - 2018-07-21 16:59:02 --> 404 Page Not Found: 
+ERROR - 2018-07-21 17:18:27 --> 404 Page Not Found: 
+ERROR - 2018-07-21 18:09:58 --> Severity: Warning --> rename(uploads/master_plans/glen-gate-elevation.jpeg,uploads/hiranandani-glen-gate/glen-gate-elevation.jpeg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 277
+ERROR - 2018-07-21 18:09:58 --> Severity: Warning --> rename(uploads/master_plans/Glen_Gate_Apartments.jpg,uploads/hiranandani-glen-gate/Glen_Gate_Apartments.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 277
+ERROR - 2018-07-21 18:10:21 --> 404 Page Not Found: 
+ERROR - 2018-07-21 18:11:07 --> 404 Page Not Found: 
+ERROR - 2018-07-21 18:11:15 --> 404 Page Not Found: 
+ERROR - 2018-07-21 18:13:25 --> 404 Page Not Found: 
+ERROR - 2018-07-21 20:49:45 --> 404 Page Not Found: 
+ERROR - 2018-07-21 22:04:32 --> 404 Page Not Found: 
+ERROR - 2018-07-21 23:04:53 --> 404 Page Not Found: 

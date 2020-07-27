@@ -1,0 +1,25 @@
+ERROR - 2018-03-26 02:06:23 --> 404 Page Not Found: 
+ERROR - 2018-03-26 02:49:49 --> 404 Page Not Found: 
+ERROR - 2018-03-26 02:49:50 --> 404 Page Not Found: 
+ERROR - 2018-03-26 04:41:38 --> 404 Page Not Found: 
+ERROR - 2018-03-26 10:26:05 --> 404 Page Not Found: 
+ERROR - 2018-03-26 10:55:55 --> 404 Page Not Found: 
+ERROR - 2018-03-26 09:14:49 --> Severity: error --> Exception: Oophs. Error! /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Endpoint.php 212
+ERROR - 2018-03-26 18:07:41 --> 404 Page Not Found: 
+ERROR - 2018-03-26 18:07:44 --> 404 Page Not Found: 
+ERROR - 2018-03-26 18:07:45 --> 404 Page Not Found: 
+ERROR - 2018-03-26 18:17:00 --> Severity: Warning --> rename(uploads/floor_plans/F-Residencies_4BHK_PentHouse_Floor_Plan.jpg,uploads/f-residences/F-Residencies_4BHK_PentHouse_Floor_Plan.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 265
+ERROR - 2018-03-26 18:17:00 --> Severity: Warning --> rename(uploads/elevations/F-Residencies_Bedroom_2.jpg,uploads/f-residences/F-Residencies_Bedroom_2.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 317
+ERROR - 2018-03-26 18:20:26 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-03-26 18:20:34 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-03-26 18:20:48 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-03-26 18:20:54 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-03-26 18:58:33 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-03-26 18:58:47 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-03-26 18:58:57 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-03-26 19:16:49 --> 404 Page Not Found: 
+ERROR - 2018-03-26 19:16:50 --> 404 Page Not Found: 
+ERROR - 2018-03-26 20:32:02 --> 404 Page Not Found: 
+ERROR - 2018-03-26 20:32:12 --> 404 Page Not Found: 
+ERROR - 2018-03-26 22:06:57 --> 404 Page Not Found: 
+ERROR - 2018-03-26 23:09:22 --> 404 Page Not Found: 

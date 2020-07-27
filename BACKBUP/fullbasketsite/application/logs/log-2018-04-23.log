@@ -1,0 +1,113 @@
+ERROR - 2018-04-23 00:45:41 --> 404 Page Not Found: 
+ERROR - 2018-04-23 01:20:50 --> 404 Page Not Found: 
+ERROR - 2018-04-23 02:21:50 --> 404 Page Not Found: 
+ERROR - 2018-04-23 02:58:53 --> 404 Page Not Found: 
+ERROR - 2018-04-23 05:07:08 --> 404 Page Not Found: 
+ERROR - 2018-04-23 07:13:41 --> 404 Page Not Found: 
+ERROR - 2018-04-23 07:15:09 --> 404 Page Not Found: 
+ERROR - 2018-04-23 07:15:16 --> 404 Page Not Found: 
+ERROR - 2018-04-23 07:15:20 --> 404 Page Not Found: 
+ERROR - 2018-04-23 08:13:36 --> 404 Page Not Found: 
+ERROR - 2018-04-23 11:14:36 --> 404 Page Not Found: 
+ERROR - 2018-04-23 11:21:27 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 11:21:45 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 11:22:06 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 11:52:21 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-04-23 11:52:23 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-04-23 11:52:33 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-04-23 11:52:45 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-04-23 11:52:50 --> 404 Page Not Found: 
+ERROR - 2018-04-23 11:52:50 --> 404 Page Not Found: 
+ERROR - 2018-04-23 11:52:50 --> 404 Page Not Found: 
+ERROR - 2018-04-23 11:52:51 --> 404 Page Not Found: 
+ERROR - 2018-04-23 11:52:51 --> 404 Page Not Found: 
+ERROR - 2018-04-23 11:52:51 --> 404 Page Not Found: 
+ERROR - 2018-04-23 11:52:51 --> 404 Page Not Found: 
+ERROR - 2018-04-23 11:52:52 --> 404 Page Not Found: 
+ERROR - 2018-04-23 11:52:52 --> 404 Page Not Found: 
+ERROR - 2018-04-23 11:52:54 --> 404 Page Not Found: 
+ERROR - 2018-04-23 11:52:55 --> 404 Page Not Found: 
+ERROR - 2018-04-23 11:52:57 --> 404 Page Not Found: 
+ERROR - 2018-04-23 12:15:44 --> 404 Page Not Found: 
+ERROR - 2018-04-23 12:27:42 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-04-23 12:27:42 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-04-23 12:27:42 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-04-23 12:27:42 --> Could not find the language line "achievements title addAchievement"
+ERROR - 2018-04-23 12:28:49 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-04-23 12:28:49 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-04-23 12:28:49 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-04-23 12:28:49 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-04-23 12:28:49 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-04-23 12:28:49 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-04-23 12:28:49 --> Could not find the language line "achievements title achievements"
+ERROR - 2018-04-23 12:59:37 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 13:01:07 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 13:01:29 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 13:11:41 --> 404 Page Not Found: 
+ERROR - 2018-04-23 13:39:30 --> 404 Page Not Found: 
+ERROR - 2018-04-23 13:46:21 --> 404 Page Not Found: 
+ERROR - 2018-04-23 14:55:00 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 14:55:11 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 14:55:25 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 14:55:48 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 14:56:40 --> 404 Page Not Found: 
+ERROR - 2018-04-23 14:56:42 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 14:56:52 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 14:57:06 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 14:57:38 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 14:58:26 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 14:59:33 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 14:59:34 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 14:59:42 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 14:59:50 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 15:00:27 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-04-23 16:04:21 --> 404 Page Not Found: 
+ERROR - 2018-04-23 16:05:07 --> 404 Page Not Found: 
+ERROR - 2018-04-23 16:05:10 --> 404 Page Not Found: 
+ERROR - 2018-04-23 16:48:18 --> 404 Page Not Found: 
+ERROR - 2018-04-23 16:56:24 --> 404 Page Not Found: 
+ERROR - 2018-04-23 17:40:43 --> 404 Page Not Found: 
+ERROR - 2018-04-23 17:40:44 --> 404 Page Not Found: 
+ERROR - 2018-04-23 18:48:30 --> 404 Page Not Found: 
+ERROR - 2018-04-23 22:10:11 --> 404 Page Not Found: 
+ERROR - 2018-04-23 23:25:39 --> 404 Page Not Found: 

@@ -1,0 +1,25 @@
+ERROR - 2017-11-21 05:22:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ C:\xampp\htdocs\fullbasket\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2017-11-21 05:22:07 --> Unable to connect to the database
+ERROR - 2017-11-21 04:57:18 --> Severity: Notice --> Undefined property: Blogs::$admin_model C:\xampp\htdocs\fullbasket\application\controllers\admin\Blogs.php 81
+ERROR - 2017-11-21 04:57:18 --> Severity: Error --> Call to a member function loadBlogCategories() on null C:\xampp\htdocs\fullbasket\application\controllers\admin\Blogs.php 81
+ERROR - 2017-11-21 04:57:36 --> Severity: Error --> Call to undefined method Blogs::paginate() C:\xampp\htdocs\fullbasket\application\controllers\admin\Blogs.php 84
+ERROR - 2017-11-21 05:19:44 --> Severity: Notice --> Undefined property: Blogs::$admin_model C:\xampp\htdocs\fullbasket\application\controllers\admin\Blogs.php 119
+ERROR - 2017-11-21 05:19:44 --> Severity: Error --> Call to a member function getOneWhere() on null C:\xampp\htdocs\fullbasket\application\controllers\admin\Blogs.php 119
+ERROR - 2017-11-21 05:40:19 --> Severity: Notice --> Undefined property: Blogs::$admin_model C:\xampp\htdocs\fullbasket\application\controllers\admin\Blogs.php 52
+ERROR - 2017-11-21 05:40:19 --> Severity: Error --> Call to a member function loadBlogs() on null C:\xampp\htdocs\fullbasket\application\controllers\admin\Blogs.php 52
+ERROR - 2017-11-21 05:47:08 --> Severity: Notice --> Undefined variable: blogs C:\xampp\htdocs\fullbasket\application\views\admin\blogs\blogs.php 38
+ERROR - 2017-11-21 05:49:14 --> Severity: Notice --> Undefined variable: blogs C:\xampp\htdocs\fullbasket\application\views\admin\blogs\blogs.php 38
+ERROR - 2017-11-21 05:49:34 --> Severity: Notice --> Undefined variable: blogs C:\xampp\htdocs\fullbasket\application\views\admin\blogs\blogs.php 38
+ERROR - 2017-11-21 05:59:57 --> Severity: Notice --> Undefined property: Blogs::$upload C:\xampp\htdocs\fullbasket\application\controllers\admin\Blogs.php 83
+ERROR - 2017-11-21 05:59:57 --> Severity: Error --> Call to a member function initialize() on null C:\xampp\htdocs\fullbasket\application\controllers\admin\Blogs.php 83
+ERROR - 2017-11-21 06:02:13 --> Query error: Table 'fullbasket.tags' doesn't exist - Invalid query: SELECT *
+FROM `tags`
+WHERE `name` = 'hcuykbj'
+ERROR - 2017-11-21 06:12:59 --> Severity: Error --> Call to undefined method Blogs_model::getBlog() C:\xampp\htdocs\fullbasket\application\controllers\admin\Blogs.php 146
+ERROR - 2017-11-21 06:13:38 --> Severity: Error --> Call to undefined method Blogs_model::getTags() C:\xampp\htdocs\fullbasket\application\controllers\admin\Blogs.php 216
+ERROR - 2017-11-21 06:13:40 --> Severity: Error --> Call to undefined method Blogs_model::getTags() C:\xampp\htdocs\fullbasket\application\controllers\admin\Blogs.php 216
+ERROR - 2017-11-21 07:21:30 --> Severity: error --> Exception: C:\xampp\htdocs\fullbasket\application\models/Testimonials_model.php exists, but doesn't declare class Testimonials_model C:\xampp\htdocs\fullbasket\system\core\Loader.php 336
+ERROR - 2017-11-21 07:32:12 --> Severity: Notice --> Undefined property: Testimonials::$data C:\xampp\htdocs\fullbasket\application\controllers\admin\Testimonials.php 115
+ERROR - 2017-11-21 07:33:34 --> Severity: Notice --> Undefined property: stdClass::$title C:\xampp\htdocs\fullbasket\application\views\admin\testimonials\index.php 49
+ERROR - 2017-11-21 09:28:03 --> Severity: Warning --> unlink(uploads/testimonials/c0fb640ac09f5c235291401503edf6b9.jpg): No such file or directory C:\xampp\htdocs\fullbasket\application\controllers\admin\Testimonials.php 216

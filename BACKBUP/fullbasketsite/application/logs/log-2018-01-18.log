@@ -1,0 +1,18 @@
+ERROR - 2018-01-18 00:24:08 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-18 01:12:37 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-18 02:19:40 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-18 02:46:38 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-18 04:41:47 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-18 05:46:14 --> Severity: error --> Exception: Oophs. Error! /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Endpoint.php 212
+ERROR - 2018-01-18 05:46:14 --> Severity: error --> Exception: Oophs. Error! /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Endpoint.php 212
+ERROR - 2018-01-18 06:41:48 --> Could not find the language line "testimonials title editTestimonial"
+ERROR - 2018-01-18 06:42:44 --> Could not find the language line "testimonials title editTestimonial"
+ERROR - 2018-01-18 06:42:57 --> Could not find the language line "testimonials title editTestimonial"
+ERROR - 2018-01-18 06:43:17 --> Could not find the language line "testimonials title editTestimonial"
+ERROR - 2018-01-18 06:44:08 --> Could not find the language line "testimonials title editTestimonial"
+ERROR - 2018-01-18 06:47:55 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-18 06:48:20 --> Could not find the language line "stay_in_touch title stayInTouchUpdate"
+ERROR - 2018-01-18 17:52:58 --> Severity: Warning --> include(/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php): failed to open stream: No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-18 17:52:58 --> Severity: Warning --> include(): Failed opening '/home/nkmtein/public_html/fullbasketproperty.com/system/language/english/achievements_lang.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') /home/nkmtein/public_html/fullbasketproperty.com/application/core/MY_Lang.php 112
+ERROR - 2018-01-18 17:52:58 --> Language file contains no data: language/english/achievements_lang.php
+ERROR - 2018-01-18 17:52:58 --> Could not find the language line "achievements title achievements"

@@ -1,0 +1,23 @@
+ERROR - 2019-02-17 00:39:06 --> Query error: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'fullbask_nkmtein_fullbasket_new.pft.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by - Invalid query: SELECT `ft`.`name` as `flat_type`, `pft`.*
+FROM `property_flat_types` `pft`
+JOIN `flat_types` `ft` ON `ft`.`id` = `pft`.`flat_type_id`
+WHERE `pft`.`property_id` = '148'
+GROUP BY `pft`.`flat_type_id`
+ERROR - 2019-02-17 00:39:09 --> Query error: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'fullbask_nkmtein_fullbasket_new.pft.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by - Invalid query: SELECT `ft`.`name` as `flat_type`, `pft`.*
+FROM `property_flat_types` `pft`
+JOIN `flat_types` `ft` ON `ft`.`id` = `pft`.`flat_type_id`
+WHERE `pft`.`property_id` = '145'
+GROUP BY `pft`.`flat_type_id`
+ERROR - 2019-02-17 01:37:00 --> Query error: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'fullbask_nkmtein_fullbasket_new.pft.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by - Invalid query: SELECT `ft`.`name` as `flat_type`, `pft`.*
+FROM `property_flat_types` `pft`
+JOIN `flat_types` `ft` ON `ft`.`id` = `pft`.`flat_type_id`
+WHERE `pft`.`property_id` = '253'
+GROUP BY `pft`.`flat_type_id`
+ERROR - 2019-02-17 05:54:15 --> Query error: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'fullbask_nkmtein_fullbasket_new.pft.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by - Invalid query: SELECT `ft`.`name` as `flat_type`, `pft`.*
+FROM `property_flat_types` `pft`
+JOIN `flat_types` `ft` ON `ft`.`id` = `pft`.`flat_type_id`
+WHERE `pft`.`property_id` = '127'
+GROUP BY `pft`.`flat_type_id`
+ERROR - 2019-02-17 16:42:18 --> 404 Page Not Found: 
+ERROR - 2019-02-17 23:17:05 --> 404 Page Not Found: 
+ERROR - 2019-02-17 23:46:44 --> 404 Page Not Found: 

@@ -1,0 +1,58 @@
+ERROR - 2018-03-24 00:35:04 --> 404 Page Not Found: 
+ERROR - 2018-03-24 02:53:22 --> 404 Page Not Found: 
+ERROR - 2018-03-24 02:54:39 --> 404 Page Not Found: 
+ERROR - 2018-03-24 03:59:42 --> 404 Page Not Found: 
+ERROR - 2018-03-24 04:22:28 --> 404 Page Not Found: 
+ERROR - 2018-03-24 04:27:59 --> 404 Page Not Found: 
+ERROR - 2018-03-24 04:28:59 --> 404 Page Not Found: 
+ERROR - 2018-03-24 04:36:06 --> 404 Page Not Found: 
+ERROR - 2018-03-24 04:37:06 --> 404 Page Not Found: 
+ERROR - 2018-03-24 04:38:37 --> 404 Page Not Found: 
+ERROR - 2018-03-24 04:46:09 --> 404 Page Not Found: 
+ERROR - 2018-03-24 05:00:13 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-03-24 05:25:28 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-03-24 07:09:16 --> 404 Page Not Found: 
+ERROR - 2018-03-24 07:43:01 --> 404 Page Not Found: 
+ERROR - 2018-03-24 07:43:40 --> 404 Page Not Found: 
+ERROR - 2018-03-24 07:43:46 --> 404 Page Not Found: 
+ERROR - 2018-03-24 07:43:51 --> 404 Page Not Found: 
+ERROR - 2018-03-24 07:50:30 --> 404 Page Not Found: 
+ERROR - 2018-03-24 07:51:16 --> 404 Page Not Found: 
+ERROR - 2018-03-24 07:51:21 --> 404 Page Not Found: 
+ERROR - 2018-03-24 07:51:25 --> 404 Page Not Found: 
+ERROR - 2018-03-24 10:46:25 --> 404 Page Not Found: 
+ERROR - 2018-03-24 10:54:10 --> 404 Page Not Found: 
+ERROR - 2018-03-24 13:55:47 --> 404 Page Not Found: 
+ERROR - 2018-03-24 13:55:48 --> 404 Page Not Found: 
+ERROR - 2018-03-24 13:55:50 --> 404 Page Not Found: 
+ERROR - 2018-03-24 13:55:51 --> 404 Page Not Found: 
+ERROR - 2018-03-24 13:55:52 --> 404 Page Not Found: 
+ERROR - 2018-03-24 13:55:54 --> 404 Page Not Found: 
+ERROR - 2018-03-24 09:00:05 --> Severity: error --> Exception: Oophs. Error! /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Endpoint.php 212
+ERROR - 2018-03-24 15:54:09 --> 404 Page Not Found: 
+ERROR - 2018-03-24 16:13:38 --> 404 Page Not Found: 
+ERROR - 2018-03-24 16:14:19 --> 404 Page Not Found: 
+ERROR - 2018-03-24 16:14:21 --> 404 Page Not Found: 
+ERROR - 2018-03-24 16:14:39 --> 404 Page Not Found: 
+ERROR - 2018-03-24 20:45:40 --> 404 Page Not Found: 
+ERROR - 2018-03-24 23:58:21 --> 404 Page Not Found: 

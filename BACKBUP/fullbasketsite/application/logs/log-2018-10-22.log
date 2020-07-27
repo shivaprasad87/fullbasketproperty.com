@@ -1,0 +1,64 @@
+ERROR - 2018-10-22 00:46:56 --> 404 Page Not Found: 
+ERROR - 2018-10-22 01:58:22 --> 404 Page Not Found: 
+ERROR - 2018-10-22 04:13:54 --> 404 Page Not Found: 
+ERROR - 2018-10-22 04:16:39 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-10-22 04:16:42 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-10-22 04:16:55 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-10-22 04:23:52 --> 404 Page Not Found: 
+ERROR - 2018-10-22 06:18:19 --> 404 Page Not Found: 
+ERROR - 2018-10-22 06:20:45 --> 404 Page Not Found: 
+ERROR - 2018-10-22 10:21:57 --> 404 Page Not Found: 
+ERROR - 2018-10-22 11:23:06 --> 404 Page Not Found: 
+ERROR - 2018-10-22 11:39:42 --> 404 Page Not Found: 
+ERROR - 2018-10-22 11:45:12 --> 404 Page Not Found: 
+ERROR - 2018-10-22 11:46:12 --> 404 Page Not Found: 
+ERROR - 2018-10-22 11:47:13 --> 404 Page Not Found: 
+ERROR - 2018-10-22 11:47:26 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-10-22 11:48:21 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-10-22 12:10:57 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-10-22 12:20:30 --> 404 Page Not Found: 
+ERROR - 2018-10-22 12:25:25 --> 404 Page Not Found: 
+ERROR - 2018-10-22 12:32:44 --> 404 Page Not Found: 
+ERROR - 2018-10-22 14:11:56 --> 404 Page Not Found: 
+ERROR - 2018-10-22 15:09:52 --> 404 Page Not Found: 
+ERROR - 2018-10-22 15:20:26 --> 404 Page Not Found: 
+ERROR - 2018-10-22 15:20:26 --> 404 Page Not Found: 
+ERROR - 2018-10-22 15:32:04 --> 404 Page Not Found: 
+ERROR - 2018-10-22 15:32:04 --> 404 Page Not Found: 
+ERROR - 2018-10-22 17:57:27 --> 404 Page Not Found: 
+ERROR - 2018-10-22 18:08:26 --> 404 Page Not Found: 
+ERROR - 2018-10-22 18:08:49 --> 404 Page Not Found: 
+ERROR - 2018-10-22 19:42:15 --> 404 Page Not Found: 
+ERROR - 2018-10-22 20:43:14 --> 404 Page Not Found: 
+ERROR - 2018-10-22 22:34:01 --> 404 Page Not Found: 
+ERROR - 2018-10-22 23:03:16 --> 404 Page Not Found: 

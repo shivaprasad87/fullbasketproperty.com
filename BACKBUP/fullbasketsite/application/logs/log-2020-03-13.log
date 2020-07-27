@@ -1,0 +1,4 @@
+ERROR - 2020-03-13 18:03:50 --> Severity: 8192 --> __autoload() is deprecated, use spl_autoload_register() instead F:\FBP.com\BACKBUP\fullbasketsite\application\config\config.php 522
+ERROR - 2020-03-13 18:03:50 --> Severity: Compile Error --> Cannot redeclare __autoload() (previously declared in F:\FBP.com\BACKBUP\fullbasketsite\application\config\config.php:522) F:\FBP.com\BACKBUP\fullbasketsite\application\config\config.php 528
+ERROR - 2020-03-13 18:04:08 --> Severity: 8192 --> __autoload() is deprecated, use spl_autoload_register() instead F:\FBP.com\BACKBUP\fullbasketsite\application\config\config.php 522
+ERROR - 2020-03-13 18:04:08 --> Severity: Compile Error --> Cannot redeclare __autoload() (previously declared in F:\FBP.com\BACKBUP\fullbasketsite\application\config\config.php:522) F:\FBP.com\BACKBUP\fullbasketsite\application\config\config.php 528

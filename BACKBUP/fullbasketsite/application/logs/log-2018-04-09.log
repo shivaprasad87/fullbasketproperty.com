@@ -1,0 +1,14 @@
+ERROR - 2018-04-09 02:04:47 --> 404 Page Not Found: 
+ERROR - 2018-04-09 02:42:23 --> 404 Page Not Found: 
+ERROR - 2018-04-09 03:13:58 --> 404 Page Not Found: 
+ERROR - 2018-04-09 03:13:58 --> 404 Page Not Found: 
+ERROR - 2018-04-09 03:39:25 --> 404 Page Not Found: 
+ERROR - 2018-04-09 13:29:32 --> 404 Page Not Found: 
+ERROR - 2018-04-09 13:53:03 --> Query error: FUNCTION nkmtein_fullbasket_new.MIN does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual - Invalid query: SELECT MIN (total) as amount
+FROM `property_flat_types`
+WHERE `property_id` = '116'
+ERROR - 2018-04-09 14:30:56 --> 404 Page Not Found: 
+ERROR - 2018-04-09 15:12:39 --> 404 Page Not Found: 
+ERROR - 2018-04-09 15:16:56 --> 404 Page Not Found: 
+ERROR - 2018-04-09 22:11:30 --> 404 Page Not Found: 
+ERROR - 2018-04-09 23:41:55 --> 404 Page Not Found: 

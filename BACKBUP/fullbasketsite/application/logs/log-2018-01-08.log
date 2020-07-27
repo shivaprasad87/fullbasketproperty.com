@@ -1,0 +1,37 @@
+ERROR - 2018-01-08 07:16:44 --> Severity: error --> Exception: Oophs. Error! /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Endpoint.php 212
+ERROR - 2018-01-08 10:16:32 --> Severity: Warning --> fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 10:16:32 --> Severity: Warning --> fsockopen(): Failed to enable crypto /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 10:16:32 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 10:16:33 --> Severity: Warning --> fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 10:16:33 --> Severity: Warning --> fsockopen(): Failed to enable crypto /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 10:16:33 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 12:44:02 --> Severity: Warning --> fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 12:44:02 --> Severity: Warning --> fsockopen(): Failed to enable crypto /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 12:44:02 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 12:44:04 --> Severity: Warning --> fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 12:44:04 --> Severity: Warning --> fsockopen(): Failed to enable crypto /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 12:44:04 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 12:44:21 --> Severity: error --> Exception: Oophs. Error! /home/nkmtein/public_html/fullbasketproperty.com/application/third_party/hybridauth/Hybrid/Endpoint.php 212
+ERROR - 2018-01-08 15:28:28 --> Severity: Warning --> fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 15:28:28 --> Severity: Warning --> fsockopen(): Failed to enable crypto /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 15:28:28 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 15:28:30 --> Severity: Warning --> fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 15:28:30 --> Severity: Warning --> fsockopen(): Failed to enable crypto /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 15:28:30 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 17:00:43 --> Could not find the language line "testimonials title editTestimonial"
+ERROR - 2018-01-08 17:14:40 --> Query error: Table 'nkmtein_fullbasket_new.terms' doesn't exist - Invalid query: SELECT *
+FROM `terms`
+ERROR - 2018-01-08 17:55:24 --> Severity: Warning --> fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 17:55:24 --> Severity: Warning --> fsockopen(): Failed to enable crypto /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 17:55:24 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 17:55:26 --> Severity: Warning --> fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 17:55:26 --> Severity: Warning --> fsockopen(): Failed to enable crypto /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-08 17:55:26 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Unknown error) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055

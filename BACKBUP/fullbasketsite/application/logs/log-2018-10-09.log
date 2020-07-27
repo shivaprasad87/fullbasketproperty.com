@@ -1,0 +1,117 @@
+ERROR - 2018-10-09 00:44:52 --> 404 Page Not Found: 
+ERROR - 2018-10-09 01:17:08 --> 404 Page Not Found: 
+ERROR - 2018-10-09 01:31:50 --> 404 Page Not Found: 
+ERROR - 2018-10-09 01:54:46 --> 404 Page Not Found: 
+ERROR - 2018-10-09 02:11:22 --> 404 Page Not Found: 
+ERROR - 2018-10-09 02:19:19 --> 404 Page Not Found: 
+ERROR - 2018-10-09 03:59:11 --> 404 Page Not Found: 
+ERROR - 2018-10-09 07:59:31 --> 404 Page Not Found: 
+ERROR - 2018-10-09 08:52:13 --> 404 Page Not Found: 
+ERROR - 2018-10-09 09:59:51 --> 404 Page Not Found: 
+ERROR - 2018-10-09 11:34:32 --> 404 Page Not Found: 
+ERROR - 2018-10-09 11:34:33 --> 404 Page Not Found: 
+ERROR - 2018-10-09 11:34:33 --> 404 Page Not Found: 
+ERROR - 2018-10-09 11:34:36 --> 404 Page Not Found: 
+ERROR - 2018-10-09 12:52:14 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-10-09 12:56:33 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-10-09 13:19:01 --> Severity: Warning --> rename(uploads/floor_plans/type-a-2-bed-10.jpg,uploads/prestige-jade-pavilion/type-a-2-bed-10.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 264
+ERROR - 2018-10-09 13:19:02 --> Severity: Warning --> rename(uploads/floor_plans/type-b-2-bed-10.jpg,uploads/prestige-jade-pavilion/type-b-2-bed-10.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 264
+ERROR - 2018-10-09 13:19:02 --> Severity: Warning --> rename(uploads/floor_plans/type-c-3-bed-3.jpg,uploads/prestige-jade-pavilion/type-c-3-bed-3.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 264
+ERROR - 2018-10-09 13:19:02 --> Severity: Warning --> rename(uploads/floor_plans/type-d-3-bed-7.jpg,uploads/prestige-jade-pavilion/type-d-3-bed-7.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 264
+ERROR - 2018-10-09 13:19:02 --> Severity: Warning --> rename(uploads/floor_plans/type-f-3-bed-family.jpg,uploads/prestige-jade-pavilion/type-f-3-bed-family.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 264
+ERROR - 2018-10-09 13:19:02 --> Severity: Warning --> rename(uploads/floor_plans/type-e-3-bed-4.jpg,uploads/prestige-jade-pavilion/type-e-3-bed-4.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 264
+ERROR - 2018-10-09 13:19:02 --> Severity: Warning --> rename(uploads/floor_plans/type-f-3-bed-family.jpg,uploads/prestige-jade-pavilion/type-f-3-bed-family.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 264
+ERROR - 2018-10-09 13:19:31 --> 404 Page Not Found: 
+ERROR - 2018-10-09 13:19:31 --> 404 Page Not Found: 
+ERROR - 2018-10-09 13:19:32 --> 404 Page Not Found: 
+ERROR - 2018-10-09 13:19:33 --> 404 Page Not Found: 
+ERROR - 2018-10-09 13:19:33 --> 404 Page Not Found: 
+ERROR - 2018-10-09 13:19:33 --> 404 Page Not Found: 
+ERROR - 2018-10-09 14:01:52 --> 404 Page Not Found: 
+ERROR - 2018-10-09 14:19:43 --> 404 Page Not Found: 
+ERROR - 2018-10-09 14:19:43 --> 404 Page Not Found: 
+ERROR - 2018-10-09 14:19:44 --> 404 Page Not Found: 
+ERROR - 2018-10-09 14:19:44 --> 404 Page Not Found: 
+ERROR - 2018-10-09 14:19:44 --> 404 Page Not Found: 
+ERROR - 2018-10-09 14:19:45 --> 404 Page Not Found: 
+ERROR - 2018-10-09 14:20:14 --> 404 Page Not Found: 
+ERROR - 2018-10-09 14:30:31 --> 404 Page Not Found: 
+ERROR - 2018-10-09 14:50:36 --> 404 Page Not Found: 
+ERROR - 2018-10-09 14:50:37 --> 404 Page Not Found: 
+ERROR - 2018-10-09 14:50:37 --> 404 Page Not Found: 
+ERROR - 2018-10-09 14:50:37 --> 404 Page Not Found: 
+ERROR - 2018-10-09 14:50:38 --> 404 Page Not Found: 
+ERROR - 2018-10-09 14:50:38 --> 404 Page Not Found: 
+ERROR - 2018-10-09 16:28:49 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-10-09 16:29:23 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-10-09 16:29:50 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-10-09 16:29:55 --> 404 Page Not Found: 
+ERROR - 2018-10-09 17:18:30 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-10-09 17:18:35 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-10-09 17:18:52 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-10-09 17:37:40 --> 404 Page Not Found: 
+ERROR - 2018-10-09 18:29:43 --> 404 Page Not Found: 
+ERROR - 2018-10-09 19:00:14 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-10-09 19:00:17 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-10-09 19:00:33 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 11 - Invalid query: SELECT DISTINCT `p`.*, `c`.`name` as `city_name`, `ps`.`name` as `property_status`, `pt`.`name` as `prop_type`, `b`.`name` as `builder`, `l`.`name` as `location`
+FROM `properties` `p`
+LEFT JOIN `cities` `c` ON `p`.`city_id` = `c`.`id`
+LEFT JOIN `builders` `b` ON `p`.`builder_id` = `b`.`id`
+LEFT JOIN `locations` `l` ON `p`.`location_id` = `l`.`id`
+LEFT JOIN `property_types` `pt` ON `p`.`property_type_id` = `pt`.`id`
+LEFT JOIN `property_status` `ps` ON `p`.`property_status_id` = `ps`.`id`
+LEFT JOIN `property_amenities` `pa` ON `pa`.`property_id` = `p`.`id`
+WHERE `p`.`status` = 1
+ORDER BY `p`.`id` DESC
+ LIMIT -10, 10
+ERROR - 2018-10-09 22:24:25 --> 404 Page Not Found: 

@@ -1,0 +1,59 @@
+ERROR - 2018-07-26 01:04:41 --> 404 Page Not Found: 
+ERROR - 2018-07-26 01:33:40 --> 404 Page Not Found: 
+ERROR - 2018-07-26 02:43:56 --> 404 Page Not Found: 
+ERROR - 2018-07-26 06:01:09 --> 404 Page Not Found: 
+ERROR - 2018-07-26 06:29:05 --> 404 Page Not Found: 
+ERROR - 2018-07-26 08:47:49 --> 404 Page Not Found: 
+ERROR - 2018-07-26 09:23:18 --> 404 Page Not Found: 
+ERROR - 2018-07-26 11:40:38 --> Severity: Warning --> rename(uploads/construction/Villa-Ph-1-Entry.png,uploads/villas-at-devanahalli/Villa-Ph-1-Entry.png): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 290
+ERROR - 2018-07-26 11:40:38 --> Severity: Warning --> rename(uploads/construction/Villa-Ph-1-_-2-Roads.png,uploads/villas-at-devanahalli/Villa-Ph-1-_-2-Roads.png): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 290
+ERROR - 2018-07-26 11:40:38 --> Severity: Warning --> rename(uploads/construction/Villas-new.png,uploads/villas-at-devanahalli/Villas-new.png): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 290
+ERROR - 2018-07-26 11:49:29 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-26 11:49:51 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-26 11:49:58 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-26 11:52:05 --> 404 Page Not Found: 
+ERROR - 2018-07-26 11:52:11 --> 404 Page Not Found: 
+ERROR - 2018-07-26 12:21:02 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-26 12:21:44 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-26 13:08:16 --> 404 Page Not Found: 
+ERROR - 2018-07-26 14:22:13 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-26 14:24:53 --> 404 Page Not Found: 
+ERROR - 2018-07-26 15:18:06 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-26 15:20:39 --> Severity: Warning --> rename(uploads/elevations/Vaishnavi_North_24_Elevation_1.jpg,uploads/vaishnavi-north-24/Vaishnavi_North_24_Elevation_1.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 585
+ERROR - 2018-07-26 15:20:39 --> Severity: Warning --> rename(uploads/elevations/Vaishnavi_North_24_Elevation_2.jpg,uploads/vaishnavi-north-24/Vaishnavi_North_24_Elevation_2.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 585
+ERROR - 2018-07-26 15:20:39 --> Severity: Warning --> rename(uploads/elevations/Vaishnavi_North_24_Gallery_4.jpg,uploads/vaishnavi-north-24/Vaishnavi_North_24_Gallery_4.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 585
+ERROR - 2018-07-26 15:22:12 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-26 15:33:25 --> Severity: Warning --> rename(uploads/elevations/Vaishnavi_Oasis_Gallery_1.jpg,uploads/vaishnavi-oasis/Vaishnavi_Oasis_Gallery_1.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 585
+ERROR - 2018-07-26 15:57:35 --> 404 Page Not Found: 
+ERROR - 2018-07-26 16:04:42 --> 404 Page Not Found: 
+ERROR - 2018-07-26 16:23:21 --> 404 Page Not Found: 
+ERROR - 2018-07-26 16:23:58 --> 404 Page Not Found: 
+ERROR - 2018-07-26 16:24:11 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-26 16:49:59 --> 404 Page Not Found: 
+ERROR - 2018-07-26 16:57:11 --> Severity: Warning --> unlink(./uploads/villas-at-devanahalli/Villas-new.png): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 778
+ERROR - 2018-07-26 16:58:18 --> Severity: Warning --> unlink(./uploads/villas-at-devanahalli/Villa-Ph-1-Entry.png): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 778
+ERROR - 2018-07-26 16:58:19 --> Severity: Warning --> unlink(./uploads/villas-at-devanahalli/Villas-new.png): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 778
+ERROR - 2018-07-26 16:58:20 --> Severity: Warning --> unlink(./uploads/villas-at-devanahalli/Villa-Ph-1-_-2-Roads.png): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 778
+ERROR - 2018-07-26 17:37:25 --> Severity: Warning --> unlink(./uploads/valmak-cityville/background1.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 778
+ERROR - 2018-07-26 17:38:15 --> Severity: Warning --> rename(uploads/elevations/Valmark_CityVille_1.jpg,uploads/valmak-cityville/Valmark_CityVille_1.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 585
+ERROR - 2018-07-26 17:39:26 --> 404 Page Not Found: 
+ERROR - 2018-07-26 17:41:04 --> Severity: Warning --> unlink(./uploads/valmak-cityville/Valmark_CityVille_1.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 778
+ERROR - 2018-07-26 17:41:59 --> 404 Page Not Found: 
+ERROR - 2018-07-26 18:25:35 --> Severity: Warning --> unlink(./uploads/shriram-take-it-easy/Aerial011.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 778
+ERROR - 2018-07-26 18:25:35 --> Severity: Warning --> unlink(./uploads/shriram-take-it-easy/Aerial021.jpg): No such file or directory /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/Properties.php 778
+ERROR - 2018-07-26 18:49:57 --> 404 Page Not Found: 
+ERROR - 2018-07-26 19:50:39 --> 404 Page Not Found: 
+ERROR - 2018-07-26 19:58:13 --> 404 Page Not Found: 
+ERROR - 2018-07-26 20:19:47 --> 404 Page Not Found: 
+ERROR - 2018-07-26 20:42:47 --> 404 Page Not Found: 
+ERROR - 2018-07-26 20:42:50 --> 404 Page Not Found: 
+ERROR - 2018-07-26 20:55:19 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-26 20:55:38 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-26 20:56:53 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-26 20:57:11 --> Severity: Warning --> Division by zero /home/nkmtein/public_html/fullbasketproperty.com/application/core/Public_Controller.php 47
+ERROR - 2018-07-26 22:27:17 --> 404 Page Not Found: 
+ERROR - 2018-07-26 23:07:31 --> 404 Page Not Found: 
+ERROR - 2018-07-26 23:07:31 --> 404 Page Not Found: 
+ERROR - 2018-07-26 23:07:31 --> 404 Page Not Found: 
+ERROR - 2018-07-26 23:07:31 --> 404 Page Not Found: 
+ERROR - 2018-07-26 23:07:31 --> 404 Page Not Found: 

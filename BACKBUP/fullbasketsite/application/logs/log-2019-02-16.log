@@ -1,0 +1,17 @@
+ERROR - 2019-02-16 13:21:27 --> Query error: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'fullbask_nkmtein_fullbasket_new.pft.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by - Invalid query: SELECT `ft`.`name` as `flat_type`, `pft`.*
+FROM `property_flat_types` `pft`
+JOIN `flat_types` `ft` ON `ft`.`id` = `pft`.`flat_type_id`
+WHERE `pft`.`property_id` = '124'
+GROUP BY `pft`.`flat_type_id`
+ERROR - 2019-02-16 13:40:23 --> Query error: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'fullbask_nkmtein_fullbasket_new.pft.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by - Invalid query: SELECT `ft`.`name` as `flat_type`, `pft`.*
+FROM `property_flat_types` `pft`
+JOIN `flat_types` `ft` ON `ft`.`id` = `pft`.`flat_type_id`
+WHERE `pft`.`property_id` = '124'
+GROUP BY `pft`.`flat_type_id`
+ERROR - 2019-02-16 15:26:42 --> Query error: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'fullbask_nkmtein_fullbasket_new.pft.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by - Invalid query: SELECT `ft`.`name` as `flat_type`, `pft`.*
+FROM `property_flat_types` `pft`
+JOIN `flat_types` `ft` ON `ft`.`id` = `pft`.`flat_type_id`
+WHERE `pft`.`property_id` = '270'
+GROUP BY `pft`.`flat_type_id`
+ERROR - 2019-02-16 19:22:34 --> 404 Page Not Found: 
+ERROR - 2019-02-16 20:43:37 --> 404 Page Not Found: 

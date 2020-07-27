@@ -1,0 +1,17 @@
+ERROR - 2018-01-31 11:10:59 --> Query error: Table 'nkmtein_fullbasket_new.subscribers' doesn't exist - Invalid query: SELECT *
+FROM `subscribers`
+WHERE `email` = 'nitish.kedia@fullbasketproperty.com'
+ERROR - 2018-01-31 12:58:33 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-31 15:06:53 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-31 18:33:37 --> Severity: Warning --> filesize(): stat failed for ./uploads/about_us/img9.jpg /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/AboutUs.php 86
+ERROR - 2018-01-31 18:33:37 --> Severity: Warning --> filesize(): stat failed for ./uploads/about_us/img8.jpg /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/AboutUs.php 86
+ERROR - 2018-01-31 18:33:38 --> Severity: Warning --> filesize(): stat failed for ./uploads/about_us/img7.jpg /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/AboutUs.php 86
+ERROR - 2018-01-31 18:33:38 --> Severity: Warning --> filesize(): stat failed for ./uploads/about_us/img6.jpg /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/AboutUs.php 86
+ERROR - 2018-01-31 18:33:38 --> Severity: Warning --> filesize(): stat failed for ./uploads/about_us/Screenshot_from_2018-01-31_18-16-07.png /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/AboutUs.php 86
+ERROR - 2018-01-31 18:33:38 --> Severity: Warning --> filesize(): stat failed for ./uploads/about_us/Screenshot_from_2018-01-31_18-15-49.png /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/AboutUs.php 86
+ERROR - 2018-01-31 18:33:38 --> Severity: Warning --> filesize(): stat failed for ./uploads/about_us/Screenshot_from_2018-01-31_18-15-35.png /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/AboutUs.php 86
+ERROR - 2018-01-31 18:33:38 --> Severity: Warning --> filesize(): stat failed for ./uploads/about_us/Screenshot_from_2018-01-31_18-15-22.png /home/nkmtein/public_html/fullbasketproperty.com/application/controllers/admin/AboutUs.php 86
+ERROR - 2018-01-31 21:41:39 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-31 21:59:06 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-31 22:25:56 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
+ERROR - 2018-01-31 23:57:20 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) /home/nkmtein/public_html/fullbasketproperty.com/system/libraries/Email.php 2055
