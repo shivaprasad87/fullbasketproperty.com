@@ -171,7 +171,7 @@
             </div>
             <div class="modal-body text-center">
                 <a href="tel:+19089675906" style="color: #333 !important;text-decoration: none"><h3><i
-                                class="fa fa-phone-square" aria-hidden="true"></i> +91 901 901 1888</h3></a>
+                                class="fa fa-phone-square" aria-hidden="true"></i> +91 901 900 0400</h3></a>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->

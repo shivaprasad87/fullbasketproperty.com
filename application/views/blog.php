@@ -100,84 +100,11 @@
             <br/>
             <div class="clearfix"></div><br/>
             <div class="pull-right"><!-- AddToAny BEGIN -->
-              <!--  <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-                    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-                    <a class="a2a_button_facebook"></a>
-                    <a class="a2a_button_twitter"></a>
-                    <a class="a2a_button_google_plus"></a>
-                    <a class="a2a_button_print"></a>
-                    <a class="a2a_button_whatsapp"></a>
-                    <a class="a2a_button_copy_link"></a>
-                </div>-->
+              
                 <script async src="https://static.addtoany.com/menu/page.js"></script>
                 <!-- AddToAny END --></div>
         </div>
-    <!--    <div class="col-sm-2 col-md-2 blog-sticky" style="">
-            <button type="button" class="btn btn-primary btn-blog-connect">Connect Us</button>
-            <form action="<?= site_url('home/sendmail') ?>" method="post" role="form">
-                <div class="form-group text-center" style="font-size: 18px">
-                    <strong>Connect Us</strong>
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" style="border-radius: 0" name="name" required
-                           placeholder="Name">
-                </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" style="border-radius: 0" name="email" required
-                           placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" style="border-radius: 0" name="phone" required
-                           placeholder="Phone">
-                    <input type="hidden" name="redirect" value="<?= current_url() ?>">
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control" style="border-radius: 0" name="message" required
-                              placeholder="Message"></textarea>
-                </div>
-                <div class="form-group">
-                    <div class="g-recaptcha"
-                         style="transform:scale(0.85);-webkit-transform:scale(0.85);transform-origin:0 0;-webkit-transform-origin:0 0;"
-                         data-sitekey="6LfZsEcUAAAAALbbDR0af-jvqVSD1MLjDLgQyN1f"></div>
-                </div>
-                <div class="form-group">
-                    <div class="pull-right">
-                        <button type="submit" style="border-radius: 0" class="btn btn-primary">Submit</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-        <div class="clearfix"></div>
-        <br/>
-
-        <div class="col-sm-2 col-md-2 col-lg-2">
-
-        </div>
-        <div class="col-sm-8 col-md-8 col-lg-8">
-            <div id="disqus_thread"></div>
-            <script>
-
-                /**
-                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-                /*
-                var disqus_config = function () {
-                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-                };
-                */
-                (function () { // DON'T EDIT BELOW THIS LINE
-                    var d = document, s = d.createElement('script');
-                    s.src = 'https://fullbasket-property.disqus.com/embed.js';
-                    s.setAttribute('data-timestamp', +new Date());
-                    (d.head || d.body).appendChild(s);
-                })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered
-                    by Disqus.</a></noscript>
-
-        </div>
-    -->
+    
     </div>
 </div>
 <script>
@@ -195,23 +122,4 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
-<!--End of Tawk.to Script-->
-
-<!-- WhatsHelp.io widget --
-<script type="text/javascript">
-    (function () {
-        var options = {
-            whatsapp: "+918342063684 ", // WhatsApp number
-            call: "+918342063684 ", // Call phone number
-            call_to_action: "Message us", // Call to action
-            button_color: "#129BF4", // Color of button
-            position: "left", // Position may be 'right' or 'left'
-            order: "whatsapp,call", // Order of buttons
-        };
-        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();
-</script>
-<!-- /WhatsHelp.io widget -->
+ 

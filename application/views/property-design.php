@@ -780,8 +780,8 @@
                     <div id="sp-top2" class="col-sm-12 col-md-12">
                         <div class="sp-column ">
                             <ul class="sp-contact-info">
-                                <li class="sp-contact-phone"><i class="fa fa-phone"></i><a href="tel:+919019011888">+91
-                                         9019011888</a>
+                                <li class="sp-contact-phone"><i class="fa fa-phone"></i><a href="tel:+919019000400">+91
+                                         9019000400</a>
                                 </li>
                             </ul>
                         </div>
@@ -1059,7 +1059,7 @@
                                                         <p style="text-align: left; margin-bottom: 20px; font-size: 14px;">
                                                             <a class="btn interested fix-link i-am">
                                                             </a>
-                                                            <br/>For assistance please call: <a href="tel:9019011888" title="call us"><font style="color: #08ad1e; font-weight: 600; font-size: 18px;">9019011888</font></a></p>
+                                                            <br/>For assistance please call: <a href="tel:9019000400" title="call us"><font style="color: #08ad1e; font-weight: 600; font-size: 18px;">9019000400</font></a></p>
 
                                                     </div>
 
@@ -1835,7 +1835,7 @@ if($property->usp!='')
                 <div class="clearfix"></div>
                 <p class="foo-txt">For More Information Please Call</p>
                 <p class="footer-call"><i class="fa fa-phone"></i>
-                    <a href="tel:9019011888">9019011888</a>
+                    <a href="tel:9019000400">9019000400</a>
                 </p>
                 <a href="https://api.whatsapp.com/send?phone=918342063684&text=Hi Team FBP, I would be interested in%20<?= $property->title ? $property->title : '' ?>%20please%20send%20me%20the%20details" target="_blank">
                     <p class="foo-txt"><img src="<?= base_url('assets/banner_patch/whatsapp.png') ?>" style="margin: 0px auto;">Get Details by Whatsapp</p>
@@ -1972,7 +1972,7 @@ if($property->usp!='')
         <div class="col-lg-12 col-sm-12 col-xs-12 fixed-footer-cust hidden-md hidden-lg hidden-sm">
             <div class="container">
                 <div class="col-lg-6 col-sm-6 col-xs-6 div-line pd0">
-                    <a href="tel:9019011888" class="fix-link callme"><i class="fa fa-phone f-icon" aria-hidden="true"></i>
+                    <a href="tel:9019000400" class="fix-link callme"><i class="fa fa-phone f-icon" aria-hidden="true"></i>
                     CALL NOW</a>
                 </div>
                 <div class="col-lg-6 col-sm-6 col-xs-6 pd0">

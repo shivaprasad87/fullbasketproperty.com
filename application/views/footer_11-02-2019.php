@@ -121,7 +121,7 @@ Karnataka - 560025</p>
 
 <p>L: 080-40913468</p>
                 <p class="address"><i class="icon ion-ios-email-outline"></i> &nbsp;<a href="mailto:sales@fullbasketproperty.com" style="color: #717171">sales@fullbasketproperty.com</p>
-                <p class="address"><a href="tel:++919019011888"><i class="icon ion-ios-telephone-outline"></i> &nbsp;+91 901 901 1888</a> </p>
+                <p class="address"><a href="tel:++919019000400"><i class="icon ion-ios-telephone-outline"></i> &nbsp;+91 901 900 0400</a> </p>
             </div>
             <div class="col-md-4 col-sm-4">
                 <h3>QUICK LINKS</h3>

@@ -1127,6 +1127,6 @@ class Home extends Public_Controller
         $this->data['view_page'] = 'nri';
         $this->load->view('template', $this->data);
  
-  } 
+  }  
 
 }

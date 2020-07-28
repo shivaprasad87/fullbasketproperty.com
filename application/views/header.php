@@ -94,7 +94,7 @@
                                         <ul id="cityul" class="dropdown-menu gradient">
                                             <li><a href="<?= site_url('listing') ?>">All Cities</a></li>
                                             <?php foreach ($cities as $city) { ?>            
-                                            <li class="<?= $this->session->userdata('city') == $city->name ? 'active' : '' ?>"><a href="<?= site_url('city/'.$city->url_name) ?>"><?= htmlentities(ucfirst($city->name)) ?></a></li>
+                                            <li class="<?= $this->session->userdata('city') == $city->name ? 'active' : '' ?>"><a href="<?= strtolower(site_url('city/'.$city->url_name)); ?>"><?= htmlentities(strtolower($city->name)) ?></a></li>
                                                 <?php } ?>
                                         </ul>
                                     </div>
@@ -105,9 +105,7 @@
                         
                         <div class="col-xs-12 col-sm-12 col-md-3" style="    margin-top: 5px;">
                                 <div class="mobile-view">
-                                     <!-- <div class="contact">
-                                    <i class="fa fa-paper-plane pull-left" style="color:black"></i> <span class="pull-left">&nbsp;<a href="tel:<?= (isset($cityDetails->phone) && $cityDetails->phone) ? $cityDetails->phone : $all_cities->phone ?>"style=" color: black"><?= (isset($cityDetails->phone) && $cityDetails->phone) ? $cityDetails->phone : $all_cities->phone ?></a> <br><a style="color: black" href="mailto:<?= (isset($cityDetails->email) && $cityDetails->email) ? $cityDetails->email : $all_cities->email ?>"><?= (isset($cityDetails->email) && $cityDetails->email) ? $cityDetails->email : $all_cities->email ?></a></span>
-                                   </div> -->
+                                      
                                   <?php if ($this->session->userdata('logged_in')) { ?>
                                     <div class="btn-group pull-right  .visible-xs-block hidden-xs "  style="margin-top: 5px;">
                                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
