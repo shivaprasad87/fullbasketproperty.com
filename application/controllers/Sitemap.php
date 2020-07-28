@@ -92,7 +92,8 @@ foreach($items as $property) {
         <loc>".base_url().strtolower(url_title($property->city_name)."/".( url_title($property->area) )."/$property->slug/")."</loc>
         <lastmod>".date('Y-m-d H:i:s')."</lastmod>
         <priority>0.5</priority>
-    </url>";
+    </url>
+    </urlset>";
 }
 if ( ! write_file('./sitemap.xml', $output))
 {
