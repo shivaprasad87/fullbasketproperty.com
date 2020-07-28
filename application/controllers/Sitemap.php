@@ -34,13 +34,13 @@ $output .="
     <url>
         <loc>".base_url()."</loc>
         <lastmod>".date('Y-m-d H:i:s')."</lastmod>
-        <priority>0.5</priority>
+        <priority>1.0</priority>
     </url>";
 $output .="
     <url>
         <loc>".base_url()."</loc>
         <lastmod>".date('Y-m-d H:i:s')."</lastmod>
-        <priority>0.5</priority>
+        <priority>0.9</priority>
     </url>";
 $output .="
     <url>
@@ -64,7 +64,7 @@ foreach ($blog_type as $blog) {
     <url>
         <loc>".base_url('blog/').strtolower($blog->slug)."</loc>
         <lastmod>".date('Y-m-d H:i:s')."</lastmod>
-        <priority>0.5</priority>
+        <priority>o.5</priority>
     </url>";
 }
 foreach ($blogs as $blogs) {
@@ -91,9 +91,9 @@ foreach($items as $property) {
     <url>
         <loc>".base_url().strtolower(url_title($property->city_name)."/".( url_title($property->area) )."/$property->slug/")."</loc>
         <lastmod>".date('Y-m-d H:i:s')."</lastmod>
-        <priority>0.5</priority>
+        <priority>0.8</priority>
     </url>
-    >";
+";
 }
 $output .="</urlset>";
 if ( ! write_file('./sitemap.xml', $output))
