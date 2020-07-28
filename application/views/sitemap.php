@@ -13,17 +13,17 @@
     <url>
         <loc><?= base_url();?></loc>
         <lastmod><?=date('Y-m-d H:i:s');?></lastmod>
-        <priority>0.5</priority>
+        <priority>1.0</priority>
     </url>
     <url>
         <loc><?= base_url('listing');?></loc>
         <lastmod><?=date('Y-m-d H:i:s');?></lastmod>
-        <priority>0.5</priority>
+        <priority>0.9</priority>
     </url>
     <url>
         <loc><?= base_url('about');?></loc>
         <lastmod><?=date('Y-m-d H:i:s');?></lastmod>
-        <priority>0.5</priority>
+        <priority>0.8</priority>
     </url>
     <url>
         <loc><?= base_url('contact');?></loc>
@@ -36,7 +36,7 @@
            <url>
         <loc><?= base_url('blog/').strtolower($blog->slug);?></loc>
         <lastmod><?=date('Y-m-d H:i:s');?></lastmod>
-        <priority>0.5</priority>
+        <priority>0.8</priority>
     </url>
         
             <?php } ?>
@@ -44,7 +44,7 @@
            <url>
         <loc><?= base_url('blog/').strtolower($blogs->slug);?></loc>
         <lastmod><?=date('Y-m-d H:i:s');?></lastmod>
-        <priority>0.5</priority>
+        <priority>0.8</priority>
     </url>
         
             <?php } ?>

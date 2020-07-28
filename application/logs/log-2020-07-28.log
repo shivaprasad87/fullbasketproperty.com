@@ -399,3 +399,122 @@ ERROR - 2020-07-28 13:37:39 --> Unable to write cache file: C:\shivaprasad\FBP\F
 ERROR - 2020-07-28 13:37:52 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
 ERROR - 2020-07-28 13:38:11 --> 404 Page Not Found: 
 ERROR - 2020-07-28 13:38:15 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:20:22 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1: parser error : Start tag expected, '&lt;' not found C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 2
+ERROR - 2020-07-28 10:20:22 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt; C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 2
+ERROR - 2020-07-28 10:20:22 --> Severity: Warning --> SimpleXMLElement::__construct():                                        ^ C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 2
+ERROR - 2020-07-28 10:20:22 --> Severity: error --> Exception: String could not be parsed as XML C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 2
+ERROR - 2020-07-28 13:50:25 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:21:27 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1: parser error : StartTag: invalid element name C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 3
+ERROR - 2020-07-28 10:21:27 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;&lt;0.1/&gt; C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 3
+ERROR - 2020-07-28 10:21:27 --> Severity: Warning --> SimpleXMLElement::__construct():                                         ^ C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 3
+ERROR - 2020-07-28 10:21:27 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1: parser error : Extra content at the end of the document C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 3
+ERROR - 2020-07-28 10:21:27 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;&lt;0.1/&gt; C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 3
+ERROR - 2020-07-28 10:21:27 --> Severity: Warning --> SimpleXMLElement::__construct():                                         ^ C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 3
+ERROR - 2020-07-28 10:21:27 --> Severity: error --> Exception: String could not be parsed as XML C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 3
+ERROR - 2020-07-28 13:51:30 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:25:40 --> Severity: Warning --> strlen() expects parameter 1 to be string, object given C:\shivaprasad\FBP\FBP.COM\system\helpers\file_helper.php 94
+ERROR - 2020-07-28 13:55:42 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:26:40 --> Severity: Warning --> strlen() expects parameter 1 to be string, object given C:\shivaprasad\FBP\FBP.COM\system\helpers\file_helper.php 94
+ERROR - 2020-07-28 13:56:42 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:26:56 --> Severity: Warning --> strlen() expects parameter 1 to be string, object given C:\shivaprasad\FBP\FBP.COM\system\helpers\file_helper.php 94
+ERROR - 2020-07-28 13:56:58 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 13:57:35 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:30:58 --> Severity: error --> Exception: syntax error, unexpected '=' C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 27
+ERROR - 2020-07-28 14:01:00 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:31:40 --> Severity: error --> Exception: syntax error, unexpected '=' C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 27
+ERROR - 2020-07-28 14:01:42 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:31:50 --> Severity: error --> Exception: syntax error, unexpected '=' C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 27
+ERROR - 2020-07-28 14:01:52 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:32:03 --> Severity: error --> Exception: syntax error, unexpected '=' C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 34
+ERROR - 2020-07-28 14:02:06 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:32:14 --> Severity: Warning --> A non-numeric value encountered C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 84
+ERROR - 2020-07-28 10:32:14 --> Severity: Warning --> A non-numeric value encountered C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 84
+ERROR - 2020-07-28 10:32:14 --> Severity: Warning --> Division by zero C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 84
+ERROR - 2020-07-28 10:32:14 --> Severity: Warning --> Division by zero C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 84
+ERROR - 2020-07-28 10:32:14 --> Severity: Warning --> A non-numeric value encountered C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 84
+ERROR - 2020-07-28 10:32:14 --> Severity: Warning --> Division by zero C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 84
+ERROR - 2020-07-28 14:02:16 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:32:37 --> Severity: Warning --> A non-numeric value encountered C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 84
+ERROR - 2020-07-28 10:32:37 --> Severity: Warning --> A non-numeric value encountered C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 84
+ERROR - 2020-07-28 10:32:37 --> Severity: Warning --> Division by zero C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 84
+ERROR - 2020-07-28 14:02:40 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:33:00 --> Severity: Warning --> A non-numeric value encountered C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 84
+ERROR - 2020-07-28 10:33:00 --> Severity: Warning --> A non-numeric value encountered C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 84
+ERROR - 2020-07-28 10:33:00 --> Severity: Warning --> Division by zero C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 84
+ERROR - 2020-07-28 14:03:03 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:36:25 --> Severity: error --> Exception: syntax error, unexpected '<' C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 58
+ERROR - 2020-07-28 14:06:27 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:36:52 --> Severity: error --> Exception: syntax error, unexpected '.' C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 88
+ERROR - 2020-07-28 14:06:55 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:37:16 --> Severity: Warning --> A non-numeric value encountered C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 84
+ERROR - 2020-07-28 10:37:16 --> Severity: Warning --> A non-numeric value encountered C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 84
+ERROR - 2020-07-28 10:37:16 --> Severity: Warning --> Division by zero C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 84
+ERROR - 2020-07-28 14:07:18 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:37:44 --> Severity: Warning --> A non-numeric value encountered C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 84
+ERROR - 2020-07-28 10:37:44 --> Severity: Warning --> A non-numeric value encountered C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 84
+ERROR - 2020-07-28 10:37:44 --> Severity: Warning --> Division by zero C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 84
+ERROR - 2020-07-28 14:07:47 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:39:35 --> Severity: Warning --> Invalid argument supplied for foreach() C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 23
+ERROR - 2020-07-28 10:39:35 --> Severity: Warning --> Invalid argument supplied for foreach() C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 31
+ERROR - 2020-07-28 10:39:35 --> Severity: Warning --> Invalid argument supplied for foreach() C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 40
+ERROR - 2020-07-28 10:39:35 --> Severity: Warning --> Invalid argument supplied for foreach() C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 48
+ERROR - 2020-07-28 10:39:35 --> Severity: 4096 --> Object of class CI_Loader could not be converted to string C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 28
+ERROR - 2020-07-28 14:09:37 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:39:59 --> Severity: Warning --> Invalid argument supplied for foreach() C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 30
+ERROR - 2020-07-28 10:39:59 --> Severity: Warning --> Invalid argument supplied for foreach() C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 38
+ERROR - 2020-07-28 10:39:59 --> Severity: Warning --> Invalid argument supplied for foreach() C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 47
+ERROR - 2020-07-28 10:39:59 --> Severity: Warning --> Invalid argument supplied for foreach() C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 55
+ERROR - 2020-07-28 10:39:59 --> Severity: 4096 --> Object of class CI_Loader could not be converted to string C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 28
+ERROR - 2020-07-28 14:10:01 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:41:05 --> Severity: Warning --> Invalid argument supplied for foreach() C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 30
+ERROR - 2020-07-28 10:41:05 --> Severity: Warning --> Invalid argument supplied for foreach() C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 38
+ERROR - 2020-07-28 10:41:05 --> Severity: Warning --> Invalid argument supplied for foreach() C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 47
+ERROR - 2020-07-28 10:41:05 --> Severity: Warning --> Invalid argument supplied for foreach() C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 55
+ERROR - 2020-07-28 10:41:05 --> Severity: 4096 --> Object of class CI_Loader could not be converted to string C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 28
+ERROR - 2020-07-28 14:11:07 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:41:32 --> Severity: Warning --> Invalid argument supplied for foreach() C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 30
+ERROR - 2020-07-28 10:41:32 --> Severity: Warning --> Invalid argument supplied for foreach() C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 38
+ERROR - 2020-07-28 10:41:32 --> Severity: Warning --> Invalid argument supplied for foreach() C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 47
+ERROR - 2020-07-28 10:41:32 --> Severity: Warning --> Invalid argument supplied for foreach() C:\shivaprasad\FBP\FBP.COM\application\views\sitemap.php 55
+ERROR - 2020-07-28 10:41:32 --> Severity: 4096 --> Object of class CI_Loader could not be converted to string C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 28
+ERROR - 2020-07-28 14:11:34 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:42:05 --> Severity: 4096 --> Object of class CI_Loader could not be converted to string C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 28
+ERROR - 2020-07-28 14:12:08 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:43:02 --> Severity: 4096 --> Object of class CI_Loader could not be converted to string C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 28
+ERROR - 2020-07-28 14:13:05 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:43:29 --> Severity: 4096 --> Object of class CI_Loader could not be converted to string C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 28
+ERROR - 2020-07-28 14:13:31 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:43:49 --> Severity: error --> Exception: syntax error, unexpected end of file C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 46
+ERROR - 2020-07-28 14:13:51 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:44:07 --> Severity: error --> Exception: syntax error, unexpected end of file C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 46
+ERROR - 2020-07-28 14:14:09 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:14:38 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:14:49 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:45:57 --> Severity: 4096 --> Object of class CI_Loader could not be converted to string C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 28
+ERROR - 2020-07-28 14:15:59 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:17:31 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:17:48 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:18:07 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:18:51 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:19:37 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:52:19 --> Severity: error --> Exception: syntax error, unexpected '.' C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 43
+ERROR - 2020-07-28 14:22:22 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:52:40 --> Severity: error --> Exception: syntax error, unexpected 'echo' (T_ECHO) C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 58
+ERROR - 2020-07-28 14:22:42 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:23:07 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:57:24 --> Severity: error --> Exception: syntax error, unexpected '.' C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 61
+ERROR - 2020-07-28 14:27:27 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 10:58:37 --> Severity: error --> Exception: syntax error, unexpected '.' C:\shivaprasad\FBP\FBP.COM\application\controllers\Sitemap.php 61
+ERROR - 2020-07-28 14:28:39 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:29:12 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:31:23 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:32:10 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:33:29 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:34:48 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:37:01 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:38:52 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:40:02 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:41:12 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:42:12 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:42:55 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
+ERROR - 2020-07-28 14:57:31 --> Unable to write cache file: C:\shivaprasad\FBP\FBP.COM\application\cache/
