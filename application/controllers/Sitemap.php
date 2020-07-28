@@ -93,8 +93,9 @@ foreach($items as $property) {
         <lastmod>".date('Y-m-d H:i:s')."</lastmod>
         <priority>0.5</priority>
     </url>
-    </urlset>";
+    >";
 }
+$output .="</urlset>";
 if ( ! write_file('./sitemap.xml', $output))
 {
         echo 'Unable to write the file';
