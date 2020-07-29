@@ -23,6 +23,7 @@ class Properties extends Admin_Controller
 
         // load the aboutUs model
         $this->load->model('properties_model');
+        $this->load->model('builders_model');
 
         // set constants
         define('REFERRER', "referrer");
@@ -112,14 +113,89 @@ class Properties extends Admin_Controller
     {
         $image='';
         $slug='';
+
         if ($this->input->post()) {
+             $project_status = '';
+                $prop_type =''; 
+                $m_desc='';
+                $m_keywords='';
+                $propType['name']='';
+            if($this->input->post('meta_title')=='')
+            {
+
+             
+                    if($this->input->post('issue_date')== 'New Launch' || $this->input->post('issue_date')== 'Ready to move')
+                    {
+                        if($this->input->post('issue_date')== 'New Launch')
+                           $project_status = 'Pre Launch'; 
+                       else
+                        $project_status = 'Ready To Move';
+                    }
+
+                
+                $property_flat_types = $this->input->post('flat_type');
+                    if (isset($property_flat_types) && is_array($property_flat_types)) {
+                        foreach ($property_flat_types as $flat_type_id => $property_flat_type) {
+                            if (isset($property_flat_type['name']) && $property_flat_type['name']) {
+                                foreach ($property_flat_type['name'] as $index => $item) {
+                                    if (isset($property_flat_type['name'][$index]) && $property_flat_type['name'][$index]) {
+                                        //$prop_type   .= $this->properties_model->getPropertyType(['id'=>$flat_type_id])['name'].' ';
+                                        $prop_type   .= $flat_type_id.',';
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    $prop_type = rtrim($prop_type, ", ");
+                    if($prop_type)
+                    $prop_flat_types = $this->properties_model->get_flat_type_by_id($prop_type); 
+                    $location_name = $this->builders_model->getLocationById('name',array('id'=>$this->input->post('location')));
+                    $city_name = $this->builders_model->getCityById('name',array('id'=>$this->input->post('city')));
+                    $propType   = $this->properties_model->getPropertyType(['id'=>$this->input->post('type')]); 
+                    //print_r($propType);die;
+                    if($propType['name']=='Apartments')
+                    {
+                      $propType['flat_name'] =" Flats";  
+                    }
+                    else
+                    {
+                       $propType['flat_name'] =$propType['name'];  
+                    }
+            $m_title = $this->input->post('title').' '. $location_name['name'].', '.$city_name['name'].' | '.$prop_flat_types.' '.$project_status.' '.$propType['flat_name'].' For Sale';
+            
+            }
+            if($this->input->post('meta_desc')=='')
+            {
+                
+                $f_p =', Floor Plan';
+                if($propType['name']=='Plots')
+                    $f_p='';
+
+            $m_desc= $this->input->post('title').' '.$propType['name'].' in '. $location_name['name'].', '.$city_name['name'].'  '.$prop_flat_types.' '.' For Sale. Checkout Price, Brochure, Reviews, Master Plan'.$f_p.', Amenities and More.';
+            }
+            if($this->input->post('meta_keywords')=='')
+            {
+
+            
+            $m_keywords= $this->input->post('title').' '.$city_name['name'].', '.$this->input->post('title').' '. $location_name['name'].', '.$this->input->post('title').' Price, '.$this->input->post('title').' Brochure, '.$this->input->post('title').' Reviews, '.$this->input->post('title').' Master Plan, '.$this->input->post('title').' Amenities, '.$this->input->post('title').' '.$propType['name'].', '.$this->input->post('title').' '.$propType['name'].' '.$location_name['name'].', '.$this->input->post('title').' '.$project_status .', '.$this->input->post('title').' Amenities, ';
+            if($propType['name']!='Plots')
+                if($prop_flat_types)
+                {
+                    $m_keywords.=$this->input->post('title').' Floor Plans, ';
+                    $m_keywords.=$this->input->post('title').' '.$prop_flat_types;
+                }
+                else
+                    $m_keywords.=$this->input->post('title').' Floor Plans';
+
+            }
+               
                $data = array(
                         'builder_id' => $this->input->post('builder'),
                         'location_id' => $this->input->post('location'),
                         'title' => $this->input->post('title'),
-                        'meta_title' => $this->input->post('meta_title'),
-                        'meta_keywords' => $this->input->post('meta_keywords'),
-                        'meta_desc' => $this->input->post('meta_desc'),
+                        'meta_title' => $this->input->post('meta_title')?$this->input->post('meta_title'):$m_title,
+                        'meta_keywords' => $this->input->post('meta_keywords')?$this->input->post('meta_keywords'):$m_keywords,
+                        'meta_desc' => $this->input->post('meta_desc')?$this->input->post('meta_desc'):$m_desc,
                         'area' => $this->input->post('area'),
                         'budget' => $this->input->post('budget'),
                         'property_type_id' => $this->input->post('type'),
@@ -179,6 +255,11 @@ class Properties extends Admin_Controller
                         /** Additional properties ends here */
                     );
                     $prop = $data;
+                   //  print_r($data['meta_title']);
+                   //  echo "<br><br><br><br>";
+                   //  print_r($data['meta_keywords']);
+                   //  echo "<br><br><br>";
+                   // print_r($data['meta_desc']);die;
                     $amenities = $this->input->post('amenities');
                     $b=array();
                     foreach ($amenities as $am) {
@@ -1079,419 +1160,383 @@ $img = $this->properties_model->getWhere(array("property_id"=>$id),"property_log
         $data['content'] = $this->load->view('admin/properties/favourites', $content_data, true);
         $this->load->view($this->template, $data);
     }
-     public function new_add()
-    {
+//      public function new_add()
+//     {
 
-        $image='';
-        $slug='';
-        if ($this->input->post()) {
-               $data = array(
-                        'builder_id' => $this->input->post('builder'),
-                        'location_id' => $this->input->post('location'),
-                        'title' => $this->input->post('title'),
-                        'meta_title' => $this->input->post('meta_title'),
-                        'meta_keywords' => $this->input->post('meta_keywords'),
-                        'meta_desc' => $this->input->post('meta_desc'),
-                        'area' => $this->input->post('area'),
-                        'budget' => $this->input->post('budget'),
-                        'property_type_id' => $this->input->post('type'),
-                        'city_id' => $this->input->post('city'),
-                        'alt' => $this->input->post('alt'),
-                        'image' => $image,
-                        'alt_title'=>$this->input->post('alt_title'),
-                        'image_desc'=>$this->input->post('image_description'),
-                        'gallery_alt'=>$this->input->post('gallery_alt'),
-                        'gallery_desc'=>$this->input->post('gallery_description'),
-                        'brochure_alt'=>$this->input->post('brochure_alt'),
-                        'brochure_desc'=>$this->input->post('brochure_description'),
-                        'floor_alt'=>$this->input->post('floor_alt'),
-                        'floor_desc'=>$this->input->post('floor_description'),
-                        'location_alt'=>$this->input->post('location_alt'),
-                        'location_desc'=>$this->input->post('location_description'),
-                        'master_alt'=>$this->input->post('master_alt'),
-                        'master_desc'=>$this->input->post('master_description'),
-                        'construction_alt'=>$this->input->post('construction_alt'),
-                        'construction_desc'=>$this->input->post('construction_description'),
-                        'elevations_alt'=>$this->input->post('elevations_alt'),
-                        'elevations_desc'=>$this->input->post('elevations_description'),
-                        'rera_number'=>$this->input->post('rera_number'),
-                        'slug' => $slug,
-                        'date_added' => date('Y-m-d'),
-                        /**  Additional property details added on 02/02/2018 by Vineeth Krishnan */
-                        'uid' =>/* $this->input->post('uid')*/2019,
-                        'rera_number' => $this->input->post('rera_number'),
-                        'issue_date' => $this->input->post('issue_date'),
-                        'property_for' => $this->input->post('property_for'),
-                        'price_per_unit' => $this->input->post('price_per_unit'),
-                        'build' => $this->input->post('build'),
-                        'face' => $this->input->post('face'),
-                        'builtup_area' => $this->input->post('builtup_area'),
-                        'builtup_area_unit' => $this->input->post('builtup_area_unit'),
-                        'carpet_area' => $this->input->post('carpet_area'),
-                        'carpet_area_unit' => $this->input->post('carpet_area_unit'),
-                        'plot_area' => $this->input->post('plot_area'),
-                        'plot_area_unit' => $this->input->post('plot_area_unit'),
-                        'lat' => $this->input->post('lat'),
-                        'lng' => $this->input->post('lng'),
-                        'bathrooms' => $this->input->post('bathrooms'),
-                        'bedrooms' => $this->input->post('bedrooms'),
-                        'units' => $this->input->post('units'),
-                        'floors' => $this->input->post('floors'),
-                        'towers' => $this->input->post('towers'),
-                        'facades' => $this->input->post('facades'),
-                        'property_status_id' => $this->input->post('property_status_id'),
-                        'description' => $this->input->post('description'),
-                        'usp' => $this->input->post('usp'),
-                        'facebook' => $this->input->post('facebook'),
-                        'twitter' => $this->input->post('twitter'),
-                        'google' => $this->input->post('google'),
-                        'possession_date' => $this->input->post('possession_date'),
-                        'walkthrough' => $this->input->post('walkthrough'),
-                        /** Additional properties ends here */
-                    );
-                    $prop = $data;
-                   /* $amenities = $this->input->post('amenities');
-                    $b=array();
-                    foreach ($amenities as $am) {
-                      $b['amenities'.($am)]=$am;
+//         $image='';
+//         $slug='';
+//         if ($this->input->post()) {
+//                $data = array(
+//                         'builder_id' => $this->input->post('builder'),
+//                         'location_id' => $this->input->post('location'),
+//                         'title' => $this->input->post('title'),
+//                         'meta_title' => $this->input->post('meta_title'),
+//                         'meta_keywords' => $this->input->post('meta_keywords'),
+//                         'meta_desc' => $this->input->post('meta_desc'),
+//                         'area' => $this->input->post('area'),
+//                         'budget' => $this->input->post('budget'),
+//                         'property_type_id' => $this->input->post('type'),
+//                         'city_id' => $this->input->post('city'),
+//                         'alt' => $this->input->post('alt'),
+//                         'image' => $image,
+//                         'alt_title'=>$this->input->post('alt_title'),
+//                         'image_desc'=>$this->input->post('image_description'),
+//                         'gallery_alt'=>$this->input->post('gallery_alt'),
+//                         'gallery_desc'=>$this->input->post('gallery_description'),
+//                         'brochure_alt'=>$this->input->post('brochure_alt'),
+//                         'brochure_desc'=>$this->input->post('brochure_description'),
+//                         'floor_alt'=>$this->input->post('floor_alt'),
+//                         'floor_desc'=>$this->input->post('floor_description'),
+//                         'location_alt'=>$this->input->post('location_alt'),
+//                         'location_desc'=>$this->input->post('location_description'),
+//                         'master_alt'=>$this->input->post('master_alt'),
+//                         'master_desc'=>$this->input->post('master_description'),
+//                         'construction_alt'=>$this->input->post('construction_alt'),
+//                         'construction_desc'=>$this->input->post('construction_description'),
+//                         'elevations_alt'=>$this->input->post('elevations_alt'),
+//                         'elevations_desc'=>$this->input->post('elevations_description'),
+//                         'rera_number'=>$this->input->post('rera_number'),
+//                         'slug' => $slug,
+//                         'date_added' => date('Y-m-d'),
+//                         /**  Additional property details added on 02/02/2018 by Vineeth Krishnan */
+//                         'uid' =>/* $this->input->post('uid')*/2019,
+//                         'rera_number' => $this->input->post('rera_number'),
+//                         'issue_date' => $this->input->post('issue_date'),
+//                         'property_for' => $this->input->post('property_for'),
+//                         'price_per_unit' => $this->input->post('price_per_unit'),
+//                         'build' => $this->input->post('build'),
+//                         'face' => $this->input->post('face'),
+//                         'builtup_area' => $this->input->post('builtup_area'),
+//                         'builtup_area_unit' => $this->input->post('builtup_area_unit'),
+//                         'carpet_area' => $this->input->post('carpet_area'),
+//                         'carpet_area_unit' => $this->input->post('carpet_area_unit'),
+//                         'plot_area' => $this->input->post('plot_area'),
+//                         'plot_area_unit' => $this->input->post('plot_area_unit'),
+//                         'lat' => $this->input->post('lat'),
+//                         'lng' => $this->input->post('lng'),
+//                         'bathrooms' => $this->input->post('bathrooms'),
+//                         'bedrooms' => $this->input->post('bedrooms'),
+//                         'units' => $this->input->post('units'),
+//                         'floors' => $this->input->post('floors'),
+//                         'towers' => $this->input->post('towers'),
+//                         'facades' => $this->input->post('facades'),
+//                         'property_status_id' => $this->input->post('property_status_id'),
+//                         'description' => $this->input->post('description'),
+//                         'usp' => $this->input->post('usp'),
+//                         'facebook' => $this->input->post('facebook'),
+//                         'twitter' => $this->input->post('twitter'),
+//                         'google' => $this->input->post('google'),
+//                         'possession_date' => $this->input->post('possession_date'),
+//                         'walkthrough' => $this->input->post('walkthrough'),
+//                         /** Additional properties ends here */
+//                     );
+//                     $prop = $data;
+//                    /* $amenities = $this->input->post('amenities');
+//                     $b=array();
+//                     foreach ($amenities as $am) {
+//                       $b['amenities'.($am)]=$am;
                       
-                    }
+//                     }
                     
                  
-                    $this->session->set_userdata($b);
-                    $this->session->set_userdata($prop);*/
-            $this->form_validation->set_rules('title', 'Title', 'trim|required');
-            $this->form_validation->set_rules('area', 'Area', 'trim|required');
-           $this->form_validation->set_rules('amenities[]', 'Amenities', 'trim|required');
-            $this->form_validation->set_rules('budget', 'Budget', 'trim|required');
+//                     $this->session->set_userdata($b);
+//                     $this->session->set_userdata($prop);*/
+//             $this->form_validation->set_rules('title', 'Title', 'trim|required');
+//             $this->form_validation->set_rules('area', 'Area', 'trim|required');
+//            $this->form_validation->set_rules('amenities[]', 'Amenities', 'trim|required');
+//             $this->form_validation->set_rules('budget', 'Budget', 'trim|required');
 
-            if ($this->form_validation->run() != false) {
-                $slug = strtolower(url_title($this->input->post('title')));
-                $check = $this->properties_model->getOneWhere(array('slug' => $slug), 'properties');
-                if ($check) {
-                    $slug = strtolower(url_title($this->input->post('title'))) . uniqid(5);
-                }
+//             if ($this->form_validation->run() != false) {
+//                 $slug = strtolower(url_title($this->input->post('title')));
+//                 $check = $this->properties_model->getOneWhere(array('slug' => $slug), 'properties');
+//                 if ($check) {
+//                     $slug = strtolower(url_title($this->input->post('title'))) . uniqid(5);
+//                 }
 
 
-                if (isset($_FILES) && isset($_FILES["uploadfile"]['tmp_name']) && $_FILES["uploadfile"]['tmp_name']) {
-                    $file = $_FILES["uploadfile"]['tmp_name'];
-                    $path = './uploads/' . $slug . '/';
-                    if (!is_dir($path)) {
-                        mkdir($path, 0777, true);
-                    }
-                    $file_type = 'gif|jpg|jpeg|png';
-                    $config = $this->set_upload_options($path, $file_type);
-                    $this->upload->initialize($config);
-                    if (!$this->upload->do_upload('uploadfile')) {
-                        $this->session->set_flashdata('error', $this->upload->display_errors());
-                        redirect('admin/properties/new_add');
-                    } else {
-                        $image = $this->upload->data('file_name');
-                    }
+//                 if (isset($_FILES) && isset($_FILES["uploadfile"]['tmp_name']) && $_FILES["uploadfile"]['tmp_name']) {
+//                     $file = $_FILES["uploadfile"]['tmp_name'];
+//                     $path = './uploads/' . $slug . '/';
+//                     if (!is_dir($path)) {
+//                         mkdir($path, 0777, true);
+//                     }
+//                     $file_type = 'gif|jpg|jpeg|png';
+//                     $config = $this->set_upload_options($path, $file_type);
+//                     $this->upload->initialize($config);
+//                     if (!$this->upload->do_upload('uploadfile')) {
+//                         $this->session->set_flashdata('error', $this->upload->display_errors());
+//                         redirect('admin/properties/new_add');
+//                     } else {
+//                         $image = $this->upload->data('file_name');
+//                     }
                  
- $data = array(
-                        'builder_id' => $this->input->post('builder'),
-                        'location_id' => $this->input->post('location'),
-                        'title' => $this->input->post('title'),
-                        'meta_title' => $this->input->post('meta_title'),
-                        'meta_keywords' => $this->input->post('meta_keywords'),
-                        'meta_desc' => $this->input->post('meta_desc'),
-                        'area' => $this->input->post('area'),
-                        'budget' => $this->input->post('budget'),
-                        'property_type_id' => $this->input->post('type'),
-                        'city_id' => $this->input->post('city'),
-                        'alt' => $this->input->post('alt'),
-                        'image' => $image,
-                        'alt_title'=>$this->input->post('alt_title'),
-                        'image_desc'=>$this->input->post('image_description'),
-                        'gallery_alt'=>$this->input->post('gallery_alt'),
-                        'gallery_desc'=>$this->input->post('gallery_description'),
-                        'brochure_alt'=>$this->input->post('brochure_alt'),
-                        'brochure_desc'=>$this->input->post('brochure_description'),
-                        'floor_alt'=>$this->input->post('floor_alt'),
-                        'floor_desc'=>$this->input->post('floor_description'),
-                        'location_alt'=>$this->input->post('location_alt'),
-                        'location_desc'=>$this->input->post('location_description'),
-                        'master_alt'=>$this->input->post('master_alt'),
-                        'master_desc'=>$this->input->post('master_description'),
-                        'construction_alt'=>$this->input->post('construction_alt'),
-                        'construction_desc'=>$this->input->post('construction_description'),
-                        'elevations_alt'=>$this->input->post('elevations_alt'),
-                        'elevations_desc'=>$this->input->post('elevations_description'),
-                        'rera_number'=>$this->input->post('rera_number'),
-                        'slug' => $slug,
-                        'date_added' => date('Y-m-d'),
-                        /**  Additional property details added on 02/02/2018 by Vineeth Krishnan */
-                        'uid' =>/* $this->input->post('uid')*/2019,
-                        'rera_number' => $this->input->post('rera_number'),
-                        'issue_date' => $this->input->post('issue_date'),
-                        'property_for' => $this->input->post('property_for'),
-                        'price_per_unit' => $this->input->post('price_per_unit'),
-                        'build' => $this->input->post('build'),
-                        'face' => $this->input->post('face'),
-                        'builtup_area' => $this->input->post('builtup_area'),
-                        'builtup_area_unit' => $this->input->post('builtup_area_unit'),
-                        'carpet_area' => $this->input->post('carpet_area'),
-                        'carpet_area_unit' => $this->input->post('carpet_area_unit'),
-                        'plot_area' => $this->input->post('plot_area'),
-                        'plot_area_unit' => $this->input->post('plot_area_unit'),
-                        'lat' => $this->input->post('lat'),
-                        'lng' => $this->input->post('lng'),
-                        'bathrooms' => $this->input->post('bathrooms'),
-                        'bedrooms' => $this->input->post('bedrooms'),
-                        'units' => $this->input->post('units'),
-                        'floors' => $this->input->post('floors'),
-                        'towers' => $this->input->post('towers'),
-                        'facades' => $this->input->post('facades'),
-                        'property_status_id' => $this->input->post('property_status_id'),
-                        'description' => $this->input->post('description'),
-                        'usp' => $this->input->post('usp'),
-                        'facebook' => $this->input->post('facebook'),
-                        'twitter' => $this->input->post('twitter'),
-                        'google' => $this->input->post('google'),
-                        'possession_date' => $this->input->post('possession_date'),
-                        'walkthrough' => $this->input->post('walkthrough'),
-                        /** Additional properties ends here */
-                    );
-if (isset($_FILES) && isset($_FILES["map"]['tmp_name']) && $_FILES["map"]['tmp_name']) {
-    $path = './uploads/' . $slug . '/map/';
-    if (!is_dir($path)) {
-        mkdir($path, 0777, true);
-    }
-    $file_type = 'gif|jpg|jpeg|png';
-    $config = $this->set_upload_options($path, $file_type);
-    $this->upload->initialize($config);
-    if ($this->upload->do_upload('map')) {
-        $data['map'] = $this->upload->data('file_name');
-    }
-}
-
-if (isset($_FILES) && isset($_FILES["brochure"]['tmp_name']) && $_FILES["brochure"]['tmp_name']) {
-    $path = './uploads/' . $slug . '/brochure/';
-    if (!is_dir($path)) {
-        mkdir($path, 0777, true);
-    }
-    $file_type = '*';
-    $config = $this->set_upload_options($path, $file_type);
-    $this->upload->initialize($config);
-    if ($this->upload->do_upload('brochure')) {
-        $data['brochure'] = $this->upload->data('file_name');
-    }
-}
-
-
-$property_id = $this->properties_model->insertRow($data, 'properties');
-$data['propert_id']=$property_id;
-/** attach the specifications if any */
-if ($this->input->post('specification')) {
-    foreach ($this->input->post('specification') as $id => $specification) {
-        $this->properties_model->insertRow(array(
-            'property_id' => $property_id,
-            'specification_id' => $id,
-            'content' => $specification,
-            'created_at' => date('Y-m-d H:i:s')
-        ), 'property_specification_relation');
-    }
-}
-if (isset($_FILES) && isset($_FILES["logo_1"]['tmp_name']) && $_FILES["logo_1"]['tmp_name']) {
-    $path = './uploads/' . $slug . '/logos/';
-   // print_r($this->upload->data());die;
-    $this->properties_model->insertRow(array(
-            'property_id' => $property_id,
-            'logo_1' => $this->upload->data('file_name'),
-        ), 'property_logo');
-    if (!is_dir($path)) {
-        mkdir($path, 0777, true);
-    }
-    $file_type = '*';
-    $config = $this->set_upload_options($path, $file_type);
-    $this->upload->initialize($config);
-    if ($this->upload->do_upload('logo_1')) {
-        $data['logo_1'] = $this->upload->data('file_name');
-    }
-}
-
-$data['logo'] =  $this->properties_model->getWhere(array('property_id' => $property_id), 'property_logo');
-$amenities = $this->input->post('amenities');
-if ($amenities) {
-    foreach ($amenities as $amenity) {
-        $this->properties_model->insertRow(array(
-            'property_id' => $property_id,
-            'amenity_id' => $amenity
-        ), 'property_amenities');
-    }
-}
-
-/** Gallery Images */
-// $banners = $this->input->post('banners');
-// if ($banners) {
-//     foreach ($banners as $image) {
-//         $exploded = explode('/', $image);
-//         $this->properties_model->insertRow(array(
-//             'property_id' => $property_id,
-//             'banner_path' => 'uploads/' . $slug . '/' . end($exploded)
-//         ), 'property_desktop_banners');
-//         rename($image, 'uploads/' . $slug . '/' . end($exploded));
+//  $data = array(
+//                         'builder_id' => $this->input->post('builder'),
+//                         'location_id' => $this->input->post('location'),
+//                         'title' => $this->input->post('title'),
+//                         'meta_title' => $this->input->post('meta_title'),
+//                         'meta_keywords' => $this->input->post('meta_keywords'),
+//                         'meta_desc' => $this->input->post('meta_desc'),
+//                         'area' => $this->input->post('area'),
+//                         'budget' => $this->input->post('budget'),
+//                         'property_type_id' => $this->input->post('type'),
+//                         'city_id' => $this->input->post('city'),
+//                         'alt' => $this->input->post('alt'),
+//                         'image' => $image,
+//                         'alt_title'=>$this->input->post('alt_title'),
+//                         'image_desc'=>$this->input->post('image_description'),
+//                         'gallery_alt'=>$this->input->post('gallery_alt'),
+//                         'gallery_desc'=>$this->input->post('gallery_description'),
+//                         'brochure_alt'=>$this->input->post('brochure_alt'),
+//                         'brochure_desc'=>$this->input->post('brochure_description'),
+//                         'floor_alt'=>$this->input->post('floor_alt'),
+//                         'floor_desc'=>$this->input->post('floor_description'),
+//                         'location_alt'=>$this->input->post('location_alt'),
+//                         'location_desc'=>$this->input->post('location_description'),
+//                         'master_alt'=>$this->input->post('master_alt'),
+//                         'master_desc'=>$this->input->post('master_description'),
+//                         'construction_alt'=>$this->input->post('construction_alt'),
+//                         'construction_desc'=>$this->input->post('construction_description'),
+//                         'elevations_alt'=>$this->input->post('elevations_alt'),
+//                         'elevations_desc'=>$this->input->post('elevations_description'),
+//                         'rera_number'=>$this->input->post('rera_number'),
+//                         'slug' => $slug,
+//                         'date_added' => date('Y-m-d'),
+//                         /**  Additional property details added on 02/02/2018 by Vineeth Krishnan */
+//                         'uid' =>/* $this->input->post('uid')*/2019,
+//                         'rera_number' => $this->input->post('rera_number'),
+//                         'issue_date' => $this->input->post('issue_date'),
+//                         'property_for' => $this->input->post('property_for'),
+//                         'price_per_unit' => $this->input->post('price_per_unit'),
+//                         'build' => $this->input->post('build'),
+//                         'face' => $this->input->post('face'),
+//                         'builtup_area' => $this->input->post('builtup_area'),
+//                         'builtup_area_unit' => $this->input->post('builtup_area_unit'),
+//                         'carpet_area' => $this->input->post('carpet_area'),
+//                         'carpet_area_unit' => $this->input->post('carpet_area_unit'),
+//                         'plot_area' => $this->input->post('plot_area'),
+//                         'plot_area_unit' => $this->input->post('plot_area_unit'),
+//                         'lat' => $this->input->post('lat'),
+//                         'lng' => $this->input->post('lng'),
+//                         'bathrooms' => $this->input->post('bathrooms'),
+//                         'bedrooms' => $this->input->post('bedrooms'),
+//                         'units' => $this->input->post('units'),
+//                         'floors' => $this->input->post('floors'),
+//                         'towers' => $this->input->post('towers'),
+//                         'facades' => $this->input->post('facades'),
+//                         'property_status_id' => $this->input->post('property_status_id'),
+//                         'description' => $this->input->post('description'),
+//                         'usp' => $this->input->post('usp'),
+//                         'facebook' => $this->input->post('facebook'),
+//                         'twitter' => $this->input->post('twitter'),
+//                         'google' => $this->input->post('google'),
+//                         'possession_date' => $this->input->post('possession_date'),
+//                         'walkthrough' => $this->input->post('walkthrough'),
+//                         /** Additional properties ends here */
+//                     );
+// if (isset($_FILES) && isset($_FILES["map"]['tmp_name']) && $_FILES["map"]['tmp_name']) {
+//     $path = './uploads/' . $slug . '/map/';
+//     if (!is_dir($path)) {
+//         mkdir($path, 0777, true);
+//     }
+//     $file_type = 'gif|jpg|jpeg|png';
+//     $config = $this->set_upload_options($path, $file_type);
+//     $this->upload->initialize($config);
+//     if ($this->upload->do_upload('map')) {
+//         $data['map'] = $this->upload->data('file_name');
 //     }
 // }
-// $mobilebanners = $this->input->post('mobilebanners');
-// if ($mobilebanners) {
-//     foreach ($mobilebanners as $image) {
+
+// if (isset($_FILES) && isset($_FILES["brochure"]['tmp_name']) && $_FILES["brochure"]['tmp_name']) {
+//     $path = './uploads/' . $slug . '/brochure/';
+//     if (!is_dir($path)) {
+//         mkdir($path, 0777, true);
+//     }
+//     $file_type = '*';
+//     $config = $this->set_upload_options($path, $file_type);
+//     $this->upload->initialize($config);
+//     if ($this->upload->do_upload('brochure')) {
+//         $data['brochure'] = $this->upload->data('file_name');
+//     }
+// }
+
+
+// $property_id = $this->properties_model->insertRow($data, 'properties');
+// $data['propert_id']=$property_id;
+// /** attach the specifications if any */
+// if ($this->input->post('specification')) {
+//     foreach ($this->input->post('specification') as $id => $specification) {
+//         $this->properties_model->insertRow(array(
+//             'property_id' => $property_id,
+//             'specification_id' => $id,
+//             'content' => $specification,
+//             'created_at' => date('Y-m-d H:i:s')
+//         ), 'property_specification_relation');
+//     }
+// }
+// if (isset($_FILES) && isset($_FILES["logo_1"]['tmp_name']) && $_FILES["logo_1"]['tmp_name']) {
+//     $path = './uploads/' . $slug . '/logos/';
+//    // print_r($this->upload->data());die;
+//     $this->properties_model->insertRow(array(
+//             'property_id' => $property_id,
+//             'logo_1' => $this->upload->data('file_name'),
+//         ), 'property_logo');
+//     if (!is_dir($path)) {
+//         mkdir($path, 0777, true);
+//     }
+//     $file_type = '*';
+//     $config = $this->set_upload_options($path, $file_type);
+//     $this->upload->initialize($config);
+//     if ($this->upload->do_upload('logo_1')) {
+//         $data['logo_1'] = $this->upload->data('file_name');
+//     }
+// }
+
+// $data['logo'] =  $this->properties_model->getWhere(array('property_id' => $property_id), 'property_logo');
+// $amenities = $this->input->post('amenities');
+// if ($amenities) {
+//     foreach ($amenities as $amenity) {
+//         $this->properties_model->insertRow(array(
+//             'property_id' => $property_id,
+//             'amenity_id' => $amenity
+//         ), 'property_amenities');
+//     }
+// }
+
+// $gallery = $this->input->post('images');
+// if ($gallery) {
+//     foreach ($gallery as $image) {
 //         $exploded = explode('/', $image);
 //         $this->properties_model->insertRow(array(
 //             'property_id' => $property_id,
-//             'mobile_banner_path' => 'uploads/' . $slug . '/' . end($exploded)
+//             'image' => 'uploads/' . $slug . '/' . end($exploded)
 //         ), 'property_mobile_banners');
 //         rename($image, 'uploads/' . $slug . '/' . end($exploded));
 //     }
 // }
-$gallery = $this->input->post('images');
-if ($gallery) {
-    foreach ($gallery as $image) {
-        $exploded = explode('/', $image);
-        $this->properties_model->insertRow(array(
-            'property_id' => $property_id,
-            'image' => 'uploads/' . $slug . '/' . end($exploded)
-        ), 'property_mobile_banners');
-        rename($image, 'uploads/' . $slug . '/' . end($exploded));
-    }
-}
 
 
-/** Floor Plan Images */
-$floorImages = $this->input->post('floorimages');
-if ($floorImages) {
-    foreach ($floorImages as $image) {
-        $exploded = explode('/', $image);
-        $this->properties_model->insertRow(array(
-            'property_id' => $property_id,
-            'image' => 'uploads/' . $slug . '/' . end($exploded)
-        ), 'property_floor_plans');
-        rename($image, 'uploads/' . $slug . '/' . end($exploded));
-    }
-}
+// /** Floor Plan Images */
+// $floorImages = $this->input->post('floorimages');
+// if ($floorImages) {
+//     foreach ($floorImages as $image) {
+//         $exploded = explode('/', $image);
+//         $this->properties_model->insertRow(array(
+//             'property_id' => $property_id,
+//             'image' => 'uploads/' . $slug . '/' . end($exploded)
+//         ), 'property_floor_plans');
+//         rename($image, 'uploads/' . $slug . '/' . end($exploded));
+//     }
+// }
 
-/** Master Plan Images */
-$masterImages = $this->input->post('masterimages');
-if ($masterImages) {
-    foreach ($masterImages as $image) {
-        $exploded = explode('/', $image);
-        $this->properties_model->insertRow(array(
-            'property_id' => $property_id,
-            'image' => 'uploads/' . $slug . '/' . end($exploded)
-        ), 'property_master_plans');
-        rename($image, 'uploads/' . $slug . '/' . end($exploded));
-    }
-}
+// /** Master Plan Images */
+// $masterImages = $this->input->post('masterimages');
+// if ($masterImages) {
+//     foreach ($masterImages as $image) {
+//         $exploded = explode('/', $image);
+//         $this->properties_model->insertRow(array(
+//             'property_id' => $property_id,
+//             'image' => 'uploads/' . $slug . '/' . end($exploded)
+//         ), 'property_master_plans');
+//         rename($image, 'uploads/' . $slug . '/' . end($exploded));
+//     }
+// }
 
-/** Construction Update Images */
-$constructionImages = $this->input->post('constructionimages');
-if ($constructionImages) {
-    foreach ($constructionImages as $image) {
-        $exploded = explode('/', $image);
-        $this->properties_model->insertRow(array(
-            'property_id' => $property_id,
-            'image' => 'uploads/' . $slug . '/' . end($exploded)
-        ), 'property_construction_updates');
-        rename($image, 'uploads/' . $slug . '/' . end($exploded));
-    }
-}
-
-                    /** Construction Update Images
-                    $walkthroughImages = $this->input->post('walkthroughimages');
-                    if ($walkthroughImages) {
-                        foreach ($walkthroughImages as $image) {
-                            $exploded = explode('/', $image);
-                            $this->properties_model->insertRow(array(
-                                'property_id' => $property_id,
-                                'image' => 'uploads/' . $slug . '/' . end($exploded)
-                            ), 'property_project_walkthrough');
-                            rename($image, 'uploads/' . $slug . '/' . end($exploded));
-                        }
-                    }
-                    */
-                    /** Elevations Images */
-                    $elevationsImages = $this->input->post('elevationsimages');
-
-                    if ($elevationsImages) {
-                        foreach ($elevationsImages as $image) {
-                            $exploded = explode('/', $image);
-                            $this->properties_model->insertRow(array(
-                                'property_id' => $property_id,
-                                'image' => 'uploads/' . $slug . '/' . end($exploded)
-                            ), 'property_elevations');
-                            rename($image, 'uploads/' . $slug . '/' . end($exploded));
-                        }
-                    }
+// /** Construction Update Images */
+// $constructionImages = $this->input->post('constructionimages');
+// if ($constructionImages) {
+//     foreach ($constructionImages as $image) {
+//         $exploded = explode('/', $image);
+//         $this->properties_model->insertRow(array(
+//             'property_id' => $property_id,
+//             'image' => 'uploads/' . $slug . '/' . end($exploded)
+//         ), 'property_construction_updates');
+//         rename($image, 'uploads/' . $slug . '/' . end($exploded));
+//     }
+// }
 
 
-                    // add property flat types
-                    $property_flat_types = $this->input->post('flat_type');
-                    if (isset($property_flat_types) && is_array($property_flat_types)) {
-                        foreach ($property_flat_types as $flat_type_id => $property_flat_type) {
-                            if (isset($property_flat_type['name']) && $property_flat_type['name']) {
-                                foreach ($property_flat_type['name'] as $index => $item) {
-                                    if (isset($property_flat_type['name'][$index]) && $property_flat_type['name'][$index]) {
-                                        $flatData = array(
-                                            'property_id' => $property_id,
-                                            'flat_type_id' => $flat_type_id,
-                                            'name' => isset($property_flat_type['name'][$index]) ? $property_flat_type['name'][$index] : "",
-                                            'size' => isset($property_flat_type['size'][$index]) ? $property_flat_type['size'][$index] : 0,
-                                            'unit' => isset($property_flat_type['unit'][$index]) ? $property_flat_type['unit'][$index] : "Sqft",
-                                            'price' => isset($property_flat_type['price'][$index]) ? $property_flat_type['price'][$index] : 0,
-                                            'carpet_area' => isset($property_flat_type['carpet_area'][$index]) ? $property_flat_type['carpet_area'][$index] : 0,
-                                            'price_on_request' => isset($property_flat_type['price_on_request'][$index]) ? 1 : 0
-                                        );
-                                        $flatData['total'] = floatval($flatData['size']) * floatval($flatData['price']);
-                                        $this->properties_model->insertRow($flatData, 'property_flat_types');
-                                    }
-                                }
-                            }
-                        }
-                    }
+//                     $elevationsImages = $this->input->post('elevationsimages');
+
+//                     if ($elevationsImages) {
+//                         foreach ($elevationsImages as $image) {
+//                             $exploded = explode('/', $image);
+//                             $this->properties_model->insertRow(array(
+//                                 'property_id' => $property_id,
+//                                 'image' => 'uploads/' . $slug . '/' . end($exploded)
+//                             ), 'property_elevations');
+//                             rename($image, 'uploads/' . $slug . '/' . end($exploded));
+//                         }
+//                     }
+
+
+//                     // add property flat types
+//                     $property_flat_types = $this->input->post('flat_type');
+//                     if (isset($property_flat_types) && is_array($property_flat_types)) {
+//                         foreach ($property_flat_types as $flat_type_id => $property_flat_type) {
+//                             if (isset($property_flat_type['name']) && $property_flat_type['name']) {
+//                                 foreach ($property_flat_type['name'] as $index => $item) {
+//                                     if (isset($property_flat_type['name'][$index]) && $property_flat_type['name'][$index]) {
+//                                         $flatData = array(
+//                                             'property_id' => $property_id,
+//                                             'flat_type_id' => $flat_type_id,
+//                                             'name' => isset($property_flat_type['name'][$index]) ? $property_flat_type['name'][$index] : "",
+//                                             'size' => isset($property_flat_type['size'][$index]) ? $property_flat_type['size'][$index] : 0,
+//                                             'unit' => isset($property_flat_type['unit'][$index]) ? $property_flat_type['unit'][$index] : "Sqft",
+//                                             'price' => isset($property_flat_type['price'][$index]) ? $property_flat_type['price'][$index] : 0,
+//                                             'carpet_area' => isset($property_flat_type['carpet_area'][$index]) ? $property_flat_type['carpet_area'][$index] : 0,
+//                                             'price_on_request' => isset($property_flat_type['price_on_request'][$index]) ? 1 : 0
+//                                         );
+//                                         $flatData['total'] = floatval($flatData['size']) * floatval($flatData['price']);
+//                                         $this->properties_model->insertRow($flatData, 'property_flat_types');
+//                                     }
+//                                 }
+//                             }
+//                         }
+//                     }
 
 
 
                    
-                    foreach ($prop as $am => $value) {
-                          $this->session->unset_userdata($am);
-                        }
-                    /*foreach ($b as $am => $value) {
-                       $this->session->unset_userdata($am);
-                    }*/
-                    $this->session->set_flashdata('message', 'Property added Successfully');
-                    if($this->session->set_flashdata('message', 'Property added Successfully'))
+//                     foreach ($prop as $am => $value) {
+//                           $this->session->unset_userdata($am);
+//                         }
+//                     /*foreach ($b as $am => $value) {
+//                        $this->session->unset_userdata($am);
+//                     }*/
+//                     $this->session->set_flashdata('message', 'Property added Successfully');
+//                     if($this->session->set_flashdata('message', 'Property added Successfully'))
                     
-                    redirect('admin/properties');
-                } else {
-                    $this->session->set_flashdata('error', 'Image is mandatory');
-                    redirect('admin/properties/new_add');
-                }
-            }
-        }
+//                     redirect('admin/properties');
+//                 } else {
+//                     $this->session->set_flashdata('error', 'Image is mandatory');
+//                     redirect('admin/properties/new_add');
+//                 }
+//             }
+//         }
 
-        $this->data['property_types'] = $this->properties_model->getWhere(array('status' => 1), 'property_types');
-        $this->data['cities'] = $this->properties_model->getWhere(array('status' => 1), 'cities');
-        $this->data['builders'] = $this->properties_model->getWhere(array('status' => 1), 'builders');
-        $this->data['amenities'] = $this->properties_model->getWhere(array('status' => 1), 'amenities');
-        // setup page header data
-        $this->set_title(lang('properties title add_property'))
-        ->add_external_js(array(
-            '//cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.js',
-            '//cdnjs.cloudflare.com/ajax/libs/ckeditor/4.7.2/ckeditor.js',
-            base_url($this->settings->themes_folder . '/admin/js/bootstrap-datepicker.js'),
-            base_url($this->settings->themes_folder . '/admin/js/properties.js')
-        ))
-        ->add_external_css(array(
-            base_url($this->settings->themes_folder . '/admin/css/bootstrap-datepicker.css')
-        ));
-        $data = $this->includes;
-        // set content data
-        $content_data = $this->data;
+//         $this->data['property_types'] = $this->properties_model->getWhere(array('status' => 1), 'property_types');
+//         $this->data['cities'] = $this->properties_model->getWhere(array('status' => 1), 'cities');
+//         $this->data['builders'] = $this->properties_model->getWhere(array('status' => 1), 'builders');
+//         $this->data['amenities'] = $this->properties_model->getWhere(array('status' => 1), 'amenities');
+//         // setup page header data
+//         $this->set_title(lang('properties title add_property'))
+//         ->add_external_js(array(
+//             '//cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.js',
+//             '//cdnjs.cloudflare.com/ajax/libs/ckeditor/4.7.2/ckeditor.js',
+//             base_url($this->settings->themes_folder . '/admin/js/bootstrap-datepicker.js'),
+//             base_url($this->settings->themes_folder . '/admin/js/properties.js')
+//         ))
+//         ->add_external_css(array(
+//             base_url($this->settings->themes_folder . '/admin/css/bootstrap-datepicker.css')
+//         ));
+//         $data = $this->includes;
+//         // set content data
+//         $content_data = $this->data;
 
-        $data['content'] = $this->load->view('admin/properties/add', $content_data, true);
-        $this->load->view($this->template, $data);
-    }
+//         $data['content'] = $this->load->view('admin/properties/add', $content_data, true);
+//         $this->load->view($this->template, $data);
+//     }
     public function DeleteLocation()
      {
         $id=$this->input->post('id'); 

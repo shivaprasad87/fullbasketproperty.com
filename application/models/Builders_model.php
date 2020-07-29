@@ -63,5 +63,9 @@ class Builders_model extends MY_Model {
         $q = $this->db->get_where('locations', $clause);
         return $q->row_array();
     }
-
+    function getCityById($params, $clause) {
+        $this->db->select($params);
+        $q = $this->db->get_where('cities', $clause);
+        return $q->row_array();
+    }
 }
