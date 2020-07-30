@@ -247,7 +247,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="col-sm-4 col-md-4 col-lg-4" hidden>
                         <div class="form-group">
                             <label for="image_discription" class="control-label">Image Description</label>
 
@@ -305,7 +305,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                         </div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="col-sm-6 col-md-6 col-lg-6">
+          <!--           <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
                             <label for="meta_title" class="control-label">Meta Title</label>
 
@@ -340,7 +340,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                                 <span class="<?= form_error('meta_desc') ? 'text-danger' : '' ?>"><?= form_error('meta_desc') ?></span>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
@@ -353,7 +353,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                         </div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="col-sm-6 col-md-6 col-lg-6">
+                   <!--  <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
                             <label for="gallery_alt" class="control-label">Gallery Alt</label>
 
@@ -374,7 +374,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                                 <span class="<?= form_error('gallery_description') ? 'text-danger' : '' ?>"><?= form_error('gallery_description') ?></span>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 
                     </div>

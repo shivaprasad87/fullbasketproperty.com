@@ -6,20 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>
-        <?php
-        if($property->meta_title)
-        {
-           str_replace(' ', ' ', substr(strip_tags($property->meta_title), 0, 1000)) 
-        }
-        else
-        {
-            
-        }
-
-          ?>
-        
-    </title>
+    <title><?= str_replace(' ', ' ', substr(strip_tags($property->meta_title), 0, 1000)) ?></title>
     <meta name="description" content="<?= substr(strip_tags($property->meta_desc), 0, 1000) ?>" />
     <meta name="keywords" content="<?= str_replace(' ', ' ', substr(strip_tags($property->meta_keywords), 0, 1000)) ?>" />
     <meta property="og:url" content="<?= current_url() ?>" />

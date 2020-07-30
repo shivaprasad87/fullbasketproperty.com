@@ -222,7 +222,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
         </select>
     </div>
 </div>
-<div class="col-sm-4 col-md-4 col-lg-4">
+<div class="col-sm-4 col-md-4 col-lg-4" hidden="">
     <div class="form-group">
         <label for="image_discription" class="control-label">Image Description</label>
 
