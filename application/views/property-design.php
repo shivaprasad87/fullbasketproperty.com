@@ -796,9 +796,9 @@
                         <div class="sp-column ">
                             <a class="logo" href="<?=base_url();?>">
                                 <h1>
-                                    <img class="sp-default-logo" src="<?= base_url('assets/images/logo.png')?>" style=" max-height: 111px; width: 111px;   float: right;  top: 10px;  position: absolute;background: white; padding-right: 5px; padding-left: 5px;border-radius: 26px;"> 
+                                    <img class="sp-default-logo" src="<?= base_url('assets/images/logo.png')?>" style=" max-height: 111px; width: 111px;   float: right;  top: 10px;  position: absolute;background: white; padding-right: 5px; padding-left: 5px;border-radius: 26px;" alt="Full Basket Property Logo"> 
                                     <img class="sp-retina-logo" src="<?=base_url();?>assets/img/logo.png"
-                                         style=" height: 60px;width: 60px !important;">
+                                         alt="Full Basket Property Logo" style=" height: 60px;width: 60px !important;">
 
                                 </h1>
                             </a>
@@ -833,21 +833,23 @@
                                                 if(($logos = $this->properties_model->getWhere(array('property_id' => $property->id),
                                                                                                 'property_logo')) != null)
                                                 {
+
                                                     $logos=json_decode( json_encode($logos), true);
                                                     //builder_image;
                                                     ?>
                                                      <img class="sp-default-logo" src="<?= base_url().'uploads/'.$property->slug.'/logos/'.$map[0] ?>" style="    margin-left: 113px;
-                                                margin-right: -83px; margin-top: 13px;">
+                                                margin-right: -83px; margin-top: 13px;" alt="<?=$project->builder.' '.$property->title.' Logo'?>">
                                                                 <?php
 
                                                 }
                                                 else
                                                 {
+                                                    //print_r($property);
                                                     $map[0]= $property->builder_image;
                                                 ?>
 
                                                                     <img class="sp-default-logo" src="<?= base_url().'uploads/builders/'.$map[0] ?>" style="    margin-left: 113px;
-                                                margin-right: -83px; margin-top: 13px;">
+                                                margin-right: -83px; margin-top: 13px;" alt="<?=$property->builder.' '.$property->title.' Logo'?>">
 
                                                                     <?php
                                                 }
@@ -901,8 +903,8 @@
 
                                             <div class="item active">
                                                 <?php  
-                                        echo '<img class="d-banner" src="'. base_url().$images[$ban]['banner_path'] .'"   style="width: 100%">';
-                                        echo '<img class="m-banner" src="'. base_url().$m_images[$ban]['mobile_banner_path'].'" alt="" style="width: 100%">';
+                                        echo '<img class="d-banner" src="'. base_url().$images[$ban]['banner_path'] .'"  alt="'.$property->title.' Desktop Banner"  style="width: 100%">';
+                                        echo '<img class="m-banner" src="'. base_url().$m_images[$ban]['mobile_banner_path'].'" alt="'.$property->title.' Mobile Banner" style="width: 100%">';
                                                     $side_image=base_url().$m_images[$ban]['mobile_banner_path'];
                                                                 ?>
 
@@ -928,8 +930,8 @@
                                         else
                                         {
 
-                                            echo '<img class="d-banner" src="'. base_url('uploads/'.$property->slug.'/'.$property->image).'"   style="width: 100%">';
-                                            echo '<img class="m-banner" src="'. base_url('uploads/'.$property->slug.'/'.$property->image).'" alt="" style="width: 100%">';
+                                            echo '<img class="d-banner" src="'. base_url('uploads/'.$property->slug.'/'.$property->image).'"  alt="'.$property->title.' Desktop Banner"   style="width: 100%">';
+                                            echo '<img class="m-banner" src="'. base_url('uploads/'.$property->slug.'/'.$property->image).'" alt="'.$property->title.' Mobile Banner" style="width: 100%">';
 
                                             ?>
                                                     <?php
@@ -1020,11 +1022,13 @@
                                             <h1 class="sppb-title-heading delay-10s animated wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> <?= $property->title ? $property->title : '' ?>
                                             </h1>
                                             <?php
+                                            $f_type='';
                                                 if (($flatTypes = $this->properties_model->getPropertyFlatType(null,
                                                         $property->id)) != null) {
                                                     $bhk='';
                                                     $i=0;
                                                     foreach ($flatTypes as $flatType) {
+                                                         $f_type = $flatType->flat_type; 
                                                         if($i==0)
                                                             $bhk.=$flatType->flat_type;
                                                         else
@@ -1045,7 +1049,7 @@
 
                                                         <?php if($side_image)
                                                         {
-                                                        echo '<img src="'.$side_image.'"style="margin: 0px auto; margin-bottom: 20px;"></a>'; } else echo '<img src="'.base_url('uploads/'.$property->slug.'/'.$property->image).'" style="margin: 0px auto; margin-bottom: 20px;"></a>'; ?>
+                                                        echo '<img src="'.$side_image.'"style="margin: 0px auto; margin-bottom: 20px;" alt="'.$property->title.' '.$property->location.'"></a>'; } else echo '<img src="'.base_url('uploads/'.$property->slug.'/'.$property->image).'" style="margin: 0px auto; margin-bottom: 20px;"></a>'; ?>
 
                                                     </div>
                                                     <div class="col-md-8">
@@ -1087,7 +1091,7 @@
                                                             <center>
                                                                 <h4><b>No. Floors</b></h4></center>
                                                             <a data-link="#" class="myclick_link">
-                                                                <center><img src="<?= base_url('assets/banner_patch/banner-patch-6.png') ?>" class="img-responsive"></center>
+                                                                <center><img src="<?= base_url('assets/banner_patch/banner-patch-6.png') ?>" alt="<?=$property->title.' '.$property->city_name?> No Of Floors Icon" class="img-responsive"></center>
                                                             </a>
 
                                                             <center>
@@ -1099,7 +1103,7 @@
                                                             <center>
                                                                 <h4><b>Location</b></h4></center>
                                                             <a data-link="#" class="myclick_link">
-                                                                <center><img src="<?= base_url('assets/banner_patch/banner-patch-2.png') ?>" class="img-responsive"></center>
+                                                                <center><img src="<?= base_url('assets/banner_patch/banner-patch-2.png') ?>" alt="<?=$property->title.' '.$property->city_name?> Location Icon"  class="img-responsive"></center>
                                                             </a>
                                                             <center>
                                                                 <p><span><?= $property->location . ', ' . $property->city_name ?></span></p>
@@ -1112,7 +1116,7 @@
                                                             <center>
                                                                 <h4><b>Types</b></h4></center>
                                                             <a data-link="#" class="myclick_link">
-                                                                <center><img align="center" src="<?= base_url('assets/banner_patch/banner-patch-3.png') ?>" class="img-responsive"></center>
+                                                                <center><img align="center" src="<?= base_url('assets/banner_patch/banner-patch-3.png') ?>" alt="<?=$property->title.' '.$property->city_name?> Types Icon"  class="img-responsive"></center>
                                                             </a>
                                                             <center>
                                                                 <p><span><?= $bhk?></span></p>
@@ -1123,7 +1127,7 @@
                                                             <center>
                                                                 <h4><b>Project Stage</b></h4></center>
                                                             <a data-link="#" class="myclick_link">
-                                                                <center><img src="<?= base_url('assets/banner_patch/banner-patch-4.png') ?>" class="img-responsive"></center>
+                                                                <center><img src="<?= base_url('assets/banner_patch/banner-patch-4.png') ?>" alt="<?=$property->title.' '.$property->city_name?> Project Stage Icon"  class="img-responsive"></center>
                                                             </a>
                                                             <center>
                                                                 <p><span><?= $property->issue_date; ?></span></p>
@@ -1136,7 +1140,7 @@
                                                             <center>
                                                                 <h4><b>No. of Towers</b></h4></center>
                                                             <a data-link="#" class="myclick_link">
-                                                                <center><img src="<?= base_url('assets/banner_patch/banner-patch-5.png') ?>" class="img-responsive"></center>
+                                                                <center><img src="<?= base_url('assets/banner_patch/banner-patch-5.png') ?>" alt="<?=$property->title.' '.$property->city_name?> Number Of Towers Icon"  class="img-responsive"></center>
                                                             </a>
 
                                                             <center>
@@ -1148,7 +1152,7 @@
                                                             <center>
                                                                 <h4><b>Possession</b></h4></center>
                                                            
-                                                                <center><img src="<?= base_url('assets/banner_patch/banner-patch-6.png') ?>" class="img-responsive"></center>
+                                                                <center><img src="<?= base_url('assets/banner_patch/banner-patch-6.png') ?>" alt="<?=$property->title.' '.$property->city_name?> Possession Icon"  class="img-responsive"></center>
                                                           
 
                                                             <center>
@@ -1159,7 +1163,7 @@
                                                         <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 no-padding banner-patch-content">
                                                             <center>
                                                                 <h4><b>Whatsapp</b></h4></center>
-                                                            <a href="https://api.whatsapp.com/send?phone=918342063684&text=Hi Team FBP, I would be interested in%20<?= $property->title ? $property->title : '' ?>%20please%20send%20me%20the%20details" target="_blank">
+                                                            <a href="https://api.whatsapp.com/send?phone=918342063684&text=Hi Team FBP, I would be interested in%20<?= $property->title ? $property->title : '' ?>%20please%20send%20me%20the%20details" alt="<?=$property->title.' '.$property->city_name?> Whatsapp Icon" target="_blank">
                                                                 <center><img src="<?= base_url('assets/banner_patch/banner-patch-7.png') ?>" class="img-responsive"></center>
                                                             </a>
 
@@ -1263,9 +1267,9 @@
                                                         ?>
                                                                         </td>
 
-                                                                        <td align="center" class="floorplan" id="down-brochure"><img src="<?= base_url('assets/images/download.png') ?>"></td>
+                                                                        <td align="center" class="floorplan" id="down-brochure"><img src="<?= base_url('assets/images/download.png') ?>" alt="<?=$property->title.' '.$property->city_name?>"></td>
 
-                                                                        <td align="center"><a href="https://api.whatsapp.com/send?phone=918342063684&text=Hi Team FBP, I would be interested in%20<?= $property->title ? $property->title : '' ?>%20 <?= $flatType->flat_type ?>" target="_blank"><img src="<?= base_url('assets/banner_patch/whatsapp.png') ?>"> </a></td>
+                                                                        <td align="center"><a href="https://api.whatsapp.com/send?phone=918342063684&text=Hi Team FBP, I would be interested in%20<?= $property->title ? $property->title : '' ?>%20 <?= $flatType->flat_type ?>" target="_blank"><img src="<?= base_url('assets/banner_patch/whatsapp.png') ?>" alt="<?=$property->title.' '.$property->city_name?>"> </a></td>
                                                                     </tr>
                                                                     <?php
                                             }
@@ -1453,7 +1457,7 @@
                                                             <?php
                                                         if ($amenity->image) {
                                                             ?>
-                                                            <img class="animated fadeInUp wow"  alt="<?= $amenity->alt_title ?>"
+                                                            <img class="animated fadeInUp wow"  alt="<?=$property->title.' '.$amenity->name.' Icon'?>" 
                                                                     title="<?=$amenity->image_desc?>"
                                                                   
                                                                   src="<?= base_url('uploads/amenities/' . $amenity->image) ?>">
@@ -1533,13 +1537,14 @@
                                                                                     <?php
                                                                                      if (($images = $this->properties_model->getWhere(array('property_id' => $property->id),
                                                                                        'property_elevations')) != null) {
+                                                                                        $a =1;
                                                                                           foreach ($images as $i => $image) {
                                                                                             ?>
                                                                                         <div class="latest-post sppb-col-sm-3">
                                                                                             <div class="latest-post" style="background-image: url(<?= base_url($image->image) ?>);">
                                                                                                 <div class="latest-post-inner match-height l-box">
                                                                                                     <span class="link-icon">
-                                                                                                     <a href="<?= base_url($image->image) ?>">
+                                                                                                     <a href="<?= base_url($image->image) ?>" alt="<?=$property->title.' '.$property->location.' Elevation '. $a++?>">
                                                                                                          <i class="fa fa-chain"></i>
                                                                                                      </a>
                                                                                                  </span>
@@ -1564,12 +1569,12 @@
                                                                                     <?php
                                                                                  if (($images = $this->properties_model->getWhere(array('property_id' => $property->id),
                                                                                   'property_master_plans'))) {
-
+                                                                                    $a=1;
                                                                                    foreach ($images as $i => $image) {
                                                                                     ?>
 
                                                                                         <div id="gallery1">
-                                                                                            <img alt="master Plan" src="<?= base_url($image->image) ?>" data-image="<?= base_url($image->image) ?>" alt="<?=$property->master_alt?>" title="<?= $property->master_desc ?>" data-description="">
+                                                                                            <img alt="master Plan" src="<?= base_url($image->image) ?>" data-image="<?= base_url($image->image) ?>" alt="<?=$property->title.' '.$property->location.' '.$property->city_name.' Master Plan '?>" data-description="">
 
                                                                                         </div>
 
@@ -1588,13 +1593,14 @@
                                                         'property_floor_plans'))) {
                                                 ?>
                                                                                         <?php
+                                                                                        $a=1;
                                                 foreach ($images as $i => $image) {
                                                     ?>
                                                                                             <div class="latest-post sppb-col-sm-3">
-                                                                                                <div class="latest-post" style="background-image: url(<?= base_url($image->image) ?>);" alt="<?=$property->master_alt?>" title="<?= $property->master_desc ?>">
+                                                                                                <div class="latest-post" style="background-image: url(<?= base_url($image->image) ?>);">
                                                                                                     <div class="latest-post-inner match-height l-box">
                                                                                                         <span class="link-icon">
-                                                                                     <a href="<?= base_url($image->image) ?>">
+                                                                                     <a href="<?= base_url($image->image) ?>" alt="<?=$property->title.' '.$property->location.' '.$property->city_name.' Floor Plan '.$a++?>">
                                                                                          <i class="fa fa-chain"></i>
                                                                                      </a>
                                                                                  </span>
@@ -1656,7 +1662,7 @@
                                         <div class="col-md-4">
                                           <div class="property-list">
                                                <img src="<?= base_url("uploads/$project->slug/$project->image") ?>"
-                                                 class="img-responsive" style="padding: 0;width: 100%;background-position: 50% 50%;position: relative;height:260px;" alt="<?=$project->alt?>"  
+                                                 class="img-responsive" style="padding: 0;width: 100%;background-position: 50% 50%;position: relative;height:260px;" alt="<?=$propType['name'].' in '.$project->city_name.' '.$project->location?>"  
                                                  title="<?=$project->image_desc?>"> 
                                                 <div class="builder_proj">
                                                     <h4><?= $project->title ?></h4>
@@ -1702,8 +1708,7 @@
                                         <div class="col-md-4">
                                         <div class="container prop-img">
                                             <img src="<?= base_url("uploads/$project->slug/$project->image") ?>"  style="padding: 0; padding: 0px;"
-                                                 class="img-responsive" style="padding: 0; " alt="<?=$project->alt?>"
-                                                 title="<?=$project->image_desc?>"> 
+                                                 class="img-responsive" style="padding: 0; " alt="<?=$propType['name'].' in '.$project->city_name.' '.$project->location?>" 
                                           </div>       
 
                                             <div class="builder_proj">
@@ -1836,7 +1841,7 @@ if($property->usp!='')
                     <a href="tel:9019000400">9019000400</a>
                 </p>
                 <a href="https://api.whatsapp.com/send?phone=918342063684&text=Hi Team FBP, I would be interested in%20<?= $property->title ? $property->title : '' ?>%20please%20send%20me%20the%20details" target="_blank">
-                    <p class="foo-txt"><img src="<?= base_url('assets/banner_patch/whatsapp.png') ?>" style="margin: 0px auto;">Get Details by Whatsapp</p>
+                    <p class="foo-txt"><img src="<?= base_url('assets/banner_patch/whatsapp.png') ?>" alt="whastapp icon" style="margin: 0px auto;">Get Details by Whatsapp</p>
                 </a>
                 <br/>
                 <br/>
@@ -1849,7 +1854,7 @@ if($property->usp!='')
                             <div class="patch-wrap">
                                 <h5 class="nearby-head">Location</h5>
                                 <a class="map-btn" href="<?= base_url(" uploads/$property->slug/map/$property->map") ?>">
-                                                        <img src="<?= base_url("uploads/$property->slug/map/$property->map") ?>" class="small-map" alt="<?= $property->location_alt?>">
+                                                        <img src="<?= base_url("uploads/$property->slug/map/$property->map") ?>" class="small-map" alt="<?=$property->title.' '.$property->location.' '.$property->city_name.' Location Map'?>">
                                                         <div class="middle">
                                                             <div class="text">View Large</div>
                                                         </div>
