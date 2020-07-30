@@ -259,7 +259,7 @@ class Properties extends Admin_Controller
                    //  echo "<br><br><br><br>";
                    //  print_r($data['meta_keywords']);
                    //  echo "<br><br><br>";
-                   // print_r($data['meta_desc']);die;
+                   
                     $amenities = $this->input->post('amenities');
                     $b=array();
                     foreach ($amenities as $am) {
@@ -302,9 +302,9 @@ class Properties extends Admin_Controller
                         'builder_id' => $this->input->post('builder'),
                         'location_id' => $this->input->post('location'),
                         'title' => $this->input->post('title'),
-                        'meta_title' => $this->input->post('meta_title'),
-                        'meta_keywords' => $this->input->post('meta_keywords'),
-                        'meta_desc' => $this->input->post('meta_desc'),
+                        'meta_title' => $this->input->post('meta_title')?$this->input->post('meta_title'):$m_title,
+                        'meta_keywords' => $this->input->post('meta_keywords')?$this->input->post('meta_keywords'):$m_keywords,
+                        'meta_desc' => $this->input->post('meta_desc')?$this->input->post('meta_desc'):$m_desc,
                         'area' => $this->input->post('area'),
                         'budget' => $this->input->post('budget'),
                         'property_type_id' => $this->input->post('type'),
@@ -388,7 +388,7 @@ if (isset($_FILES) && isset($_FILES["brochure"]['tmp_name']) && $_FILES["brochur
     }
 }
 
-
+// print_r($data);die;
 
 $property_id = $this->properties_model->insertRow($data, 'properties'); 
                 if (isset($_FILES) && isset($_FILES["banners"]['tmp_name']) && $_FILES["banners"]['tmp_name']) {

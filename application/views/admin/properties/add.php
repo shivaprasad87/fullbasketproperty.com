@@ -293,7 +293,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                         </div>
                     </div>
 
-                    <div class="col-sm-3 col-md-3 col-lg-3">
+                   <!--  <div class="col-sm-3 col-md-3 col-lg-3">
                         <div class="form-group">
                             <label for="alt" class="control-label">Image ALT text</label>
 
@@ -303,7 +303,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                                 <span class="<?= form_error('alt') ? 'text-danger' : '' ?>"><?= form_error('alt') ?></span>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="clearfix"></div>
           <!--           <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
@@ -668,8 +668,7 @@ else echo "unchecked";
                                 <span class="<?= form_error('units') ? 'text-danger' : '' ?>"><?= form_error('units') ?></span>
                             </div>
                         </div>
-                    </div>
-                    <div class="clearfix"></div>
+                    </div> 
                     <div class="col-sm-4 col-md-4 col-lg-4">
                         <div class="form-group">
                             <label class="control-label" for="map">Location Map</label>
@@ -678,30 +677,30 @@ else echo "unchecked";
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <div class="form-group">
-                            <label for="location_alt" class="control-label">location Alt</label>
+                       <!--  <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div class="form-group">
+                                <label for="location_alt" class="control-label">location Alt</label>
 
-                            <div class=" <?= form_error('location_alt') ? 'has-error' : '' ?>">
-                                <input type="text" name="location_alt" class="form-control" id="location_alt"
-                                placeholder="Type the location alt title here" value="<?= set_value('location_alt') ?>">
-                                <span class="<?= form_error('location_alt') ? 'text-danger' : '' ?>"><?= form_error('location_alt') ?></span>
+                                <div class=" <?= form_error('location_alt') ? 'has-error' : '' ?>">
+                                    <input type="text" name="location_alt" class="form-control" id="location_alt"
+                                    placeholder="Type the location alt title here" value="<?= set_value('location_alt') ?>">
+                                    <span class="<?= form_error('location_alt') ? 'text-danger' : '' ?>"><?= form_error('location_alt') ?></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <div class="form-group">
-                            <label for="location_description" class="control-label">Location Description</label>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div class="form-group">
+                                <label for="location_description" class="control-label">Location Description</label>
 
-                            <div class=" <?= form_error('location_description') ? 'has-error' : '' ?>">
-                                <input type="text" name="location_description" class="form-control" id="location_description"
-                                placeholder="Type the location description here" value="<?= set_value('location_description') ?>">
-                                <span class="<?= form_error('location_description') ? 'text-danger' : '' ?>"><?= form_error('location_description') ?></span>
+                                <div class=" <?= form_error('location_description') ? 'has-error' : '' ?>">
+                                    <input type="text" name="location_description" class="form-control" id="location_description"
+                                    placeholder="Type the location description here" value="<?= set_value('location_description') ?>">
+                                    <span class="<?= form_error('location_description') ? 'text-danger' : '' ?>"><?= form_error('location_description') ?></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="clearfix"></div>
+                        <div class="clearfix"></div> -->
                     <!-- <div class="col-sm-4 col-md-4 col-lg-4">
                         <div class="form-group">
                             <label class="control-label" for="brochure">Brochure</label>
@@ -711,7 +710,7 @@ else echo "unchecked";
                             </div>
                         </div>
                     </div> -->
-                    <div class="col-sm-4 col-md-4 col-lg-4">
+                   <!--  <div class="col-sm-4 col-md-4 col-lg-4">
                         <div class="form-group">
                             <label for="brochure_alt" class="control-label">Brochure Alt</label>
 
@@ -732,7 +731,7 @@ else echo "unchecked";
                                 <span class="<?= form_error('brochure_description') ? 'text-danger' : '' ?>"><?= form_error('brochure_description') ?></span>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="clearfix"></div>
 
                     <div class="col-sm-6 col-md-6 col-lg-6">
@@ -756,7 +755,7 @@ else echo "unchecked";
                             </div>
                         </div>
                     </div>
-                    <div class="clearfix"></div>
+                  <!--   <div class="clearfix"></div>
                     <div class="col-sm-3 col-md-3 col-lg-3">
                         <div class="form-group">
                             <label for="floor_alt" class="control-label">FLoor Alt</label>
@@ -801,7 +800,7 @@ else echo "unchecked";
                                 <span class="<?= form_error('master_description') ? 'text-danger' : '' ?>"><?= form_error('master_description') ?></span>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
 
                     <div class="clearfix"></div>
@@ -828,7 +827,7 @@ else echo "unchecked";
                             </div>
                         </div>
                     </div>
-                    <div class="clearfix"></div>
+                   <!--  <div class="clearfix"></div>
                     <div class="col-sm-3 col-md-3 col-lg-3">
                         <div class="form-group">
                             <label for="construction_alt" class="control-label">Construction Alt</label>
@@ -874,7 +873,7 @@ else echo "unchecked";
                             </div>
                         </div>
                     </div>
-
+ -->
                     <div class="clearfix"></div>
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="form-group">

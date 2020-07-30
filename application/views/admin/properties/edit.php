@@ -139,8 +139,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
             <span class="<?= form_error('property_status_id') ? 'text-danger' : '' ?>"><?= form_error('property_status_id') ?></span>
         </div>
     </div>
-</div> -->
-<div class="clearfix"></div>
+</div> 
+<div class="clearfix"></div>-->
+
 <div class="col-sm-6 col-md-6 col-lg-6">
     <div class="form-group">
         <label for="city" class="control-label">City <code>*</code></label>
@@ -167,7 +168,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
         </select>
     </div>
 </div>
-<div class="clearfix"></div>
+<!-- <div class="clearfix"></div> -->
 <div class="col-sm-6 col-md-6 col-lg-6">
     <div class="form-group">
         <label for="builder" class="control-label">Builder <code>*</code></label>
@@ -195,7 +196,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
         </div>
     </div>
 </div>
-<div class="clearfix"></div>
+<!-- <div class="clearfix"></div> -->
 <div class="col-sm-4 col-md-4 col-lg-4">
     <div class="form-group">
         <label for="title" class="control-label">Title <code>*</code></label>
@@ -330,7 +331,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
     </div>
 </div>
 
-<div class="col-sm-6 col-md-6 col-lg-6">
+<!-- <div class="col-sm-6 col-md-6 col-lg-6">
     <div class="form-group">
         <label for="gallery_alt" class="control-label">Gallery Alt</label>
 
@@ -351,7 +352,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
             <span class="<?= form_error('gallery_description') ? 'text-danger' : '' ?>"><?= form_error('gallery_description') ?></span>
         </div>
     </div>
-</div>
+</div> -->
 <div class="clearfix"></div>
 <div class="col-sm-12 col-md-12 col-lg-12">
     <div class="form-group">
@@ -726,7 +727,7 @@ value="Cents">Cents
 </div>
 
 
-<div class="col-sm-6 col-md-6 col-lg-6">
+<!-- <div class="col-sm-6 col-md-6 col-lg-6">
     <div class="form-group">
         <label class="control-label" for="brochure">Brochure</label>
         <div class=" <?= form_error('brochure') ? 'has-error' : '' ?>">
@@ -791,7 +792,7 @@ value="Cents">Cents
         </div>
     </div>
 </div>
-
+ -->
 <div class="clearfix"></div>
 <div class="col-sm-6 col-md-6 col-lg-6">
     <div class="form-group">
@@ -814,7 +815,7 @@ value="Cents">Cents
     </div>
 </div>
 <div class="clearfix"></div>
-<div class="col-sm-3 col-md-3 col-lg-3">
+<!-- <div class="col-sm-3 col-md-3 col-lg-3">
     <div class="form-group">
         <label for="floor_alt" class="control-label">Floor Alt</label>
 
@@ -859,7 +860,7 @@ value="Cents">Cents
     </div>
 </div>
 
-<div class="clearfix"></div>
+<div class="clearfix"></div> -->
 
 <div class="col-sm-6 col-md-6 col-lg-6">
     <div class="form-group">
@@ -882,7 +883,7 @@ value="Cents">Cents
     </div>
 </div>
 <div class="clearfix"></div>
-<div class="col-sm-3 col-md-3 col-lg-3">
+<!-- <div class="col-sm-3 col-md-3 col-lg-3">
     <div class="form-group">
         <label for="construction_alt" class="control-label">Construction Alt</label>
 
@@ -928,7 +929,7 @@ value="Cents">Cents
     </div>
 </div>
 
-<div class="clearfix"></div>
+<div class="clearfix"></div> -->
 
 <div class="col-sm-12 col-md-12 col-lg-12">
     <div class="form-group">
