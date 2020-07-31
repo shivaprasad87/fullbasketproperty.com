@@ -1805,6 +1805,8 @@ if($property->usp!='')
                               <?php
 }
 ?> 
+<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0865215003205!2d77.59919581283368!3d12.966315190859325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14677a117163%3A0xcc934a3cb6703eed!2sFull%20Basket%20Property%20Services%20Pvt%20Ltd%20%7C%20Real%20Estate%20Company%20in%20Bangalore!5e0!3m2!1sen!2sin!4v1596201046938!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+<?=$property->e_maps;?>
 
     <section id="section-id-1507611947" class="sppb-section resort-title-heading resort-location-wrapper resort-discount wow">
         <div class="overlay" style="padding-bottom: 50px;">

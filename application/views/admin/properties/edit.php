@@ -715,16 +715,30 @@ value="Cents">Cents
                 <img class="img-responsive thumbnail location"
                 src="<?= base_url("uploads/$property->slug/map/$property->map") ?>"/>
             </div>
+            <span class="remove_file">remove file</span>
             <?php
+
         }
         ?>
-        <span class="remove_file">remove file</span>
+        
         <div class=" <?= form_error('map') ? 'has-error' : '' ?>">
             <input type="file" id="map" accept="image/*" class="form-control" name="map">
         </div>
 
     </div>
 </div>
+<div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="form-group">
+                            <label for="build" class="control-label">Gmaps Embedded Map Code <code>width should be 100%*</code></label>
+                            <div class=" <?= form_error('e_maps') ? 'has-error' : '' ?>">
+                               <textarea name="e_maps" class="form-control" id="e_maps"
+                                placeholder="Paste Embedded Maps Code"
+                                 value=""><?= $property->e_maps;?>
+                                 </textarea>
+                                <span class="<?= form_error('e_maps') ? 'text-danger' : '' ?>"><?= form_error('e_maps') ?></span>
+                            </div>
+                        </div>
+                    </div>
 
 
 <!-- <div class="col-sm-6 col-md-6 col-lg-6">

@@ -252,6 +252,7 @@ class Properties extends Admin_Controller
                         'possession_date' => $this->input->post('possession_date'),
                         'walkthrough' => $this->input->post('walkthrough'),
                         'ref_domain' => $this->input->post('ref_domain'),
+                        'e_maps' => $this->input->post('e_maps'),
                         /** Additional properties ends here */
                     );
                     $prop = $data;
@@ -360,6 +361,7 @@ class Properties extends Admin_Controller
                         'google' => $this->input->post('google'),
                         'possession_date' => $this->input->post('possession_date'),
                         'walkthrough' => $this->input->post('walkthrough'),
+                        'e_maps' => $this->input->post('e_maps'),
                         /** Additional properties ends here */
                     );
 if (isset($_FILES) && isset($_FILES["map"]['tmp_name']) && $_FILES["map"]['tmp_name']) {
@@ -717,6 +719,7 @@ if ($constructionImages) {
                     'possession_date' => $this->input->post('possession_date') ? $this->input->post('possession_date') : $blog->possession_date,
                     'walkthrough' => $this->input->post('walkthrough') ? $this->input->post('walkthrough') :  $blog->walkthrough,
                     'ref_domain' => $this->input->post('ref_domain') ? $this->input->post('ref_domain') : $blog->ref_domain,
+                    'e_maps' => $this->input->post('e_maps')?$this->input->post('e_maps') : $blog->e_maps,
                     /** Additional properties ends here */
                 );
 $this->properties_model->updateWhere(array('id' => $id), $data, 'properties');

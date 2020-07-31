@@ -428,7 +428,7 @@ else echo "unchecked";
                             <span class="<?= form_error('property_for') ? 'text-danger' : '' ?>"><?= form_error('property_for') ?></span>
                         </div>
                     </div> -->
-                    <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="col-sm-3 col-md-3 col-lg-3">
                         <div class="form-group">
                             <label for="price_per_unit" class="control-label">Price Per Unit <code>*</code></label>
                             <div class=" <?= form_error('price_per_unit') ? 'has-error' : '' ?>">
@@ -440,7 +440,7 @@ else echo "unchecked";
                         </div>
                     </div>
                   <!--   <div class="clearfix"></div> -->
-                    <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="col-sm-3 col-md-3 col-lg-3">
                         <div class="form-group">
                             <label for="build" class="control-label">Build <code>*</code></label>
                             <div class=" <?= form_error('build') ? 'has-error' : '' ?>">
@@ -452,7 +452,20 @@ else echo "unchecked";
                                 <span class="<?= form_error('build') ? 'text-danger' : '' ?>"><?= form_error('build') ?></span>
                             </div>
                         </div>
-                    </div><!-- 
+                    </div>
+                     <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="form-group">
+                            <label for="build" class="control-label">Gmaps Embedded Map Code <code>width should be 100%*</code></label>
+                            <div class=" <?= form_error('e_maps') ? 'has-error' : '' ?>">
+                                <textarea name="e_maps" class="form-control" id="e_maps"
+                                placeholder="Paste Embedded Maps Code"
+                                 value=""></textarea>
+                                <span class="<?= form_error('e_maps') ? 'text-danger' : '' ?>"><?= form_error('e_maps') ?></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 
                     <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
                             <label for="face" class="control-label">Direction Facing</label>
