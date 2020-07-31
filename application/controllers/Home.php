@@ -697,7 +697,7 @@ redirect(base_url());
             $this->data['blog'] = $blog;
             $this->data['meta'] = array(
                 'title' => $blog->meta_title,
-                'keywords' => $blog-> meta_keywords,
+                'keywords' => $blog->meta_keywords,
                 //'description' => substr(strip_tags($blog->meta_desc), 0, 200) . '...',
                 'description' => strip_tags($blog->meta_desc),
                 'image' => base_url('uploads/blog_images/' . $blog->image),

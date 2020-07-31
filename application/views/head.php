@@ -9,28 +9,29 @@
         <meta name="keywords" content="<?= $keywords ?>">
         <meta name="description" content="<?= $description ?>">
         <meta name="image" content="<?= isset($image) ? $image : "" ?>">
-    <?php
-    //echo '<pre>';print_r($this->uri->segment_array());echo '</pre>';
-    
-    ?>
         <!-- Open Graph data -->
-        <meta prefix="og: https://ogp.me/ns#"  property="og:title" content="<?=$title?>" />
+      <!--   <meta prefix="og: https://ogp.me/ns#"  property="og:title" content="<?=$title?>" />
         <meta prefix="og: https://ogp.me/ns#"  property="og:type" content="article" />
         <meta prefix="og: https://ogp.me/ns#"  property="og:url" content="<?=current_url()?>" />
-        <!-- <meta prefix="og: https://ogp.me/ns#"  property="og:image" content="<?=isset($image) ? $image : ""?>" /> -->
+        <meta prefix="og: https://ogp.me/ns#"  property="og:image" content="<?=isset($image) ? $image : ""?>" /> 
         <meta prefix="og: https://ogp.me/ns#"  property="og:image" content="https://www.fullbasketproperty.com/assets/img/logo.png" />
         <meta prefix="og: https://ogp.me/ns#"  property="og:description" content="<?= $description ?>" />
         <meta prefix="og: https://ogp.me/ns#"  property="og:site_name" content="FullBasket Property" />
         <meta prefix="og: https://ogp.me/ns#"  property="article:published_time" content="2017-05-11T12:46:52Z" />
         <meta prefix="og: https://ogp.me/ns#"  property="article:modified_time" content="2017-05-11T12:46:52Z" />
-        <meta prefix="og: https://ogp.me/ns#"  property="article:section" content="Real Estate" />
+        <meta prefix="og: https://ogp.me/ns#"  property="article:section" content="Real Estate" /> -->
+        <meta property="og:title" content="<?= strip_tags($title) ?>">
+        <meta property="og:url" content="<?= current_url() ?>">
+        <meta property="og:description" content="<?= $description ?>">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="<?= isset($image) ? $image : "" ?>">
 
         <!-- Twitter Card data -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@fullbasket">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@@FBPTweets">
         <meta name="twitter:title" content="<?= $title ?>">
         <meta name="twitter:description" content="<?= $description ?>">
-        <meta name="twitter:creator" content="@way2vineeth">
+       <!--  <meta name="twitter:creator" content="@way2vineeth"> -->
         <!-- <meta name="twitter:image:src" content="<?= isset($image) ? $image : "" ?>"> -->
         <meta name="twitter:image:src" content="https://twitter.com/FBPTweets">
 
