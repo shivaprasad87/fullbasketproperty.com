@@ -28,12 +28,12 @@
 
         <!-- Twitter Card data -->
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:site" content="@@FBPTweets">
+        <meta name="twitter:site" content="@FBPTweets">
         <meta name="twitter:title" content="<?= $title ?>">
         <meta name="twitter:description" content="<?= $description ?>">
        <!--  <meta name="twitter:creator" content="@way2vineeth"> -->
         <!-- <meta name="twitter:image:src" content="<?= isset($image) ? $image : "" ?>"> -->
-        <meta name="twitter:image:src" content="https://twitter.com/FBPTweets">
+        <!-- <meta name="twitter:image:src" content="https://twitter.com/FBPTweets"> -->
 
         
         <meta name="google-site-verification" content="HcMoEpoLRr3V3ma7TFsqXaEmzHBt5TGNVUZgYC_XJVE" />
