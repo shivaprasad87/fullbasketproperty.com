@@ -3,24 +3,24 @@
 <html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?= str_replace(' ', ' ', substr(strip_tags($property->meta_title), 0, 1000)) ?></title>
-    <meta name="description" content="<?= substr(strip_tags($property->meta_desc), 0, 1000) ?>" />
-    <meta name="keywords" content="<?= str_replace(' ', ' ', substr(strip_tags($property->meta_keywords), 0, 1000)) ?>" />
-    <meta property="og:url" content="<?= current_url() ?>" />
-    <meta property="og:title" content="<?= $property->title ? $property->title : '' ?>" />
-    <meta property="og:site_name" content="Fullbasket Property" />
-    <meta property="og:description" content="<?= substr(strip_tags($property->description), 0, 1000) ?>" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="<?= base_url(" uploads/$property->slug/$property->image") ?>"/>
-    <?php $this->load->helper('directory');  $map = directory_map('uploads/'.$property->slug.'/logos');?>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title><?= str_replace(' ', ' ', substr(strip_tags($property->meta_title), 0, 1000)) ?></title>
+        <meta name="description" content="<?= substr(strip_tags($property->meta_desc), 0, 1000) ?>" />
+        <meta name="keywords" content="<?= str_replace(' ', ' ', substr(strip_tags($property->meta_keywords), 0, 1000)) ?>" />
+        <meta property="og:url" content="<?= current_url() ?>" />
+        <meta property="og:title" content="<?= $property->meta_title ? $property->meta_title : '' ?>" />
+        <meta property="og:site_name" content="Fullbasket Property" />
+        <meta property="og:description" content="<?= substr(strip_tags($property->meta_desc), 0, 1000) ?>" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="<?= base_url(" uploads/$property->slug/$property->image") ?>"/>
+        <?php $this->load->helper('directory');  $map = directory_map('uploads/'.$property->slug.'/logos');?>
         <meta property="og:locale" content="en_us" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@Fullbasketproperty" />
-        <meta name="twitter:title" content="<?= $property->title ? $property->title : '' ?>" />
-        <meta name="twitter:description" content="<?= substr(strip_tags($property->description), 0, 1000) ?>" /> 
+        <meta name="twitter:site" content="@FBPTweets" />
+        <meta name="twitter:title" content="<?= $property->meta_title ? $property->meta_title : '' ?>" />
+        <meta name="twitter:description" content="<?= substr(strip_tags($property->meta_desc), 0, 1000) ?>" /> 
         <link rel="shortcut icon" type="image/x-icon" href="<?= site_url('') ?>assets/img/sp-logo.png" />
 
         <link rel="canonical" href="<?= current_url() ?>">
