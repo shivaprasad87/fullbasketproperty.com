@@ -520,7 +520,8 @@ class Home extends Public_Controller
     {
 
         if (is_null($slug) || ($property = $this->home_model->getProperty($slug)) == null) {
-            show_404();
+            //show_404();
+redirect(base_url());
         }
         if ($this->input->post()) {
             
@@ -885,7 +886,8 @@ class Home extends Public_Controller
     public function property($slug = null)
     {
         if (is_null($slug) || ($property = $this->home_model->getProperty($slug)) == null) {
-            show_404();
+            //show_404();
+redirect(base_url());
         }
         if ($this->input->post()) {
             
@@ -944,7 +946,8 @@ class Home extends Public_Controller
     {
         
         if (is_null($slug) || ($property = $this->home_model->getProperty($slug)) == null) {
-            show_404();
+            //show_404();
+redirect(base_url());
         } 
         if ($this->input->post()) {
             $this->load->model('Builders_model', 'bm');
