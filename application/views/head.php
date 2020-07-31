@@ -24,7 +24,8 @@
         <meta property="og:url" content="<?= current_url() ?>">
         <meta property="og:description" content="<?= $description ?>">
         <meta property="og:type" content="website">
-        <meta property="og:image" content="<?= isset($image) ? $image : "" ?>">
+
+        <meta property="og:image" content="<?= isset($image) ? $image : base_url('assets/img/logo.png'); ?>">
 
         <!-- Twitter Card data -->
         <meta name="twitter:card" content="summary">
