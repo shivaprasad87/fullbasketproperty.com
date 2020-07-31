@@ -14,7 +14,7 @@
         <meta property="og:site_name" content="Fullbasket Property" />
         <meta property="og:description" content="<?= substr(strip_tags($property->meta_desc), 0, 1000) ?>" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="<?= base_url(" uploads/$property->slug/$property->image") ?>"/>
+        <meta property="og:image" content="<?= base_url("uploads/$property->slug/$property->image") ?>"/>
         <?php $this->load->helper('directory');  $map = directory_map('uploads/'.$property->slug.'/logos');?>
         <meta property="og:locale" content="en_us" />
         <meta name="twitter:card" content="summary" />
@@ -1804,7 +1804,7 @@ if($property->usp!='')
                             </section>
                               <?php
 }
-?>
+?> 
 
     <section id="section-id-1507611947" class="sppb-section resort-title-heading resort-location-wrapper resort-discount wow">
         <div class="overlay" style="padding-bottom: 50px;">
